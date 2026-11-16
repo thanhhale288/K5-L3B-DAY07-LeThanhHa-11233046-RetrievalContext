@@ -30,6 +30,8 @@ Index một tài liệu thực tế từ **100 trang** có bảng, ảnh và bi�
 3. Dùng hoặc thay thế [starter](starter/README.md); bạn cần kết nối model và vector store thật.
 4. Chạy `python -m unittest discover -s tests -v`. Test mock chỉ kiểm tra code, không phải benchmark agent thật.
 
+**Setup nối Day 6 (scaffold trên nhánh này):** xem [SETUP.md](SETUP.md) — `DATABASE_URL`, embedding `BAAI/bge-m3`, export chunk, dense / TF-IDF / hybrid, và agent CLI.
+
 ![Các bước thử nghiệm trên dev và đánh giá trên test](assets/experiment-loop.svg)
 
 Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/MSSV_HoTen.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
