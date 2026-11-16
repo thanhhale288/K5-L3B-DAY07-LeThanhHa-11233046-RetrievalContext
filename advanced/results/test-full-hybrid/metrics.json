@@ -1,0 +1,49 @@
+{
+  "pass": 28,
+  "total": 30,
+  "pass_rate": 93.33,
+  "meets_90pct": true,
+  "by_group": {
+    "table": {
+      "pass": 6,
+      "total": 6,
+      "rate": 100.0
+    },
+    "image": {
+      "pass": 4,
+      "total": 5,
+      "rate": 80.0
+    },
+    "chart": {
+      "pass": 5,
+      "total": 5,
+      "rate": 100.0
+    },
+    "multihop": {
+      "pass": 3,
+      "total": 4,
+      "rate": 75.0
+    },
+    "text": {
+      "pass": 4,
+      "total": 4,
+      "rate": 100.0
+    },
+    "unanswerable": {
+      "pass": 6,
+      "total": 6,
+      "rate": 100.0
+    }
+  },
+  "errors": 0,
+  "tokens_total": {
+    "prompt_tokens": 403757,
+    "completion_tokens": 9886
+  },
+  "cost_usd_total": 0.007143,
+  "latency_s_total": 111.8,
+  "tool_calls": {
+    "search": 89,
+    "view_page": 0
+  }
+}

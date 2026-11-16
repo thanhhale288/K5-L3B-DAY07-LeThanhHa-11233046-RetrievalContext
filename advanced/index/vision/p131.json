@@ -1,0 +1,19 @@
+{
+ "page": 131,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Rủi ro chiến lược",
+   "position": "giữa trang, phía dưới",
+   "content": "| Tên rủi ro | Nội dung | Biện pháp quản trị |\n|---|---|---|\n| Rủi ro về chiến lược, tầm nhìn | • Xác định sai đường hướng phát triển dẫn tới đầu tư phân bổ nguồn lực không hợp lý, không phát triển được những mảng kinh doanh mới tiềm năng, hoặc không đưa ra được các sản phẩm/dịch vụ mới có hàm lượng công nghệ cao đáp ứng nhu cầu của thị trường.<br>• Sự phát triển của AI dẫn đến những thay đổi của ngành CNTT. | • Tham gia các sự kiện kinh tế, công nghệ lớn tại Việt Nam và trên thế giới để nắm bắt các xu hướng công nghệ mới, tìm kiếm cơ hội phát triển cho Tập đoàn;<br>• Tổ chức Hội nghị chiến lược định kỳ hằng năm để cập nhật những xu hướng mới nhất trong kinh doanh và công nghệ;<br>• Chủ động đầu tư mạnh mẽ vào AI và đào tạo AI cho toàn bộ CBNV để trở thành “AI-First Company”;<br>Nhanh chóng thay đổi và luôn sẵn sàng thích ứng với sự phát triển của AI nhằm biến rủi ro thành cơ hội tăng trưởng cao và bền vững. |\n| Rủi ro suy giảm năng lực cạnh tranh | • Sức ép cạnh tranh từ các công ty nước ngoài hoặc các công ty mới nổi, năng động ở trong nước do các lĩnh vực kinh doanh có rào cản gia nhập thị trường không cao. | • Không ngừng cải tiến và nâng cao năng lực cạnh tranh thông qua cung cấp dịch vụ toàn diện, làm chủ công nghệ và từng bước nâng cao vị thế trong chuỗi giá trị dịch vụ CNTT;<br>• Tăng cường đào tạo, phát triển đội ngũ cán bộ đặc biệt là đội ngũ cán bộ công nghệ nhằm nâng cao năng lực công nghệ mới, đáp ứng nhu cầu cạnh tranh;<br>• Liên tục cải tiến mô hình kinh doanh, cải tiến hệ thống thông tin, quy trình nội bộ để tối ưu hóa quản trị, vận hành;<br>• Đẩy mạnh chuyển đổi số nội bộ nhằm đảm bảo hoạt động của Tập đoàn được thống nhất, thông suốt và minh bạch hướng đến mô hình công ty hoạt động theo thời gian thực. |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4140
+ },
+ "cost_usd": 0.0024880859999999996,
+ "latency_ms": 18058.848332992056
+}

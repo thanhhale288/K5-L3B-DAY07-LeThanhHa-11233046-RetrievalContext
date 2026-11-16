@@ -1,0 +1,284 @@
+[
+  {
+    "query_id": "q01",
+    "answerable": true,
+    "status": "answered",
+    "question": "FPT đặt mục tiêu Net Zero vào năm nào?",
+    "answer": "FPT đặt mục tiêu Net Zero vào năm 2040 [fpt_esg_report_2025_p7_b_1][fpt_esg_report_2025_p39_b_3].",
+    "citations": [
+      "fpt_esg_report_2025_p7_b_1",
+      "fpt_esg_report_2025_p39_b_3"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null,
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "q02",
+    "answerable": true,
+    "status": "answered",
+    "question": "Năm 2025 là lần thứ bao nhiêu FPT thực hiện Báo cáo ESG?",
+    "answer": "Năm 2025 là năm thứ 05 FPT thực hiện Báo cáo Môi trường – Trách nhiệm xã hội – Quản trị (Báo cáo ESG). [fpt_esg_report_2025_p5_b_0]",
+    "citations": [
+      "fpt_esg_report_2025_p5_b_0"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "q03",
+    "answerable": true,
+    "status": "answered",
+    "question": "Kỳ báo cáo ESG năm 2025 của FPT bao phủ khoảng thời gian nào?",
+    "answer": "Kỳ báo cáo ESG năm 2025 của FPT là từ 01/01/2025 đến 31/12/2025, với chu kỳ báo cáo thường niên [fpt_esg_report_2025_p5_b_1].",
+    "citations": [
+      "fpt_esg_report_2025_p5_b_1"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "q04",
+    "answerable": true,
+    "status": "answered",
+    "question": "Đến năm 2030, FPT muốn cắt giảm tổng phát thải khí nhà kính bao nhiêu phần trăm so với lộ trình đã công bố?",
+    "answer": "Đến năm 2030, FPT đặt mục tiêu giảm 15,8% tổng lượng phát thải khí nhà kính (mục tiêu trung hạn, phù hợp với mục tiêu chung của Việt Nam), hướng tới Net Zero vào năm 2040 [fpt_esg_report_2025_p12_b_0][fpt_esg_report_2025_p7_b_2][fpt_esg_report_2025_p37_b_2].",
+    "citations": [
+      "fpt_esg_report_2025_p12_b_0",
+      "fpt_esg_report_2025_p7_b_2",
+      "fpt_esg_report_2025_p37_b_2"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null,
+      null,
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "q05",
+    "answerable": true,
+    "status": "answered",
+    "question": "Tính đến hết năm 2025, FPT có bao nhiêu nhân sự và bao nhiêu nhân sự người nước ngoài đến từ bao nhiêu quốc tịch?",
+    "answer": "Tính đến hết năm 2025, FPT có 54.110 nhân sự làm việc tại hơn 30 quốc gia, trong đó có 4.124 nhân sự người nước ngoài với 82 quốc tịch (chủ yếu từ Mỹ, Nhật Bản, Slovakia, Malaysia, Mexico, Philippines) [fpt_esg_report_2025_p30_b_0][fpt_esg_report_2025_p30_b_1].",
+    "citations": [
+      "fpt_esg_report_2025_p30_b_0",
+      "fpt_esg_report_2025_p30_b_1"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null,
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "q06",
+    "answerable": true,
+    "status": "answered",
+    "question": "Đến ngày 31/12/2025, tỷ lệ lao động nữ tại FPT là bao nhiêu?",
+    "answer": "Tỷ lệ nhân sự nữ chiếm 37,7% tổng nhân sự (năm 2025) [fpt_esg_report_2025_p11_b_3][fpt_esg_report_2025_p15_b_0]. Số lượng nhân sự nữ năm 2025 là 20.383 người [fpt_esg_report_2025_p30_b_4].",
+    "citations": [
+      "fpt_esg_report_2025_p11_b_3",
+      "fpt_esg_report_2025_p15_b_0",
+      "fpt_esg_report_2025_p30_b_4"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null,
+      null,
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "q07",
+    "answerable": true,
+    "status": "answered",
+    "question": "Hệ thống học trực tuyến MOOCs của FPT ghi nhận quy mô giờ học và tỷ lệ hoàn thành như thế nào trong năm 2025?",
+    "answer": "Năm 2025, hệ thống MOOCs của FPT ghi nhận hơn 3 triệu giờ học với tỷ lệ hoàn thành đạt 99,7% [fpt_esg_report_2025_p31_b_0].",
+    "citations": [
+      "fpt_esg_report_2025_p31_b_0"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "q08",
+    "answerable": true,
+    "status": "answered",
+    "question": "Trong quản trị chuỗi cung ứng, tỷ lệ nhà cung cấp trọng yếu tham gia đánh giá CSR năm 2025 là bao nhiêu và so với năm 2024 thế nào?",
+    "answer": "Năm 2025, 42% nhà cung cấp trọng yếu tham gia đánh giá CSR trên Cổng Hệ thống mua sắm FPT, tăng mạnh so với tỷ lệ 18% của năm 2024 [fpt_esg_report_2025_p21_b_0].",
+    "citations": [
+      "fpt_esg_report_2025_p21_b_0"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "q09",
+    "answerable": true,
+    "status": "answered",
+    "question": "Đối với phát triển bền vững, FPT xác định bao nhiêu nhóm rủi ro chính và gồm những nhóm nào?",
+    "answer": "FPT xác định có 05 nhóm rủi ro chính đối với phát triển bền vững, gồm: Rủi ro chiến lược, Rủi ro hoạt động, Rủi ro tài chính và Rủi ro luật định, Rủi ro môi trường – thiên tai – dịch bệnh [fpt_esg_report_2025_p24_b_0].",
+    "citations": [
+      "fpt_esg_report_2025_p24_b_0"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "q10",
+    "answerable": true,
+    "status": "answered",
+    "question": "FPT đã triển khai bao nhiêu hệ thống điện mặt trời mái nhà và tổng sản lượng đạt bao nhiêu?",
+    "answer": "Trong năm 2025, FPT hoàn thành và đưa vào hoạt động hai hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng) và Data Center (Tp. Hồ Chí Minh), tạo ra 842.749 kWh điện [fpt_esg_report_2025_p40_b_2].",
+    "citations": [
+      "fpt_esg_report_2025_p40_b_2"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "q11",
+    "answerable": true,
+    "status": "answered",
+    "question": "Năm 2025, chỉ số tiêu thụ nước của FPT thay đổi như thế nào so với năm 2024?",
+    "answer": "Năm 2025, chỉ số tiêu thụ nước của FPT tăng 0,48% so với năm 2024, tương ứng mức tăng 3.945 (từ 827.940 năm 2024 lên 831.885 năm 2025) [fpt_esg_report_2025_p42_b_0][fpt_esg_report_2025_p42_b_3].",
+    "citations": [
+      "fpt_esg_report_2025_p42_b_0",
+      "fpt_esg_report_2025_p42_b_3"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null,
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "q12",
+    "answerable": true,
+    "status": "answered",
+    "question": "Trung tâm bồi dưỡng tài năng trẻ FPT (FYT) hiện có bao nhiêu thành viên và năm 2025 đã cấp bao nhiêu suất học bổng?",
+    "answer": "FYT hiện có 646 thành viên [fpt_esg_report_2025_p48_b_0]. Trong năm 2025, FYT đã cấp 38 suất học bổng với số tiền 912 triệu đồng [fpt_esg_report_2025_p48_b_0][fpt_esg_report_2025_p17_b_1].",
+    "citations": [
+      "fpt_esg_report_2025_p48_b_0",
+      "fpt_esg_report_2025_p17_b_1"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null,
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "q13",
+    "answerable": true,
+    "status": "answered",
+    "question": "Chiến dịch “Cùng đồng bào vượt lũ” thu được bao nhiêu tiền hỗ trợ và tái thiết bao nhiêu điểm trường?",
+    "answer": "Chiến dịch “Cùng đồng bào vượt lũ” do FPT phát động thu được số tiền hỗ trợ hơn 05 tỷ đồng, giúp tái thiết 26 điểm trường tại Nghệ An, Thanh Hóa, Lào Cai (cũ), Tuyên Quang (cũ) – những điểm trường bị thiệt hại nặng sau bão trong năm 2025. [fpt_esg_report_2025_p50_b_0][fpt_esg_report_2025_p50_b_1]",
+    "citations": [
+      "fpt_esg_report_2025_p50_b_0",
+      "fpt_esg_report_2025_p50_b_1"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null,
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "q14",
+    "answerable": true,
+    "status": "answered",
+    "question": "Về độ tuổi lao động, FPT có cam kết loại trừ nhóm đối tượng nào?",
+    "answer": "FPT cam kết không sử dụng lao động dưới 18 tuổi [fpt_esg_report_2025_p30_b_0].",
+    "citations": [
+      "fpt_esg_report_2025_p30_b_0"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "q15",
+    "answerable": true,
+    "status": "answered",
+    "question": "FPT nhận được chứng chỉ ISO/IEC nào liên quan đến hệ thống quản lý trí tuệ nhân tạo?",
+    "answer": "FPT nhận được chứng chỉ ISO/IEC 42001:2023 – tiêu chuẩn toàn cầu đầu tiên về Hệ thống quản lý Trí tuệ nhân tạo. [fpt_esg_report_2025_p19_b_1]",
+    "citations": [
+      "fpt_esg_report_2025_p19_b_1"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "u01",
+    "answerable": false,
+    "status": "abstain",
+    "question": "Tổng doanh thu hợp nhất năm 2025 của FPT là bao nhiêu tỷ đồng?",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "u02",
+    "answerable": false,
+    "status": "abstain",
+    "question": "Mức lương bình quân hàng tháng của CBNV FPT năm 2025 là bao nhiêu?",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": null,
+    "note": ""
+  }
+]

@@ -1,0 +1,31 @@
+{
+ "page": 211,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Tài sản thuế TNDN hoãn lại:",
+   "position": "nửa trái, phía trên",
+   "content": "Đơn vị: VND\n\n| | 2025 | 2024 |\n|---|---:|---:|\n| Số dư đầu năm | 575.767.686.189 | 360.946.956.414 |\n| Ghi nhận vào báo cáo kết quả hoạt động kinh doanh hợp nhất | 241.646.085.537 | 209.467.184.394 |\n| Bù trừ các số dư liên quan đến cùng một cơ quan thuế | (229.117.058.933) | - |\n| Khác | 4.470.104.486 | 5.353.545.381 |\n| Số dư cuối năm | 592.766.817.279 | 575.767.686.189 |\n\n(*): Chi phí/(thu nhập) thuế TNDN trong năm tài chính được ước tính dựa vào thu nhập chịu thuế và có thể có những điều chỉnh tùy thuộc vào sự kiểm tra của cơ quan thuế."
+  },
+  {
+   "type": "table",
+   "title": "Thuế TNDN hoãn lại phải trả:",
+   "position": "nửa phải, phía trên",
+   "content": "Đơn vị: VND\n\n| | 2025 | 2024 |\n|---|---:|---:|\n| Số dư đầu năm | 356.966.680.614 | 245.716.712.513 |\n| Ghi nhận vào báo cáo kết quả hoạt động kinh doanh hợp nhất | 135.941.276.158 | (71.216.542.889) |\n| Bù trừ các số dư liên quan đến cùng một cơ quan thuế | (229.117.058.933) | - |\n| Đánh giá lại giá trị hợp lý của công ty con tại ngày mua | - | 185.144.642.216 |\n| Chênh lệch tỷ giá hối đoái | (6.462.102.982) | (2.678.131.226) |\n| Khác | 398.514.110 | - |\n| Số dư cuối năm | 257.727.308.967 | 356.966.680.614 |"
+  },
+  {
+   "type": "table",
+   "title": "33. Chi phí sản xuất kinh doanh theo yếu tố",
+   "position": "toàn trang, phía dưới",
+   "content": "Đơn vị: VND\n\n| | 2025 | 2024 |\n|---|---:|---:|\n| Chi phí nhân viên | 30.929.275.947.813 | 26.455.118.574.959 |\n| Dịch vụ thuê ngoài | 15.423.371.009.760 | 13.932.609.375.335 |\n| Nguyên vật liệu | 7.321.871.790.696 | 6.642.586.074.598 |\n| Khấu hao TSCĐ và phân bổ LTTM | 2.915.183.545.605 | 2.531.211.991.287 |\n| Khác | 2.648.990.709.693 | 2.761.249.502.537 |\n|  | 59.238.693.003.567 | 52.322.775.518.716 |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4433
+ },
+ "cost_usd": 0.0026638859999999994,
+ "latency_ms": 20241.333000012673
+}

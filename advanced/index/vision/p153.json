@@ -1,0 +1,31 @@
+{
+ "page": 153,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "F-Town 3 được Wallpaper – tạp chí hàng đầu của Anh về kiến trúc và thiết kế xếp vào nhóm công trình tiêu biểu cho kiến trúc sinh khí hậu (bioclimatic), trong đó hơn 40% không gian không cần sử dụng điều hòa.",
+   "position": "phía dưới, bên trái",
+   "content": "Ảnh chụp tòa nhà F-Town 3 với nhiều mảng xanh, cây cối và lối đi bộ màu đỏ. Chú thích in trên ảnh: “F-Town 3 được Wallpaper – tạp chí hàng đầu của Anh về kiến trúc và thiết kế xếp vào nhóm công trình tiêu biểu cho kiến trúc sinh khí hậu (bioclimatic), trong đó hơn 40% không gian không cần sử dụng điều hòa.”"
+  },
+  {
+   "type": "image",
+   "title": "Tòa nhà Hiệu bộ FPT tại Hòa Lạc được vinh danh tại World Architecture Festival ở hạng mục Giáo dục tương lai và đạt giải Nhất Kiến trúc xanh do Hội Kiến trúc sư Việt Nam tổ chức.",
+   "position": "phía dưới, ở giữa",
+   "content": "Ảnh chụp tòa nhà Hiệu bộ FPT tại Hòa Lạc với mặt tiền dạng ô vuông/xen kẽ, bên cạnh hồ nước phản chiếu. Chú thích in trên ảnh: “Tòa nhà Hiệu bộ FPT tại Hòa Lạc được vinh danh tại World Architecture Festival ở hạng mục Giáo dục tương lai và đạt giải Nhất Kiến trúc xanh do Hội Kiến trúc sư Việt Nam tổ chức.”"
+  },
+  {
+   "type": "image",
+   "title": "FPT Complex Đà Nẵng là công trình đầu tiên tại Việt Nam đạt chứng chỉ EDGE nhờ các giải pháp tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải và hệ thống điều hòa, chiếu sáng hiệu suất cao.",
+   "position": "phía dưới, bên phải",
+   "content": "Ảnh chụp trên cao FPT Complex Đà Nẵng, công trình hình tròn/vành khuyên với mái xanh và cảnh quan xung quanh. Chú thích in trên ảnh: “FPT Complex Đà Nẵng là công trình đầu tiên tại Việt Nam đạt chứng chỉ EDGE nhờ các giải pháp tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải và hệ thống điều hòa, chiếu sáng hiệu suất cao.”"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2685
+ },
+ "cost_usd": 0.001615086,
+ "latency_ms": 14177.831874985714
+}

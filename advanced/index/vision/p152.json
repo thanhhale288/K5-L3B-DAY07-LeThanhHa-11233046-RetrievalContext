@@ -1,0 +1,25 @@
+{
+ "page": 152,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "chart",
+   "title": "Tỷ lệ số hóa tài liệu giai đoạn 2022-2025",
+   "position": "nửa trái, phía dưới",
+   "content": "Biểu đồ cột ghép; trục tung: 0, 20, 40, 60, 80, 100 (%); trục hoành: 2022, 2023, 2024, 2025; chú giải: Tỷ lệ văn bản phát hành điện tử (xanh dương), Tỷ lệ văn bản cứng (cam). Số liệu: 2022: Tỷ lệ văn bản phát hành điện tử 7,1%; Tỷ lệ văn bản cứng 92,9%. 2023: Tỷ lệ văn bản phát hành điện tử 17,6%; Tỷ lệ văn bản cứng 82,4%. 2024: Tỷ lệ văn bản phát hành điện tử 78,9%; Tỷ lệ văn bản cứng 21,1%. 2025: Tỷ lệ văn bản phát hành điện tử 95,42%; Tỷ lệ văn bản cứng 4,58%."
+  },
+  {
+   "type": "chart",
+   "title": "Tỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025",
+   "position": "nửa phải, phía dưới",
+   "content": "Biểu đồ thanh ngang; trục hoành: 0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 (%); trục tung/nhóm năm: 2025, 2024, 2023; chú giải: Họp trực tuyến (xanh dương), Họp trực tiếp (cam). Số liệu: 2025: Họp trực tuyến 94,0%; Họp trực tiếp 6,0%. 2024: Họp trực tuyến 73,2%; Họp trực tiếp 26,8%. 2023: Họp trực tuyến 67,8%; Họp trực tiếp 32,2%."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2239
+ },
+ "cost_usd": 0.001347486,
+ "latency_ms": 11293.749125004979
+}

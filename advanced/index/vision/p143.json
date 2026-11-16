@@ -1,0 +1,19 @@
+{
+ "page": 143,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "FPT Place",
+   "position": "nửa phải, chiếm gần toàn bộ chiều cao trang",
+   "content": "Ảnh nhóm nhân viên FPT mặc áo cam/trắng, nhiều người giơ tay; chữ lớn trên ảnh: “FPT Place”. Dải chú thích màu cam phía dưới: “Ứng dụng công nghệ là trụ cột chiến lược nhằm nâng cao trải nghiệm nhân viên và kiến tạo môi trường làm việc hạnh phúc.”"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 643
+ },
+ "cost_usd": 0.00038988600000000004,
+ "latency_ms": 4881.562708003912
+}

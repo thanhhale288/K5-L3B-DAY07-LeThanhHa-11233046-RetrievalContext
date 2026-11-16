@@ -1,0 +1,25 @@
+{
+ "page": 16,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "Ra mắt Liên minh Nhân lực chiến lược thực thi Nghị quyết 57-NQ/TW",
+   "position": "nửa trái, phía dưới",
+   "content": "Ảnh sự kiện trên sân khấu. Trên phông nền có dòng chữ: “Lễ ký kết và ra mắt Liên minh Nhân lực chiến lược thực thi Nghị quyết 57-NQ/TW”; bên dưới có dòng “Hà Nội, 07.05.2025”. Có các đại biểu đứng chứng kiến và một nhóm người ngồi/ký tại bàn có khăn trải xanh, phía trước là khán giả ngồi dưới hội trường. Ảnh minh họa lễ ký kết và ra mắt liên minh."
+  },
+  {
+   "type": "image",
+   "title": "Khởi xướng thành lập Liên minh AI Âu Lạc phát triển mô hình ngôn ngữ lớn tiếng Việt",
+   "position": "nửa phải, phía dưới",
+   "content": "Ảnh sự kiện trên sân khấu. Trên phông nền lớn có chữ “LIÊN MINH AI ÂU LẠC” cùng đồ họa/ánh sáng nền. Nhiều người đứng trên sân khấu, một số giơ tay; phía trước là khán giả ngồi theo dõi và chụp ảnh. Ảnh minh họa lễ khởi xướng/thành lập Liên minh AI Âu Lạc."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1478
+ },
+ "cost_usd": 0.0008908859999999999,
+ "latency_ms": 8557.605875015724
+}

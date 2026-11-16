@@ -1,0 +1,25 @@
+{
+ "page": 168,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "BẢNG CÂN ĐỐI KẾ TOÁN HỢP NHẤT (Tiếp theo)",
+   "position": "phần giữa trang, phía trên",
+   "content": "Mẫu số B 01 – DN/HN\nĐơn vị: VNĐ\nTại ngày 31 tháng 12 năm\n\n| Mã số | Nguồn vốn | Thuyết minh | 2025 | 2024 |\n|---|---|---:|---:|---:|\n| 400 | VỐN CHỦ SỞ HỮU |  | 43.748.040.747.539 | 35.727.540.104.800 |\n| 410 | Vốn chủ sở hữu |  | 43.745.290.747.539 | 35.724.790.104.800 |\n| 411 | Vốn góp của chủ sở hữu | 23, 24 | 17.035.071.210.000 | 14.710.691.830.000 |\n| 411a | • Cổ phiếu phổ thông có quyền biểu quyết |  | 17.035.071.210.000 | 14.710.691.830.000 |\n| 412 | Thặng dư vốn cổ phần | 24 | 49.713.213.411 | 49.713.213.411 |\n| 414 | Vốn khác của chủ sở hữu | 24 | 3.499.547.369.952 | 1.929.012.703.454 |\n| 417 | Chênh lệch tỷ giá hối đoái | 24 | (70.185.856.586) | (49.485.560.860) |\n| 418 | Quỹ đầu tư phát triển | 24 | 1.575.367.587.172 | 2.033.289.141.535 |\n| 420 | Quỹ khác thuộc vốn chủ sở hữu | 24 | 88.263.628.887 | 87.730.484.825 |\n| 421 | Lợi nhuận sau thuế (“LNST”) chưa phân phối | 24 | 14.302.416.791.936 | 11.030.528.671.431 |\n| 421a | • LNST chưa phân phối lũy kế của các năm trước |  | 7.369.582.215.178 | 5.458.228.109.134 |\n| 421b | • LNST chưa phân phối của năm nay |  | 6.932.834.576.758 | 5.572.300.562.297 |\n| 429 | Lợi ích cổ đông không kiểm soát | 24 | 7.265.096.802.767 | 5.933.309.621.004 |\n| 430 | Nguồn kinh phí và quỹ khác |  | 2.750.000.000 | 2.750.000.000 |\n| 431 | Nguồn kinh phí |  | 2.750.000.000 | 2.750.000.000 |\n| 440 | TỔNG NGUỒN VỐN |  | 88.141.991.634.625 | 71.999.995.678.620 |"
+  },
+  {
+   "type": "image",
+   "title": "Chữ ký xác nhận",
+   "position": "góc dưới bên phải",
+   "content": "HOÀNG NGỌC BÍCH - Người lập; HOÀNG HỮU CHIẾN - Kế toán trưởng; NGUYỄN THẾ PHƯƠNG - Phó Tổng Giám đốc, Chữ ký được ủy quyền; Ngày 18 tháng 3 năm 2026; dấu đỏ CÔNG TY CỔ PHẦN FPT (FPT). Ghi chú: Các thuyết minh từ trang 172 đến trang 225 là một phần cấu thành báo cáo tài chính hợp nhất."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 8275
+ },
+ "cost_usd": 0.004969086,
+ "latency_ms": 34843.57887500664
+}

@@ -1,0 +1,418 @@
+{
+ "evidence_values_checked": 138,
+ "found_in_text_layer": 120,
+ "found_in_vision_chunks": 126,
+ "found_in_either": 138,
+ "rows": [
+  {
+   "id": "d01",
+   "group": "table",
+   "page": 12,
+   "kind": "table",
+   "values": 5,
+   "in_text_layer": 5,
+   "in_vision": 5,
+   "missing_everywhere": []
+  },
+  {
+   "id": "d02",
+   "group": "table",
+   "page": 33,
+   "kind": "table",
+   "values": 2,
+   "in_text_layer": 2,
+   "in_vision": 2,
+   "missing_everywhere": []
+  },
+  {
+   "id": "d03",
+   "group": "table",
+   "page": 55,
+   "kind": "table",
+   "values": 1,
+   "in_text_layer": 1,
+   "in_vision": 1,
+   "missing_everywhere": []
+  },
+  {
+   "id": "d04",
+   "group": "chart",
+   "page": 11,
+   "kind": "chart",
+   "values": 10,
+   "in_text_layer": 5,
+   "in_vision": 10,
+   "missing_everywhere": []
+  },
+  {
+   "id": "d05",
+   "group": "chart",
+   "page": 48,
+   "kind": "chart",
+   "values": 9,
+   "in_text_layer": 7,
+   "in_vision": 9,
+   "missing_everywhere": []
+  },
+  {
+   "id": "d06",
+   "group": "chart",
+   "page": 60,
+   "kind": "chart",
+   "values": 3,
+   "in_text_layer": 3,
+   "in_vision": 3,
+   "missing_everywhere": []
+  },
+  {
+   "id": "d08",
+   "group": "image",
+   "page": 114,
+   "kind": "diagram",
+   "values": 1,
+   "in_text_layer": 1,
+   "in_vision": 1,
+   "missing_everywhere": []
+  },
+  {
+   "id": "d09",
+   "group": "image",
+   "page": 69,
+   "kind": "infographic",
+   "values": 2,
+   "in_text_layer": 1,
+   "in_vision": 2,
+   "missing_everywhere": []
+  },
+  {
+   "id": "d10",
+   "group": "multihop",
+   "page": 11,
+   "kind": "chart",
+   "values": 1,
+   "in_text_layer": 1,
+   "in_vision": 1,
+   "missing_everywhere": []
+  },
+  {
+   "id": "d10",
+   "group": "multihop",
+   "page": 12,
+   "kind": "table",
+   "values": 1,
+   "in_text_layer": 1,
+   "in_vision": 1,
+   "missing_everywhere": []
+  },
+  {
+   "id": "d11",
+   "group": "multihop",
+   "page": 23,
+   "kind": "text",
+   "values": 1,
+   "in_text_layer": 1,
+   "in_vision": 1,
+   "missing_everywhere": []
+  },
+  {
+   "id": "d11",
+   "group": "multihop",
+   "page": 32,
+   "kind": "table",
+   "values": 2,
+   "in_text_layer": 2,
+   "in_vision": 2,
+   "missing_everywhere": []
+  },
+  {
+   "id": "d12",
+   "group": "multihop",
+   "page": 31,
+   "kind": "diagram",
+   "values": 2,
+   "in_text_layer": 2,
+   "in_vision": 2,
+   "missing_everywhere": []
+  },
+  {
+   "id": "d13",
+   "group": "text",
+   "page": 32,
+   "kind": "text",
+   "values": 1,
+   "in_text_layer": 1,
+   "in_vision": 1,
+   "missing_everywhere": []
+  },
+  {
+   "id": "d14",
+   "group": "text",
+   "page": 125,
+   "kind": "text",
+   "values": 1,
+   "in_text_layer": 1,
+   "in_vision": 1,
+   "missing_everywhere": []
+  },
+  {
+   "id": "d15",
+   "group": "text",
+   "page": 146,
+   "kind": "text",
+   "values": 2,
+   "in_text_layer": 2,
+   "in_vision": 0,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t01",
+   "group": "table",
+   "page": 32,
+   "kind": "table",
+   "values": 4,
+   "in_text_layer": 3,
+   "in_vision": 4,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t02",
+   "group": "table",
+   "page": 33,
+   "kind": "table",
+   "values": 4,
+   "in_text_layer": 3,
+   "in_vision": 4,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t03",
+   "group": "table",
+   "page": 47,
+   "kind": "table",
+   "values": 6,
+   "in_text_layer": 3,
+   "in_vision": 6,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t04",
+   "group": "table",
+   "page": 146,
+   "kind": "table",
+   "values": 6,
+   "in_text_layer": 6,
+   "in_vision": 6,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t05",
+   "group": "table",
+   "page": 33,
+   "kind": "table",
+   "values": 3,
+   "in_text_layer": 3,
+   "in_vision": 3,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t06",
+   "group": "table",
+   "page": 169,
+   "kind": "table",
+   "values": 4,
+   "in_text_layer": 4,
+   "in_vision": 4,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t07",
+   "group": "image",
+   "page": 31,
+   "kind": "diagram",
+   "values": 2,
+   "in_text_layer": 2,
+   "in_vision": 2,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t08",
+   "group": "image",
+   "page": 31,
+   "kind": "diagram",
+   "values": 2,
+   "in_text_layer": 2,
+   "in_vision": 2,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t11",
+   "group": "image",
+   "page": 125,
+   "kind": "diagram",
+   "values": 1,
+   "in_text_layer": 1,
+   "in_vision": 1,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t12",
+   "group": "chart",
+   "page": 11,
+   "kind": "chart",
+   "values": 10,
+   "in_text_layer": 5,
+   "in_vision": 10,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t13",
+   "group": "chart",
+   "page": 27,
+   "kind": "chart",
+   "values": 5,
+   "in_text_layer": 5,
+   "in_vision": 5,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t14",
+   "group": "chart",
+   "page": 55,
+   "kind": "chart",
+   "values": 5,
+   "in_text_layer": 5,
+   "in_vision": 5,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t15",
+   "group": "chart",
+   "page": 60,
+   "kind": "chart",
+   "values": 9,
+   "in_text_layer": 9,
+   "in_vision": 9,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t16",
+   "group": "chart",
+   "page": 63,
+   "kind": "chart",
+   "values": 10,
+   "in_text_layer": 10,
+   "in_vision": 10,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t17",
+   "group": "multihop",
+   "page": 12,
+   "kind": "table",
+   "values": 1,
+   "in_text_layer": 1,
+   "in_vision": 1,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t17",
+   "group": "multihop",
+   "page": 55,
+   "kind": "chart",
+   "values": 2,
+   "in_text_layer": 2,
+   "in_vision": 2,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t18",
+   "group": "multihop",
+   "page": 33,
+   "kind": "table",
+   "values": 2,
+   "in_text_layer": 2,
+   "in_vision": 2,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t19",
+   "group": "multihop",
+   "page": 63,
+   "kind": "chart",
+   "values": 2,
+   "in_text_layer": 2,
+   "in_vision": 2,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t19",
+   "group": "multihop",
+   "page": 60,
+   "kind": "chart",
+   "values": 1,
+   "in_text_layer": 1,
+   "in_vision": 1,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t20",
+   "group": "multihop",
+   "page": 27,
+   "kind": "chart",
+   "values": 1,
+   "in_text_layer": 1,
+   "in_vision": 1,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t20",
+   "group": "multihop",
+   "page": 12,
+   "kind": "table",
+   "values": 1,
+   "in_text_layer": 1,
+   "in_vision": 1,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t21",
+   "group": "text",
+   "page": 137,
+   "kind": "text",
+   "values": 1,
+   "in_text_layer": 1,
+   "in_vision": 0,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t22",
+   "group": "text",
+   "page": 138,
+   "kind": "text",
+   "values": 5,
+   "in_text_layer": 5,
+   "in_vision": 1,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t23",
+   "group": "text",
+   "page": 47,
+   "kind": "text",
+   "values": 6,
+   "in_text_layer": 6,
+   "in_vision": 2,
+   "missing_everywhere": []
+  },
+  {
+   "id": "t24",
+   "group": "text",
+   "page": 48,
+   "kind": "text",
+   "values": 1,
+   "in_text_layer": 1,
+   "in_vision": 0,
+   "missing_everywhere": []
+  }
+ ]
+}

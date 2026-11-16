@@ -1,0 +1,31 @@
+{
+ "page": 157,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "Cùng đồng bào vượt lũ tái thiết 26 điểm trường thiệt hại nặng",
+   "position": "nửa trái, phía dưới",
+   "content": "Ảnh: nhân viên FPT mặc áo cam đang trao quà cho học sinh mặc đồng phục trắng, quàng khăn đỏ tại sân trường; phía sau có học sinh và người lớn. Chú thích: • Cùng đồng bào vượt lũ tái thiết 26 điểm trường thiệt hại nặng. Văn bản dưới ảnh: Chiến dịch “Cùng đồng bào vượt lũ” do FPT phát động đã thu hút được sự chia sẻ của hàng nghìn CBNV trong và ngoài nước với số tiền hỗ trợ hơn 05 tỷ đồng, giúp tái thiết 26 điểm trường tại Nghệ An, Thanh Hóa, Lào Cai (cũ), Tuyên Quang (cũ) – những điểm trường bị thiệt hại nặng sau bão trong năm 2025."
+  },
+  {
+   "type": "image",
+   "title": "Đồng hành triển khai Dự án máy khử rung tim tự động cho cộng đồng đầu tiên tại Việt Nam",
+   "position": "ở giữa, phía dưới",
+   "content": "Ảnh: nhóm người đứng sau bàn, cùng cầm một tấm biển/bảng tại sự kiện trong phòng; trên bàn có hoa, micro; phía sau có màn hình/bảng ghi “LỄ CÔNG BỐ” và dòng chữ về Tập đoàn FPT trao hỗ trợ đồng bào bị thiệt hại do bão (một số chữ nhỏ không đọc rõ). Chú thích: • Đồng hành triển khai Dự án máy khử rung tim tự động cho cộng đồng đầu tiên tại Việt Nam. Văn bản dưới ảnh (như in trên trang): Chiến dịch “Cùng đồng bào vượt lũ” do FPT phát động đã thu hút được sự chia sẻ của hàng nghìn CBNV trong và ngoài nước với số tiền hỗ trợ hơn 05 tỷ đồng, giúp tái thiết 26 điểm trường tại Nghệ An, Thanh Hóa, Lào Cai (cũ), Tuyên Quang (cũ) – những điểm trường bị thiệt hại nặng sau bão trong năm 2025."
+  },
+  {
+   "type": "image",
+   "title": "Chương trình Nâng bước em đến trường",
+   "position": "nửa phải, phía dưới",
+   "content": "Ảnh: nhóm người, gồm người mặc đồng phục quân đội, áo cam FPT và áo sơ mi, đứng cạnh cột mốc/bảng ngoài trời; có cờ đỏ và cây xanh. Chú thích: • Chương trình Nâng bước em đến trường. Văn bản dưới ảnh: Từ năm 2018, FPT đồng hành cùng chương trình “Nâng bước em đến trường” do Quỹ Hy Vọng khởi xướng, tham gia xây dựng các cây cầu bê tông kiên cố tại khu vực Đồng bằng sông Cửu Long, góp phần đảm bảo an toàn cho học sinh đến trường, đồng thời nâng cao chất lượng sống và cải thiện an sinh xã hội tại các địa phương. Năm 2025, FPT đã đóng góp 08 tỷ đồng cho Chương trình."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 7852
+ },
+ "cost_usd": 0.004715286,
+ "latency_ms": 37574.7789159941
+}

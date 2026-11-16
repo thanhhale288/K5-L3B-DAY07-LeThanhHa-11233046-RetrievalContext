@@ -1,0 +1,19 @@
+{
+ "page": 135,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "TAX",
+   "position": "nửa trái, phía dưới",
+   "content": "Hình nền tối có bàn tay đang chạm vào nút trung tâm ghi “TAX”; xung quanh là các biểu tượng: biểu đồ cột, tài liệu, ký hiệu %, kính lúp, ký hiệu $ và tòa nhà/ngân hàng; có các đường kết nối và hình lục giác mờ. Không có số liệu cụ thể trên hình."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1247
+ },
+ "cost_usd": 0.0007522859999999999,
+ "latency_ms": 10250.354624993633
+}

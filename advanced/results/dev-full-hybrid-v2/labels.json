@@ -1,0 +1,110 @@
+[
+ {
+  "query_id": "d01",
+  "group": "table",
+  "pass": true,
+  "reason": "51.650 tỷ, giảm 3,8% — khớp bảng p12"
+ },
+ {
+  "query_id": "d02",
+  "group": "table",
+  "pass": true,
+  "reason": "Công ty TNHH QT, 62.449.511, 3,67% — khớp p33"
+ },
+ {
+  "query_id": "d03",
+  "group": "table",
+  "pass": true,
+  "reason": "3.000 tỷ + mục đích — khớp p55"
+ },
+ {
+  "query_id": "d04",
+  "group": "chart",
+  "pass": true,
+  "reason": "8.167 tỷ — khớp biểu đồ p11"
+ },
+ {
+  "query_id": "d05",
+  "group": "chart",
+  "pass": true,
+  "reason": "1,7 tỷ USD — khớp biểu đồ p48"
+ },
+ {
+  "query_id": "d06",
+  "group": "chart",
+  "pass": true,
+  "reason": "19.507 tỷ, 27,8% — khớp biểu đồ p60"
+ },
+ {
+  "query_id": "d07",
+  "group": "image",
+  "pass": true,
+  "reason": "đủ 4 đơn vị, citation p31 (p80 xác nhận thêm)"
+ },
+ {
+  "query_id": "d08",
+  "group": "image",
+  "pass": true,
+  "reason": "Bước 04 đúng, p114"
+ },
+ {
+  "query_id": "d09",
+  "group": "image",
+  "pass": true,
+  "reason": "04 TTDL Tier III, 6.800 Gbps — p69"
+ },
+ {
+  "query_id": "d10",
+  "group": "multihop",
+  "pass": true,
+  "reason": "34,0% kèm phép tính; p12 + p58 (evidence thay thế)"
+ },
+ {
+  "query_id": "d11",
+  "group": "multihop",
+  "pass": true,
+  "reason": "phép nhân đúng, p23 + p32"
+ },
+ {
+  "query_id": "d12",
+  "group": "multihop",
+  "pass": true,
+  "reason": "Chủ tịch FPT Telecom (p69), Khối Viễn thông 45,66% (p31)"
+ },
+ {
+  "query_id": "d13",
+  "group": "text",
+  "pass": true,
+  "reason": "không giao dịch, 0 cổ phiếu quỹ — p32"
+ },
+ {
+  "query_id": "d14",
+  "group": "text",
+  "pass": true,
+  "reason": "đủ 4 vấn đề, p125"
+ },
+ {
+  "query_id": "d15",
+  "group": "text",
+  "pass": true,
+  "reason": "GHG Protocol (WRI) + ISO 14040/14044 — p146"
+ },
+ {
+  "query_id": "du1",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "từ chối; dữ kiện kèm theo có nguồn, không bịa số Hàn Quốc"
+ },
+ {
+  "query_id": "du2",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "từ chối, không bịa lương"
+ },
+ {
+  "query_id": "du3",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "từ chối"
+ }
+]

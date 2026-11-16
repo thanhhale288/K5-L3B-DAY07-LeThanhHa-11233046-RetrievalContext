@@ -1,0 +1,19 @@
+{
+ "page": 115,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "CÁC CHỈ TIÊU ESG CAM KẾT",
+   "position": "phía trên, bên phải; chiếm phần lớn nội dung trang",
+   "content": "| TT | Cam kết | Chỉ tiêu | Cam kết 2025 | Kết quả 2025 | Cam kết 2026 |\n|---|---|---|---|---|---|\n| **QUẢN TRỊ XUẤT SẮC** | | | | | |\n| 1 | Quản trị an toàn thông tin | Số lượng sự cố an toàn thông tin ảnh hưởng đến danh tiếng Tập đoàn bằng 0. | 0 | 0 | 0 |\n|  |  | 100% CBNV trải qua đào tạo/diễn tập an toàn bảo mật thông tin. | 100% | 100% | 100% |\n| 2 | Quản trị mua sắm bền vững | 100% cán bộ mua sắm được đào tạo về mua sắm bền vững. | 100% | 100% | 100% |\n|  |  | Không ký hợp đồng với các nhà cung cấp có các hoạt động ảnh hưởng đến sức khỏe, an toàn lao động và môi trường. | 100% | 100% | 100% |\n| **MÔI TRƯỜNG LÀM VIỆC ĐẲNG CẤP, HẠNH PHÚC** | | | | | |\n| 3 | Nơi làm việc hạnh phúc | Tỷ lệ nghỉ việc thấp hơn so với mức trung bình thị trường (Khối Công nghệ). | Dưới 14% | 15,4% | Dưới 15% |\n|  |  | Hỗ trợ CBNV mua nhà, mua xe. | 5.000 | 3.904 | 4.250 |\n| 4 | Tổ chức học tập suốt đời | Đẩy mạnh và nâng cao số giờ học trung bình CBNV/năm (giờ). | 150 | 151 | 162 |\n| 5 | Bình đẳng và đa dạng | Tỷ lệ nữ giới trong tổng số nhân sự. | Trên 1/3 | 37,7% | Trên 1/3 |\n|  |  | Tỷ lệ nữ giới là quản lý trong tổng số nhân sự quản lý. | 1/3 | 36,4% | 1/3 |\n| **HOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH** | | | | | |\n| 6 | Chính sách môi trường | Tỷ lệ nhân viên được đào tạo nâng cao ý thức về môi trường. | 100% | 95%<br>Cán bộ chuyên trách | 100%<br>Nhân viên mới |\n|  |  | Tỷ lệ túi rác trong văn phòng sử dụng vật liệu tái chế. | 100% | 100% | 100% |\n| 7 | Giám sát số liệu sử dụng năng lượng | Tỷ lệ năng lượng sử dụng được giám sát. | 100% | 100% | 100% |\n| 8 | Tiết kiệm điện | Tỷ lệ sử dụng bóng đèn LED. | 100% đến 2026 | 88% | 100% |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 8724
+ },
+ "cost_usd": 0.005238486,
+ "latency_ms": 36393.310874991585
+}

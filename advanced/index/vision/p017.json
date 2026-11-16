@@ -1,0 +1,31 @@
+{
+ "page": 17,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "Xuất khẩu lô chip nguyên đầu tiên sang thị trường Nhật Bản",
+   "position": "nửa trái, phía trên",
+   "content": "Ảnh: hai bàn tay đang cầm một hộp trưng bày trong suốt có khung đen, bên trong là một bo mạch/chip nhỏ có logo và các ô màu; nền phía sau màu đỏ/cam. Không nhìn rõ chữ trên bo mạch."
+  },
+  {
+   "type": "image",
+   "title": "Tôn vinh chủ quyền công nghệ quốc gia với giải thưởng AI trị giá 01 triệu USD",
+   "position": "nửa phải, phía trên",
+   "content": "Ảnh sự kiện: sân khấu có màn hình đỏ lớn; trên màn hình có dòng chữ “LỄ CÔNG BỐ GIẢI THƯỞNG”, “ÂU LẠC GRAND PRIZE”, biểu trưng hình tròn màu cam; phía dưới là khán giả ngồi và một người đứng phát biểu/trình bày."
+  },
+  {
+   "type": "image",
+   "title": "Khai trương Trung tâm R&D 3.000 m² về công nghệ cao và chip bán dẫn",
+   "position": "nửa trái, phía dưới",
+   "content": "Ảnh: nhiều người đứng cắt băng khánh thành trước một bảng/sign lớn có dòng chữ “TRUNG TÂM R&D CÔNG NGHỆ CAO VÀ CHIP BÁN DẪN”; phía sau là không gian văn phòng/trung tâm, có màn hình và khu vực trưng bày."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2689
+ },
+ "cost_usd": 0.0016174859999999998,
+ "latency_ms": 15937.17583300895
+}

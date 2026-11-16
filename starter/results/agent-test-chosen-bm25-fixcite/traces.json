@@ -1,0 +1,1268 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "answerable": true,
+    "question": "FPT đứng ở vị trí nào trong xếp hạng doanh nghiệp Việt Nam có chất lượng quản trị công ty tốt nhất ASEAN?",
+    "filter": null,
+    "config": {
+      "split": "test",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "FPT nằm trong Top 5 Doanh nghiệp Việt Nam có chất lượng quản trị công ty tốt nhất ASEAN [fpt_esg_report_2025_p13_b_2][fpt_esg_report_2025_p9_b_0][fpt_esg_report_2025_p4_b_0]. Ngoài ra, FPT cũng thuộc Top 8 Doanh nghiệp quản trị công ty tốt nhất nhóm vốn hóa lớn [fpt_esg_report_2025_p13_b_2][fpt_esg_report_2025_p9_b_0].",
+    "citations": [
+      "fpt_esg_report_2025_p13_b_2",
+      "fpt_esg_report_2025_p9_b_0",
+      "fpt_esg_report_2025_p4_b_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "xếp hạng quản trị công ty tốt nhất ASEAN vị trí FPT",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p13_b_2",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 13,
+            "text": "• Tiếp tục khẳng định vị trí doanh nghiệp đầu ngành với những giải thưởng uy tín về quản trị, kinh doanh, công nghệ trên\ntoàn cầu như: Top 40 Công ty Dịch vụ CNTT châu Á; Top 5 Doanh nghiệp Việt Nam có chất lượng quản trị công ty\ntốt nhất ASEAN; Top 8 Doanh nghiệp quản trị công ty tốt nhất nhóm vốn hóa lớn; Giá trị thương hiệu tăng 18%,\nđạt 1,2 tỷ USD; Top 10 Thương hiệu mạnh Việt Nam; Dẫn đầu Top 50 Công ty đại chúng uy tín nhất Việt Nam; Top 50\nCông ty kinh doanh hiệu quả nhất Việt Nam….\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n12",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 21.00440213729197,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p9_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 9,
+            "text": "QUẢN TRỊ XUẤT SẮC\nCam kết Mục tiêuHoạt động trọng yếu\nQuản trị công ty Quản trị công ty xuất sắc\nhướng tới phát triển\nbền vững.\nKhông ngừng nâng cao năng lực\nquản trị đáp ứng lợi ích của tất cả\ncác bên liên quan.\n\n• Top 5 Doanh nghiệp Việt Nam có chất lượng quản trị công ty tốt\nnhất ASEAN, Top 8 Doanh nghiệp vốn hóa lớn có quản trị công ty\ntốt nhất;\n\n• Tiên phong nghiên cứu và ứng dụng AI trong quản lý tài chính,\nbán hàng – marketing và tối ưu hệ thống CRM nhằm nâng cao\nhiệu quả vận hành và kiểm soát rủi ro;\n\n• Ứng dụng AI trong quản trị, phát triển và triển khai phần mềm,\ntừ thiết kế, lập trình, kiểm thử đến đảm bảo chất lượng sản phẩm;",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 17.459766627508543,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p4_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 4,
+            "text": "Môi trường làm việc\nđẳng cấp\nNơi làm việc\ntốt nhất Việt Nam\nTop 10\nViệc làm ổn định\n54.110\nNhân sự người\nnước ngoài\n(82 quốc tịch)\n4.124\nDấu ấn nổi bật\nCán bộ quản lý nữ\n36,4%\nGiờ học nâng cao\nkiến thức kỹ năng AI\n1,1 triệu\nDoanh nghiệp Việt Nam\ncó chất lượng quản trị\ncông ty tốt nhất ASEAN\nTop 5\nISO 27001:2013\nHệ thống quản lý\nan toàn thông tin\nISO 14001:2015\nHệ thống quản lý\nmôi trường\nISO 45001:2018\nHệ thống an toàn\nsức khoẻ\nISO 14064:2018\nTiêu chuẩn đo lường\nvà quản lý phát thải\nkhí nhà kính\nISO/IEC\n42001:2023\nTiêu chuẩn dành cho\nhệ thống quản lý trí tuệ\nnhân tạo (AIMS)\nHoạt động\nvì môi trường xanh\n02\nTổng sản lượng\n842.749\nkWh\nCơ sở được giám sát\nphát thải khí\nnhà kính định kỳ\n100%\nHệ thống điện\nmặt trời mái nhà\nTrách nhiệm\nxã hội\n15 năm\nLiên tiếp triển khai\nNgày FPT vì cộng đồng\n26\nĐ",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 15.721091762546706,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p13_b_2 | data/fpt_esg_report_2025.pdf | page 13]\n• Tiếp tục khẳng định vị trí doanh nghiệp đầu ngành với những giải thưởng uy tín về quản trị, kinh doanh, công nghệ trên\ntoàn cầu như: Top 40 Công ty Dịch vụ CNTT châu Á; Top 5 Doanh nghiệp Việt Nam có chất lượng quản trị công ty\ntốt nhất ASEAN; Top 8 Doanh nghiệp quản trị công ty tốt nhất nhóm vốn hóa lớn; Giá trị thương hiệu tăng 18%,\nđạt 1,2 tỷ USD; Top 10 Thương hiệu mạnh Việt Nam; Dẫn đầu Top 50 Công ty đại chúng uy tín nhất Việt Nam; Top 50\nCông ty kinh doanh hiệu quả nhất Việt Nam….\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n12\n\n[fpt_esg_report_2025_p9_b_0 | data/fpt_esg_report_2025.pdf | page 9]\nQUẢN TRỊ XUẤT SẮC\nCam kết Mục tiêuHoạt động trọng yếu\nQuản trị công ty Quản trị công ty xuất sắc\nhướng tới phát triển\nbền vững.\nKhông ngừng nâng cao năng lực\nquản trị đáp ứng lợi ích của tất cả\ncác bên liên quan.\n\n• Top 5 Doanh nghiệp Việt Nam có chất lượng quản trị công ty tốt\nnhất ASEAN, Top 8 Doanh nghiệp vốn hóa lớn có quản trị công ty\ntốt nhất;\n\n• Tiên phong nghiên cứu và ứng dụng AI trong quản lý tài chính,\nbán hàng – marketing và tối ưu hệ thống CRM nhằm nâng cao\nhiệu quả vận hành và kiểm soát rủi ro;\n\n• Ứng dụng AI trong quản trị, phát triển và triển khai phần mềm,\ntừ thiết kế, lập trình, kiểm thử đến đảm bảo chất lượng sản phẩm;\n\n[fpt_esg_report_2025_p4_b_0 | data/fpt_esg_report_2025.pdf | page 4]\nMôi trường làm việc\nđẳng cấp\nNơi làm việc\ntốt nhất Việt Nam\nTop 10\nViệc làm ổn định\n54.110\nNhân sự người\nnước ngoài\n(82 quốc tịch)\n4.124\nDấu ấn nổi bật\nCán bộ quản lý nữ\n36,4%\nGiờ học nâng cao\nkiến thức kỹ năng AI\n1,1 triệu\nDoanh nghiệp Việt Nam\ncó chất lượng quản trị\ncông ty tốt nhất ASEAN\nTop 5\nISO 27001:2013\nHệ thống quản lý\nan toàn thông tin\nISO 14001:2015\nHệ thống quản lý\nmôi trường\nISO 45001:2018\nHệ thống an toàn\nsức khoẻ\nISO 14064:2018\nTiêu chuẩn đo lường\nvà quản lý phát thải\nkhí nhà kính\nISO/IEC\n42001:2023\nTiêu chuẩn dành cho\nhệ thống quản lý trí tuệ\nnhân tạo (AIMS)\nHoạt động\nvì môi trường xanh\n02\nTổng sản lượng\n842.749\nkWh\nCơ sở được giám sát\nphát thải khí\nnhà kính định kỳ\n100%\nHệ thống điện\nmặt trời mái nhà\nTrách nhiệm\nxã hội\n15 năm\nLiên tiếp triển khai\nNgày FPT vì cộng đồng\n26\nĐ",
+        "context_ids": [
+          "fpt_esg_report_2025_p13_b_2",
+          "fpt_esg_report_2025_p9_b_0",
+          "fpt_esg_report_2025_p4_b_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_8MUrQijv39rXuIGFkWEE4840",
+            "name": "search",
+            "arguments": {
+              "query": "xếp hạng quản trị công ty tốt nhất ASEAN vị trí FPT"
+            }
+          },
+          {
+            "id": "call_01_rVOh45k6csn5QmsDvLXz9324",
+            "name": "search",
+            "arguments": {
+              "query": "chất lượng quản trị công ty ASEAN doanh nghiệp Việt Nam xếp hạng"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 835,
+          "completion_tokens": 101
+        },
+        "latency_ms": 1073.3306250185706,
+        "cost_usd": 6.3105e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_655PoJDQBrVnoPNCp4p75074",
+            "name": "answer",
+            "arguments": {
+              "answer": "FPT nằm trong Top 5 Doanh nghiệp Việt Nam có chất lượng quản trị công ty tốt nhất ASEAN [fpt_esg_report_2025_p13_b_2][fpt_esg_report_2025_p9_b_0][fpt_esg_report_2025_p4_b_0]. Ngoài ra, FPT cũng thuộc Top 8 Doanh nghiệp quản trị công ty tốt nhất nhóm vốn hóa lớn [fpt_esg_report_2025_p13_b_2][fpt_esg_report_2025_p9_b_0].",
+              "citations": [
+                "fpt_esg_report_2025_p13_b_2",
+                "fpt_esg_report_2025_p9_b_0",
+                "fpt_esg_report_2025_p4_b_0"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 2003,
+          "completion_tokens": 242
+        },
+        "latency_ms": 1377.7315000188537,
+        "cost_usd": 0.000151209,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 2838,
+      "completion_tokens": 343
+    },
+    "cost_usd": 0.000214314,
+    "latency_s": 2.4528940840100404,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p13_b_2",
+      "fpt_esg_report_2025_p9_b_0",
+      "fpt_esg_report_2025_p4_b_0"
+    ],
+    "auto_context_hit": true
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "answerable": true,
+    "question": "Các hoạt động trồng rừng của FPT tại Sóc Trăng (cũ), Tp.Huế và Thanh Hóa đã trồng bao nhiêu cây?",
+    "filter": {
+      "pillar": "Environment"
+    },
+    "config": {
+      "split": "test",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "FPT đã triển khai các hoạt động trồng rừng tại Sóc Trăng (cũ), Tp.Huế và Thanh Hóa với tổng cộng 4.500 cây được trồng tại các khu vực rừng ngập mặn và khu bảo tồn thiên nhiên [fpt_esg_report_2025_p41_b_0].",
+    "citations": [
+      "fpt_esg_report_2025_p41_b_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "trồng rừng Sóc Trăng Huế Thanh Hóa số cây",
+        "filter": {
+          "pillar": "Environment"
+        },
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p41_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 41,
+            "text": "Triển khai và duy trì mô hình\nlàm việc kết hợp từ xa, góp\nphần tối ưu nhu cầu di chuyển\nvà giảm phát thải khí nhà kính\n(Phạm vi 3).\nTiên phong thực hiện thành công\ncác hoạt động trồng rừng tại\nSóc Trăng (cũ), Tp.Huế, Thanh Hóa\nvới 4.500 cây được trồng tại các\nkhu vực rừng ngập mặn, khu bảo\ntồn thiên nhiên góp phần tích\ncực chống biến đổi khí hậu, bảo\nvệ hệ sinh thái vì lợi ích của con\nngười và thiên nhiên.\nThông qua việc hạn chế các\nchuyến đi không cần thiết, ưu\ntiên họp trực tuyến, lựa chọn\ncác chuyến bay thẳng khi phải\ndi chuyển, đồng thời khuyến\nkhích sử dụng các phương tiện\ngiao thông thân thiện với môi\ntrường và các giải pháp di\nchuyển xanh.\nNhằm trung hoà/bù trừ lượng\nphát thải khí nhà kính. FPT đã\ntham vấn đơn vị tư vấn chuyên\nmôn và tiến hành khảo sát tại\nmột số địa phương như Quản",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 30.525807636485393,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p41_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 41,
+            "text": "g\nBình, Quảng Trị và Thanh Hoá để\nlên kế hoạch tổng thể triển khai\nDự án tín chỉ carbon trong thời\ngian tới.\nKhuyến khích CBNV sử dụng\nphương tiện công cộng, bố trí\nxe bus đưa đón CBNV tập trung\nhoặc các tuyến xe tại các điểm\ntrung chuyển gần khu vực lưu\ntrú của CBNV; cấp tài khoản xe\ncông nghệ. Triển khai một số\nhoạt động khuyến khích CBNV\nsử dụng xe điện như: lắp đặt\ntrạm sạc tại một số tòa nhà\nvăn phòng; hợp tác với Vinfast\ntriển khai chương trình ưu đãi\nmua xe và sử dụng dịch vụ\nvận chuyển bằng xe điện.\nĐối với Phạm vi 3, FPT tiên phong thực hiện các hoạt động sau:\nCác biện pháp khác\nPhương tiện công cộng/\nPhương tiện sử dụng điện\nNghiên cứu Dự án\ntín chỉ carbon rừng\nGiảm thiểu tác động\ntừ các chuyến công tác Trồng rừng Làm việc từ xa\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 13.195557989671855,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p42_b_3",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 42,
+            "text": "máy phun xoay chiều tự động được áp dụng trên tất cả khu vực cây\nxanh trong các tòa nhà để giảm thiểu việc sử dụng nước và đảm bảo sự phát triển\ncủa hệ thống cây xanh mang lại môi trường làm việc thân thiện với thiên nhiên.\nĐối với nguồn nước sử dụng từ hệ thống nước sạch của thành phố, FPT luôn đảm bảo\nthực hiện các quy định thống nhất trong các tòa nhà, campus về tiết kiệm và\nsử dụng nước. Các khu vực chung sử dụng vòi nước cảm ứng tự động tắt khi không\nsử dụng và phát động phong trào sử dụng nước tiết kiệm tại các văn phòng trên\ntoàn hệ thống.\nQuản lý nước thải và các nguồn phát thải khác\n• Quản lý nước, nước thải\nChênh lệch\nNăm 2024\n827.940\nNăm 2025\n831.885\nMức tiêu thụ\n3.945\nTỷ lệ\n0,48%\nNăm 2023\n774.152\nDanh mục\nTiêu thụ nước\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 4.918275238539665,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p41_b_0 | data/fpt_esg_report_2025.pdf | page 41]\nTriển khai và duy trì mô hình\nlàm việc kết hợp từ xa, góp\nphần tối ưu nhu cầu di chuyển\nvà giảm phát thải khí nhà kính\n(Phạm vi 3).\nTiên phong thực hiện thành công\ncác hoạt động trồng rừng tại\nSóc Trăng (cũ), Tp.Huế, Thanh Hóa\nvới 4.500 cây được trồng tại các\nkhu vực rừng ngập mặn, khu bảo\ntồn thiên nhiên góp phần tích\ncực chống biến đổi khí hậu, bảo\nvệ hệ sinh thái vì lợi ích của con\nngười và thiên nhiên.\nThông qua việc hạn chế các\nchuyến đi không cần thiết, ưu\ntiên họp trực tuyến, lựa chọn\ncác chuyến bay thẳng khi phải\ndi chuyển, đồng thời khuyến\nkhích sử dụng các phương tiện\ngiao thông thân thiện với môi\ntrường và các giải pháp di\nchuyển xanh.\nNhằm trung hoà/bù trừ lượng\nphát thải khí nhà kính. FPT đã\ntham vấn đơn vị tư vấn chuyên\nmôn và tiến hành khảo sát tại\nmột số địa phương như Quản\n\n[fpt_esg_report_2025_p41_b_1 | data/fpt_esg_report_2025.pdf | page 41]\ng\nBình, Quảng Trị và Thanh Hoá để\nlên kế hoạch tổng thể triển khai\nDự án tín chỉ carbon trong thời\ngian tới.\nKhuyến khích CBNV sử dụng\nphương tiện công cộng, bố trí\nxe bus đưa đón CBNV tập trung\nhoặc các tuyến xe tại các điểm\ntrung chuyển gần khu vực lưu\ntrú của CBNV; cấp tài khoản xe\ncông nghệ. Triển khai một số\nhoạt động khuyến khích CBNV\nsử dụng xe điện như: lắp đặt\ntrạm sạc tại một số tòa nhà\nvăn phòng; hợp tác với Vinfast\ntriển khai chương trình ưu đãi\nmua xe và sử dụng dịch vụ\nvận chuyển bằng xe điện.\nĐối với Phạm vi 3, FPT tiên phong thực hiện các hoạt động sau:\nCác biện pháp khác\nPhương tiện công cộng/\nPhương tiện sử dụng điện\nNghiên cứu Dự án\ntín chỉ carbon rừng\nGiảm thiểu tác động\ntừ các chuyến công tác Trồng rừng Làm việc từ xa\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định\n\n[fpt_esg_report_2025_p42_b_3 | data/fpt_esg_report_2025.pdf | page 42]\nmáy phun xoay chiều tự động được áp dụng trên tất cả khu vực cây\nxanh trong các tòa nhà để giảm thiểu việc sử dụng nước và đảm bảo sự phát triển\ncủa hệ thống cây xanh mang lại môi trường làm việc thân thiện với thiên nhiên.\nĐối với nguồn nước sử dụng từ hệ thống nước sạch của thành phố, FPT luôn đảm bảo\nthực hiện các quy định thống nhất trong các tòa nhà, campus về tiết kiệm và\nsử dụng nước. Các khu vực chung sử dụng vòi nước cảm ứng tự động tắt khi không\nsử dụng và phát động phong trào sử dụng nước tiết kiệm tại các văn phòng trên\ntoàn hệ thống.\nQuản lý nước thải và các nguồn phát thải khác\n• Quản lý nước, nước thải\nChênh lệch\nNăm 2024\n827.940\nNăm 2025\n831.885\nMức tiêu thụ\n3.945\nTỷ lệ\n0,48%\nNăm 2023\n774.152\nDanh mục\nTiêu thụ nước\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng",
+        "context_ids": [
+          "fpt_esg_report_2025_p41_b_0",
+          "fpt_esg_report_2025_p41_b_1",
+          "fpt_esg_report_2025_p42_b_3"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_kZ0SvE4Nui5sR1kIZ6Y36673",
+            "name": "search",
+            "arguments": {
+              "query": "trồng rừng Sóc Trăng Huế Thanh Hóa số cây"
+            }
+          },
+          {
+            "id": "call_01_Wd1qdtK0knL8m54Xyf5p8479",
+            "name": "search",
+            "arguments": {
+              "query": "hoạt động trồng cây trồng rừng FPT số lượng cây"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 843,
+          "completion_tokens": 100
+        },
+        "latency_ms": 1028.4265000082087,
+        "cost_usd": 6.2529e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_hnjdJRF4mYzbGEULHjfU8835",
+            "name": "answer",
+            "arguments": {
+              "answer": "FPT đã triển khai các hoạt động trồng rừng tại Sóc Trăng (cũ), Tp.Huế và Thanh Hóa với tổng cộng 4.500 cây được trồng tại các khu vực rừng ngập mặn và khu bảo tồn thiên nhiên [fpt_esg_report_2025_p41_b_0].",
+              "citations": [
+                "fpt_esg_report_2025_p41_b_0"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 2113,
+          "completion_tokens": 164
+        },
+        "latency_ms": 1120.1897079881746,
+        "cost_usd": 0.00010473899999999999,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 2956,
+      "completion_tokens": 264
+    },
+    "cost_usd": 0.00016726799999999998,
+    "latency_s": 2.1519317920028698,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p41_b_0",
+      "fpt_esg_report_2025_p41_b_1",
+      "fpt_esg_report_2025_p42_b_3"
+    ],
+    "auto_context_hit": true
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "answerable": true,
+    "question": "FPT hợp tác với tổ chức nào để triển khai dự án “Bếp Xanh – Sống Lành”, và dự án được thực hiện tại đâu?",
+    "filter": null,
+    "config": {
+      "split": "test",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "FPT hợp tác với Tổ chức World Vision, ký kết Biên bản ghi nhớ hợp tác triển khai Dự án \"Bếp Xanh – Sống Lành\" tại xã Sín Chải, tỉnh Điện Biên [fpt_esg_report_2025_p51_b_0].",
+    "citations": [
+      "fpt_esg_report_2025_p51_b_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Bếp Xanh Sống Lành hợp tác",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p51_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 51,
+            "text": "BÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n50\nTổ chức World Vision và FPT ký kết Biên bản ghi nhớ hợp tác triển khai Dự án\n“Bếp Xanh – Sống Lành” tại xã Sín Chải, tỉnh Điện Biên. Sự kiện đánh dấu bước tiến\nquan trọng trong nỗ lực thúc đẩy phát triển bền vững, cải thiện sức khỏe\ncộng đồng và tăng cường khả năng thích ứng với biến đổi khí hậu tại khu vực\nnông thôn Việt Nam.\nDự án giúp hơn 1.000 người dân tiếp cận các giải pháp bếp cải tiến nhằm giảm\nô nhiễm không khí trong nhà, cải thiện điều kiện sức khỏe và cắt giảm phát thải khí\nnhà kính. Việc thúc đẩy các giải pháp nấu ăn sạch góp phần bảo vệ tài ng",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 13.688224069285374,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p51_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 51,
+            "text": "uyên\nrừng, nâng cao chất lượng sống và năng lực chống chịu của các cộng đồng dễ bị\ntổn thương trước tác động của biến đổi khí hậu.\n\n• Dự án \"Bếp Xanh – Sống Lành\", mang sức khỏe đến với mọi nhà\nNgày hội hiến máu nhân đạo được FPT tổ chức thường niên với mong muốn\nnâng cao tinh thần tương thân tương ái, góp phần chia sẻ khó khăn với những\nhoàn cảnh kém may mắn trong xã hội. Với tinh thần “Một giọt máu cho đi,\nmột cuộc đời ở lại”, nghĩa cử hiến máu cứu người của CBNV FPT trở thành một\nnét đẹp trong hoạt động thiện nguyện của FPT hàng năm.\nTrong năm 2025, 2.045 CBNV tham gia 10 đợt hiến máu với 2.910 đơn vị máu\nđược hiến tặng. Hoạt động khích lệ CBNV cùng chia sẻ những giá trị tốt đẹp,\nduy trì tinh thần lạc quan, năng lượng tích cực để cùng nhau tạo nên một\ncộng đồng hạnh phúc.",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 12.241444019017482,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p12_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 12,
+            "text": "HOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nVÌ SỰ PHÁT TRIỂN CỦA CỘNG ĐỒNG\nCam kết Mục tiêuVấn đềtrọng yếu\nBảo vệ\nmôi trường\nKhông ngừng cải thiện môi trường\nlàm việc hướng tới môi trường làm\nviệc xanh, an toàn, lành mạnh.\n\n• Mục tiêu trung hạn: đến năm 2030,\ngiảm 15,8% tổng lượng phát thải\nkhí nhà kính phù hợp với mục tiêu\nchung của Việt Nam;\n\n• Mục tiêu dài hạn: đến năm 2040\nđạt Net Zero như cam kết của\nChính phủ Việt Nam tại COP 26.\n\n• Chuẩn hóa phương pháp kiểm kê số liệu phát thải khí\nnhà kính cho Phạm vi 1 và Phạm vi 2; thực hiện kiểm kê và\ntheo dõi số liệu toàn Tập đoàn định kỳ theo quý;\n\n• 100% số liệu sử dụng năng lượng được giám sát;\n\n• Triển khai 02 hệ thống điện mặt trời mái nhà với tổng\nsản lượng 842.749 kWh;",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 5.037389942322013,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p51_b_0 | data/fpt_esg_report_2025.pdf | page 51]\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n50\nTổ chức World Vision và FPT ký kết Biên bản ghi nhớ hợp tác triển khai Dự án\n“Bếp Xanh – Sống Lành” tại xã Sín Chải, tỉnh Điện Biên. Sự kiện đánh dấu bước tiến\nquan trọng trong nỗ lực thúc đẩy phát triển bền vững, cải thiện sức khỏe\ncộng đồng và tăng cường khả năng thích ứng với biến đổi khí hậu tại khu vực\nnông thôn Việt Nam.\nDự án giúp hơn 1.000 người dân tiếp cận các giải pháp bếp cải tiến nhằm giảm\nô nhiễm không khí trong nhà, cải thiện điều kiện sức khỏe và cắt giảm phát thải khí\nnhà kính. Việc thúc đẩy các giải pháp nấu ăn sạch góp phần bảo vệ tài ng\n\n[fpt_esg_report_2025_p51_b_1 | data/fpt_esg_report_2025.pdf | page 51]\nuyên\nrừng, nâng cao chất lượng sống và năng lực chống chịu của các cộng đồng dễ bị\ntổn thương trước tác động của biến đổi khí hậu.\n\n• Dự án \"Bếp Xanh – Sống Lành\", mang sức khỏe đến với mọi nhà\nNgày hội hiến máu nhân đạo được FPT tổ chức thường niên với mong muốn\nnâng cao tinh thần tương thân tương ái, góp phần chia sẻ khó khăn với những\nhoàn cảnh kém may mắn trong xã hội. Với tinh thần “Một giọt máu cho đi,\nmột cuộc đời ở lại”, nghĩa cử hiến máu cứu người của CBNV FPT trở thành một\nnét đẹp trong hoạt động thiện nguyện của FPT hàng năm.\nTrong năm 2025, 2.045 CBNV tham gia 10 đợt hiến máu với 2.910 đơn vị máu\nđược hiến tặng. Hoạt động khích lệ CBNV cùng chia sẻ những giá trị tốt đẹp,\nduy trì tinh thần lạc quan, năng lượng tích cực để cùng nhau tạo nên một\ncộng đồng hạnh phúc.\n\n[fpt_esg_report_2025_p12_b_0 | data/fpt_esg_report_2025.pdf | page 12]\nHOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nVÌ SỰ PHÁT TRIỂN CỦA CỘNG ĐỒNG\nCam kết Mục tiêuVấn đềtrọng yếu\nBảo vệ\nmôi trường\nKhông ngừng cải thiện môi trường\nlàm việc hướng tới môi trường làm\nviệc xanh, an toàn, lành mạnh.\n\n• Mục tiêu trung hạn: đến năm 2030,\ngiảm 15,8% tổng lượng phát thải\nkhí nhà kính phù hợp với mục tiêu\nchung của Việt Nam;\n\n• Mục tiêu dài hạn: đến năm 2040\nđạt Net Zero như cam kết của\nChính phủ Việt Nam tại COP 26.\n\n• Chuẩn hóa phương pháp kiểm kê số liệu phát thải khí\nnhà kính cho Phạm vi 1 và Phạm vi 2; thực hiện kiểm kê và\ntheo dõi số liệu toàn Tập đoàn định kỳ theo quý;\n\n• 100% số liệu sử dụng năng lượng được giám sát;\n\n• Triển khai 02 hệ thống điện mặt trời mái nhà với tổng\nsản lượng 842.749 kWh;",
+        "context_ids": [
+          "fpt_esg_report_2025_p51_b_0",
+          "fpt_esg_report_2025_p51_b_1",
+          "fpt_esg_report_2025_p12_b_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_XcbN2AG702xVa1z7wkEH0834",
+            "name": "search",
+            "arguments": {
+              "query": "Bếp Xanh Sống Lành hợp tác"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 842,
+          "completion_tokens": 46
+        },
+        "latency_ms": 1180.5114579910878,
+        "cost_usd": 3.0126e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_QZGQDA8FROdw3AoL6EU95140",
+            "name": "answer",
+            "arguments": {
+              "answer": "FPT hợp tác với Tổ chức World Vision, ký kết Biên bản ghi nhớ hợp tác triển khai Dự án \"Bếp Xanh – Sống Lành\" tại xã Sín Chải, tỉnh Điện Biên [fpt_esg_report_2025_p51_b_0].",
+              "citations": [
+                "fpt_esg_report_2025_p51_b_0"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 2069,
+          "completion_tokens": 145
+        },
+        "latency_ms": 864.0524579968769,
+        "cost_usd": 9.320699999999999e-05,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 2911,
+      "completion_tokens": 191
+    },
+    "cost_usd": 0.000123333,
+    "latency_s": 2.046658417006256,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p51_b_0",
+      "fpt_esg_report_2025_p51_b_1",
+      "fpt_esg_report_2025_p12_b_0"
+    ],
+    "auto_context_hit": true
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "answerable": true,
+    "question": "FPT có quy tắc nào về việc ký hợp đồng với nhà cung cấp liên quan đến sức khỏe, an toàn lao động và môi trường?",
+    "filter": null,
+    "config": {
+      "split": "test",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "FPT cam kết không hợp tác với các nhà cung cấp có hoạt động ảnh hưởng đến sức khỏe, an toàn lao động và môi trường; đồng thời Tập đoàn thiết lập và tuân thủ nghiêm ngặt các hướng dẫn nội bộ về mua sắm xanh, và ban hành quy trình đánh giá nhà cung cấp trọng yếu để đảm bảo nhà cung cấp không chỉ đáp ứng yêu cầu về chất lượng, chi phí mà còn tuân thủ tiêu chuẩn về đạo đức [fpt_esg_report_2025_p21_b_2].",
+    "citations": [
+      "fpt_esg_report_2025_p21_b_2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "hợp đồng nhà cung cấp sức khỏe an toàn lao động môi trường",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p21_b_2",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 21,
+            "text": "m tập trung, đấu thầu online; nhà cung cấp tự\nbáo giá online; tự động hóa các thao tác nội bộ;\nsử dụng AI hỗ trợ giao dịch mua sắm, hỏi đáp nhanh\nvề mua sắm, gợi ý nhà cung cấp, kiểm soát chênh\nlệch giá giúp nâng cao sự minh bạch và đảm bảo\ncông bằng cho nhà cung cấp.\nNhằm góp phần đạt được các mục tiêu về tính bền\nvững của Tập đoàn trên quy mô toàn cầu, FPT hướng\nđến xây dựng chuỗi cung ứng bền vững thông qua\nviệc: thiết lập và tuân thủ nghiêm ngặt các hướng\ndẫn nội bộ về mua sắm xanh. Đồng thời, Tập đoàn\ncam kết không hợp tác với các nhà cung cấp có hoạt\nđộng ảnh hưởng đến sức khỏe, an toàn lao động và\nmôi trường.\nTập đoàn đã ban hành quy trình đánh giá nhà cung\ncấp trọng yếu nhằm đảm bảo nhà cung cấp không\nchỉ đáp ứng yêu cầu về chất lượng, chi phí mà còn\ntuân thủ tiêu chuẩn về đạo đức,",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 18.060161941001038,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p27_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 27,
+            "text": "• Sức khỏe CBNV, năng suất lao động\nbị suy giảm do bệnh dịch.\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n26",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 15.865433306728447,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p44_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 44,
+            "text": "Các chất độc hại trong không khí như khí CO, SO2, NO2, PM2.5, PM10, Ozone... có\nthể gây ra các vấn đề sức khỏe nghiêm trọng. Vì vậy, Tập đoàn đề cao việc theo dõi\nvà kiểm soát môi trường không khí tại nơi làm việc đảm bảo một môi trường làm\nviệc an toàn và lành mạnh cho CBNV giúp nâng cao năng suất, tăng lao động và\ngiảm thiểu các rủi ro pháp lý liên quan đến sức khỏe và an toàn lao động.\nĐịnh kỳ hàng năm, Tập đoàn thuê một đơn vị có chuyên môn thực hiện quan trắc\nmôi trường làm việc và lập báo cáo gửi cho các cơ quan quản lý có liên quan. Năm\n2025, theo kết quả quan trắc định kỳ, chất lượng không khí tại các khu làm việc của\nTập đoàn và công ty thành viên đều nằm trong giới hạn cho phép của tiêu chuẩn\nQCVN 05:2013 /BTNMT, QCVN 26:2010/BTNMT.\nĐơn cử, tại tòa nhà trụ sở chính của Tập đoàn –",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 15.648326350393443,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p21_b_2 | data/fpt_esg_report_2025.pdf | page 21]\nm tập trung, đấu thầu online; nhà cung cấp tự\nbáo giá online; tự động hóa các thao tác nội bộ;\nsử dụng AI hỗ trợ giao dịch mua sắm, hỏi đáp nhanh\nvề mua sắm, gợi ý nhà cung cấp, kiểm soát chênh\nlệch giá giúp nâng cao sự minh bạch và đảm bảo\ncông bằng cho nhà cung cấp.\nNhằm góp phần đạt được các mục tiêu về tính bền\nvững của Tập đoàn trên quy mô toàn cầu, FPT hướng\nđến xây dựng chuỗi cung ứng bền vững thông qua\nviệc: thiết lập và tuân thủ nghiêm ngặt các hướng\ndẫn nội bộ về mua sắm xanh. Đồng thời, Tập đoàn\ncam kết không hợp tác với các nhà cung cấp có hoạt\nđộng ảnh hưởng đến sức khỏe, an toàn lao động và\nmôi trường.\nTập đoàn đã ban hành quy trình đánh giá nhà cung\ncấp trọng yếu nhằm đảm bảo nhà cung cấp không\nchỉ đáp ứng yêu cầu về chất lượng, chi phí mà còn\ntuân thủ tiêu chuẩn về đạo đức,\n\n[fpt_esg_report_2025_p27_b_1 | data/fpt_esg_report_2025.pdf | page 27]\n• Sức khỏe CBNV, năng suất lao động\nbị suy giảm do bệnh dịch.\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n26\n\n[fpt_esg_report_2025_p44_b_0 | data/fpt_esg_report_2025.pdf | page 44]\nCác chất độc hại trong không khí như khí CO, SO2, NO2, PM2.5, PM10, Ozone... có\nthể gây ra các vấn đề sức khỏe nghiêm trọng. Vì vậy, Tập đoàn đề cao việc theo dõi\nvà kiểm soát môi trường không khí tại nơi làm việc đảm bảo một môi trường làm\nviệc an toàn và lành mạnh cho CBNV giúp nâng cao năng suất, tăng lao động và\ngiảm thiểu các rủi ro pháp lý liên quan đến sức khỏe và an toàn lao động.\nĐịnh kỳ hàng năm, Tập đoàn thuê một đơn vị có chuyên môn thực hiện quan trắc\nmôi trường làm việc và lập báo cáo gửi cho các cơ quan quản lý có liên quan. Năm\n2025, theo kết quả quan trắc định kỳ, chất lượng không khí tại các khu làm việc của\nTập đoàn và công ty thành viên đều nằm trong giới hạn cho phép của tiêu chuẩn\nQCVN 05:2013 /BTNMT, QCVN 26:2010/BTNMT.\nĐơn cử, tại tòa nhà trụ sở chính của Tập đoàn –",
+        "context_ids": [
+          "fpt_esg_report_2025_p21_b_2",
+          "fpt_esg_report_2025_p27_b_1",
+          "fpt_esg_report_2025_p44_b_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_ORPMLiiA1lou6ZeXvMiI7853",
+            "name": "search",
+            "arguments": {
+              "query": "hợp đồng nhà cung cấp sức khỏe an toàn lao động môi trường"
+            }
+          },
+          {
+            "id": "call_01_I49nvYEhmPuzOCRvt1hN8670",
+            "name": "search",
+            "arguments": {
+              "query": "quy tắc ký hợp đồng nhà cung cấp EHS"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 846,
+          "completion_tokens": 106
+        },
+        "latency_ms": 987.8115000028629,
+        "cost_usd": 6.6138e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_N9cY7HNoFjY3RU14H6g01647",
+            "name": "answer",
+            "arguments": {
+              "answer": "FPT cam kết không hợp tác với các nhà cung cấp có hoạt động ảnh hưởng đến sức khỏe, an toàn lao động và môi trường; đồng thời Tập đoàn thiết lập và tuân thủ nghiêm ngặt các hướng dẫn nội bộ về mua sắm xanh, và ban hành quy trình đánh giá nhà cung cấp trọng yếu để đảm bảo nhà cung cấp không chỉ đáp ứng yêu cầu về chất lượng, chi phí mà còn tuân thủ tiêu chuẩn về đạo đức [fpt_esg_report_2025_p21_b_2].",
+              "citations": [
+                "fpt_esg_report_2025_p21_b_2"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 1906,
+          "completion_tokens": 241
+        },
+        "latency_ms": 1717.3938330088276,
+        "cost_usd": 0.00015031799999999998,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 2752,
+      "completion_tokens": 347
+    },
+    "cost_usd": 0.00021645599999999996,
+    "latency_s": 2.7114250419836026,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p21_b_2",
+      "fpt_esg_report_2025_p27_b_1",
+      "fpt_esg_report_2025_p44_b_0"
+    ],
+    "auto_context_hit": false
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "answerable": true,
+    "question": "Năm 2025, FPT ghi nhận tổng số giờ đào tạo và số giờ học trung bình trên mỗi CBNV/năm là bao nhiêu?",
+    "filter": null,
+    "config": {
+      "split": "test",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "Năm 2025, FPT ghi nhận trên 7,1 triệu giờ đào tạo, đạt 151 giờ học trung bình/năm/CBNV [fpt_esg_report_2025_p11_b_2].",
+    "citations": [
+      "fpt_esg_report_2025_p11_b_2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "tổng số giờ đào tạo giờ học trung bình mỗi CBNV năm 2025",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p31_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 31,
+            "text": "ri thức và kinh nghiệm quản lý trong nội bộ. Công tác\nphát triển đội ngũ quản lý được đẩy mạnh thông qua các chương trình MiniMBA và\nđào tạo cán bộ quản lý cấp trung với hơn 47.000 giờ học trong năm 2025 tập trung\nnâng cao năng lực quản trị, điều hành và xây dựng đội ngũ lãnh đạo kế cận.\nSong song, FPT triển khai đào tạo diện rộng cho khối công nghệ và khối quản trị\n– vận hành, đặc biệt chú trọng đào tạo về xu hướng công nghệ, AI và ESG. Nổi bật là\nchuỗi chương trình đào tạo Bình dân AI vụ giúp 98% CBNV trang bị kiến thức AI\nnền tảng, tương ứng hơn 1,1 triệu giờ học. Chuỗi chương trình quản trị trải nghiệm học\ntập - Contest gồm 09 cuộc thi với 2.731 CBNV tham dự, góp phần nâng cao năng lực\nchuyên môn, kỹ năng mềm, khuyến khích đổi mới sáng tạo và phát huy giá trị cốt lõi.\nTổng số giờ đào t",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 23.655245670215187,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p11_b_2",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 11,
+            "text": "• Khởi công xây dựng Khu công viên công nghệ số góp phần\nkhẳng định vị thế Hà Nội là trung tâm khoa học công nghệ\ncủa cả nước, xa hơn là từng bước hiện thực hóa khát vọng về\nmột “Thung lũng Silicon” của Việt Nam.\nTổ chức học tập\nsuốt đời\nDuy trì FPT luôn là tổ chức học\ntập, kiến tạo việc học tập suốt đời\ncủa CBNV.\n\n• Sử dụng công nghệ để cá thể hóa\nviệc học của CBNV;\n\n• Đẩy mạnh và nâng cao số giờ học\ncho CBNV;\n\n• Nâng cao hiệu quả đào tạo bằng\ncông nghệ tiên tiến: AI Mentor,\nText-to-voice, chatbot…\n\n• Ứng dụng AI Mentoring, AI Knowledge Explore cá thể hóa lộ\ntrình học cho CBNV;\n\n• Đầu tư sử dụng các nền tảng toàn cầu đáp ứng nhu cầu học\ntập chuyên nghiệp, đa dạng của CBNV như: Coursera,\nUdemy, Udacity;\n\n• Ghi nhận trên 7,1 triệu giờ đào tạo, đạt 151 giờ học trung\nbình/năm/CBNV;",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 23.198038917361682,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p8_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 8,
+            "text": "• Cam kết, mục tiêu và kết quả nổi bật về ESG\nCÁC CHỈ TIÊU ESG CAM KẾT\nTT Chỉ tiêu Cam kết2025Cam kết\nQUẢN TRỊ XUẤT SẮC\n0\n100%\n100%\n100%\n0\n100%\n100%\n100%\n0\n100%\n100%\n100%\nMÔI TRƯỜNG LÀM VIỆC ĐẲNG CẤP, HẠNH PHÚC\nHOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nSố lượng sự cố an toàn thông tin ảnh hưởng đến danh tiếng Tập đoàn bằng 0.\n100% CBNV trải qua đào tạo/diễn tập an toàn bảo mật thông tin.\n100% cán bộ mua sắm được đào tạo về mua sắm bền vững.\nKhông ký hợp đồng với các nhà cung cấp có các hoạt động ảnh hưởng đến\nsức khoẻ, an toàn lao động và môi trường.\nTỷ lệ nghỉ việc thấp hơn so với mức trung bình thị trường (Khối Công nghệ).\nHỗ trợ CBNV mua nhà, mua xe.\nĐẩy mạnh và nâng cao số giờ học trung bình CBNV/năm (giờ).\nTỷ lệ nữ giới trong tổng số nhân sự.\nTỷ lệ nữ giới là quản lý trong tổng số nhân sự quản lý.",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 22.611293962388228,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p31_b_1 | data/fpt_esg_report_2025.pdf | page 31]\nri thức và kinh nghiệm quản lý trong nội bộ. Công tác\nphát triển đội ngũ quản lý được đẩy mạnh thông qua các chương trình MiniMBA và\nđào tạo cán bộ quản lý cấp trung với hơn 47.000 giờ học trong năm 2025 tập trung\nnâng cao năng lực quản trị, điều hành và xây dựng đội ngũ lãnh đạo kế cận.\nSong song, FPT triển khai đào tạo diện rộng cho khối công nghệ và khối quản trị\n– vận hành, đặc biệt chú trọng đào tạo về xu hướng công nghệ, AI và ESG. Nổi bật là\nchuỗi chương trình đào tạo Bình dân AI vụ giúp 98% CBNV trang bị kiến thức AI\nnền tảng, tương ứng hơn 1,1 triệu giờ học. Chuỗi chương trình quản trị trải nghiệm học\ntập - Contest gồm 09 cuộc thi với 2.731 CBNV tham dự, góp phần nâng cao năng lực\nchuyên môn, kỹ năng mềm, khuyến khích đổi mới sáng tạo và phát huy giá trị cốt lõi.\nTổng số giờ đào t\n\n[fpt_esg_report_2025_p11_b_2 | data/fpt_esg_report_2025.pdf | page 11]\n• Khởi công xây dựng Khu công viên công nghệ số góp phần\nkhẳng định vị thế Hà Nội là trung tâm khoa học công nghệ\ncủa cả nước, xa hơn là từng bước hiện thực hóa khát vọng về\nmột “Thung lũng Silicon” của Việt Nam.\nTổ chức học tập\nsuốt đời\nDuy trì FPT luôn là tổ chức học\ntập, kiến tạo việc học tập suốt đời\ncủa CBNV.\n\n• Sử dụng công nghệ để cá thể hóa\nviệc học của CBNV;\n\n• Đẩy mạnh và nâng cao số giờ học\ncho CBNV;\n\n• Nâng cao hiệu quả đào tạo bằng\ncông nghệ tiên tiến: AI Mentor,\nText-to-voice, chatbot…\n\n• Ứng dụng AI Mentoring, AI Knowledge Explore cá thể hóa lộ\ntrình học cho CBNV;\n\n• Đầu tư sử dụng các nền tảng toàn cầu đáp ứng nhu cầu học\ntập chuyên nghiệp, đa dạng của CBNV như: Coursera,\nUdemy, Udacity;\n\n• Ghi nhận trên 7,1 triệu giờ đào tạo, đạt 151 giờ học trung\nbình/năm/CBNV;\n\n[fpt_esg_report_2025_p8_b_0 | data/fpt_esg_report_2025.pdf | page 8]\n• Cam kết, mục tiêu và kết quả nổi bật về ESG\nCÁC CHỈ TIÊU ESG CAM KẾT\nTT Chỉ tiêu Cam kết2025Cam kết\nQUẢN TRỊ XUẤT SẮC\n0\n100%\n100%\n100%\n0\n100%\n100%\n100%\n0\n100%\n100%\n100%\nMÔI TRƯỜNG LÀM VIỆC ĐẲNG CẤP, HẠNH PHÚC\nHOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nSố lượng sự cố an toàn thông tin ảnh hưởng đến danh tiếng Tập đoàn bằng 0.\n100% CBNV trải qua đào tạo/diễn tập an toàn bảo mật thông tin.\n100% cán bộ mua sắm được đào tạo về mua sắm bền vững.\nKhông ký hợp đồng với các nhà cung cấp có các hoạt động ảnh hưởng đến\nsức khoẻ, an toàn lao động và môi trường.\nTỷ lệ nghỉ việc thấp hơn so với mức trung bình thị trường (Khối Công nghệ).\nHỗ trợ CBNV mua nhà, mua xe.\nĐẩy mạnh và nâng cao số giờ học trung bình CBNV/năm (giờ).\nTỷ lệ nữ giới trong tổng số nhân sự.\nTỷ lệ nữ giới là quản lý trong tổng số nhân sự quản lý.",
+        "context_ids": [
+          "fpt_esg_report_2025_p31_b_1",
+          "fpt_esg_report_2025_p11_b_2",
+          "fpt_esg_report_2025_p8_b_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_Tj97hD1K0533bvSAdTaY3146",
+            "name": "search",
+            "arguments": {
+              "query": "tổng số giờ đào tạo giờ học trung bình mỗi CBNV năm 2025"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 844,
+          "completion_tokens": 62
+        },
+        "latency_ms": 818.0730839958414,
+        "cost_usd": 3.9732e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_K3Y5aHQWRJQOBopDHUZZ7255",
+            "name": "answer",
+            "arguments": {
+              "answer": "Năm 2025, FPT ghi nhận trên 7,1 triệu giờ đào tạo, đạt 151 giờ học trung bình/năm/CBNV [fpt_esg_report_2025_p11_b_2].",
+              "citations": [
+                "fpt_esg_report_2025_p11_b_2"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 2109,
+          "completion_tokens": 124
+        },
+        "latency_ms": 1291.1967499821912,
+        "cost_usd": 8.072699999999999e-05,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 2953,
+      "completion_tokens": 186
+    },
+    "cost_usd": 0.00012045899999999998,
+    "latency_s": 2.112559625005815,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p31_b_1",
+      "fpt_esg_report_2025_p11_b_2",
+      "fpt_esg_report_2025_p8_b_0"
+    ],
+    "auto_context_hit": true
+  },
+  {
+    "query_id": "u03",
+    "split": "test",
+    "answerable": false,
+    "question": "Năm 2025 FPT ghi nhận bao nhiêu vụ tai nạn lao động?",
+    "filter": null,
+    "config": {
+      "split": "test",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "tai nạn lao động 2025",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p27_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 27,
+            "text": "• Rủi ro Môi trường – Thiên tai – Dịch bệnh\nNội dung Biện pháp quản trịTên rủi ro\nRủi ro Môi trường – Thiên tai –\nDịch bệnh\n\n• Xác định các rủi ro tiềm ẩn từ môi trường, thiên tai và dịch bệnh, đánh giá mức độ\ntác động đến cơ sở hạ tầng, nguồn nhân lực và chuỗi cung ứng;\n\n• Ứng dụng IoT, AI và Big Data để theo dõi và cảnh báo sớm các hiện tượng thời tiết\nbất thường, thiên tai và dịch bệnh;\n\n• Đầu tư phát triển các giải pháp và công cụ hỗ trợ làm việc từ xa an toàn, đảm bảo\nmọi hoạt động của Tập đoàn được duy trì thông suốt trong mọi tình huống.\n\n• Biến đổi khí hậu dẫn đến điều kiện\nthời tiết bất thường, ảnh hưởng đến\ncơ sở hạ tầng, sức khỏe CBNV…\n\n• Gián đoạn hoạt động kinh doanh do\nthiên tai.",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 8.230640082278583,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p34_b_3",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 34,
+            "text": "• Chính sách \"An cư lạc nghiệp – Gắn kết lâu dài\" tri ân CBNV có đóng góp lớn cho\nsự thành công của FPT, giúp CBNV an tâm cống hiến khi được hỗ trợ giảm bớt\ngánh nặng mua nhà, mua xe;\n\n• Chế độ bảo hiểm FPT Care cho CBNV bao gồm các quyền lợi về bảo hiểm sức\nkhỏe (thương tật do ốm bệnh, thai sản, điều trị nội trú, ngoại trú, nha khoa) và\nbảo hiểm tai nạn (thương tật vĩnh viễn, thương tật toàn bộ tạm thời, tử vong). Đối với\nngười thân của CBNV, Tập đoàn hỗ trợ mua bảo hiểm sức khỏe FPT Care với mức\ngiá ưu đãi.\nFPT còn chú trọng đem tới những chương trình, chính sách hỗ trợ cho con của\nCBNV (FPT Small) như:\n\n• Hỗ trợ học phí khi FPT Small theo học tại các trường thuộc hệ thống giáo dục FPT;\n\n• Tổ chức nhiều chương trình, trại hè quốc tế giúp FPT Small rèn luyện và nâng cao\nkỹ năng.",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 7.592363839860518,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p26_b_2",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 26,
+            "text": "• Khác biệt về văn hóa,\nthông lệ lao động của\nlực lượng lao động đa\nquốc gia và đối tác.\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n25",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 5.272563839228626,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p27_b_0 | data/fpt_esg_report_2025.pdf | page 27]\n• Rủi ro Môi trường – Thiên tai – Dịch bệnh\nNội dung Biện pháp quản trịTên rủi ro\nRủi ro Môi trường – Thiên tai –\nDịch bệnh\n\n• Xác định các rủi ro tiềm ẩn từ môi trường, thiên tai và dịch bệnh, đánh giá mức độ\ntác động đến cơ sở hạ tầng, nguồn nhân lực và chuỗi cung ứng;\n\n• Ứng dụng IoT, AI và Big Data để theo dõi và cảnh báo sớm các hiện tượng thời tiết\nbất thường, thiên tai và dịch bệnh;\n\n• Đầu tư phát triển các giải pháp và công cụ hỗ trợ làm việc từ xa an toàn, đảm bảo\nmọi hoạt động của Tập đoàn được duy trì thông suốt trong mọi tình huống.\n\n• Biến đổi khí hậu dẫn đến điều kiện\nthời tiết bất thường, ảnh hưởng đến\ncơ sở hạ tầng, sức khỏe CBNV…\n\n• Gián đoạn hoạt động kinh doanh do\nthiên tai.\n\n[fpt_esg_report_2025_p34_b_3 | data/fpt_esg_report_2025.pdf | page 34]\n• Chính sách \"An cư lạc nghiệp – Gắn kết lâu dài\" tri ân CBNV có đóng góp lớn cho\nsự thành công của FPT, giúp CBNV an tâm cống hiến khi được hỗ trợ giảm bớt\ngánh nặng mua nhà, mua xe;\n\n• Chế độ bảo hiểm FPT Care cho CBNV bao gồm các quyền lợi về bảo hiểm sức\nkhỏe (thương tật do ốm bệnh, thai sản, điều trị nội trú, ngoại trú, nha khoa) và\nbảo hiểm tai nạn (thương tật vĩnh viễn, thương tật toàn bộ tạm thời, tử vong). Đối với\nngười thân của CBNV, Tập đoàn hỗ trợ mua bảo hiểm sức khỏe FPT Care với mức\ngiá ưu đãi.\nFPT còn chú trọng đem tới những chương trình, chính sách hỗ trợ cho con của\nCBNV (FPT Small) như:\n\n• Hỗ trợ học phí khi FPT Small theo học tại các trường thuộc hệ thống giáo dục FPT;\n\n• Tổ chức nhiều chương trình, trại hè quốc tế giúp FPT Small rèn luyện và nâng cao\nkỹ năng.\n\n[fpt_esg_report_2025_p26_b_2 | data/fpt_esg_report_2025.pdf | page 26]\n• Khác biệt về văn hóa,\nthông lệ lao động của\nlực lượng lao động đa\nquốc gia và đối tác.\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n25",
+        "context_ids": [
+          "fpt_esg_report_2025_p27_b_0",
+          "fpt_esg_report_2025_p34_b_3",
+          "fpt_esg_report_2025_p26_b_2"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "số vụ tai nạn lao động",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p27_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 27,
+            "text": "• Rủi ro Môi trường – Thiên tai – Dịch bệnh\nNội dung Biện pháp quản trịTên rủi ro\nRủi ro Môi trường – Thiên tai –\nDịch bệnh\n\n• Xác định các rủi ro tiềm ẩn từ môi trường, thiên tai và dịch bệnh, đánh giá mức độ\ntác động đến cơ sở hạ tầng, nguồn nhân lực và chuỗi cung ứng;\n\n• Ứng dụng IoT, AI và Big Data để theo dõi và cảnh báo sớm các hiện tượng thời tiết\nbất thường, thiên tai và dịch bệnh;\n\n• Đầu tư phát triển các giải pháp và công cụ hỗ trợ làm việc từ xa an toàn, đảm bảo\nmọi hoạt động của Tập đoàn được duy trì thông suốt trong mọi tình huống.\n\n• Biến đổi khí hậu dẫn đến điều kiện\nthời tiết bất thường, ảnh hưởng đến\ncơ sở hạ tầng, sức khỏe CBNV…\n\n• Gián đoạn hoạt động kinh doanh do\nthiên tai.",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 8.230640082278583,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p34_b_3",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 34,
+            "text": "• Chính sách \"An cư lạc nghiệp – Gắn kết lâu dài\" tri ân CBNV có đóng góp lớn cho\nsự thành công của FPT, giúp CBNV an tâm cống hiến khi được hỗ trợ giảm bớt\ngánh nặng mua nhà, mua xe;\n\n• Chế độ bảo hiểm FPT Care cho CBNV bao gồm các quyền lợi về bảo hiểm sức\nkhỏe (thương tật do ốm bệnh, thai sản, điều trị nội trú, ngoại trú, nha khoa) và\nbảo hiểm tai nạn (thương tật vĩnh viễn, thương tật toàn bộ tạm thời, tử vong). Đối với\nngười thân của CBNV, Tập đoàn hỗ trợ mua bảo hiểm sức khỏe FPT Care với mức\ngiá ưu đãi.\nFPT còn chú trọng đem tới những chương trình, chính sách hỗ trợ cho con của\nCBNV (FPT Small) như:\n\n• Hỗ trợ học phí khi FPT Small theo học tại các trường thuộc hệ thống giáo dục FPT;\n\n• Tổ chức nhiều chương trình, trại hè quốc tế giúp FPT Small rèn luyện và nâng cao\nkỹ năng.",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 7.592363839860518,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p36_b_3",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 36,
+            "text": "àng. Trong lĩnh vực đào tạo – phát\ntriển, AI Mentor giúp tinh gọn lộ trình học tập, tối ưu chi phí và nâng cao chất lượng đào\ntạo. Đồng thời, việc đẩy mạnh tự động hóa quy trình nghiệp vụ đã giúp tăng cường mức\nđộ chính xác và giảm tải các tác vụ nhàm chán lặp lại. Các quy trình được chuẩn hóa\nvà kết nối liền mạch hơn thông qua các nền tảng số tích hợp AI, từ đó tối ưu năng suất\nlao động, nâng cao hiệu quả vận hành và cải thiện trải nghiệm cho CBNV.\nViệc kết hợp AI và tự động hóa góp phần hình thành cách thức làm việc mới, lấy dữ liệu\nvà công nghệ làm trung tâm. Những kết quả đạt được cho thấy AI đang từng bước đi\nvào chiều sâu vận hành, không chỉ dừng lại ở nâng cao năng suất mà còn thúc đẩy văn\nhóa đổi mới sáng tạo trong toàn Tập đoàn, tạo nền tảng vững chắc cho mục tiêu tăng\ntrưởng tron",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 6.203922380165167,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p27_b_0 | data/fpt_esg_report_2025.pdf | page 27]\n• Rủi ro Môi trường – Thiên tai – Dịch bệnh\nNội dung Biện pháp quản trịTên rủi ro\nRủi ro Môi trường – Thiên tai –\nDịch bệnh\n\n• Xác định các rủi ro tiềm ẩn từ môi trường, thiên tai và dịch bệnh, đánh giá mức độ\ntác động đến cơ sở hạ tầng, nguồn nhân lực và chuỗi cung ứng;\n\n• Ứng dụng IoT, AI và Big Data để theo dõi và cảnh báo sớm các hiện tượng thời tiết\nbất thường, thiên tai và dịch bệnh;\n\n• Đầu tư phát triển các giải pháp và công cụ hỗ trợ làm việc từ xa an toàn, đảm bảo\nmọi hoạt động của Tập đoàn được duy trì thông suốt trong mọi tình huống.\n\n• Biến đổi khí hậu dẫn đến điều kiện\nthời tiết bất thường, ảnh hưởng đến\ncơ sở hạ tầng, sức khỏe CBNV…\n\n• Gián đoạn hoạt động kinh doanh do\nthiên tai.\n\n[fpt_esg_report_2025_p34_b_3 | data/fpt_esg_report_2025.pdf | page 34]\n• Chính sách \"An cư lạc nghiệp – Gắn kết lâu dài\" tri ân CBNV có đóng góp lớn cho\nsự thành công của FPT, giúp CBNV an tâm cống hiến khi được hỗ trợ giảm bớt\ngánh nặng mua nhà, mua xe;\n\n• Chế độ bảo hiểm FPT Care cho CBNV bao gồm các quyền lợi về bảo hiểm sức\nkhỏe (thương tật do ốm bệnh, thai sản, điều trị nội trú, ngoại trú, nha khoa) và\nbảo hiểm tai nạn (thương tật vĩnh viễn, thương tật toàn bộ tạm thời, tử vong). Đối với\nngười thân của CBNV, Tập đoàn hỗ trợ mua bảo hiểm sức khỏe FPT Care với mức\ngiá ưu đãi.\nFPT còn chú trọng đem tới những chương trình, chính sách hỗ trợ cho con của\nCBNV (FPT Small) như:\n\n• Hỗ trợ học phí khi FPT Small theo học tại các trường thuộc hệ thống giáo dục FPT;\n\n• Tổ chức nhiều chương trình, trại hè quốc tế giúp FPT Small rèn luyện và nâng cao\nkỹ năng.\n\n[fpt_esg_report_2025_p26_b_2 | data/fpt_esg_report_2025.pdf | page 26]\n• Khác biệt về văn hóa,\nthông lệ lao động của\nlực lượng lao động đa\nquốc gia và đối tác.\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n25\n\n[fpt_esg_report_2025_p36_b_3 | data/fpt_esg_report_2025.pdf | page 36]\nàng. Trong lĩnh vực đào tạo – phát\ntriển, AI Mentor giúp tinh gọn lộ trình học tập, tối ưu chi phí và nâng cao chất lượng đào\ntạo. Đồng thời, việc đẩy mạnh tự động hóa quy trình nghiệp vụ đã giúp tăng cường mức\nđộ chính xác và giảm tải các tác vụ nhàm chán lặp lại. Các quy trình được chuẩn hóa\nvà kết nối liền mạch hơn thông qua các nền tảng số tích hợp AI, từ đó tối ưu năng suất\nlao động, nâng cao hiệu quả vận hành và cải thiện trải nghiệm cho CBNV.\nViệc kết hợp AI và tự động hóa góp phần hình thành cách thức làm việc mới, lấy dữ liệu\nvà công nghệ làm trung tâm. Những kết quả đạt được cho thấy AI đang từng bước đi\nvào chiều sâu vận hành, không chỉ dừng lại ở nâng cao năng suất mà còn thúc đẩy văn\nhóa đổi mới sáng tạo trong toàn Tập đoàn, tạo nền tảng vững chắc cho mục tiêu tăng\ntrưởng tron",
+        "context_ids": [
+          "fpt_esg_report_2025_p27_b_0",
+          "fpt_esg_report_2025_p34_b_3",
+          "fpt_esg_report_2025_p26_b_2",
+          "fpt_esg_report_2025_p36_b_3"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "an toàn lao động số vụ tai nạn thương tích",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p34_b_3",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 34,
+            "text": "• Chính sách \"An cư lạc nghiệp – Gắn kết lâu dài\" tri ân CBNV có đóng góp lớn cho\nsự thành công của FPT, giúp CBNV an tâm cống hiến khi được hỗ trợ giảm bớt\ngánh nặng mua nhà, mua xe;\n\n• Chế độ bảo hiểm FPT Care cho CBNV bao gồm các quyền lợi về bảo hiểm sức\nkhỏe (thương tật do ốm bệnh, thai sản, điều trị nội trú, ngoại trú, nha khoa) và\nbảo hiểm tai nạn (thương tật vĩnh viễn, thương tật toàn bộ tạm thời, tử vong). Đối với\nngười thân của CBNV, Tập đoàn hỗ trợ mua bảo hiểm sức khỏe FPT Care với mức\ngiá ưu đãi.\nFPT còn chú trọng đem tới những chương trình, chính sách hỗ trợ cho con của\nCBNV (FPT Small) như:\n\n• Hỗ trợ học phí khi FPT Small theo học tại các trường thuộc hệ thống giáo dục FPT;\n\n• Tổ chức nhiều chương trình, trại hè quốc tế giúp FPT Small rèn luyện và nâng cao\nkỹ năng.",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 13.648306205455768,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p27_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 27,
+            "text": "• Rủi ro Môi trường – Thiên tai – Dịch bệnh\nNội dung Biện pháp quản trịTên rủi ro\nRủi ro Môi trường – Thiên tai –\nDịch bệnh\n\n• Xác định các rủi ro tiềm ẩn từ môi trường, thiên tai và dịch bệnh, đánh giá mức độ\ntác động đến cơ sở hạ tầng, nguồn nhân lực và chuỗi cung ứng;\n\n• Ứng dụng IoT, AI và Big Data để theo dõi và cảnh báo sớm các hiện tượng thời tiết\nbất thường, thiên tai và dịch bệnh;\n\n• Đầu tư phát triển các giải pháp và công cụ hỗ trợ làm việc từ xa an toàn, đảm bảo\nmọi hoạt động của Tập đoàn được duy trì thông suốt trong mọi tình huống.\n\n• Biến đổi khí hậu dẫn đến điều kiện\nthời tiết bất thường, ảnh hưởng đến\ncơ sở hạ tầng, sức khỏe CBNV…\n\n• Gián đoạn hoạt động kinh doanh do\nthiên tai.",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 9.96165733641395,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p23_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 23,
+            "text": "à an toàn.\nNăm 2025, Tập đoàn tiếp tục tăng cường năng lực quản trị an toàn, an ninh bảo mật trên\ntoàn hệ thống, với mục tiêu chủ động phòng ngừa, phát hiện sớm và xử lý kịp thời các\nrủi ro có thể ảnh hưởng đến hoạt động và uy tín của Tập đoàn. Một số kết quả nổi bật:\n\n• 100% lỗ hổng an toàn thông tin được phát hiện, đánh giá mức độ rủi ro và triển khai\nbiện pháp khắc phục kịp thời, bảo đảm không phát sinh sự cố nghiêm trọng ảnh hưởng\nđến hệ thống và thương hiệu của Tập đoàn;\n\n• Hoàn thiện khung chính sách, tiêu chuẩn an ninh bảo mật thông qua việc ban hành\nđầy đủ bộ tài liệu tiêu chuẩn và quy định về an toàn, an ninh thông tin, làm cơ sở\nthống nhất cho công tác triển khai, giám sát và tuân thủ tại công ty thành viên;",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 7.9912850072729205,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p27_b_0 | data/fpt_esg_report_2025.pdf | page 27]\n• Rủi ro Môi trường – Thiên tai – Dịch bệnh\nNội dung Biện pháp quản trịTên rủi ro\nRủi ro Môi trường – Thiên tai –\nDịch bệnh\n\n• Xác định các rủi ro tiềm ẩn từ môi trường, thiên tai và dịch bệnh, đánh giá mức độ\ntác động đến cơ sở hạ tầng, nguồn nhân lực và chuỗi cung ứng;\n\n• Ứng dụng IoT, AI và Big Data để theo dõi và cảnh báo sớm các hiện tượng thời tiết\nbất thường, thiên tai và dịch bệnh;\n\n• Đầu tư phát triển các giải pháp và công cụ hỗ trợ làm việc từ xa an toàn, đảm bảo\nmọi hoạt động của Tập đoàn được duy trì thông suốt trong mọi tình huống.\n\n• Biến đổi khí hậu dẫn đến điều kiện\nthời tiết bất thường, ảnh hưởng đến\ncơ sở hạ tầng, sức khỏe CBNV…\n\n• Gián đoạn hoạt động kinh doanh do\nthiên tai.\n\n[fpt_esg_report_2025_p34_b_3 | data/fpt_esg_report_2025.pdf | page 34]\n• Chính sách \"An cư lạc nghiệp – Gắn kết lâu dài\" tri ân CBNV có đóng góp lớn cho\nsự thành công của FPT, giúp CBNV an tâm cống hiến khi được hỗ trợ giảm bớt\ngánh nặng mua nhà, mua xe;\n\n• Chế độ bảo hiểm FPT Care cho CBNV bao gồm các quyền lợi về bảo hiểm sức\nkhỏe (thương tật do ốm bệnh, thai sản, điều trị nội trú, ngoại trú, nha khoa) và\nbảo hiểm tai nạn (thương tật vĩnh viễn, thương tật toàn bộ tạm thời, tử vong). Đối với\nngười thân của CBNV, Tập đoàn hỗ trợ mua bảo hiểm sức khỏe FPT Care với mức\ngiá ưu đãi.\nFPT còn chú trọng đem tới những chương trình, chính sách hỗ trợ cho con của\nCBNV (FPT Small) như:\n\n• Hỗ trợ học phí khi FPT Small theo học tại các trường thuộc hệ thống giáo dục FPT;\n\n• Tổ chức nhiều chương trình, trại hè quốc tế giúp FPT Small rèn luyện và nâng cao\nkỹ năng.\n\n[fpt_esg_report_2025_p26_b_2 | data/fpt_esg_report_2025.pdf | page 26]\n• Khác biệt về văn hóa,\nthông lệ lao động của\nlực lượng lao động đa\nquốc gia và đối tác.\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n25\n\n[fpt_esg_report_2025_p36_b_3 | data/fpt_esg_report_2025.pdf | page 36]\nàng. Trong lĩnh vực đào tạo – phát\ntriển, AI Mentor giúp tinh gọn lộ trình học tập, tối ưu chi phí và nâng cao chất lượng đào\ntạo. Đồng thời, việc đẩy mạnh tự động hóa quy trình nghiệp vụ đã giúp tăng cường mức\nđộ chính xác và giảm tải các tác vụ nhàm chán lặp lại. Các quy trình được chuẩn hóa\nvà kết nối liền mạch hơn thông qua các nền tảng số tích hợp AI, từ đó tối ưu năng suất\nlao động, nâng cao hiệu quả vận hành và cải thiện trải nghiệm cho CBNV.\nViệc kết hợp AI và tự động hóa góp phần hình thành cách thức làm việc mới, lấy dữ liệu\nvà công nghệ làm trung tâm. Những kết quả đạt được cho thấy AI đang từng bước đi\nvào chiều sâu vận hành, không chỉ dừng lại ở nâng cao năng suất mà còn thúc đẩy văn\nhóa đổi mới sáng tạo trong toàn Tập đoàn, tạo nền tảng vững chắc cho mục tiêu tăng\ntrưởng tron",
+        "context_ids": [
+          "fpt_esg_report_2025_p27_b_0",
+          "fpt_esg_report_2025_p34_b_3",
+          "fpt_esg_report_2025_p26_b_2",
+          "fpt_esg_report_2025_p36_b_3"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_I2GUQCPaLpUyHAtMzEE90196",
+            "name": "search",
+            "arguments": {
+              "query": "tai nạn lao động 2025"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 822,
+          "completion_tokens": 45
+        },
+        "latency_ms": 571.9770419818815,
+        "cost_usd": 2.9466000000000002e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_aTw8eyctThcQ05Y9KEXE3886",
+            "name": "search",
+            "arguments": {
+              "query": "số vụ tai nạn lao động"
+            }
+          },
+          {
+            "id": "call_01_yoM4sPsAJAxSG45QM4SQ3848",
+            "name": "search",
+            "arguments": {
+              "query": "an toàn lao động thương tật"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 1836,
+          "completion_tokens": 81
+        },
+        "latency_ms": 1486.9528750132304,
+        "cost_usd": 5.4108000000000004e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_acOI91ehxi0MkXiuHhiI9079",
+            "name": "search",
+            "arguments": {
+              "query": "an toàn lao động số vụ tai nạn thương tích"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 2223,
+          "completion_tokens": 50
+        },
+        "latency_ms": 1061.0207910067402,
+        "cost_usd": 3.6669e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_dDOCbzVZhgpfgPw8l8tf0595",
+            "name": "answer",
+            "arguments": {
+              "answer": "Không đủ bằng chứng để trả lời.",
+              "citations": []
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 2218,
+          "completion_tokens": 64
+        },
+        "latency_ms": 1064.5362919894978,
+        "cost_usd": 4.5054e-05,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 3,
+    "n_llm_calls": 4,
+    "tokens": {
+      "prompt_tokens": 7099,
+      "completion_tokens": 240
+    },
+    "cost_usd": 0.000165297,
+    "latency_s": 4.204051709006308,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p27_b_0",
+      "fpt_esg_report_2025_p34_b_3",
+      "fpt_esg_report_2025_p26_b_2",
+      "fpt_esg_report_2025_p36_b_3"
+    ]
+  },
+  {
+    "query_id": "u04",
+    "split": "test",
+    "answerable": false,
+    "question": "Năm 2025 FPT tái chế hoặc tái sử dụng bao nhiêu phần trăm tổng lượng nước tiêu thụ?",
+    "filter": null,
+    "config": {
+      "split": "test",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "tái chế tái sử dụng nước tỷ lệ phần trăm tổng lượng nước tiêu thụ",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p42_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 42,
+            "text": "Bảng tổng hợp so sánh kết quả tiêu thụ nước\nNăm 2025, chỉ số tiêu thụ nước của FPT chỉ tăng 0,48% so với năm 2024. Mức tăng\nnày được đánh giá là tích cực trong bối cảnh Tập đoàn tiếp tục mở rộng quy mô\nhoạt động và tăng trưởng kinh doanh, đồng thời phản ánh tính hiệu quả của các\nbiện pháp quản lý và sử dụng nước được triển khai đồng bộ như sau:\n• Tuân thủ các quy định của cơ quan quản lý về xử lý và tái chế nước thải;\n• Thực hiện quan trắc chất lượng nước sinh hoạt 1 tháng/lần, nước thải 3 tháng/lần\nvà lập báo cáo gửi cơ quan quản lý theo đúng quy định;\n• Bổ sung chế phẩm vi sinh nhằm nâng cao hiệu quả xử lý nước tại bể tự hoại;",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 22.09454104552818,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p46_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 46,
+            "text": "inh\nvà Cần Thơ được phát triển theo mô hình campus xanh,\ntích hợp không gian làm việc, đào tạo, vui chơi giải trí\nvà cảnh quan sinh thái. Nhiều công trình đã được các\ntổ chức trong và ngoài nước ghi nhận về kiến trúc xanh\nvà hiệu quả sử dụng tài nguyên.\nSong song, FPT ưu tiên sử dụng năng lượng mặt trời\nđể cung cấp nước nóng cho các tòa nhà, đặc biệt tại\nkhu vực miền Bắc, qua đó giảm tiêu thụ điện năng và\ngóp phần thực hiện các cam kết bảo vệ môi trường.\nTrong vận hành hằng ngày, Tập đoàn đẩy mạnh sử\ndụng các vật dụng thân thiện với môi trường tại văn\nphòng và cơ sở đào tạo như cốc, ống hút từ bã mía;\nbao bì và túi từ vật liệu có khả năng tái chế, từng\nbước hình thành thói quen tiêu dùng bền vững trong\ntoàn hệ thống.\nTòa nhà Hiệu bộ FPT tại Hòa Lạc được vinh\ndanh tại World Architecture Fes",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 17.883983147185564,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p42_b_3",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 42,
+            "text": "máy phun xoay chiều tự động được áp dụng trên tất cả khu vực cây\nxanh trong các tòa nhà để giảm thiểu việc sử dụng nước và đảm bảo sự phát triển\ncủa hệ thống cây xanh mang lại môi trường làm việc thân thiện với thiên nhiên.\nĐối với nguồn nước sử dụng từ hệ thống nước sạch của thành phố, FPT luôn đảm bảo\nthực hiện các quy định thống nhất trong các tòa nhà, campus về tiết kiệm và\nsử dụng nước. Các khu vực chung sử dụng vòi nước cảm ứng tự động tắt khi không\nsử dụng và phát động phong trào sử dụng nước tiết kiệm tại các văn phòng trên\ntoàn hệ thống.\nQuản lý nước thải và các nguồn phát thải khác\n• Quản lý nước, nước thải\nChênh lệch\nNăm 2024\n827.940\nNăm 2025\n831.885\nMức tiêu thụ\n3.945\nTỷ lệ\n0,48%\nNăm 2023\n774.152\nDanh mục\nTiêu thụ nước\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 17.622205202867313,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p42_b_0 | data/fpt_esg_report_2025.pdf | page 42]\nBảng tổng hợp so sánh kết quả tiêu thụ nước\nNăm 2025, chỉ số tiêu thụ nước của FPT chỉ tăng 0,48% so với năm 2024. Mức tăng\nnày được đánh giá là tích cực trong bối cảnh Tập đoàn tiếp tục mở rộng quy mô\nhoạt động và tăng trưởng kinh doanh, đồng thời phản ánh tính hiệu quả của các\nbiện pháp quản lý và sử dụng nước được triển khai đồng bộ như sau:\n• Tuân thủ các quy định của cơ quan quản lý về xử lý và tái chế nước thải;\n• Thực hiện quan trắc chất lượng nước sinh hoạt 1 tháng/lần, nước thải 3 tháng/lần\nvà lập báo cáo gửi cơ quan quản lý theo đúng quy định;\n• Bổ sung chế phẩm vi sinh nhằm nâng cao hiệu quả xử lý nước tại bể tự hoại;\n\n[fpt_esg_report_2025_p46_b_1 | data/fpt_esg_report_2025.pdf | page 46]\ninh\nvà Cần Thơ được phát triển theo mô hình campus xanh,\ntích hợp không gian làm việc, đào tạo, vui chơi giải trí\nvà cảnh quan sinh thái. Nhiều công trình đã được các\ntổ chức trong và ngoài nước ghi nhận về kiến trúc xanh\nvà hiệu quả sử dụng tài nguyên.\nSong song, FPT ưu tiên sử dụng năng lượng mặt trời\nđể cung cấp nước nóng cho các tòa nhà, đặc biệt tại\nkhu vực miền Bắc, qua đó giảm tiêu thụ điện năng và\ngóp phần thực hiện các cam kết bảo vệ môi trường.\nTrong vận hành hằng ngày, Tập đoàn đẩy mạnh sử\ndụng các vật dụng thân thiện với môi trường tại văn\nphòng và cơ sở đào tạo như cốc, ống hút từ bã mía;\nbao bì và túi từ vật liệu có khả năng tái chế, từng\nbước hình thành thói quen tiêu dùng bền vững trong\ntoàn hệ thống.\nTòa nhà Hiệu bộ FPT tại Hòa Lạc được vinh\ndanh tại World Architecture Fes\n\n[fpt_esg_report_2025_p42_b_3 | data/fpt_esg_report_2025.pdf | page 42]\nmáy phun xoay chiều tự động được áp dụng trên tất cả khu vực cây\nxanh trong các tòa nhà để giảm thiểu việc sử dụng nước và đảm bảo sự phát triển\ncủa hệ thống cây xanh mang lại môi trường làm việc thân thiện với thiên nhiên.\nĐối với nguồn nước sử dụng từ hệ thống nước sạch của thành phố, FPT luôn đảm bảo\nthực hiện các quy định thống nhất trong các tòa nhà, campus về tiết kiệm và\nsử dụng nước. Các khu vực chung sử dụng vòi nước cảm ứng tự động tắt khi không\nsử dụng và phát động phong trào sử dụng nước tiết kiệm tại các văn phòng trên\ntoàn hệ thống.\nQuản lý nước thải và các nguồn phát thải khác\n• Quản lý nước, nước thải\nChênh lệch\nNăm 2024\n827.940\nNăm 2025\n831.885\nMức tiêu thụ\n3.945\nTỷ lệ\n0,48%\nNăm 2023\n774.152\nDanh mục\nTiêu thụ nước\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng",
+        "context_ids": [
+          "fpt_esg_report_2025_p42_b_0",
+          "fpt_esg_report_2025_p46_b_1",
+          "fpt_esg_report_2025_p42_b_3"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "tỷ lệ nước tái chế tái sử dụng",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p8_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 8,
+            "text": "Tỷ lệ nhân viên được đào tạo nâng cao ý thức về môi trường.\nTỷ lệ túi rác trong văn phòng sử dụng vật liệu tái chế.\nTỷ lệ năng lượng sử dụng được giám sát.\nTỷ lệ sử dụng bóng đèn LED.\n100%\n100% 100% 100%\n100% 100% 100%\n100% đến 2026 88% 100%\n95%\nCán bộ chuyên trách\n100%\nNhân viên mới\nKết quả\n2025\nCam kết\n2026\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n07\nQuản trị an toàn thông tin\nQuản trị mua sắm bền vững\nNơi làm việc hạnh phúc\nTổ chức học tập suốt đời\nBình đẳng và đa dạng\nChính sách môi trường\nTiết kiệm điện\nGiám sát số liệu sử dụng\nnăng lượng\n1\n2\n3\n4\n5\n6\n7\n8\nDưới 14%\n5.000\n150\nTrên 1/3\n1/3\n15,4%\n3",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 15.771568039913307,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p42_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 42,
+            "text": "Bảng tổng hợp so sánh kết quả tiêu thụ nước\nNăm 2025, chỉ số tiêu thụ nước của FPT chỉ tăng 0,48% so với năm 2024. Mức tăng\nnày được đánh giá là tích cực trong bối cảnh Tập đoàn tiếp tục mở rộng quy mô\nhoạt động và tăng trưởng kinh doanh, đồng thời phản ánh tính hiệu quả của các\nbiện pháp quản lý và sử dụng nước được triển khai đồng bộ như sau:\n• Tuân thủ các quy định của cơ quan quản lý về xử lý và tái chế nước thải;\n• Thực hiện quan trắc chất lượng nước sinh hoạt 1 tháng/lần, nước thải 3 tháng/lần\nvà lập báo cáo gửi cơ quan quản lý theo đúng quy định;\n• Bổ sung chế phẩm vi sinh nhằm nâng cao hiệu quả xử lý nước tại bể tự hoại;",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 12.419769774836443,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p38_b_3",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 38,
+            "text": "• Cải tiến quy trình và tối ưu hóa vận hành nhằm nâng cao hiệu quả sử dụng vật liệu, hạn chế phát sinh chất thải và thúc đẩy\nviệc sử dụng bền vững các tài sản, góp phần kéo dài vòng đời sử dụng;\n\n• Triển khai các chương trình thu hồi, tái sử dụng và luân chuyển trang thiết bị văn phòng giữa các đơn vị theo quy trình quản lý\ntài sản nhằm hạn chế phát sinh chất thải. Các tài sản được thu hồi và tái phân bổ bao gồm bàn ghế, trang thiết bị văn phòng\nvà các vật dụng liên quan.\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n37",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 12.351627808439108,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p42_b_0 | data/fpt_esg_report_2025.pdf | page 42]\nBảng tổng hợp so sánh kết quả tiêu thụ nước\nNăm 2025, chỉ số tiêu thụ nước của FPT chỉ tăng 0,48% so với năm 2024. Mức tăng\nnày được đánh giá là tích cực trong bối cảnh Tập đoàn tiếp tục mở rộng quy mô\nhoạt động và tăng trưởng kinh doanh, đồng thời phản ánh tính hiệu quả của các\nbiện pháp quản lý và sử dụng nước được triển khai đồng bộ như sau:\n• Tuân thủ các quy định của cơ quan quản lý về xử lý và tái chế nước thải;\n• Thực hiện quan trắc chất lượng nước sinh hoạt 1 tháng/lần, nước thải 3 tháng/lần\nvà lập báo cáo gửi cơ quan quản lý theo đúng quy định;\n• Bổ sung chế phẩm vi sinh nhằm nâng cao hiệu quả xử lý nước tại bể tự hoại;\n\n[fpt_esg_report_2025_p46_b_1 | data/fpt_esg_report_2025.pdf | page 46]\ninh\nvà Cần Thơ được phát triển theo mô hình campus xanh,\ntích hợp không gian làm việc, đào tạo, vui chơi giải trí\nvà cảnh quan sinh thái. Nhiều công trình đã được các\ntổ chức trong và ngoài nước ghi nhận về kiến trúc xanh\nvà hiệu quả sử dụng tài nguyên.\nSong song, FPT ưu tiên sử dụng năng lượng mặt trời\nđể cung cấp nước nóng cho các tòa nhà, đặc biệt tại\nkhu vực miền Bắc, qua đó giảm tiêu thụ điện năng và\ngóp phần thực hiện các cam kết bảo vệ môi trường.\nTrong vận hành hằng ngày, Tập đoàn đẩy mạnh sử\ndụng các vật dụng thân thiện với môi trường tại văn\nphòng và cơ sở đào tạo như cốc, ống hút từ bã mía;\nbao bì và túi từ vật liệu có khả năng tái chế, từng\nbước hình thành thói quen tiêu dùng bền vững trong\ntoàn hệ thống.\nTòa nhà Hiệu bộ FPT tại Hòa Lạc được vinh\ndanh tại World Architecture Fes\n\n[fpt_esg_report_2025_p42_b_3 | data/fpt_esg_report_2025.pdf | page 42]\nmáy phun xoay chiều tự động được áp dụng trên tất cả khu vực cây\nxanh trong các tòa nhà để giảm thiểu việc sử dụng nước và đảm bảo sự phát triển\ncủa hệ thống cây xanh mang lại môi trường làm việc thân thiện với thiên nhiên.\nĐối với nguồn nước sử dụng từ hệ thống nước sạch của thành phố, FPT luôn đảm bảo\nthực hiện các quy định thống nhất trong các tòa nhà, campus về tiết kiệm và\nsử dụng nước. Các khu vực chung sử dụng vòi nước cảm ứng tự động tắt khi không\nsử dụng và phát động phong trào sử dụng nước tiết kiệm tại các văn phòng trên\ntoàn hệ thống.\nQuản lý nước thải và các nguồn phát thải khác\n• Quản lý nước, nước thải\nChênh lệch\nNăm 2024\n827.940\nNăm 2025\n831.885\nMức tiêu thụ\n3.945\nTỷ lệ\n0,48%\nNăm 2023\n774.152\nDanh mục\nTiêu thụ nước\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng",
+        "context_ids": [
+          "fpt_esg_report_2025_p42_b_0",
+          "fpt_esg_report_2025_p46_b_1",
+          "fpt_esg_report_2025_p42_b_3"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_RTNUIhDRMNf2vPuQ7sga2287",
+            "name": "search",
+            "arguments": {
+              "query": "tái chế tái sử dụng nước tỷ lệ phần trăm tổng lượng nước tiêu thụ"
+            }
+          },
+          {
+            "id": "call_01_3YYltTEDNM4nZyDgDfBo5050",
+            "name": "search",
+            "arguments": {
+              "query": "lượng nước tiêu thụ 2025 nước tái sử dụng"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 833,
+          "completion_tokens": 107
+        },
+        "latency_ms": 1215.2762080077082,
+        "cost_usd": 6.669899999999999e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_Ibdy4aDGsFVdosORApBm0525",
+            "name": "search",
+            "arguments": {
+              "query": "tỷ lệ nước tái chế tái sử dụng"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 1980,
+          "completion_tokens": 51
+        },
+        "latency_ms": 974.2212920100428,
+        "cost_usd": 3.654e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_x9uZc0kt9j3GfP2BI0OW3756",
+            "name": "answer",
+            "arguments": {
+              "answer": "Không đủ bằng chứng để trả lời.",
+              "citations": []
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 1998,
+          "completion_tokens": 64
+        },
+        "latency_ms": 1134.4981250003912,
+        "cost_usd": 4.4393999999999995e-05,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 2,
+    "n_llm_calls": 3,
+    "tokens": {
+      "prompt_tokens": 4811,
+      "completion_tokens": 222
+    },
+    "cost_usd": 0.000147633,
+    "latency_s": 3.3312029170047026,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p42_b_0",
+      "fpt_esg_report_2025_p46_b_1",
+      "fpt_esg_report_2025_p42_b_3"
+    ]
+  }
+]

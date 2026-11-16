@@ -1,0 +1,8249 @@
+[
+ {
+  "query_id": "d01",
+  "split": "dev",
+  "group": "table",
+  "answerable": true,
+  "question": "Theo bảng tình hình tài chính giai đoạn 2021-2025, tổng tài sản của FPT năm 2022 là bao nhiêu và thay đổi thế nào so với năm 2021?",
+  "config": {
+   "name": "full-hybrid-view",
+   "kinds": [
+    "table",
+    "text",
+    "visual"
+   ],
+   "retriever": "hybrid",
+   "view_page": true,
+   "top_k": 5,
+   "max_steps": 8,
+   "max_views": 3,
+   "model": "deepseek-chat",
+   "vision_model": "deepseek-flash",
+   "index_chunks": 965
+  },
+  "status": "answered",
+  "answer": "Theo bảng \"Tình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025\" (đơn vị: Tỷ VNĐ), tổng tài sản của FPT năm 2022 là 51.650 tỷ VNĐ, giảm 3,8% so với năm 2021 (53.698 tỷ VNĐ), tức giảm khoảng 2.048 tỷ VNĐ.",
+  "citations": [
+   "ar_p12_v0",
+   "ar_p12_t0"
+  ],
+  "cited_pages": [
+   12
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "tình hình tài chính 2021-2025 tổng tài sản",
+    "latency_ms": 2930.651583010331,
+    "results": [
+     {
+      "id": "ar_p12_t0",
+      "page": 12,
+      "kind": "text",
+      "score": 0.03252247488101534,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6423519199445114
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 12.645649453571501
+       }
+      }
+     },
+     {
+      "id": "ar_p12_v0",
+      "page": 12,
+      "kind": "visual",
+      "score": 0.03131881575727918,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6750722797981927
+       },
+       "bm25": {
+        "rank": 7,
+        "score": 10.385722437544356
+       }
+      }
+     },
+     {
+      "id": "ar_p207_t0",
+      "page": 207,
+      "kind": "text",
+      "score": 0.02819138376017471,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 9,
+        "score": 0.6133324100539401
+       },
+       "bm25": {
+        "rank": 13,
+        "score": 7.526014237110012
+       }
+      }
+     },
+     {
+      "id": "ar_p166_t0",
+      "page": 166,
+      "kind": "text",
+      "score": 0.02817460317460317,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 12,
+        "score": 0.6044421208019233
+       },
+       "bm25": {
+        "rank": 10,
+        "score": 7.955631743778643
+       }
+      }
+     },
+     {
+      "id": "ar_p166_v0",
+      "page": 166,
+      "kind": "visual",
+      "score": 0.02690501986276634,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 11,
+        "score": 0.607361600471199
+       },
+       "bm25": {
+        "rank": 18,
+        "score": 7.200414176391407
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "tổng tài sản năm 2022 2021 tỷ đồng",
+    "latency_ms": 240.26850002701394,
+    "results": [
+     {
+      "id": "ar_p10_v0",
+      "page": 10,
+      "kind": "visual",
+      "score": 0.0315136476426799,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.5719815967354795
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 16.62405976206067
+       }
+      }
+     },
+     {
+      "id": "ar_p12_v0",
+      "page": 12,
+      "kind": "visual",
+      "score": 0.029906956136464335,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6273495639181202
+       },
+       "bm25": {
+        "rank": 14,
+        "score": 10.754834123775812
+       }
+      }
+     },
+     {
+      "id": "ar_p12_t0",
+      "page": 12,
+      "kind": "text",
+      "score": 0.02946236559139785,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.600613702436648
+       },
+       "bm25": {
+        "rank": 15,
+        "score": 10.496935220255105
+       }
+      }
+     },
+     {
+      "id": "ar_p11_v2",
+      "page": 11,
+      "kind": "visual",
+      "score": 0.01639344262295082,
+      "rank": 4,
+      "components": {
+       "bm25": {
+        "rank": 1,
+        "score": 19.49241400045985
+       }
+      }
+     },
+     {
+      "id": "ar_p11_v0",
+      "page": 11,
+      "kind": "visual",
+      "score": 0.015873015873015872,
+      "rank": 5,
+      "components": {
+       "bm25": {
+        "rank": 3,
+        "score": 15.135399561818069
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "answer",
+    "answer": "Theo bảng \"Tình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025\" (đơn vị: Tỷ VNĐ), tổng tài sản của FPT năm 2022 là 51.650 tỷ VNĐ, giảm 3,8% so với năm 2021 (53.698 tỷ VNĐ), tức giảm khoảng 2.048 tỷ VNĐ.",
+    "citations": [
+     "ar_p12_v0",
+     "ar_p12_t0"
+    ],
+    "invalid_citations": []
+   }
+  ],
+  "llm_calls": [
+   {
+    "step": 0,
+    "usage": {
+     "prompt_tokens": 1120,
+     "completion_tokens": 94
+    },
+    "cost_usd": 5.976e-05,
+    "latency_ms": 1470.4869999841321,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_Sc16FQHNGA4tmZlMRwkk7644",
+      "name": "search",
+      "arguments": {
+       "query": "tình hình tài chính 2021-2025 tổng tài sản"
+      }
+     },
+     {
+      "id": "call_01_hr5NeoaFdg7y0TyOeCzK5980",
+      "name": "search",
+      "arguments": {
+       "query": "tổng tài sản năm 2022 2021 tỷ đồng"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 1,
+    "usage": {
+     "prompt_tokens": 7054,
+     "completion_tokens": 174
+    },
+    "cost_usd": 0.000125562,
+    "latency_ms": 2073.6037500028033,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_7UwVeBqqjxb5vlnWN0614277",
+      "name": "answer",
+      "arguments": {
+       "answer": "Theo bảng \"Tình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025\" (đơn vị: Tỷ VNĐ), tổng tài sản của FPT năm 2022 là 51.650 tỷ VNĐ, giảm 3,8% so với năm 2021 (53.698 tỷ VNĐ), tức giảm khoảng 2.048 tỷ VNĐ.",
+       "citations": [
+        "ar_p12_v0",
+        "ar_p12_t0"
+       ]
+      }
+     }
+    ],
+    "content": ""
+   }
+  ],
+  "context_ids": [
+   "ar_p12_t0",
+   "ar_p12_v0",
+   "ar_p207_t0",
+   "ar_p166_t0",
+   "ar_p166_v0",
+   "ar_p10_v0",
+   "ar_p11_v2",
+   "ar_p11_v0"
+  ],
+  "latency_s": 6.715347624995047,
+  "tokens": {
+   "prompt_tokens": 8174,
+   "completion_tokens": 268
+  },
+  "cost_usd": 0.00018532199999999997,
+  "tool_counts": {
+   "search": 2,
+   "view_page": 0
+  },
+  "auto_hint": {
+   "gold_pages": [
+    12
+   ],
+   "cited_gold_pages": [
+    12
+   ],
+   "abstained": false
+  }
+ },
+ {
+  "query_id": "d02",
+  "split": "dev",
+  "group": "table",
+  "answerable": true,
+  "question": "Cổ đông lớn thứ ba trong danh sách Top 10 cổ đông lớn của FPT là ai, nắm bao nhiêu cổ phần và tỷ lệ bao nhiêu?",
+  "config": {
+   "name": "full-hybrid-view",
+   "kinds": [
+    "table",
+    "text",
+    "visual"
+   ],
+   "retriever": "hybrid",
+   "view_page": true,
+   "top_k": 5,
+   "max_steps": 8,
+   "max_views": 3,
+   "model": "deepseek-chat",
+   "vision_model": "deepseek-flash",
+   "index_chunks": 965
+  },
+  "status": "answered",
+  "answer": "Cổ đông lớn thứ ba trong Top 10 cổ đông lớn của FPT là **Công ty TNHH QT**, nắm **62.449.511 cổ phần**, tương đương **3,67%** tỷ lệ sở hữu.",
+  "citations": [
+   "ar_p33_img",
+   "ar_p33_v1"
+  ],
+  "cited_pages": [
+   33
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "Top 10 cổ đông lớn FPT",
+    "latency_ms": 1486.301833007019,
+    "results": [
+     {
+      "id": "ar_p33_v1",
+      "page": 33,
+      "kind": "visual",
+      "score": 0.032018442622950824,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.6454299604429021
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 11.554965896752343
+       }
+      }
+     },
+     {
+      "id": "ar_p91_t1",
+      "page": 91,
+      "kind": "text",
+      "score": 0.030017921146953404,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 12,
+        "score": 0.6181478941213121
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 10.503415228962462
+       }
+      }
+     },
+     {
+      "id": "ar_p32_t0",
+      "page": 32,
+      "kind": "text",
+      "score": 0.029236022193768675,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 6,
+        "score": 0.6283214302053177
+       },
+       "bm25": {
+        "rank": 11,
+        "score": 8.562446385459726
+       }
+      }
+     },
+     {
+      "id": "ar_p91_t3",
+      "page": 91,
+      "kind": "text",
+      "score": 0.028531243721117136,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.6473836828640862
+       },
+       "bm25": {
+        "rank": 19,
+        "score": 7.941017207300537
+       }
+      }
+     },
+     {
+      "id": "ar_p23_t0",
+      "page": 23,
+      "kind": "text",
+      "score": 0.01639344262295082,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6597781975642171
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "danh sách cổ đông lớn tỷ lệ sở hữu",
+    "latency_ms": 226.80916701210663,
+    "results": [
+     {
+      "id": "ar_p32_v1",
+      "page": 32,
+      "kind": "visual",
+      "score": 0.03225806451612903,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.5826106234042152
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 16.241445506240225
+       }
+      }
+     },
+     {
+      "id": "ar_p32_t1",
+      "page": 32,
+      "kind": "text",
+      "score": 0.031544957774465976,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 6,
+        "score": 0.5601670804434012
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 17.03533972568554
+       }
+      }
+     },
+     {
+      "id": "ar_p32_v2",
+      "page": 32,
+      "kind": "visual",
+      "score": 0.03076923076923077,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.5609415426083482
+       },
+       "bm25": {
+        "rank": 5,
+        "score": 15.253896840984822
+       }
+      }
+     },
+     {
+      "id": "ar_p33_v0",
+      "page": 33,
+      "kind": "visual",
+      "score": 0.02976190476190476,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.5789256365491523
+       },
+       "bm25": {
+        "rank": 12,
+        "score": 14.149157384399853
+       }
+      }
+     },
+     {
+      "id": "ar_p33_t0",
+      "page": 33,
+      "kind": "text",
+      "score": 0.028782894736842105,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.5757550111776271
+       },
+       "bm25": {
+        "rank": 16,
+        "score": 13.534796741217239
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "view_page",
+    "page": 33,
+    "question": "Bảng Top 10 cổ đông lớn: cổ đông thứ 3 là ai, số cổ phần và tỷ lệ?",
+    "id": "ar_p33_img",
+    "observation": "Theo bảng **“Top 10 cổ đông lớn”** trên trang này:\n\n- **STT:** 3  \n- **Đối tượng:** Công ty TNHH QT  \n- **Số cổ phần:** 62.449.511  \n- **Tỷ lệ:** 3,67%",
+    "usage": {
+     "prompt_tokens": 1071,
+     "completion_tokens": 797
+    },
+    "cost_usd": 0.00048141300000000003,
+    "latency_ms": 4812.871458008885,
+    "model": "deepseek-flash"
+   },
+   {
+    "event": "answer",
+    "answer": "Cổ đông lớn thứ ba trong Top 10 cổ đông lớn của FPT là **Công ty TNHH QT**, nắm **62.449.511 cổ phần**, tương đương **3,67%** tỷ lệ sở hữu.",
+    "citations": [
+     "ar_p33_img",
+     "ar_p33_v1"
+    ],
+    "invalid_citations": []
+   }
+  ],
+  "llm_calls": [
+   {
+    "step": 0,
+    "usage": {
+     "prompt_tokens": 1112,
+     "completion_tokens": 86
+    },
+    "cost_usd": 5.4936e-05,
+    "latency_ms": 1155.3781669936143,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_c1VsFeJZbKaSOXDFouYv7710",
+      "name": "search",
+      "arguments": {
+       "query": "Top 10 cổ đông lớn FPT"
+      }
+     },
+     {
+      "id": "call_01_SPbMtR2npH34uQNiGyuQ1928",
+      "name": "search",
+      "arguments": {
+       "query": "danh sách cổ đông lớn tỷ lệ sở hữu"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 1,
+    "usage": {
+     "prompt_tokens": 4663,
+     "completion_tokens": 79
+    },
+    "cost_usd": 6.138899999999999e-05,
+    "latency_ms": 1020.1441669778433,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_02U1dvQpl5RjK55Hfg7Z3718",
+      "name": "view_page",
+      "arguments": {
+       "page": 33,
+       "question": "Bảng Top 10 cổ đông lớn: cổ đông thứ 3 là ai, số cổ phần và tỷ lệ?"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 2,
+    "usage": {
+     "prompt_tokens": 4849,
+     "completion_tokens": 123
+    },
+    "cost_usd": 8.8347e-05,
+    "latency_ms": 1256.9780829944648,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_eTagzoX2GiwSN8ayHTUb7476",
+      "name": "answer",
+      "arguments": {
+       "answer": "Cổ đông lớn thứ ba trong Top 10 cổ đông lớn của FPT là **Công ty TNHH QT**, nắm **62.449.511 cổ phần**, tương đương **3,67%** tỷ lệ sở hữu.",
+       "citations": [
+        "ar_p33_img",
+        "ar_p33_v1"
+       ]
+      }
+     }
+    ],
+    "content": ""
+   }
+  ],
+  "context_ids": [
+   "ar_p33_v1",
+   "ar_p91_t1",
+   "ar_p32_t0",
+   "ar_p91_t3",
+   "ar_p23_t0",
+   "ar_p32_v1",
+   "ar_p32_t1",
+   "ar_p32_v2",
+   "ar_p33_v0",
+   "ar_p33_t0",
+   "ar_p33_img"
+  ],
+  "latency_s": 9.961500375007745,
+  "tokens": {
+   "prompt_tokens": 11695,
+   "completion_tokens": 1085
+  },
+  "cost_usd": 0.000686085,
+  "tool_counts": {
+   "search": 2,
+   "view_page": 1
+  },
+  "auto_hint": {
+   "gold_pages": [
+    33
+   ],
+   "cited_gold_pages": [
+    33
+   ],
+   "abstained": false
+  }
+ },
+ {
+  "query_id": "d03",
+  "split": "dev",
+  "group": "table",
+  "answerable": true,
+  "question": "Trong kế hoạch đầu tư dự kiến năm 2026, khối Giáo dục, Đầu tư và Khác có ngân sách bao nhiêu và dùng để làm gì?",
+  "config": {
+   "name": "full-hybrid-view",
+   "kinds": [
+    "table",
+    "text",
+    "visual"
+   ],
+   "retriever": "hybrid",
+   "view_page": true,
+   "top_k": 5,
+   "max_steps": 8,
+   "max_views": 3,
+   "model": "deepseek-chat",
+   "vision_model": "deepseek-flash",
+   "index_chunks": 965
+  },
+  "status": "answered",
+  "answer": "Trong Kế hoạch đầu tư dự kiến năm 2026, Khối Giáo dục, Đầu tư và Khác có ngân sách đầu tư 3.000 tỷ VNĐ (tổng ngân sách đầu tư toàn Tập đoàn là 7.200 tỷ VNĐ, trong đó Khối Công nghệ 4.200 tỷ). Ngân sách này dùng để đầu tư mở rộng các khuôn viên Đại học tại Hà Nội, Tp.Hồ Chí Minh và Đà Nẵng, đồng thời mở rộng thêm cơ sở đào tạo mới tại các tỉnh, thành trên toàn quốc.",
+  "citations": [
+   "ar_p55_img",
+   "ar_p55_v2"
+  ],
+  "cited_pages": [
+   55
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "kế hoạch đầu tư năm 2026 khối Giáo dục, Đầu tư và Khác",
+    "latency_ms": 1444.6834999835119,
+    "results": [
+     {
+      "id": "ar_p55_t0",
+      "page": 55,
+      "kind": "text",
+      "score": 0.03278688524590164,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6313919531430873
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 35.63300173951784
+       }
+      }
+     },
+     {
+      "id": "ar_p55_v2",
+      "page": 55,
+      "kind": "visual",
+      "score": 0.031754032258064516,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6072951112275865
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 26.919715520481926
+       }
+      }
+     },
+     {
+      "id": "ar_p55_v0",
+      "page": 55,
+      "kind": "visual",
+      "score": 0.031746031746031744,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.5868537195179784
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 29.027494480274896
+       }
+      }
+     },
+     {
+      "id": "ar_p55_v1",
+      "page": 55,
+      "kind": "visual",
+      "score": 0.03128054740957967,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 6,
+        "score": 0.5479757851693288
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 29.072619062521994
+       }
+      }
+     },
+     {
+      "id": "ar_p75_v0",
+      "page": 75,
+      "kind": "visual",
+      "score": 0.030309988518943745,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.5625794323905671
+       },
+       "bm25": {
+        "rank": 7,
+        "score": 23.34245160827089
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "ngân sách đầu tư 2026 giáo dục đầu tư khác",
+    "latency_ms": 149.56970800994895,
+    "results": [
+     {
+      "id": "ar_p55_t0",
+      "page": 55,
+      "kind": "text",
+      "score": 0.03278688524590164,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.5162136358574936
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 24.51482679171358
+       }
+      }
+     },
+     {
+      "id": "ar_p55_v2",
+      "page": 55,
+      "kind": "visual",
+      "score": 0.03200204813108039,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.5071620011741715
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 20.44290514521438
+       }
+      }
+     },
+     {
+      "id": "ar_p75_v0",
+      "page": 75,
+      "kind": "visual",
+      "score": 0.031009615384615385,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.4984636736004403
+       },
+       "bm25": {
+        "rank": 5,
+        "score": 16.28918714172763
+       }
+      }
+     },
+     {
+      "id": "ar_p55_v0",
+      "page": 55,
+      "kind": "visual",
+      "score": 0.030330882352941176,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 8,
+        "score": 0.47209502951849636
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 18.834348714954317
+       }
+      }
+     },
+     {
+      "id": "ar_p185_t2",
+      "page": 185,
+      "kind": "text",
+      "score": 0.02946912242686891,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.4967087825714966
+       },
+       "bm25": {
+        "rank": 11,
+        "score": 13.554363222032812
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "view_page",
+    "page": 55,
+    "question": "Bảng \"Kế hoạch đầu tư dự kiến\" năm 2026: ngân sách đầu tư của Khối Giáo dục, Đầu tư và Khác là bao nhiêu và chú thích mục đích sử dụng là gì?",
+    "id": "ar_p55_img",
+    "observation": "Theo bảng **“Kế hoạch đầu tư dự kiến”** trong mục **KẾ HOẠCH NĂM 2026**:\n\n- **Khối:** Khối Giáo dục, Đầu tư và Khác  \n- **Ngân sách đầu tư:** **3.000**  \n- **Đơn vị:** **Tỷ VND**  \n- **Chú thích:** “Đầu tư mở rộng các khuôn viên Đại học tại Hà Nội, Tp.Hồ Chí Minh và Đà Nẵng, đồng thời mở rộng thêm cơ sở đào tạo mới tại các tỉnh, thành trên toàn quốc.”",
+    "usage": {
+     "prompt_tokens": 1101,
+     "completion_tokens": 722
+    },
+    "cost_usd": 0.000436503,
+    "latency_ms": 3844.608084007632,
+    "model": "deepseek-flash"
+   },
+   {
+    "event": "answer",
+    "answer": "Trong Kế hoạch đầu tư dự kiến năm 2026, Khối Giáo dục, Đầu tư và Khác có ngân sách đầu tư 3.000 tỷ VNĐ (tổng ngân sách đầu tư toàn Tập đoàn là 7.200 tỷ VNĐ, trong đó Khối Công nghệ 4.200 tỷ). Ngân sách này dùng để đầu tư mở rộng các khuôn viên Đại học tại Hà Nội, Tp.Hồ Chí Minh và Đà Nẵng, đồng thời mở rộng thêm cơ sở đào tạo mới tại các tỉnh, thành trên toàn quốc.",
+    "citations": [
+     "ar_p55_img",
+     "ar_p55_v2"
+    ],
+    "invalid_citations": []
+   }
+  ],
+  "llm_calls": [
+   {
+    "step": 0,
+    "usage": {
+     "prompt_tokens": 1114,
+     "completion_tokens": 101
+    },
+    "cost_usd": 6.394199999999999e-05,
+    "latency_ms": 966.3759999966715,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_UJlijNqGfbTjf3Wau47L6767",
+      "name": "search",
+      "arguments": {
+       "query": "kế hoạch đầu tư năm 2026 khối Giáo dục, Đầu tư và Khác"
+      }
+     },
+     {
+      "id": "call_01_AGDOFG8Hkz2QS1psReDp6596",
+      "name": "search",
+      "arguments": {
+       "query": "ngân sách đầu tư 2026 giáo dục đầu tư khác"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 1,
+    "usage": {
+     "prompt_tokens": 4527,
+     "completion_tokens": 109
+    },
+    "cost_usd": 7.8981e-05,
+    "latency_ms": 1327.7930420008488,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_B7mlwqMiOP1jQrqaBF4S1249",
+      "name": "view_page",
+      "arguments": {
+       "page": 55,
+       "question": "Bảng \"Kế hoạch đầu tư dự kiến\" năm 2026: ngân sách đầu tư của Khối Giáo dục, Đầu tư và Khác là bao nhiêu và chú thích mục đích sử dụng là gì?"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 2,
+    "usage": {
+     "prompt_tokens": 4842,
+     "completion_tokens": 232
+    },
+    "cost_usd": 0.000153726,
+    "latency_ms": 1573.2076250133105,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_utQhKdNauC0EkW6a4lxI4907",
+      "name": "answer",
+      "arguments": {
+       "answer": "Trong Kế hoạch đầu tư dự kiến năm 2026, Khối Giáo dục, Đầu tư và Khác có ngân sách đầu tư 3.000 tỷ VNĐ (tổng ngân sách đầu tư toàn Tập đoàn là 7.200 tỷ VNĐ, trong đó Khối Công nghệ 4.200 tỷ). Ngân sách này dùng để đầu tư mở rộng các khuôn viên Đại học tại Hà Nội, Tp.Hồ Chí Minh và Đà Nẵng, đồng thời mở rộng thêm cơ sở đào tạo mới tại các tỉnh, thành trên toàn quốc.",
+       "citations": [
+        "ar_p55_img",
+        "ar_p55_v2"
+       ]
+      }
+     }
+    ],
+    "content": ""
+   }
+  ],
+  "context_ids": [
+   "ar_p55_t0",
+   "ar_p55_v2",
+   "ar_p55_v0",
+   "ar_p55_v1",
+   "ar_p75_v0",
+   "ar_p185_t2",
+   "ar_p55_img"
+  ],
+  "latency_s": 9.307973750022938,
+  "tokens": {
+   "prompt_tokens": 11584,
+   "completion_tokens": 1164
+  },
+  "cost_usd": 0.0007331519999999999,
+  "tool_counts": {
+   "search": 2,
+   "view_page": 1
+  },
+  "auto_hint": {
+   "gold_pages": [
+    55
+   ],
+   "cited_gold_pages": [
+    55
+   ],
+   "abstained": false
+  }
+ },
+ {
+  "query_id": "d04",
+  "split": "dev",
+  "group": "chart",
+  "answerable": true,
+  "question": "Theo biểu đồ, đóng góp ngân sách Nhà nước của FPT năm 2023 là bao nhiêu?",
+  "config": {
+   "name": "full-hybrid-view",
+   "kinds": [
+    "table",
+    "text",
+    "visual"
+   ],
+   "retriever": "hybrid",
+   "view_page": true,
+   "top_k": 5,
+   "max_steps": 8,
+   "max_views": 3,
+   "model": "deepseek-chat",
+   "vision_model": "deepseek-flash",
+   "index_chunks": 965
+  },
+  "status": "answered",
+  "answer": "Theo biểu đồ \"Đóng góp Ngân sách Nhà nước\" (trang 11), năm 2023 FPT đóng góp **8.167 tỷ VNĐ** (chuỗi: 2021: 5.750; 2022: 7.112; 2023: 8.167; 2024: 10.117; 2025: 11.078 tỷ VNĐ).",
+  "citations": [
+   "ar_p11_img",
+   "ar_p11_v1"
+  ],
+  "cited_pages": [
+   11
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "đóng góp ngân sách Nhà nước FPT 2023",
+    "latency_ms": 1415.5960829812102,
+    "results": [
+     {
+      "id": "ar_p11_v1",
+      "page": 11,
+      "kind": "visual",
+      "score": 0.01639344262295082,
+      "rank": 1,
+      "components": {
+       "bm25": {
+        "rank": 1,
+        "score": 20.554663494398003
+       }
+      }
+     },
+     {
+      "id": "ar_p84_t0",
+      "page": 84,
+      "kind": "text",
+      "score": 0.01639344262295082,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.5995704492040874
+       }
+      }
+     },
+     {
+      "id": "ar_p121_t1",
+      "page": 121,
+      "kind": "text",
+      "score": 0.016129032258064516,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.5893654736344482
+       }
+      }
+     },
+     {
+      "id": "ar_p39_t1",
+      "page": 39,
+      "kind": "text",
+      "score": 0.016129032258064516,
+      "rank": 4,
+      "components": {
+       "bm25": {
+        "rank": 2,
+        "score": 11.693579620934788
+       }
+      }
+     },
+     {
+      "id": "ar_p11_t0",
+      "page": 11,
+      "kind": "text",
+      "score": 0.015873015873015872,
+      "rank": 5,
+      "components": {
+       "bm25": {
+        "rank": 3,
+        "score": 11.555736300766107
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "nộp ngân sách nhà nước biểu đồ",
+    "latency_ms": 147.10208401083946,
+    "results": [
+     {
+      "id": "ar_p11_v1",
+      "page": 11,
+      "kind": "visual",
+      "score": 0.03278688524590164,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6340744919870966
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 16.738627554562477
+       }
+      }
+     },
+     {
+      "id": "ar_p196_t0",
+      "page": 196,
+      "kind": "text",
+      "score": 0.030798389007344232,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.5700126877770193
+       },
+       "bm25": {
+        "rank": 7,
+        "score": 10.312167159852262
+       }
+      }
+     },
+     {
+      "id": "ar_p196_v0",
+      "page": 196,
+      "kind": "visual",
+      "score": 0.0304147465437788,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6016198143308529
+       },
+       "bm25": {
+        "rank": 10,
+        "score": 9.402754601863645
+       }
+      }
+     },
+     {
+      "id": "ar_p196_v1",
+      "page": 196,
+      "kind": "visual",
+      "score": 0.028958333333333336,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.5680726667652661
+       },
+       "bm25": {
+        "rank": 15,
+        "score": 8.293774896495524
+       }
+      }
+     },
+     {
+      "id": "ar_p135_v0",
+      "page": 135,
+      "kind": "visual",
+      "score": 0.02878726010616578,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 19,
+        "score": 0.5260139206852465
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 14.208528266732856
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "view_page",
+    "page": 11,
+    "question": "Biểu đồ Đóng góp Ngân sách Nhà nước: giá trị năm 2023 là bao nhiêu tỷ VNĐ?",
+    "id": "ar_p11_img",
+    "observation": "Trên biểu đồ **“Đóng góp Ngân sách Nhà nước”** — **Đơn vị: Tỷ VNĐ**, giá trị năm **2023** là **8.167 Tỷ VNĐ** (cột thứ ba, nhãn năm **2023** dưới trục hoành).\n\nCác số liệu in trên biểu đồ: **5.750 (2021), 7.112 (2022), 8.167 (2023), 10.117 (2024), 11.078 (2025)**. Trang không có chú giải màu riêng ngoài các cột.",
+    "usage": {
+     "prompt_tokens": 1070,
+     "completion_tokens": 1236
+    },
+    "cost_usd": 0.00074481,
+    "latency_ms": 6203.084917011438,
+    "model": "deepseek-flash"
+   },
+   {
+    "event": "answer",
+    "answer": "Theo biểu đồ \"Đóng góp Ngân sách Nhà nước\" (trang 11), năm 2023 FPT đóng góp **8.167 tỷ VNĐ** (chuỗi: 2021: 5.750; 2022: 7.112; 2023: 8.167; 2024: 10.117; 2025: 11.078 tỷ VNĐ).",
+    "citations": [
+     "ar_p11_img",
+     "ar_p11_v1"
+    ],
+    "invalid_citations": []
+   }
+  ],
+  "llm_calls": [
+   {
+    "step": 0,
+    "usage": {
+     "prompt_tokens": 1095,
+     "completion_tokens": 87
+    },
+    "cost_usd": 5.5485e-05,
+    "latency_ms": 871.4816670108121,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_oEv96F2w6iwz7EYz4yZX7439",
+      "name": "search",
+      "arguments": {
+       "query": "đóng góp ngân sách Nhà nước FPT 2023"
+      }
+     },
+     {
+      "id": "call_01_FMI4AG2TI4jQ4B4dxV397586",
+      "name": "search",
+      "arguments": {
+       "query": "nộp ngân sách nhà nước biểu đồ"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 1,
+    "usage": {
+     "prompt_tokens": 4559,
+     "completion_tokens": 78
+    },
+    "cost_usd": 6.0477e-05,
+    "latency_ms": 846.4080829871818,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_m9X0CAqF938uqmomcpZ08802",
+      "name": "view_page",
+      "arguments": {
+       "page": 11,
+       "question": "Biểu đồ Đóng góp Ngân sách Nhà nước: giá trị năm 2023 là bao nhiêu tỷ VNĐ?"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 2,
+    "usage": {
+     "prompt_tokens": 4818,
+     "completion_tokens": 159
+    },
+    "cost_usd": 0.00010985399999999998,
+    "latency_ms": 1534.7474169975612,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_k6C0SM54s12VeXLdc4v67503",
+      "name": "answer",
+      "arguments": {
+       "answer": "Theo biểu đồ \"Đóng góp Ngân sách Nhà nước\" (trang 11), năm 2023 FPT đóng góp **8.167 tỷ VNĐ** (chuỗi: 2021: 5.750; 2022: 7.112; 2023: 8.167; 2024: 10.117; 2025: 11.078 tỷ VNĐ).",
+       "citations": [
+        "ar_p11_img",
+        "ar_p11_v1"
+       ]
+      }
+     }
+    ],
+    "content": ""
+   }
+  ],
+  "context_ids": [
+   "ar_p11_v1",
+   "ar_p84_t0",
+   "ar_p121_t1",
+   "ar_p39_t1",
+   "ar_p11_t0",
+   "ar_p196_t0",
+   "ar_p196_v0",
+   "ar_p196_v1",
+   "ar_p135_v0",
+   "ar_p11_img"
+  ],
+  "latency_s": 11.020336667017546,
+  "tokens": {
+   "prompt_tokens": 11542,
+   "completion_tokens": 1560
+  },
+  "cost_usd": 0.000970626,
+  "tool_counts": {
+   "search": 2,
+   "view_page": 1
+  },
+  "auto_hint": {
+   "gold_pages": [
+    11
+   ],
+   "cited_gold_pages": [
+    11
+   ],
+   "abstained": false
+  }
+ },
+ {
+  "query_id": "d05",
+  "split": "dev",
+  "group": "chart",
+  "answerable": true,
+  "question": "Theo biểu đồ quy mô thị trường AI doanh nghiệp, quy mô năm 2023 là bao nhiêu?",
+  "config": {
+   "name": "full-hybrid-view",
+   "kinds": [
+    "table",
+    "text",
+    "visual"
+   ],
+   "retriever": "hybrid",
+   "view_page": true,
+   "top_k": 5,
+   "max_steps": 8,
+   "max_views": 3,
+   "model": "deepseek-chat",
+   "vision_model": "deepseek-flash",
+   "index_chunks": 965
+  },
+  "status": "answered",
+  "answer": "Theo biểu đồ \"Quy mô thị trường AI doanh nghiệp\" (đơn vị: Tỷ USD), quy mô năm 2023 là 1,7 tỷ USD (tăng 6,8 lần lên 11,5 tỷ USD năm 2024).",
+  "citations": [
+   "ar_p48_img",
+   "ar_p48_v0"
+  ],
+  "cited_pages": [
+   48
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "quy mô thị trường AI doanh nghiệp biểu đồ",
+    "latency_ms": 1762.08891600254,
+    "results": [
+     {
+      "id": "ar_p48_v0",
+      "page": 48,
+      "kind": "visual",
+      "score": 0.03278688524590164,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.7532486399400731
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 19.91313733189353
+       }
+      }
+     },
+     {
+      "id": "ar_p48_t2",
+      "page": 48,
+      "kind": "text",
+      "score": 0.03200204813108039,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6978308303920158
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 11.183931066353738
+       }
+      }
+     },
+     {
+      "id": "ar_p47_t2",
+      "page": 47,
+      "kind": "text",
+      "score": 0.029513888888888888,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.6037433721776361
+       },
+       "bm25": {
+        "rank": 12,
+        "score": 9.552496470439003
+       }
+      }
+     },
+     {
+      "id": "ar_p48_t3",
+      "page": 48,
+      "kind": "text",
+      "score": 0.02900988017658188,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 11,
+        "score": 0.5558857371652723
+       },
+       "bm25": {
+        "rank": 7,
+        "score": 10.065208007768664
+       }
+      }
+     },
+     {
+      "id": "ar_p4_t5",
+      "page": 4,
+      "kind": "text",
+      "score": 0.02813852813852814,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 17,
+        "score": 0.5409393384109403
+       },
+       "bm25": {
+        "rank": 6,
+        "score": 10.197520670349572
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "view_page",
+    "page": 48,
+    "question": "Biểu đồ Quy mô thị trường AI doanh nghiệp: giá trị năm 2023 là bao nhiêu tỷ USD?",
+    "id": "ar_p48_img",
+    "observation": "Trên biểu đồ **“Quy mô thị trường AI doanh nghiệp”** – **Đơn vị: Tỷ USD**, tại năm **2023** số liệu in trên biểu đồ là **1,7** (nhãn màu cam tại điểm năm 2023).  \n\nVậy giá trị năm 2023 là: **1,7 tỷ USD**.  \nBiểu đồ không có chú giải màu riêng.",
+    "usage": {
+     "prompt_tokens": 1070,
+     "completion_tokens": 879
+    },
+    "cost_usd": 0.00053061,
+    "latency_ms": 5251.909125014208,
+    "model": "deepseek-flash"
+   },
+   {
+    "event": "answer",
+    "answer": "Theo biểu đồ \"Quy mô thị trường AI doanh nghiệp\" (đơn vị: Tỷ USD), quy mô năm 2023 là 1,7 tỷ USD (tăng 6,8 lần lên 11,5 tỷ USD năm 2024).",
+    "citations": [
+     "ar_p48_img",
+     "ar_p48_v0"
+    ],
+    "invalid_citations": []
+   }
+  ],
+  "llm_calls": [
+   {
+    "step": 0,
+    "usage": {
+     "prompt_tokens": 1098,
+     "completion_tokens": 47
+    },
+    "cost_usd": 3.1494e-05,
+    "latency_ms": 1047.0443750091363,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_5FZpqMcssFDXgN2DfOfo8954",
+      "name": "search",
+      "arguments": {
+       "query": "quy mô thị trường AI doanh nghiệp biểu đồ"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 1,
+    "usage": {
+     "prompt_tokens": 2680,
+     "completion_tokens": 78
+    },
+    "cost_usd": 5.484e-05,
+    "latency_ms": 990.8326250151731,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_TneYWiesl1Y5gzHRncdq2765",
+      "name": "view_page",
+      "arguments": {
+       "page": 48,
+       "question": "Biểu đồ Quy mô thị trường AI doanh nghiệp: giá trị năm 2023 là bao nhiêu tỷ USD?"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 2,
+    "usage": {
+     "prompt_tokens": 2894,
+     "completion_tokens": 130
+    },
+    "cost_usd": 8.668200000000001e-05,
+    "latency_ms": 1574.9125000147615,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_LBqL5kXYzIndsVFL3CXm3026",
+      "name": "answer",
+      "arguments": {
+       "answer": "Theo biểu đồ \"Quy mô thị trường AI doanh nghiệp\" (đơn vị: Tỷ USD), quy mô năm 2023 là 1,7 tỷ USD (tăng 6,8 lần lên 11,5 tỷ USD năm 2024).",
+       "citations": [
+        "ar_p48_img",
+        "ar_p48_v0"
+       ]
+      }
+     }
+    ],
+    "content": ""
+   }
+  ],
+  "context_ids": [
+   "ar_p48_v0",
+   "ar_p48_t2",
+   "ar_p47_t2",
+   "ar_p48_t3",
+   "ar_p4_t5",
+   "ar_p48_img"
+  ],
+  "latency_s": 10.630250791000435,
+  "tokens": {
+   "prompt_tokens": 7742,
+   "completion_tokens": 1134
+  },
+  "cost_usd": 0.0007036260000000001,
+  "tool_counts": {
+   "search": 1,
+   "view_page": 1
+  },
+  "auto_hint": {
+   "gold_pages": [
+    48
+   ],
+   "cited_gold_pages": [
+    48
+   ],
+   "abstained": false
+  }
+ },
+ {
+  "query_id": "d06",
+  "split": "dev",
+  "group": "chart",
+  "answerable": true,
+  "question": "Theo biểu đồ cơ cấu doanh thu theo khối năm 2025, khối Viễn thông đạt bao nhiêu doanh thu và chiếm tỷ trọng bao nhiêu?",
+  "config": {
+   "name": "full-hybrid-view",
+   "kinds": [
+    "table",
+    "text",
+    "visual"
+   ],
+   "retriever": "hybrid",
+   "view_page": true,
+   "top_k": 5,
+   "max_steps": 8,
+   "max_views": 3,
+   "model": "deepseek-chat",
+   "vision_model": "deepseek-flash",
+   "index_chunks": 965
+  },
+  "status": "answered",
+  "answer": "Theo biểu đồ \"Cơ cấu doanh thu theo khối\" (trang 60), khối Viễn thông đạt doanh thu 19.507 tỷ VNĐ, chiếm tỷ trọng 27,8% trong tổng doanh thu 70.113 tỷ VNĐ, tăng 10,8% so với cùng kỳ.",
+  "citations": [
+   "ar_p60_img",
+   "ar_p60_v0"
+  ],
+  "cited_pages": [
+   60
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "cơ cấu doanh thu theo khối 2025 Viễn thông tỷ trọng",
+    "latency_ms": 1865.761916997144,
+    "results": [
+     {
+      "id": "ar_p60_v0",
+      "page": 60,
+      "kind": "visual",
+      "score": 0.03278688524590164,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6825737075141662
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 22.732116223816785
+       }
+      }
+     },
+     {
+      "id": "ar_p55_v0",
+      "page": 55,
+      "kind": "visual",
+      "score": 0.031754032258064516,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6649148359802437
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 13.554834670235346
+       }
+      }
+     },
+     {
+      "id": "ar_p60_t0",
+      "page": 60,
+      "kind": "text",
+      "score": 0.031746031746031744,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.6590885417690833
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 19.52814283522129
+       }
+      }
+     },
+     {
+      "id": "ar_p60_v1",
+      "page": 60,
+      "kind": "visual",
+      "score": 0.03128054740957967,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 6,
+        "score": 0.6326930364973438
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 20.252136360895815
+       }
+      }
+     },
+     {
+      "id": "ar_p55_t0",
+      "page": 55,
+      "kind": "text",
+      "score": 0.030309988518943745,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 7,
+        "score": 0.6280707002308819
+       },
+       "bm25": {
+        "rank": 5,
+        "score": 12.885462936276712
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "doanh thu khối Viễn thông 2025",
+    "latency_ms": 480.69633400882594,
+    "results": [
+     {
+      "id": "ar_p55_v0",
+      "page": 55,
+      "kind": "visual",
+      "score": 0.032018442622950824,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.682017535201485
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 11.173830436346762
+       }
+      }
+     },
+     {
+      "id": "ar_p60_v0",
+      "page": 60,
+      "kind": "visual",
+      "score": 0.032018442622950824,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.6321567362100844
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 14.174664737130989
+       }
+      }
+     },
+     {
+      "id": "ar_p60_t0",
+      "page": 60,
+      "kind": "text",
+      "score": 0.030834914611005692,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 8,
+        "score": 0.6167461369286302
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 12.655230669956698
+       }
+      }
+     },
+     {
+      "id": "ar_p55_t0",
+      "page": 55,
+      "kind": "text",
+      "score": 0.030536130536130537,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.6320637845603078
+       },
+       "bm25": {
+        "rank": 6,
+        "score": 10.16585141974735
+       }
+      }
+     },
+     {
+      "id": "ar_p58_t4",
+      "page": 58,
+      "kind": "text",
+      "score": 0.0288981288981289,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 14,
+        "score": 0.6050988622098585
+       },
+       "bm25": {
+        "rank": 5,
+        "score": 10.538665274975836
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "view_page",
+    "page": 60,
+    "question": "Trong biểu đồ cơ cấu doanh thu theo khối, khối Viễn thông có doanh thu và tỷ trọng bao nhiêu?",
+    "id": "ar_p60_img",
+    "observation": "Trên biểu đồ **“Cơ cấu doanh thu theo khối”** (trang Báo cáo thường niên FPT 2025):\n\n- **Khối Viễn thông** – chú giải màu **xanh dương**:  \n  - Doanh thu: **19.507**  \n  - Tỷ trọng: **27,8%**  \n  - Chỉ số tăng trưởng in kèm mũi tên xanh: **10,8%**\n- Đơn vị trên trang: **Đơn vị: Tỷ VND**\n- Năm in trên trang: **BÁO CÁO THƯỜNG NIÊN 2025**\n\nVậy: **Khối Viễn thông đạt 19.507 tỷ VND, chiếm 27,8%** trong cơ cấu doanh thu theo khối.",
+    "usage": {
+     "prompt_tokens": 1076,
+     "completion_tokens": 1364
+    },
+    "cost_usd": 0.0008216279999999999,
+    "latency_ms": 7188.148082990665,
+    "model": "deepseek-flash"
+   },
+   {
+    "event": "answer",
+    "answer": "Theo biểu đồ \"Cơ cấu doanh thu theo khối\" (trang 60), khối Viễn thông đạt doanh thu 19.507 tỷ VNĐ, chiếm tỷ trọng 27,8% trong tổng doanh thu 70.113 tỷ VNĐ, tăng 10,8% so với cùng kỳ.",
+    "citations": [
+     "ar_p60_img",
+     "ar_p60_v0"
+    ],
+    "invalid_citations": []
+   }
+  ],
+  "llm_calls": [
+   {
+    "step": 0,
+    "usage": {
+     "prompt_tokens": 1114,
+     "completion_tokens": 93
+    },
+    "cost_usd": 5.9142e-05,
+    "latency_ms": 1240.6475000025239,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_K6tbqkubDm4ELNQcmeHv2215",
+      "name": "search",
+      "arguments": {
+       "query": "cơ cấu doanh thu theo khối 2025 Viễn thông tỷ trọng"
+      }
+     },
+     {
+      "id": "call_01_k0g0V4INIcVj0iUgz0Ko8270",
+      "name": "search",
+      "arguments": {
+       "query": "doanh thu khối Viễn thông 2025"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 1,
+    "usage": {
+     "prompt_tokens": 5111,
+     "completion_tokens": 84
+    },
+    "cost_usd": 6.5733e-05,
+    "latency_ms": 854.0970840258524,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_vywe1bt1mIKnJDv77A7C8641",
+      "name": "view_page",
+      "arguments": {
+       "page": 60,
+       "question": "Trong biểu đồ cơ cấu doanh thu theo khối, khối Viễn thông có doanh thu và tỷ trọng bao nhiêu?"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 2,
+    "usage": {
+     "prompt_tokens": 5436,
+     "completion_tokens": 148
+    },
+    "cost_usd": 0.00010510800000000001,
+    "latency_ms": 1335.2579170023091,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_62lKUwNgdCi6wHFI5fay8151",
+      "name": "answer",
+      "arguments": {
+       "answer": "Theo biểu đồ \"Cơ cấu doanh thu theo khối\" (trang 60), khối Viễn thông đạt doanh thu 19.507 tỷ VNĐ, chiếm tỷ trọng 27,8% trong tổng doanh thu 70.113 tỷ VNĐ, tăng 10,8% so với cùng kỳ.",
+       "citations": [
+        "ar_p60_img",
+        "ar_p60_v0"
+       ]
+      }
+     }
+    ],
+    "content": ""
+   }
+  ],
+  "context_ids": [
+   "ar_p60_v0",
+   "ar_p55_v0",
+   "ar_p60_t0",
+   "ar_p60_v1",
+   "ar_p55_t0",
+   "ar_p58_t4",
+   "ar_p60_img"
+  ],
+  "latency_s": 12.968345917004626,
+  "tokens": {
+   "prompt_tokens": 12737,
+   "completion_tokens": 1689
+  },
+  "cost_usd": 0.001051611,
+  "tool_counts": {
+   "search": 2,
+   "view_page": 1
+  },
+  "auto_hint": {
+   "gold_pages": [
+    60
+   ],
+   "cited_gold_pages": [
+    60
+   ],
+   "abstained": false
+  }
+ },
+ {
+  "query_id": "d07",
+  "split": "dev",
+  "group": "image",
+  "answerable": true,
+  "question": "Theo sơ đồ tổ chức của FPT, những ủy ban/bộ phận nào được vẽ trực thuộc Hội đồng quản trị?",
+  "config": {
+   "name": "full-hybrid-view",
+   "kinds": [
+    "table",
+    "text",
+    "visual"
+   ],
+   "retriever": "hybrid",
+   "view_page": true,
+   "top_k": 5,
+   "max_steps": 8,
+   "max_views": 3,
+   "model": "deepseek-chat",
+   "vision_model": "deepseek-flash",
+   "index_chunks": 965
+  },
+  "status": "answered",
+  "answer": "Theo sơ đồ tổ chức (trang 31), các đơn vị/ủy ban được vẽ trực thuộc Hội đồng quản trị gồm: Ủy ban Nhân sự và Lương thưởng, Ủy ban Chính sách Phát triển, Văn phòng Chủ tịch HĐQT và Bộ phận Kiểm toán nội bộ (HĐQT cũng nối xuống Tổng giám đốc và Ban điều hành; Ban Kiểm soát nối từ Đại hội đồng cổ đông, không trực thuộc HĐQT).",
+  "citations": [
+   "ar_p31_img",
+   "ar_p31_v0",
+   "ar_p80_v0"
+  ],
+  "cited_pages": [
+   31,
+   80
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "sơ đồ tổ chức FPT Hội đồng quản trị ủy ban",
+    "latency_ms": 1412.797083001351,
+    "results": [
+     {
+      "id": "ar_p31_t0",
+      "page": 31,
+      "kind": "text",
+      "score": 0.03252247488101534,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6939311481833885
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 21.48540738954408
+       }
+      }
+     },
+     {
+      "id": "ar_p31_v0",
+      "page": 31,
+      "kind": "visual",
+      "score": 0.03252247488101534,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.7018564476137703
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 20.52077424752396
+       }
+      }
+     },
+     {
+      "id": "ar_p100_t3",
+      "page": 100,
+      "kind": "text",
+      "score": 0.02813852813852814,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 17,
+        "score": 0.609084157143847
+       },
+       "bm25": {
+        "rank": 6,
+        "score": 12.111191197859878
+       }
+      }
+     },
+     {
+      "id": "ar_p80_v0",
+      "page": 80,
+      "kind": "visual",
+      "score": 0.015873015873015872,
+      "rank": 4,
+      "components": {
+       "bm25": {
+        "rank": 3,
+        "score": 16.957761965004682
+       }
+      }
+     },
+     {
+      "id": "ar_p89_t0",
+      "page": 89,
+      "kind": "text",
+      "score": 0.015873015873015872,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.6833395523227037
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "cơ cấu tổ chức bộ máy quản lý",
+    "latency_ms": 49.871290975715965,
+    "results": [
+     {
+      "id": "ar_p31_t0",
+      "page": 31,
+      "kind": "text",
+      "score": 0.03252247488101534,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6286761742235228
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 15.620216224263274
+       }
+      }
+     },
+     {
+      "id": "ar_p37_t0",
+      "page": 37,
+      "kind": "text",
+      "score": 0.027443609022556388,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 16,
+        "score": 0.5063198316809391
+       },
+       "bm25": {
+        "rank": 10,
+        "score": 10.307874267095965
+       }
+      }
+     },
+     {
+      "id": "ar_p22_t0",
+      "page": 22,
+      "kind": "text",
+      "score": 0.01639344262295082,
+      "rank": 3,
+      "components": {
+       "bm25": {
+        "rank": 1,
+        "score": 16.118178919100963
+       }
+      }
+     },
+     {
+      "id": "ar_p80_v0",
+      "page": 80,
+      "kind": "visual",
+      "score": 0.016129032258064516,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6010955068700343
+       }
+      }
+     },
+     {
+      "id": "ar_p31_v0",
+      "page": 31,
+      "kind": "visual",
+      "score": 0.015873015873015872,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.5888970651436265
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "view_page",
+    "page": 31,
+    "question": "Trong sơ đồ tổ chức, những đơn vị nào được vẽ nối trực tiếp vào Hội đồng quản trị? Liệt kê chính xác tên các hộp.",
+    "id": "ar_p31_img",
+    "observation": "Theo sơ đồ tổ chức trên trang, các hộp được vẽ nối trực tiếp với **HỘI ĐỒNG QUẢN TRỊ** là:\n\n- **ĐẠI HỘI ĐỒNG CỔ ĐÔNG** (nối phía trên HĐQT)\n- **ỦY BAN NHÂN SỰ VÀ LƯƠNG THƯỞNG**\n- **ỦY BAN CHÍNH SÁCH PHÁT TRIỂN**\n- **VĂN PHÒNG CHỦ TỊCH HĐQT**\n- **BỘ PHẬN KIỂM TOÁN NỘI BỘ**\n- **TỔNG GIÁM ĐỐC VÀ BAN ĐIỀU HÀNH**\n\n**BAN KIỂM SOÁT** không được vẽ nối trực tiếp vào HĐQT; hộp này nối vào nhánh từ ĐẠI HỘI ĐỒNG CỔ ĐÔNG.",
+    "usage": {
+     "prompt_tokens": 1086,
+     "completion_tokens": 5399
+    },
+    "cost_usd": 0.003242658,
+    "latency_ms": 26998.5029999807,
+    "model": "deepseek-flash"
+   },
+   {
+    "event": "answer",
+    "answer": "Theo sơ đồ tổ chức (trang 31), các đơn vị/ủy ban được vẽ trực thuộc Hội đồng quản trị gồm: Ủy ban Nhân sự và Lương thưởng, Ủy ban Chính sách Phát triển, Văn phòng Chủ tịch HĐQT và Bộ phận Kiểm toán nội bộ (HĐQT cũng nối xuống Tổng giám đốc và Ban điều hành; Ban Kiểm soát nối từ Đại hội đồng cổ đông, không trực thuộc HĐQT).",
+    "citations": [
+     "ar_p31_img",
+     "ar_p31_v0",
+     "ar_p80_v0"
+    ],
+    "invalid_citations": []
+   }
+  ],
+  "llm_calls": [
+   {
+    "step": 0,
+    "usage": {
+     "prompt_tokens": 1104,
+     "completion_tokens": 93
+    },
+    "cost_usd": 5.911199999999999e-05,
+    "latency_ms": 1176.4101670123637,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_NW67UWyuWRdptUwMP1t61031",
+      "name": "search",
+      "arguments": {
+       "query": "sơ đồ tổ chức FPT Hội đồng quản trị ủy ban"
+      }
+     },
+     {
+      "id": "call_01_On0xzI6Mllq4ErwVhssh7622",
+      "name": "search",
+      "arguments": {
+       "query": "cơ cấu tổ chức bộ máy quản lý"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 1,
+    "usage": {
+     "prompt_tokens": 8367,
+     "completion_tokens": 94
+    },
+    "cost_usd": 8.1501e-05,
+    "latency_ms": 985.724416008452,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_vsMtRWHCBdSYOfpRIf3c3634",
+      "name": "view_page",
+      "arguments": {
+       "page": 31,
+       "question": "Trong sơ đồ tổ chức, những đơn vị nào được vẽ nối trực tiếp vào Hội đồng quản trị? Liệt kê chính xác tên các hộp."
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 2,
+    "usage": {
+     "prompt_tokens": 8743,
+     "completion_tokens": 220
+    },
+    "cost_usd": 0.000158229,
+    "latency_ms": 1860.4193339997437,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_PYRQdel12o6dam3Lutxv8214",
+      "name": "answer",
+      "arguments": {
+       "answer": "Theo sơ đồ tổ chức (trang 31), các đơn vị/ủy ban được vẽ trực thuộc Hội đồng quản trị gồm: Ủy ban Nhân sự và Lương thưởng, Ủy ban Chính sách Phát triển, Văn phòng Chủ tịch HĐQT và Bộ phận Kiểm toán nội bộ (HĐQT cũng nối xuống Tổng giám đốc và Ban điều hành; Ban Kiểm soát nối từ Đại hội đồng cổ đông, không trực thuộc HĐQT).",
+       "citations": [
+        "ar_p31_img",
+        "ar_p31_v0",
+        "ar_p80_v0"
+       ]
+      }
+     }
+    ],
+    "content": ""
+   }
+  ],
+  "context_ids": [
+   "ar_p31_t0",
+   "ar_p31_v0",
+   "ar_p100_t3",
+   "ar_p80_v0",
+   "ar_p89_t0",
+   "ar_p37_t0",
+   "ar_p22_t0",
+   "ar_p31_img"
+  ],
+  "latency_s": 32.48576358301216,
+  "tokens": {
+   "prompt_tokens": 19300,
+   "completion_tokens": 5806
+  },
+  "cost_usd": 0.0035415,
+  "tool_counts": {
+   "search": 2,
+   "view_page": 1
+  },
+  "auto_hint": {
+   "gold_pages": [
+    31
+   ],
+   "cited_gold_pages": [
+    31
+   ],
+   "abstained": false
+  }
+ },
+ {
+  "query_id": "d08",
+  "split": "dev",
+  "group": "image",
+  "answerable": true,
+  "question": "Trong sơ đồ lộ trình Net Zero 2040 gồm 5 bước, bước 04 là gì?",
+  "config": {
+   "name": "full-hybrid-view",
+   "kinds": [
+    "table",
+    "text",
+    "visual"
+   ],
+   "retriever": "hybrid",
+   "view_page": true,
+   "top_k": 5,
+   "max_steps": 8,
+   "max_views": 3,
+   "model": "deepseek-chat",
+   "vision_model": "deepseek-flash",
+   "index_chunks": 965
+  },
+  "status": "answered",
+  "answer": "Bước 04 trong sơ đồ lộ trình Net Zero 2040 là **\"Xác định các giải pháp ưu tiên\"**, gồm:\n- **Tòa nhà văn phòng:** Lắp đặt đèn LED, hệ thống cảm biến thông minh; tích hợp cảm biến nhiệt độ và độ ẩm để điều khiển hệ thống điều hòa tự động.\n- **Trung tâm dữ liệu:** Tối ưu hệ thống làm mát thông qua các giải pháp Liquid Cooling, AI-driven Thermal Management; sử dụng môi chất lạnh có chỉ số GWP thấp; áp dụng cơ chế vận hành tiết kiệm năng lượng cho hệ thống máy chủ, áp dụng tiêu chuẩn xanh cho hạ tầng.",
+  "citations": [
+   "ar_p114_img",
+   "ar_p114_v0"
+  ],
+  "cited_pages": [
+   114
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "lộ trình Net Zero 2040 5 bước",
+    "latency_ms": 2052.603291987907,
+    "results": [
+     {
+      "id": "ar_p114_t0",
+      "page": 114,
+      "kind": "text",
+      "score": 0.03252247488101534,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6715083289016478
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 26.899427336097474
+       }
+      }
+     },
+     {
+      "id": "ar_p114_v0",
+      "page": 114,
+      "kind": "visual",
+      "score": 0.032266458495966696,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.7183113193028996
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 18.63448334234526
+       }
+      }
+     },
+     {
+      "id": "ar_p147_t3",
+      "page": 147,
+      "kind": "text",
+      "score": 0.031009615384615385,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.545151073368154
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 17.317598247826936
+       }
+      }
+     },
+     {
+      "id": "ar_p110_t0",
+      "page": 110,
+      "kind": "text",
+      "score": 0.030621785881252923,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 9,
+        "score": 0.5206289645873365
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 19.225102705775832
+       }
+      }
+     },
+     {
+      "id": "ar_p119_v0",
+      "page": 119,
+      "kind": "visual",
+      "score": 0.03057889822595705,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.582909569118687
+       },
+       "bm25": {
+        "rank": 8,
+        "score": 12.779731512851594
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "Net Zero 2040 bước 04",
+    "latency_ms": 47.421708004549146,
+    "results": [
+     {
+      "id": "ar_p114_t0",
+      "page": 114,
+      "kind": "text",
+      "score": 0.03252247488101534,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.5976320820241952
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 20.180322166626482
+       }
+      }
+     },
+     {
+      "id": "ar_p114_v0",
+      "page": 114,
+      "kind": "visual",
+      "score": 0.032266458495966696,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6412517066651819
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 15.328408581747428
+       }
+      }
+     },
+     {
+      "id": "ar_p119_v0",
+      "page": 119,
+      "kind": "visual",
+      "score": 0.03125763125763126,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.5259912526301967
+       },
+       "bm25": {
+        "rank": 5,
+        "score": 12.779731512851594
+       }
+      }
+     },
+     {
+      "id": "ar_p147_t3",
+      "page": 147,
+      "kind": "text",
+      "score": 0.03055037313432836,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.5239397820121184
+       },
+       "bm25": {
+        "rank": 7,
+        "score": 12.126182329594073
+       }
+      }
+     },
+     {
+      "id": "ar_p110_t0",
+      "page": 110,
+      "kind": "text",
+      "score": 0.030330882352941176,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 8,
+        "score": 0.48940160553542683
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 15.080368806785355
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "view_page",
+    "page": 114,
+    "question": "Trong sơ đồ lộ trình Net Zero 2040 gồm 5 bước, bước 04 có tiêu đề và nội dung gì?",
+    "id": "ar_p114_img",
+    "observation": "Bước **04** trong sơ đồ lộ trình Net Zero 2040:\n\n- **Tiêu đề:** **Xác định các giải pháp ưu tiên**  \n  - Trên trang: số **04** in màu xanh, tiêu đề in màu cam.\n- **Nội dung:**\n  - **Tòa nhà văn phòng:** Lắp đặt đèn LED, hệ thống cảm biến thông minh; tích hợp cảm biến nhiệt độ và độ ẩm để điều khiển hệ thống điều hòa tự động;\n  - **Trung tâm dữ liệu:** Tối ưu hệ thống làm mát thông qua các giải pháp Liquid Cooling, AI-driven Thermal Management. Sử dụng môi chất lạnh có chỉ số GWP thấp; áp dụng cơ chế vận hành tiết kiệm năng lượng cho hệ thống máy chủ, áp dụng tiêu chuẩn xanh cho hạ tầng.",
+    "usage": {
+     "prompt_tokens": 1074,
+     "completion_tokens": 1245
+    },
+    "cost_usd": 0.0007502219999999999,
+    "latency_ms": 6653.920458018547,
+    "model": "deepseek-flash"
+   },
+   {
+    "event": "answer",
+    "answer": "Bước 04 trong sơ đồ lộ trình Net Zero 2040 là **\"Xác định các giải pháp ưu tiên\"**, gồm:\n- **Tòa nhà văn phòng:** Lắp đặt đèn LED, hệ thống cảm biến thông minh; tích hợp cảm biến nhiệt độ và độ ẩm để điều khiển hệ thống điều hòa tự động.\n- **Trung tâm dữ liệu:** Tối ưu hệ thống làm mát thông qua các giải pháp Liquid Cooling, AI-driven Thermal Management; sử dụng môi chất lạnh có chỉ số GWP thấp; áp dụng cơ chế vận hành tiết kiệm năng lượng cho hệ thống máy chủ, áp dụng tiêu chuẩn xanh cho hạ tầng.",
+    "citations": [
+     "ar_p114_img",
+     "ar_p114_v0"
+    ],
+    "invalid_citations": []
+   }
+  ],
+  "llm_calls": [
+   {
+    "step": 0,
+    "usage": {
+     "prompt_tokens": 1094,
+     "completion_tokens": 77
+    },
+    "cost_usd": 4.9482e-05,
+    "latency_ms": 777.6929159881547,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_lqDyAHAdk0UMkL0ZoELN3597",
+      "name": "search",
+      "arguments": {
+       "query": "lộ trình Net Zero 2040 5 bước"
+      }
+     },
+     {
+      "id": "call_01_0bQPPGHgEizHZ605jVMx2361",
+      "name": "search",
+      "arguments": {
+       "query": "Net Zero 2040 bước 04"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 1,
+    "usage": {
+     "prompt_tokens": 5507,
+     "completion_tokens": 82
+    },
+    "cost_usd": 6.5721e-05,
+    "latency_ms": 1342.0059170166496,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_5Vm77PNjIvw5nPwhTJZD6626",
+      "name": "view_page",
+      "arguments": {
+       "page": 114,
+       "question": "Trong sơ đồ lộ trình Net Zero 2040 gồm 5 bước, bước 04 có tiêu đề và nội dung gì?"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 2,
+    "usage": {
+     "prompt_tokens": 5857,
+     "completion_tokens": 258
+    },
+    "cost_usd": 0.000172371,
+    "latency_ms": 1838.5471660003532,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_ZoI3UMHMEdP0qph6tB1p4375",
+      "name": "answer",
+      "arguments": {
+       "answer": "Bước 04 trong sơ đồ lộ trình Net Zero 2040 là **\"Xác định các giải pháp ưu tiên\"**, gồm:\n- **Tòa nhà văn phòng:** Lắp đặt đèn LED, hệ thống cảm biến thông minh; tích hợp cảm biến nhiệt độ và độ ẩm để điều khiển hệ thống điều hòa tự động.\n- **Trung tâm dữ liệu:** Tối ưu hệ thống làm mát thông qua các giải pháp Liquid Cooling, AI-driven Thermal Management; sử dụng môi chất lạnh có chỉ số GWP thấp; áp dụng cơ chế vận hành tiết kiệm năng lượng cho hệ thống máy chủ, áp dụng tiêu chuẩn xanh cho hạ tầng.",
+       "citations": [
+        "ar_p114_img",
+        "ar_p114_v0"
+       ]
+      }
+     }
+    ],
+    "content": ""
+   }
+  ],
+  "context_ids": [
+   "ar_p114_t0",
+   "ar_p114_v0",
+   "ar_p147_t3",
+   "ar_p110_t0",
+   "ar_p119_v0",
+   "ar_p114_img"
+  ],
+  "latency_s": 12.717275915987557,
+  "tokens": {
+   "prompt_tokens": 13532,
+   "completion_tokens": 1662
+  },
+  "cost_usd": 0.001037796,
+  "tool_counts": {
+   "search": 2,
+   "view_page": 1
+  },
+  "auto_hint": {
+   "gold_pages": [
+    114
+   ],
+   "cited_gold_pages": [
+    114
+   ],
+   "abstained": false
+  }
+ },
+ {
+  "query_id": "d09",
+  "split": "dev",
+  "group": "image",
+  "answerable": true,
+  "question": "Theo infographic của lĩnh vực Dịch vụ Viễn thông, FPT Telecom có bao nhiêu trung tâm dữ liệu đạt chuẩn Uptime Tier III và dung lượng hạ tầng kết nối quốc tế là bao nhiêu?",
+  "config": {
+   "name": "full-hybrid-view",
+   "kinds": [
+    "table",
+    "text",
+    "visual"
+   ],
+   "retriever": "hybrid",
+   "view_page": true,
+   "top_k": 5,
+   "max_steps": 8,
+   "max_views": 3,
+   "model": "deepseek-chat",
+   "vision_model": "deepseek-flash",
+   "index_chunks": 965
+  },
+  "status": "answered",
+  "answer": "Theo infographic lĩnh vực Dịch vụ Viễn thông (trang 69): FPT Telecom có **04 trung tâm dữ liệu đạt chuẩn Uptime Tier III quốc tế** và **dung lượng hạ tầng kết nối quốc tế là 6.800 Gbps**.",
+  "citations": [
+   "ar_p69_img",
+   "ar_p69_v2",
+   "ar_p69_t1"
+  ],
+  "cited_pages": [
+   69
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "Dịch vụ Viễn thông FPT Telecom trung tâm dữ liệu Uptime Tier III",
+    "latency_ms": 179.50224998639897,
+    "results": [
+     {
+      "id": "ar_p69_t1",
+      "page": 69,
+      "kind": "text",
+      "score": 0.03252247488101534,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.7311763907223685
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 35.15238186112044
+       }
+      }
+     },
+     {
+      "id": "ar_p69_v2",
+      "page": 69,
+      "kind": "visual",
+      "score": 0.03252247488101534,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6750348372264713
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 39.24497240670462
+       }
+      }
+     },
+     {
+      "id": "ar_p68_t2",
+      "page": 68,
+      "kind": "text",
+      "score": 0.031009615384615385,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.5873503614280309
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 22.228622012382363
+       }
+      }
+     },
+     {
+      "id": "ar_p69_t0",
+      "page": 69,
+      "kind": "text",
+      "score": 0.030309988518943745,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 7,
+        "score": 0.5778103242603913
+       },
+       "bm25": {
+        "rank": 5,
+        "score": 19.38165435924203
+       }
+      }
+     },
+     {
+      "id": "ar_p7_t3",
+      "page": 7,
+      "kind": "text",
+      "score": 0.030303030303030304,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 6,
+        "score": 0.5782242527298158
+       },
+       "bm25": {
+        "rank": 6,
+        "score": 18.920799532073577
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "hạ tầng kết nối quốc tế dung lượng FPT Telecom",
+    "latency_ms": 54.915000015171245,
+    "results": [
+     {
+      "id": "ar_p69_t1",
+      "page": 69,
+      "kind": "text",
+      "score": 0.03252247488101534,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6833926527493235
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 27.202983880217968
+       }
+      }
+     },
+     {
+      "id": "ar_p69_v2",
+      "page": 69,
+      "kind": "visual",
+      "score": 0.03252247488101534,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.647232264572243
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 29.905737173947422
+       }
+      }
+     },
+     {
+      "id": "ar_p7_t3",
+      "page": 7,
+      "kind": "text",
+      "score": 0.030776515151515152,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 6,
+        "score": 0.5811335555438292
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 16.052135370766464
+       }
+      }
+     },
+     {
+      "id": "ar_p70_t4",
+      "page": 70,
+      "kind": "text",
+      "score": 0.03057889822595705,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.5961878794717248
+       },
+       "bm25": {
+        "rank": 8,
+        "score": 12.320311611917163
+       }
+      }
+     },
+     {
+      "id": "ar_p69_t0",
+      "page": 69,
+      "kind": "text",
+      "score": 0.02819138376017471,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 9,
+        "score": 0.5747336035954287
+       },
+       "bm25": {
+        "rank": 13,
+        "score": 10.923035835447239
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "view_page",
+    "page": 69,
+    "question": "Infographic lĩnh vực Dịch vụ Viễn thông: số trung tâm dữ liệu đạt chuẩn Uptime Tier III và dung lượng hạ tầng kết nối quốc tế là bao nhiêu?",
+    "id": "ar_p69_img",
+    "observation": "Trên trang này:\n\n- **04** – **Trung tâm dữ liệu đạt chuẩn Uptime Tier III quốc tế**\n- **6.800 Gbps** – **Dung lượng hạ tầng kết nối quốc tế**\n\nTrang ghi **“BÁO CÁO THƯỜNG NIÊN 2025”**; hai số liệu trên không có nhãn năm riêng.",
+    "usage": {
+     "prompt_tokens": 1097,
+     "completion_tokens": 1206
+    },
+    "cost_usd": 0.0007268910000000001,
+    "latency_ms": 6698.686749994522,
+    "model": "deepseek-flash"
+   },
+   {
+    "event": "answer",
+    "answer": "Theo infographic lĩnh vực Dịch vụ Viễn thông (trang 69): FPT Telecom có **04 trung tâm dữ liệu đạt chuẩn Uptime Tier III quốc tế** và **dung lượng hạ tầng kết nối quốc tế là 6.800 Gbps**.",
+    "citations": [
+     "ar_p69_img",
+     "ar_p69_v2",
+     "ar_p69_t1"
+    ],
+    "invalid_citations": []
+   }
+  ],
+  "llm_calls": [
+   {
+    "step": 0,
+    "usage": {
+     "prompt_tokens": 1133,
+     "completion_tokens": 101
+    },
+    "cost_usd": 6.3999e-05,
+    "latency_ms": 1262.962749984581,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_lEkHBMWGFIQkUnXd63ao1734",
+      "name": "search",
+      "arguments": {
+       "query": "Dịch vụ Viễn thông FPT Telecom trung tâm dữ liệu Uptime Tier III"
+      }
+     },
+     {
+      "id": "call_01_ihEjvjWSORh2EakI1uzu2345",
+      "name": "search",
+      "arguments": {
+       "query": "hạ tầng kết nối quốc tế dung lượng FPT Telecom"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 1,
+    "usage": {
+     "prompt_tokens": 3813,
+     "completion_tokens": 105
+    },
+    "cost_usd": 7.4439e-05,
+    "latency_ms": 1186.854041996412,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_e8WVon5n740VUxUGvX0F7564",
+      "name": "view_page",
+      "arguments": {
+       "page": 69,
+       "question": "Infographic lĩnh vực Dịch vụ Viễn thông: số trung tâm dữ liệu đạt chuẩn Uptime Tier III và dung lượng hạ tầng kết nối quốc tế là bao nhiêu?"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 2,
+    "usage": {
+     "prompt_tokens": 4056,
+     "completion_tokens": 148
+    },
+    "cost_usd": 0.000100968,
+    "latency_ms": 1400.3743329958525,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_oloSaQ0wo06cxUnCoQM41173",
+      "name": "answer",
+      "arguments": {
+       "answer": "Theo infographic lĩnh vực Dịch vụ Viễn thông (trang 69): FPT Telecom có **04 trung tâm dữ liệu đạt chuẩn Uptime Tier III quốc tế** và **dung lượng hạ tầng kết nối quốc tế là 6.800 Gbps**.",
+       "citations": [
+        "ar_p69_img",
+        "ar_p69_v2",
+        "ar_p69_t1"
+       ]
+      }
+     }
+    ],
+    "content": ""
+   }
+  ],
+  "context_ids": [
+   "ar_p69_t1",
+   "ar_p69_v2",
+   "ar_p68_t2",
+   "ar_p69_t0",
+   "ar_p7_t3",
+   "ar_p70_t4",
+   "ar_p69_img"
+  ],
+  "latency_s": 10.786821999994572,
+  "tokens": {
+   "prompt_tokens": 10099,
+   "completion_tokens": 1560
+  },
+  "cost_usd": 0.0009662970000000001,
+  "tool_counts": {
+   "search": 2,
+   "view_page": 1
+  },
+  "auto_hint": {
+   "gold_pages": [
+    69
+   ],
+   "cited_gold_pages": [
+    69
+   ],
+   "abstained": false
+  }
+ },
+ {
+  "query_id": "d10",
+  "split": "dev",
+  "group": "multihop",
+  "answerable": true,
+  "question": "Cổ tức bằng tiền mặt chi trả năm 2025 bằng khoảng bao nhiêu phần trăm lợi nhuận sau thuế thuộc về cổ đông công ty mẹ năm 2025?",
+  "config": {
+   "name": "full-hybrid-view",
+   "kinds": [
+    "table",
+    "text",
+    "visual"
+   ],
+   "retriever": "hybrid",
+   "view_page": true,
+   "top_k": 5,
+   "max_steps": 8,
+   "max_views": 3,
+   "model": "deepseek-chat",
+   "vision_model": "deepseek-flash",
+   "index_chunks": 965
+  },
+  "status": "answered",
+  "answer": "Khoảng 34,0%. Năm 2025, cổ tức tiền mặt chi trả trong năm là 3.185 tỷ VND, lợi nhuận sau thuế thuộc về cổ đông công ty mẹ là 9.376 tỷ VND → 3.185/9.376 ≈ 34,0% (tỷ lệ lợi nhuận trả cổ tức năm 2025 là 34,0%, giảm 90 bps so với 34,9% năm 2024). Lưu ý: tiền mặt chi trả trong năm bao gồm cổ tức tiền mặt còn lại của năm liền trước và tạm ứng cổ tức tiền mặt của năm hiện tại.",
+  "citations": [
+   "ar_p58_v0",
+   "ar_p12_v0"
+  ],
+  "cited_pages": [
+   12,
+   58
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "cổ tức tiền mặt năm 2025 tỷ lệ lợi nhuận sau thuế cổ đông công ty mẹ",
+    "latency_ms": 310.1965000096243,
+    "results": [
+     {
+      "id": "ar_p12_t1",
+      "page": 12,
+      "kind": "text",
+      "score": 0.03278688524590164,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.7126863886429995
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 42.955944857075096
+       }
+      }
+     },
+     {
+      "id": "ar_p12_v0",
+      "page": 12,
+      "kind": "visual",
+      "score": 0.0315136476426799,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.6757564367523965
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 35.17148848485753
+       }
+      }
+     },
+     {
+      "id": "ar_p207_t1",
+      "page": 207,
+      "kind": "text",
+      "score": 0.03149801587301587,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.6769645850176431
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 32.11923502681587
+       }
+      }
+     },
+     {
+      "id": "ar_p10_v1",
+      "page": 10,
+      "kind": "visual",
+      "score": 0.03128054740957967,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.7050758840547477
+       },
+       "bm25": {
+        "rank": 6,
+        "score": 28.317151759345272
+       }
+      }
+     },
+     {
+      "id": "ar_p92_t1",
+      "page": 92,
+      "kind": "text",
+      "score": 0.030330882352941176,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 8,
+        "score": 0.6693285728106257
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 29.255761598584606
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "chi trả cổ tức bằng tiền mặt 2025",
+    "latency_ms": 44.43275000085123,
+    "results": [
+     {
+      "id": "ar_p92_t1",
+      "page": 92,
+      "kind": "text",
+      "score": 0.032266458495966696,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.709837736921944
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 19.248322801400462
+       }
+      }
+     },
+     {
+      "id": "ar_p107_t4",
+      "page": 107,
+      "kind": "text",
+      "score": 0.03200204813108039,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.6513415337081365
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 20.174439087241
+       }
+      }
+     },
+     {
+      "id": "ar_p207_t1",
+      "page": 207,
+      "kind": "text",
+      "score": 0.031754032258064516,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6861226125729377
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 19.201421078683033
+       }
+      }
+     },
+     {
+      "id": "ar_p12_v0",
+      "page": 12,
+      "kind": "visual",
+      "score": 0.030309988518943745,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 7,
+        "score": 0.5997432190785505
+       },
+       "bm25": {
+        "rank": 5,
+        "score": 18.0122612981302
+       }
+      }
+     },
+     {
+      "id": "ar_p58_v0",
+      "page": 58,
+      "kind": "visual",
+      "score": 0.030303030303030304,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 6,
+        "score": 0.6064575360276991
+       },
+       "bm25": {
+        "rank": 6,
+        "score": 16.82027662570766
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "answer",
+    "answer": "Khoảng 34,0%. Năm 2025, cổ tức tiền mặt chi trả trong năm là 3.185 tỷ VND, lợi nhuận sau thuế thuộc về cổ đông công ty mẹ là 9.376 tỷ VND → 3.185/9.376 ≈ 34,0% (tỷ lệ lợi nhuận trả cổ tức năm 2025 là 34,0%, giảm 90 bps so với 34,9% năm 2024). Lưu ý: tiền mặt chi trả trong năm bao gồm cổ tức tiền mặt còn lại của năm liền trước và tạm ứng cổ tức tiền mặt của năm hiện tại.",
+    "citations": [
+     "ar_p58_v0",
+     "ar_p12_v0"
+    ],
+    "invalid_citations": []
+   }
+  ],
+  "llm_calls": [
+   {
+    "step": 0,
+    "usage": {
+     "prompt_tokens": 1116,
+     "completion_tokens": 104
+    },
+    "cost_usd": 6.574800000000001e-05,
+    "latency_ms": 1141.590583982179,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_elN7ailFb0YhF1QoXGvl8288",
+      "name": "search",
+      "arguments": {
+       "query": "cổ tức tiền mặt năm 2025 tỷ lệ lợi nhuận sau thuế cổ đông công ty mẹ"
+      }
+     },
+     {
+      "id": "call_01_LrATAOnWA2v7of6OICih2609",
+      "name": "search",
+      "arguments": {
+       "query": "chi trả cổ tức bằng tiền mặt 2025"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 1,
+    "usage": {
+     "prompt_tokens": 5976,
+     "completion_tokens": 242
+    },
+    "cost_usd": 0.000163128,
+    "latency_ms": 1438.4426250180695,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_1pcTF80LJosdSoLcnE6t8238",
+      "name": "answer",
+      "arguments": {
+       "answer": "Khoảng 34,0%. Năm 2025, cổ tức tiền mặt chi trả trong năm là 3.185 tỷ VND, lợi nhuận sau thuế thuộc về cổ đông công ty mẹ là 9.376 tỷ VND → 3.185/9.376 ≈ 34,0% (tỷ lệ lợi nhuận trả cổ tức năm 2025 là 34,0%, giảm 90 bps so với 34,9% năm 2024). Lưu ý: tiền mặt chi trả trong năm bao gồm cổ tức tiền mặt còn lại của năm liền trước và tạm ứng cổ tức tiền mặt của năm hiện tại.",
+       "citations": [
+        "ar_p58_v0",
+        "ar_p12_v0"
+       ]
+      }
+     }
+    ],
+    "content": ""
+   }
+  ],
+  "context_ids": [
+   "ar_p12_t1",
+   "ar_p12_v0",
+   "ar_p207_t1",
+   "ar_p10_v1",
+   "ar_p92_t1",
+   "ar_p107_t4",
+   "ar_p58_v0"
+  ],
+  "latency_s": 2.9350223329965957,
+  "tokens": {
+   "prompt_tokens": 7092,
+   "completion_tokens": 346
+  },
+  "cost_usd": 0.00022887599999999998,
+  "tool_counts": {
+   "search": 2,
+   "view_page": 0
+  },
+  "auto_hint": {
+   "gold_pages": [
+    11,
+    12
+   ],
+   "cited_gold_pages": [
+    12
+   ],
+   "abstained": false
+  }
+ },
+ {
+  "query_id": "d11",
+  "split": "dev",
+  "group": "multihop",
+  "answerable": true,
+  "question": "Vốn điều lệ của FPT có khớp với tổng số cổ phiếu đang lưu hành nhân mệnh giá cổ phiếu không? Nêu các con số.",
+  "config": {
+   "name": "full-hybrid-view",
+   "kinds": [
+    "table",
+    "text",
+    "visual"
+   ],
+   "retriever": "hybrid",
+   "view_page": true,
+   "top_k": 5,
+   "max_steps": 8,
+   "max_views": 3,
+   "model": "deepseek-chat",
+   "vision_model": "deepseek-flash",
+   "index_chunks": 965
+  },
+  "status": "answered",
+  "answer": "Có, khớp. Vốn điều lệ 17.035.071.210.000 VNĐ [ar_p23_v0]; tổng số cổ phiếu đang lưu hành 1.703.507.121 cổ phiếu, mệnh giá 10.000 VNĐ/cổ phiếu [ar_p32_v0]. Phép tính: 1.703.507.121 × 10.000 = 17.035.071.210.000 VNĐ — đúng bằng vốn điều lệ. Số cổ phiếu quỹ là 0 [ar_p32_v0], và số lượng cổ phiếu đã phát hành cũng là 1.703.507.121 [ar_p204_v2].",
+  "citations": [
+   "ar_p23_v0",
+   "ar_p32_v0",
+   "ar_p204_v2"
+  ],
+  "cited_pages": [
+   23,
+   32,
+   204
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "vốn điều lệ FPT",
+    "latency_ms": 439.68058298924007,
+    "results": [
+     {
+      "id": "ar_p31_t1",
+      "page": 31,
+      "kind": "text",
+      "score": 0.032266458495966696,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.6675339599367014
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 11.31101031823058
+       }
+      }
+     },
+     {
+      "id": "ar_p34_v0",
+      "page": 34,
+      "kind": "visual",
+      "score": 0.03125763125763126,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.6414097506821227
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 10.579786873455
+       }
+      }
+     },
+     {
+      "id": "ar_p23_v0",
+      "page": 23,
+      "kind": "visual",
+      "score": 0.029551337359792925,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6766503566987786
+       },
+       "bm25": {
+        "rank": 16,
+        "score": 7.337380668501389
+       }
+      }
+     },
+     {
+      "id": "ar_p34_t1",
+      "page": 34,
+      "kind": "text",
+      "score": 0.029513888888888888,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.6470487784793025
+       },
+       "bm25": {
+        "rank": 12,
+        "score": 9.929001250444578
+       }
+      }
+     },
+     {
+      "id": "ar_p23_t0",
+      "page": 23,
+      "kind": "text",
+      "score": 0.029116045245077504,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6715058543429304
+       },
+       "bm25": {
+        "rank": 17,
+        "score": 6.8700886048117695
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "số lượng cổ phiếu đang lưu hành mệnh giá",
+    "latency_ms": 42.85745800007135,
+    "results": [
+     {
+      "id": "ar_p32_v0",
+      "page": 32,
+      "kind": "visual",
+      "score": 0.032266458495966696,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.6494646553394583
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 22.71922599948789
+       }
+      }
+     },
+     {
+      "id": "ar_p204_v2",
+      "page": 204,
+      "kind": "visual",
+      "score": 0.03177805800756621,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6942068074903758
+       },
+       "bm25": {
+        "rank": 5,
+        "score": 17.8539928852813
+       }
+      }
+     },
+     {
+      "id": "ar_p204_t0",
+      "page": 204,
+      "kind": "text",
+      "score": 0.031054405392392875,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6579426096161597
+       },
+       "bm25": {
+        "rank": 7,
+        "score": 15.982683197224045
+       }
+      }
+     },
+     {
+      "id": "ar_p208_t1",
+      "page": 208,
+      "kind": "text",
+      "score": 0.030798389007344232,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 7,
+        "score": 0.6320859936667593
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 19.70063728724554
+       }
+      }
+     },
+     {
+      "id": "ar_p32_t0",
+      "page": 32,
+      "kind": "text",
+      "score": 0.029827662395050816,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 13,
+        "score": 0.6059241129750907
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 20.953902322119852
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "answer",
+    "answer": "Có, khớp. Vốn điều lệ 17.035.071.210.000 VNĐ [ar_p23_v0]; tổng số cổ phiếu đang lưu hành 1.703.507.121 cổ phiếu, mệnh giá 10.000 VNĐ/cổ phiếu [ar_p32_v0]. Phép tính: 1.703.507.121 × 10.000 = 17.035.071.210.000 VNĐ — đúng bằng vốn điều lệ. Số cổ phiếu quỹ là 0 [ar_p32_v0], và số lượng cổ phiếu đã phát hành cũng là 1.703.507.121 [ar_p204_v2].",
+    "citations": [
+     "ar_p23_v0",
+     "ar_p32_v0",
+     "ar_p204_v2"
+    ],
+    "invalid_citations": []
+   }
+  ],
+  "llm_calls": [
+   {
+    "step": 0,
+    "usage": {
+     "prompt_tokens": 1112,
+     "completion_tokens": 82
+    },
+    "cost_usd": 5.253599999999999e-05,
+    "latency_ms": 1169.9631249939557,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_0PPEqA6pbY8WZlaiYOCQ7171",
+      "name": "search",
+      "arguments": {
+       "query": "vốn điều lệ FPT"
+      }
+     },
+     {
+      "id": "call_01_nJVIyQ1yvKD9Qxk72mx94985",
+      "name": "search",
+      "arguments": {
+       "query": "số lượng cổ phiếu đang lưu hành mệnh giá"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 1,
+    "usage": {
+     "prompt_tokens": 6064,
+     "completion_tokens": 243
+    },
+    "cost_usd": 0.00016399199999999998,
+    "latency_ms": 1866.4354580105282,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_gvlgLIcUQCbhFNhoCSMz5208",
+      "name": "answer",
+      "arguments": {
+       "answer": "Có, khớp. Vốn điều lệ 17.035.071.210.000 VNĐ [ar_p23_v0]; tổng số cổ phiếu đang lưu hành 1.703.507.121 cổ phiếu, mệnh giá 10.000 VNĐ/cổ phiếu [ar_p32_v0]. Phép tính: 1.703.507.121 × 10.000 = 17.035.071.210.000 VNĐ — đúng bằng vốn điều lệ. Số cổ phiếu quỹ là 0 [ar_p32_v0], và số lượng cổ phiếu đã phát hành cũng là 1.703.507.121 [ar_p204_v2].",
+       "citations": [
+        "ar_p23_v0",
+        "ar_p32_v0",
+        "ar_p204_v2"
+       ]
+      }
+     }
+    ],
+    "content": ""
+   }
+  ],
+  "context_ids": [
+   "ar_p31_t1",
+   "ar_p34_v0",
+   "ar_p23_v0",
+   "ar_p34_t1",
+   "ar_p23_t0",
+   "ar_p32_v0",
+   "ar_p204_v2",
+   "ar_p204_t0",
+   "ar_p208_t1",
+   "ar_p32_t0"
+  ],
+  "latency_s": 3.5193861660081893,
+  "tokens": {
+   "prompt_tokens": 7176,
+   "completion_tokens": 325
+  },
+  "cost_usd": 0.00021652799999999998,
+  "tool_counts": {
+   "search": 2,
+   "view_page": 0
+  },
+  "auto_hint": {
+   "gold_pages": [
+    23,
+    32
+   ],
+   "cited_gold_pages": [
+    23,
+    32
+   ],
+   "abstained": false
+  }
+ },
+ {
+  "query_id": "d12",
+  "split": "dev",
+  "group": "multihop",
+  "answerable": true,
+  "question": "Ông Hoàng Việt Anh giữ chức vụ gì, và công ty ông phụ trách thuộc khối nào và FPT sở hữu bao nhiêu phần trăm theo sơ đồ tổ chức?",
+  "config": {
+   "name": "full-hybrid-view",
+   "kinds": [
+    "table",
+    "text",
+    "visual"
+   ],
+   "retriever": "hybrid",
+   "view_page": true,
+   "top_k": 5,
+   "max_steps": 8,
+   "max_views": 3,
+   "model": "deepseek-chat",
+   "vision_model": "deepseek-flash",
+   "index_chunks": 965
+  },
+  "status": "answered",
+  "answer": "Ông Hoàng Việt Anh là Chủ tịch FPT Telecom (trước đây từng là Phó Tổng Giám đốc FPT đến ngày 13/3/2024) [ar_p69_t0][ar_p215_v0]. FPT Telecom thuộc KHỐI VIỄN THÔNG trong sơ đồ tổ chức, và FPT sở hữu 45,66% (vốn điều lệ 7.387.634.630.000 VNĐ) [ar_p31_img].",
+  "citations": [
+   "ar_p69_t0",
+   "ar_p215_v0",
+   "ar_p31_img"
+  ],
+  "cited_pages": [
+   31,
+   69,
+   215
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "Hoàng Việt Anh chức vụ",
+    "latency_ms": 174.90283300867304,
+    "results": [
+     {
+      "id": "ar_p215_t1",
+      "page": 215,
+      "kind": "text",
+      "score": 0.03252247488101534,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.43743963386143203
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 13.497934671283247
+       }
+      }
+     },
+     {
+      "id": "ar_p215_v0",
+      "page": 215,
+      "kind": "visual",
+      "score": 0.0315136476426799,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.4295050127795862
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 10.882573444875913
+       }
+      }
+     },
+     {
+      "id": "ar_p217_t1",
+      "page": 217,
+      "kind": "text",
+      "score": 0.03125763125763126,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.4338629862455058
+       },
+       "bm25": {
+        "rank": 5,
+        "score": 9.135954790136072
+       }
+      }
+     },
+     {
+      "id": "ar_p69_t0",
+      "page": 69,
+      "kind": "text",
+      "score": 0.030798389007344232,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 7,
+        "score": 0.42290706624071783
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 10.105239750854533
+       }
+      }
+     },
+     {
+      "id": "ar_p89_v0",
+      "page": 89,
+      "kind": "visual",
+      "score": 0.029910714285714284,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.43126719774495026
+       },
+       "bm25": {
+        "rank": 10,
+        "score": 7.368211971275917
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "sơ đồ tổ chức tỷ lệ sở hữu công ty thành viên",
+    "latency_ms": 37.03470900654793,
+    "results": [
+     {
+      "id": "ar_p31_v0",
+      "page": 31,
+      "kind": "visual",
+      "score": 0.03278688524590164,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6820336645930807
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 25.664910844680534
+       }
+      }
+     },
+     {
+      "id": "ar_p222_v0",
+      "page": 222,
+      "kind": "visual",
+      "score": 0.028991596638655463,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 10,
+        "score": 0.5969042689449248
+       },
+       "bm25": {
+        "rank": 8,
+        "score": 15.325661208506345
+       }
+      }
+     },
+     {
+      "id": "ar_p223_t0",
+      "page": 223,
+      "kind": "text",
+      "score": 0.028370221327967807,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 11,
+        "score": 0.591788457125396
+       },
+       "bm25": {
+        "rank": 10,
+        "score": 14.648147768823875
+       }
+      }
+     },
+     {
+      "id": "ar_p226_t0",
+      "page": 226,
+      "kind": "text",
+      "score": 0.027583600982429624,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 7,
+        "score": 0.6087250463478415
+       },
+       "bm25": {
+        "rank": 19,
+        "score": 14.046377548314723
+       }
+      }
+     },
+     {
+      "id": "ar_p224_t0",
+      "page": 224,
+      "kind": "text",
+      "score": 0.027212143650499815,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 14,
+        "score": 0.5890536183598563
+       },
+       "bm25": {
+        "rank": 13,
+        "score": 14.262949725178899
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "view_page",
+    "page": 31,
+    "question": "Trong sơ đồ tổ chức, FPT Telecom thuộc khối nào và tỷ lệ sở hữu của FPT là bao nhiêu? Liệt kê chi tiết các công ty trong khối Viễn thông.",
+    "id": "ar_p31_img",
+    "observation": "Trên sơ đồ tổ chức tại trang (Báo cáo thường niên FPT 2025; số liệu theo thời điểm 31/12/2025):\n\n- **FPT Telecom thuộc “KHỐI VIỄN THÔNG”.**\n- **Tỷ lệ sở hữu của FPT tại FPT Telecom: 45,66%.**\n- **Vốn điều lệ của FPT Telecom: 7.387.634.630.000 VNĐ.**\n\n**Các công ty trong “KHỐI VIỄN THÔNG”:**\n1. **FPT Online** – Vốn điều lệ: **184.712.750.000 VNĐ**; Tỷ lệ sở hữu: **49,52%**.\n2. **FPT Telecom** – Vốn điều lệ: **7.387.634.630.000 VNĐ**; Tỷ lệ sở hữu: **45,66%**.\n\nTheo chú giải màu trên sơ đồ, các ô **FPT Online** và **FPT Telecom** có nền xanh nhạt, tương ứng với **“CÔNG TY CON”**.",
+    "usage": {
+     "prompt_tokens": 1094,
+     "completion_tokens": 4474
+    },
+    "cost_usd": 0.0026876820000000003,
+    "latency_ms": 20372.552500019083,
+    "model": "deepseek-flash"
+   },
+   {
+    "event": "answer",
+    "answer": "Ông Hoàng Việt Anh là Chủ tịch FPT Telecom (trước đây từng là Phó Tổng Giám đốc FPT đến ngày 13/3/2024) [ar_p69_t0][ar_p215_v0]. FPT Telecom thuộc KHỐI VIỄN THÔNG trong sơ đồ tổ chức, và FPT sở hữu 45,66% (vốn điều lệ 7.387.634.630.000 VNĐ) [ar_p31_img].",
+    "citations": [
+     "ar_p69_t0",
+     "ar_p215_v0",
+     "ar_p31_img"
+    ],
+    "invalid_citations": []
+   }
+  ],
+  "llm_calls": [
+   {
+    "step": 0,
+    "usage": {
+     "prompt_tokens": 1119,
+     "completion_tokens": 87
+    },
+    "cost_usd": 5.5557e-05,
+    "latency_ms": 1126.4157500118017,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_juqQ5vkS8gPAcbwOx3RV7061",
+      "name": "search",
+      "arguments": {
+       "query": "Hoàng Việt Anh chức vụ"
+      }
+     },
+     {
+      "id": "call_01_O8S7CvIiJJkF12ClLcK08526",
+      "name": "search",
+      "arguments": {
+       "query": "sơ đồ tổ chức tỷ lệ sở hữu công ty thành viên"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 1,
+    "usage": {
+     "prompt_tokens": 6558,
+     "completion_tokens": 102
+    },
+    "cost_usd": 8.0874e-05,
+    "latency_ms": 2312.701874994673,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_ks1aA9MCphtX0PC3i0Zo9381",
+      "name": "view_page",
+      "arguments": {
+       "page": 31,
+       "question": "Trong sơ đồ tổ chức, FPT Telecom thuộc khối nào và tỷ lệ sở hữu của FPT là bao nhiêu? Liệt kê chi tiết các công ty trong khối Viễn thông."
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 2,
+    "usage": {
+     "prompt_tokens": 6970,
+     "completion_tokens": 193
+    },
+    "cost_usd": 0.00013671,
+    "latency_ms": 1932.9288330045529,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_U0W4oQ34i9ECiQngz5Hq3167",
+      "name": "answer",
+      "arguments": {
+       "answer": "Ông Hoàng Việt Anh là Chủ tịch FPT Telecom (trước đây từng là Phó Tổng Giám đốc FPT đến ngày 13/3/2024) [ar_p69_t0][ar_p215_v0]. FPT Telecom thuộc KHỐI VIỄN THÔNG trong sơ đồ tổ chức, và FPT sở hữu 45,66% (vốn điều lệ 7.387.634.630.000 VNĐ) [ar_p31_img].",
+       "citations": [
+        "ar_p69_t0",
+        "ar_p215_v0",
+        "ar_p31_img"
+       ]
+      }
+     }
+    ],
+    "content": ""
+   }
+  ],
+  "context_ids": [
+   "ar_p215_t1",
+   "ar_p215_v0",
+   "ar_p217_t1",
+   "ar_p69_t0",
+   "ar_p89_v0",
+   "ar_p31_v0",
+   "ar_p222_v0",
+   "ar_p223_t0",
+   "ar_p226_t0",
+   "ar_p224_t0",
+   "ar_p31_img"
+  ],
+  "latency_s": 25.960207791998982,
+  "tokens": {
+   "prompt_tokens": 15741,
+   "completion_tokens": 4856
+  },
+  "cost_usd": 0.0029608230000000004,
+  "tool_counts": {
+   "search": 2,
+   "view_page": 1
+  },
+  "auto_hint": {
+   "gold_pages": [
+    31,
+    69
+   ],
+   "cited_gold_pages": [
+    31,
+    69
+   ],
+   "abstained": false
+  }
+ },
+ {
+  "query_id": "d13",
+  "split": "dev",
+  "group": "text",
+  "answerable": true,
+  "question": "Trong năm 2025 FPT có thực hiện giao dịch cổ phiếu quỹ không, và tổng số cổ phiếu quỹ là bao nhiêu?",
+  "config": {
+   "name": "full-hybrid-view",
+   "kinds": [
+    "table",
+    "text",
+    "visual"
+   ],
+   "retriever": "hybrid",
+   "view_page": true,
+   "top_k": 5,
+   "max_steps": 8,
+   "max_views": 3,
+   "model": "deepseek-chat",
+   "vision_model": "deepseek-flash",
+   "index_chunks": 965
+  },
+  "status": "answered",
+  "answer": "Trong năm 2025, Tập đoàn không thực hiện giao dịch cổ phiếu quỹ. Tổng số cổ phiếu quỹ là 0 cổ phiếu (tổng số cổ phiếu đang lưu hành: 1.703.507.121 cổ phiếu).",
+  "citations": [
+   "ar_p32_v0",
+   "ar_p32_t0"
+  ],
+  "cited_pages": [
+   32
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "cổ phiếu quỹ giao dịch năm 2025",
+    "latency_ms": 1157.5895829882938,
+    "results": [
+     {
+      "id": "ar_p32_v0",
+      "page": 32,
+      "kind": "visual",
+      "score": 0.03278688524590164,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6483300540158995
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 19.521377746912776
+       }
+      }
+     },
+     {
+      "id": "ar_p32_t0",
+      "page": 32,
+      "kind": "text",
+      "score": 0.03200204813108039,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.5900327626637187
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 16.83694247433333
+       }
+      }
+     },
+     {
+      "id": "ar_p36_v1",
+      "page": 36,
+      "kind": "visual",
+      "score": 0.03200204813108039,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6223147514025487
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 16.574393426450687
+       }
+      }
+     },
+     {
+      "id": "ar_p36_t1",
+      "page": 36,
+      "kind": "text",
+      "score": 0.03125,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.5814407815488218
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 15.923038241170637
+       }
+      }
+     },
+     {
+      "id": "ar_p208_t0",
+      "page": 208,
+      "kind": "text",
+      "score": 0.030536130536130537,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 6,
+        "score": 0.571319741098231
+       },
+       "bm25": {
+        "rank": 5,
+        "score": 14.949337673525415
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "tổng số cổ phiếu quỹ",
+    "latency_ms": 40.11695901863277,
+    "results": [
+     {
+      "id": "ar_p32_v0",
+      "page": 32,
+      "kind": "visual",
+      "score": 0.03278688524590164,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.618245950997918
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 15.209025715788957
+       }
+      }
+     },
+     {
+      "id": "ar_p32_t0",
+      "page": 32,
+      "kind": "text",
+      "score": 0.030621785881252923,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 9,
+        "score": 0.5783202019694497
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 14.25974803732891
+       }
+      }
+     },
+     {
+      "id": "ar_p207_t2",
+      "page": 207,
+      "kind": "text",
+      "score": 0.03055037313432836,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 7,
+        "score": 0.5819910902929819
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 12.35059944446434
+       }
+      }
+     },
+     {
+      "id": "ar_p206_v0",
+      "page": 206,
+      "kind": "visual",
+      "score": 0.028790389395194696,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 8,
+        "score": 0.5800706185296891
+       },
+       "bm25": {
+        "rank": 11,
+        "score": 9.795066678384396
+       }
+      }
+     },
+     {
+      "id": "ar_p204_t0",
+      "page": 204,
+      "kind": "text",
+      "score": 0.02871794871794872,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.5925215110014702
+       },
+       "bm25": {
+        "rank": 15,
+        "score": 9.355217289591113
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "answer",
+    "answer": "Trong năm 2025, Tập đoàn không thực hiện giao dịch cổ phiếu quỹ. Tổng số cổ phiếu quỹ là 0 cổ phiếu (tổng số cổ phiếu đang lưu hành: 1.703.507.121 cổ phiếu).",
+    "citations": [
+     "ar_p32_v0",
+     "ar_p32_t0"
+    ],
+    "invalid_citations": []
+   }
+  ],
+  "llm_calls": [
+   {
+    "step": 0,
+    "usage": {
+     "prompt_tokens": 1108,
+     "completion_tokens": 82
+    },
+    "cost_usd": 5.2523999999999994e-05,
+    "latency_ms": 951.2205419887323,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_nQKd7GHprg6zdkAVx0nO1611",
+      "name": "search",
+      "arguments": {
+       "query": "cổ phiếu quỹ giao dịch năm 2025"
+      }
+     },
+     {
+      "id": "call_01_o4wPB3oPkskpIA0w2eVB1413",
+      "name": "search",
+      "arguments": {
+       "query": "tổng số cổ phiếu quỹ"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 1,
+    "usage": {
+     "prompt_tokens": 6015,
+     "completion_tokens": 136
+    },
+    "cost_usd": 9.9645e-05,
+    "latency_ms": 1315.9652079921216,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_MKxIvgC1sc0on0rTG45g7524",
+      "name": "answer",
+      "arguments": {
+       "answer": "Trong năm 2025, Tập đoàn không thực hiện giao dịch cổ phiếu quỹ. Tổng số cổ phiếu quỹ là 0 cổ phiếu (tổng số cổ phiếu đang lưu hành: 1.703.507.121 cổ phiếu).",
+       "citations": [
+        "ar_p32_v0",
+        "ar_p32_t0"
+       ]
+      }
+     }
+    ],
+    "content": ""
+   }
+  ],
+  "context_ids": [
+   "ar_p32_v0",
+   "ar_p32_t0",
+   "ar_p36_v1",
+   "ar_p36_t1",
+   "ar_p208_t0",
+   "ar_p207_t2",
+   "ar_p206_v0",
+   "ar_p204_t0"
+  ],
+  "latency_s": 3.465138208004646,
+  "tokens": {
+   "prompt_tokens": 7123,
+   "completion_tokens": 218
+  },
+  "cost_usd": 0.00015216899999999999,
+  "tool_counts": {
+   "search": 2,
+   "view_page": 0
+  },
+  "auto_hint": {
+   "gold_pages": [
+    32
+   ],
+   "cited_gold_pages": [
+    32
+   ],
+   "abstained": false
+  }
+ },
+ {
+  "query_id": "d14",
+  "split": "dev",
+  "group": "text",
+  "answerable": true,
+  "question": "Dựa trên quy trình xác định vấn đề trọng yếu, FPT lựa chọn những vấn đề trọng yếu nào?",
+  "config": {
+   "name": "full-hybrid-view",
+   "kinds": [
+    "table",
+    "text",
+    "visual"
+   ],
+   "retriever": "hybrid",
+   "view_page": true,
+   "top_k": 5,
+   "max_steps": 8,
+   "max_views": 3,
+   "model": "deepseek-chat",
+   "vision_model": "deepseek-flash",
+   "index_chunks": 965
+  },
+  "status": "answered",
+  "answer": "Theo quy trình 3 bước (Bước 01: xác định các vấn đề chính ảnh hưởng lớn đến hoạt động kinh doanh và lợi ích các bên quan tâm; Bước 02: phân tích, xác định các vấn đề trọng yếu được các bên quan tâm; Bước 03: xây dựng ma trận và lựa chọn các vấn đề trọng yếu), FPT lựa chọn 04 vấn đề trọng yếu:\n(1) Quản trị hướng đến phát triển bền vững;\n(2) Xây dựng môi trường làm việc đẳng cấp, hạnh phúc;\n(3) Hoạt động vì môi trường xanh;\n(4) Song hành/Sống hạnh phúc vì sự phát triển cộng đồng.\n\nLưu ý: trong Bước 02, các vấn đề được xác định tập trung vào quản trị minh bạch, an toàn dữ liệu, cam kết chuyển đổi xanh, phát triển nguồn nhân lực chất lượng cao và quản trị chuỗi cung ứng bền vững — đây là các vấn đề ở bước phân tích, còn 04 vấn đề nêu trên là kết quả lựa chọn cuối cùng.",
+  "citations": [
+   "ar_p125_v1",
+   "ar_p125_t2",
+   "ar_p125_img",
+   "ar_p75_t0"
+  ],
+  "cited_pages": [
+   75,
+   125
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "quy trình xác định vấn đề trọng yếu",
+    "latency_ms": 204.2368330003228,
+    "results": [
+     {
+      "id": "ar_p125_v1",
+      "page": 125,
+      "kind": "visual",
+      "score": 0.03278688524590164,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.7527110038800744
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 23.69200686519388
+       }
+      }
+     },
+     {
+      "id": "ar_p125_t0",
+      "page": 125,
+      "kind": "text",
+      "score": 0.03200204813108039,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.7389631187721553
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 20.55904763618304
+       }
+      }
+     },
+     {
+      "id": "ar_p125_t2",
+      "page": 125,
+      "kind": "text",
+      "score": 0.03200204813108039,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.6798999280624651
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 22.860978543546246
+       }
+      }
+     },
+     {
+      "id": "ar_p116_t2",
+      "page": 116,
+      "kind": "text",
+      "score": 0.030536130536130537,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.5359690892788549
+       },
+       "bm25": {
+        "rank": 6,
+        "score": 11.855538422541056
+       }
+      }
+     },
+     {
+      "id": "ar_p116_v0",
+      "page": 116,
+      "kind": "visual",
+      "score": 0.029437229437229435,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 6,
+        "score": 0.5197269607872949
+       },
+       "bm25": {
+        "rank": 10,
+        "score": 11.074502199928492
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "vấn đề trọng yếu FPT lựa chọn",
+    "latency_ms": 39.167874987469986,
+    "results": [
+     {
+      "id": "ar_p125_t2",
+      "page": 125,
+      "kind": "text",
+      "score": 0.03252247488101534,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6696310070092918
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 25.520327343085707
+       }
+      }
+     },
+     {
+      "id": "ar_p125_v1",
+      "page": 125,
+      "kind": "visual",
+      "score": 0.03200204813108039,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.6420500533632821
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 23.510378178682444
+       }
+      }
+     },
+     {
+      "id": "ar_p125_t0",
+      "page": 125,
+      "kind": "text",
+      "score": 0.03177805800756621,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.674091539075002
+       },
+       "bm25": {
+        "rank": 5,
+        "score": 13.764326646284722
+       }
+      }
+     },
+     {
+      "id": "ar_p75_t0",
+      "page": 75,
+      "kind": "text",
+      "score": 0.03149801587301587,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.5936048592334676
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 15.883880536647554
+       }
+      }
+     },
+     {
+      "id": "ar_p113_t0",
+      "page": 113,
+      "kind": "text",
+      "score": 0.026144907723855092,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 16,
+        "score": 0.5645699424976536
+       },
+       "bm25": {
+        "rank": 17,
+        "score": 9.25223878166268
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "view_page",
+    "page": 125,
+    "question": "Kết luận FPT lựa chọn những vấn đề trọng yếu nào? Liệt kê chính xác tên 4 vấn đề.",
+    "id": "ar_p125_img",
+    "observation": "Trên trang 124 – Báo cáo thường niên 2025, phần kết luận ghi:\n\n> “Dựa trên nguyên tắc và quy trình xác định các vấn đề trọng yếu nêu trên, FPT lựa chọn **04 vấn đề trọng yếu** gồm:…”\n\n**04 vấn đề trọng yếu FPT lựa chọn:**\n1. **Quản trị hướng đến phát triển bền vững**\n2. **Xây dựng môi trường làm việc đẳng cấp, hạnh phúc**\n3. **Hoạt động vì môi trường xanh**\n4. **Sống hạnh phúc vì sự phát triển cộng đồng**",
+    "usage": {
+     "prompt_tokens": 1078,
+     "completion_tokens": 3165
+    },
+    "cost_usd": 0.0019022339999999998,
+    "latency_ms": 14065.314707986545,
+    "model": "deepseek-flash"
+   },
+   {
+    "event": "answer",
+    "answer": "Theo quy trình 3 bước (Bước 01: xác định các vấn đề chính ảnh hưởng lớn đến hoạt động kinh doanh và lợi ích các bên quan tâm; Bước 02: phân tích, xác định các vấn đề trọng yếu được các bên quan tâm; Bước 03: xây dựng ma trận và lựa chọn các vấn đề trọng yếu), FPT lựa chọn 04 vấn đề trọng yếu:\n(1) Quản trị hướng đến phát triển bền vững;\n(2) Xây dựng môi trường làm việc đẳng cấp, hạnh phúc;\n(3) Hoạt động vì môi trường xanh;\n(4) Song hành/Sống hạnh phúc vì sự phát triển cộng đồng.\n\nLưu ý: trong Bước 02, các vấn đề được xác định tập trung vào quản trị minh bạch, an toàn dữ liệu, cam kết chuyển đổi xanh, phát triển nguồn nhân lực chất lượng cao và quản trị chuỗi cung ứng bền vững — đây là các vấn đề ở bước phân tích, còn 04 vấn đề nêu trên là kết quả lựa chọn cuối cùng.",
+    "citations": [
+     "ar_p125_v1",
+     "ar_p125_t2",
+     "ar_p125_img",
+     "ar_p75_t0"
+    ],
+    "invalid_citations": []
+   }
+  ],
+  "llm_calls": [
+   {
+    "step": 0,
+    "usage": {
+     "prompt_tokens": 1104,
+     "completion_tokens": 87
+    },
+    "cost_usd": 5.551199999999999e-05,
+    "latency_ms": 941.2247089785524,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_LlJg1eOfZGXELjVWrtcL8423",
+      "name": "search",
+      "arguments": {
+       "query": "quy trình xác định vấn đề trọng yếu"
+      }
+     },
+     {
+      "id": "call_01_3WFMvPgK7o0m1BNJe7I81950",
+      "name": "search",
+      "arguments": {
+       "query": "vấn đề trọng yếu FPT lựa chọn"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 1,
+    "usage": {
+     "prompt_tokens": 6381,
+     "completion_tokens": 86
+    },
+    "cost_usd": 7.0743e-05,
+    "latency_ms": 1199.822666007094,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_Oi60liKbskl7Xbfimtl71616",
+      "name": "view_page",
+      "arguments": {
+       "page": 125,
+       "question": "Kết luận FPT lựa chọn những vấn đề trọng yếu nào? Liệt kê chính xác tên 4 vấn đề."
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 2,
+    "usage": {
+     "prompt_tokens": 6687,
+     "completion_tokens": 417
+    },
+    "cost_usd": 0.000270261,
+    "latency_ms": 2217.760375002399,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_gq6otu7vj8zfPO6wWsJ57305",
+      "name": "answer",
+      "arguments": {
+       "answer": "Theo quy trình 3 bước (Bước 01: xác định các vấn đề chính ảnh hưởng lớn đến hoạt động kinh doanh và lợi ích các bên quan tâm; Bước 02: phân tích, xác định các vấn đề trọng yếu được các bên quan tâm; Bước 03: xây dựng ma trận và lựa chọn các vấn đề trọng yếu), FPT lựa chọn 04 vấn đề trọng yếu:\n(1) Quản trị hướng đến phát triển bền vững;\n(2) Xây dựng môi trường làm việc đẳng cấp, hạnh phúc;\n(3) Hoạt động vì môi trường xanh;\n(4) Song hành/Sống hạnh phúc vì sự phát triển cộng đồng.\n\nLưu ý: trong Bước 02, các vấn đề được xác định tập trung vào quản trị minh bạch, an toàn dữ liệu, cam kết chuyển đổi xanh, phát triển nguồn nhân lực chất lượng cao và quản trị chuỗi cung ứng bền vững — đây là các vấn đề ở bước phân tích, còn 04 vấn đề nêu trên là kết quả lựa chọn cuối cùng.",
+       "citations": [
+        "ar_p125_v1",
+        "ar_p125_t2",
+        "ar_p125_img",
+        "ar_p75_t0"
+       ]
+      }
+     }
+    ],
+    "content": ""
+   }
+  ],
+  "context_ids": [
+   "ar_p125_v1",
+   "ar_p125_t0",
+   "ar_p125_t2",
+   "ar_p116_t2",
+   "ar_p116_v0",
+   "ar_p75_t0",
+   "ar_p113_t0",
+   "ar_p125_img"
+  ],
+  "latency_s": 18.6715381660033,
+  "tokens": {
+   "prompt_tokens": 15250,
+   "completion_tokens": 3755
+  },
+  "cost_usd": 0.00229875,
+  "tool_counts": {
+   "search": 2,
+   "view_page": 1
+  },
+  "auto_hint": {
+   "gold_pages": [
+    125
+   ],
+   "cited_gold_pages": [
+    125
+   ],
+   "abstained": false
+  }
+ },
+ {
+  "query_id": "d15",
+  "split": "dev",
+  "group": "text",
+  "answerable": true,
+  "question": "FPT thực hiện kiểm kê khí nhà kính theo những chuẩn mực nào?",
+  "config": {
+   "name": "full-hybrid-view",
+   "kinds": [
+    "table",
+    "text",
+    "visual"
+   ],
+   "retriever": "hybrid",
+   "view_page": true,
+   "top_k": 5,
+   "max_steps": 8,
+   "max_views": 3,
+   "model": "deepseek-chat",
+   "vision_model": "deepseek-flash",
+   "index_chunks": 965
+  },
+  "status": "answered",
+  "answer": "FPT thực hiện kiểm kê và quản lý dấu chân carbon theo các chuẩn mực quốc tế được công nhận, bao gồm Nghị định thư Khí nhà kính (GHG Protocol) của Viện Tài nguyên thế giới (WRI) và tiêu chuẩn ISO 14040/14044 [ar_p146_t0]. Phạm vi xác định dấu chân carbon của FPT được xây dựng phù hợp với khuôn khổ GHG Protocol [ar_p146_t1]. Ngoài ra, trong danh mục chứng nhận của Tập đoàn có ISO 14064-1:2018 – Chứng nhận về báo cáo kiểm kê khí nhà kính [ar_p127_t1], và ISO 14064:2018 – Tiêu chuẩn đo lường và quản lý phát thải khí nhà kính [ar_p111_t0].",
+  "citations": [
+   "ar_p146_t0",
+   "ar_p146_t1",
+   "ar_p127_t1",
+   "ar_p111_t0"
+  ],
+  "cited_pages": [
+   111,
+   127,
+   146
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "kiểm kê khí nhà kính chuẩn mực GHG Protocol ISO 14064",
+    "latency_ms": 1372.457041987218,
+    "results": [
+     {
+      "id": "ar_p146_t0",
+      "page": 146,
+      "kind": "text",
+      "score": 0.03278688524590164,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6331726551608344
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 49.06953281825209
+       }
+      }
+     },
+     {
+      "id": "ar_p111_t0",
+      "page": 111,
+      "kind": "text",
+      "score": 0.03149801587301587,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.5484806875715383
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 24.602732935968355
+       }
+      }
+     },
+     {
+      "id": "ar_p127_t1",
+      "page": 127,
+      "kind": "text",
+      "score": 0.030834914611005692,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 8,
+        "score": 0.525750947879889
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 29.295818840148943
+       }
+      }
+     },
+     {
+      "id": "ar_p146_t1",
+      "page": 146,
+      "kind": "text",
+      "score": 0.030309988518943745,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.5428695762033868
+       },
+       "bm25": {
+        "rank": 7,
+        "score": 22.639818605896778
+       }
+      }
+     },
+     {
+      "id": "ar_p119_t0",
+      "page": 119,
+      "kind": "text",
+      "score": 0.03007688828584351,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 7,
+        "score": 0.5275049115185153
+       },
+       "bm25": {
+        "rank": 6,
+        "score": 22.92179396190603
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "phát thải khí nhà kính Scope 1 Scope 2 Scope 3",
+    "latency_ms": 45.29991699382663,
+    "results": [
+     {
+      "id": "ar_p146_t0",
+      "page": 146,
+      "kind": "text",
+      "score": 0.03252247488101534,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6428666874355289
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 23.711490750903792
+       }
+      }
+     },
+     {
+      "id": "ar_p146_t2",
+      "page": 146,
+      "kind": "text",
+      "score": 0.03252247488101534,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6474660630645819
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 23.638773247641815
+       }
+      }
+     },
+     {
+      "id": "ar_p147_t0",
+      "page": 147,
+      "kind": "text",
+      "score": 0.031024531024531024,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.5975904892715286
+       },
+       "bm25": {
+        "rank": 6,
+        "score": 19.493236197514683
+       }
+      }
+     },
+     {
+      "id": "ar_p146_v0",
+      "page": 146,
+      "kind": "visual",
+      "score": 0.031009615384615385,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.5931846075691568
+       },
+       "bm25": {
+        "rank": 5,
+        "score": 19.594238339046385
+       }
+      }
+     },
+     {
+      "id": "ar_p119_v0",
+      "page": 119,
+      "kind": "visual",
+      "score": 0.030117753623188408,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 9,
+        "score": 0.5632692942981237
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 20.611123277157095
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "answer",
+    "answer": "FPT thực hiện kiểm kê và quản lý dấu chân carbon theo các chuẩn mực quốc tế được công nhận, bao gồm Nghị định thư Khí nhà kính (GHG Protocol) của Viện Tài nguyên thế giới (WRI) và tiêu chuẩn ISO 14040/14044 [ar_p146_t0]. Phạm vi xác định dấu chân carbon của FPT được xây dựng phù hợp với khuôn khổ GHG Protocol [ar_p146_t1]. Ngoài ra, trong danh mục chứng nhận của Tập đoàn có ISO 14064-1:2018 – Chứng nhận về báo cáo kiểm kê khí nhà kính [ar_p127_t1], và ISO 14064:2018 – Tiêu chuẩn đo lường và quản lý phát thải khí nhà kính [ar_p111_t0].",
+    "citations": [
+     "ar_p146_t0",
+     "ar_p146_t1",
+     "ar_p127_t1",
+     "ar_p111_t0"
+    ],
+    "invalid_citations": []
+   }
+  ],
+  "llm_calls": [
+   {
+    "step": 0,
+    "usage": {
+     "prompt_tokens": 1090,
+     "completion_tokens": 96
+    },
+    "cost_usd": 6.087e-05,
+    "latency_ms": 1281.7786670057103,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_WPqvdzpee75WYoDD6Vkc9228",
+      "name": "search",
+      "arguments": {
+       "query": "kiểm kê khí nhà kính chuẩn mực GHG Protocol ISO 14064"
+      }
+     },
+     {
+      "id": "call_01_Pxb8U4ZvASfaGMaDMbiU2542",
+      "name": "search",
+      "arguments": {
+       "query": "phát thải khí nhà kính Scope 1 Scope 2 Scope 3"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 1,
+    "usage": {
+     "prompt_tokens": 5017,
+     "completion_tokens": 302
+    },
+    "cost_usd": 0.000196251,
+    "latency_ms": 1710.8872920216527,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_GjOLsRSrPoevr4jj1QD68745",
+      "name": "answer",
+      "arguments": {
+       "answer": "FPT thực hiện kiểm kê và quản lý dấu chân carbon theo các chuẩn mực quốc tế được công nhận, bao gồm Nghị định thư Khí nhà kính (GHG Protocol) của Viện Tài nguyên thế giới (WRI) và tiêu chuẩn ISO 14040/14044 [ar_p146_t0]. Phạm vi xác định dấu chân carbon của FPT được xây dựng phù hợp với khuôn khổ GHG Protocol [ar_p146_t1]. Ngoài ra, trong danh mục chứng nhận của Tập đoàn có ISO 14064-1:2018 – Chứng nhận về báo cáo kiểm kê khí nhà kính [ar_p127_t1], và ISO 14064:2018 – Tiêu chuẩn đo lường và quản lý phát thải khí nhà kính [ar_p111_t0].",
+       "citations": [
+        "ar_p146_t0",
+        "ar_p146_t1",
+        "ar_p127_t1",
+        "ar_p111_t0"
+       ]
+      }
+     }
+    ],
+    "content": ""
+   }
+  ],
+  "context_ids": [
+   "ar_p146_t0",
+   "ar_p111_t0",
+   "ar_p127_t1",
+   "ar_p146_t1",
+   "ar_p119_t0",
+   "ar_p146_t2",
+   "ar_p147_t0",
+   "ar_p146_v0",
+   "ar_p119_v0"
+  ],
+  "latency_s": 4.411786459007999,
+  "tokens": {
+   "prompt_tokens": 6107,
+   "completion_tokens": 398
+  },
+  "cost_usd": 0.00025712099999999997,
+  "tool_counts": {
+   "search": 2,
+   "view_page": 0
+  },
+  "auto_hint": {
+   "gold_pages": [
+    146
+   ],
+   "cited_gold_pages": [
+    146
+   ],
+   "abstained": false
+  }
+ },
+ {
+  "query_id": "du1",
+  "split": "dev",
+  "group": "unanswerable",
+  "answerable": false,
+  "question": "Doanh thu năm 2025 của FPT tại thị trường Hàn Quốc là bao nhiêu tỷ đồng?",
+  "config": {
+   "name": "full-hybrid-view",
+   "kinds": [
+    "table",
+    "text",
+    "visual"
+   ],
+   "retriever": "hybrid",
+   "view_page": true,
+   "top_k": 5,
+   "max_steps": 8,
+   "max_views": 3,
+   "model": "deepseek-chat",
+   "vision_model": "deepseek-flash",
+   "index_chunks": 965
+  },
+  "status": "answered",
+  "answer": "Không đủ bằng chứng để trả lời. Báo cáo chỉ công bố doanh thu dịch vụ CNTT cho thị trường nước ngoài theo 4 khu vực (Nhật Bản 15.452 tỷ đồng; Mỹ 8.163; Châu Á-Thái Bình Dương 8.173; Châu Âu 3.593) và doanh thu theo khu vực địa lý dạng % (Việt Nam 48,9%; Nhật Bản 22,8%; Châu Mỹ 11,6%; Châu Á-TBD 11,1%; Châu Âu 5,6%). Hàn Quốc chỉ xuất hiện như một nhãn trên bản đồ thị trường và trong danh sách công ty con (Công ty TNHH Phần mềm FPT Korea, sở hữu 100%), không có số liệu doanh thu riêng của thị trường Hàn Quốc năm 2025.",
+  "citations": [
+   "ar_p62_v0",
+   "ar_p27_v2",
+   "ar_p27_img",
+   "ar_p218_v0"
+  ],
+  "cited_pages": [
+   27,
+   62,
+   218
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "doanh thu thị trường Hàn Quốc 2025",
+    "latency_ms": 198.3021249761805,
+    "results": [
+     {
+      "id": "ar_p63_v0",
+      "page": 63,
+      "kind": "visual",
+      "score": 0.02581612258494337,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 19,
+        "score": 0.5073112803144064
+       },
+       "bm25": {
+        "rank": 16,
+        "score": 6.0454306640054725
+       }
+      }
+     },
+     {
+      "id": "ar_p27_t1",
+      "page": 27,
+      "kind": "text",
+      "score": 0.01639344262295082,
+      "rank": 2,
+      "components": {
+       "bm25": {
+        "rank": 1,
+        "score": 10.162276084125333
+       }
+      }
+     },
+     {
+      "id": "ar_p57_v0",
+      "page": 57,
+      "kind": "visual",
+      "score": 0.01639344262295082,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.5681571587211687
+       }
+      }
+     },
+     {
+      "id": "ar_p209_v0",
+      "page": 209,
+      "kind": "visual",
+      "score": 0.016129032258064516,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.5628327261588855
+       }
+      }
+     },
+     {
+      "id": "ar_p48_t3",
+      "page": 48,
+      "kind": "text",
+      "score": 0.016129032258064516,
+      "rank": 5,
+      "components": {
+       "bm25": {
+        "rank": 2,
+        "score": 9.552562975429359
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "Hàn Quốc doanh thu tỷ đồng",
+    "latency_ms": 38.7914169987198,
+    "results": [
+     {
+      "id": "ar_p48_t3",
+      "page": 48,
+      "kind": "text",
+      "score": 0.03225806451612903,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.5647119247500498
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 9.090942171768289
+       }
+      }
+     },
+     {
+      "id": "ar_p7_t2",
+      "page": 7,
+      "kind": "text",
+      "score": 0.02904040404040404,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 6,
+        "score": 0.5518702004021899
+       },
+       "bm25": {
+        "rank": 12,
+        "score": 6.2197608537274185
+       }
+      }
+     },
+     {
+      "id": "ar_p76_t1",
+      "page": 76,
+      "kind": "text",
+      "score": 0.028958333333333336,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.553672462052103
+       },
+       "bm25": {
+        "rank": 15,
+        "score": 5.654432041646231
+       }
+      }
+     },
+     {
+      "id": "ar_p107_t0",
+      "page": 107,
+      "kind": "text",
+      "score": 0.02548701298701299,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 17,
+        "score": 0.5323086082301963
+       },
+       "bm25": {
+        "rank": 20,
+        "score": 5.259209275062034
+       }
+      }
+     },
+     {
+      "id": "ar_p27_t1",
+      "page": 27,
+      "kind": "text",
+      "score": 0.01639344262295082,
+      "rank": 5,
+      "components": {
+       "bm25": {
+        "rank": 1,
+        "score": 10.162276084125333
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "thị trường nước ngoài Nhật Bản Hàn Quốc châu Á Thái Bình Dương doanh thu",
+    "latency_ms": 182.5925000011921,
+    "results": [
+     {
+      "id": "ar_p27_t1",
+      "page": 27,
+      "kind": "text",
+      "score": 0.03252247488101534,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6786916512980146
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 42.38686559907294
+       }
+      }
+     },
+     {
+      "id": "ar_p62_v0",
+      "page": 62,
+      "kind": "visual",
+      "score": 0.03252247488101534,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.626573812273985
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 43.7088425521873
+       }
+      }
+     },
+     {
+      "id": "ar_p27_v2",
+      "page": 27,
+      "kind": "visual",
+      "score": 0.031746031746031744,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.622464857341448
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 40.95956179536216
+       }
+      }
+     },
+     {
+      "id": "ar_p62_t4",
+      "page": 62,
+      "kind": "text",
+      "score": 0.030309988518943745,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.5767886023945088
+       },
+       "bm25": {
+        "rank": 7,
+        "score": 24.124482448051822
+       }
+      }
+     },
+     {
+      "id": "ar_p30_t2",
+      "page": 30,
+      "kind": "text",
+      "score": 0.030303030303030304,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 6,
+        "score": 0.574919413482206
+       },
+       "bm25": {
+        "rank": 6,
+        "score": 25.980982267368017
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "view_page",
+    "page": 27,
+    "question": "Doanh thu theo khu vực địa lý: có số liệu doanh thu của Hàn Quốc không? Liệt kê các con số và nhãn.",
+    "id": "ar_p27_img",
+    "observation": "Không. Mục **“Doanh thu theo khu vực địa lý”** trên trang không có số liệu doanh thu riêng của **Hàn Quốc**. “Hàn Quốc” chỉ xuất hiện như một nhãn trên bản đồ, không kèm con số doanh thu. **Trang này không có thông tin đó** (doanh thu của Hàn Quốc).\n\nCác số liệu/nhãn trong biểu đồ **“Doanh thu theo khu vực địa lý”** như in trên trang:\n\n- **48,9%** – **Việt Nam** (ô vuông xanh đậm)\n- **11,6%** – **Châu Mỹ** (ô vuông xanh lơ/cyan)\n- **5,6%** – **Châu Âu** (ô vuông xám)\n- **22,8%** – **Nhật Bản** (ô vuông cam)\n- **11,1%** – **Châu Á-Thái Bình Dương** (ô vuông xanh lá)\n\nChú giải vòng tròn bên phải: **Việt Nam** (chấm tròn xanh đậm); **Nước ngoài** (vòng tròn cam).  \nĐơn vị: **%**. Biểu đồ không ghi năm riêng; trang thuộc **“BÁO CÁO THƯỜNG NIÊN 2025”**.",
+    "usage": {
+     "prompt_tokens": 1079,
+     "completion_tokens": 3778
+    },
+    "cost_usd": 0.002270037,
+    "latency_ms": 18416.76770799677,
+    "model": "deepseek-flash"
+   },
+   {
+    "event": "search",
+    "query": "Hàn Quốc chi nhánh công ty FPT Korea",
+    "latency_ms": 1372.4204589962028,
+    "results": [
+     {
+      "id": "ar_p218_t1",
+      "page": 218,
+      "kind": "text",
+      "score": 0.03278688524590164,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6179083757186828
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 20.225783912875915
+       }
+      }
+     },
+     {
+      "id": "ar_p227_t0",
+      "page": 227,
+      "kind": "text",
+      "score": 0.03057889822595705,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 8,
+        "score": 0.5663414064296675
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 9.884558143902684
+       }
+      }
+     },
+     {
+      "id": "ar_p229_t0",
+      "page": 229,
+      "kind": "text",
+      "score": 0.03057889822595705,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.5916440228692057
+       },
+       "bm25": {
+        "rank": 8,
+        "score": 8.157145585768868
+       }
+      }
+     },
+     {
+      "id": "ar_p218_v0",
+      "page": 218,
+      "kind": "visual",
+      "score": 0.02928692699490662,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 16,
+        "score": 0.5407756335267807
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 13.760703453214596
+       }
+      }
+     },
+     {
+      "id": "ar_p64_t0",
+      "page": 64,
+      "kind": "text",
+      "score": 0.026992753623188405,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 20,
+        "score": 0.5307523596222234
+       },
+       "bm25": {
+        "rank": 9,
+        "score": 8.09960960503039
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "doanh thu theo thị trường quốc gia Nhật Bản Mỹ châu Âu APAC chi tiết",
+    "latency_ms": 46.203624980989844,
+    "results": [
+     {
+      "id": "ar_p27_v2",
+      "page": 27,
+      "kind": "visual",
+      "score": 0.03252247488101534,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6777591519667072
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 28.866875832956634
+       }
+      }
+     },
+     {
+      "id": "ar_p62_v0",
+      "page": 62,
+      "kind": "visual",
+      "score": 0.032266458495966696,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.6092723807408209
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 30.151393239944277
+       }
+      }
+     },
+     {
+      "id": "ar_p27_t1",
+      "page": 27,
+      "kind": "text",
+      "score": 0.03200204813108039,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6352735112319129
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 26.273358484118468
+       }
+      }
+     },
+     {
+      "id": "ar_p62_t4",
+      "page": 62,
+      "kind": "text",
+      "score": 0.031009615384615385,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.5845810432790257
+       },
+       "bm25": {
+        "rank": 5,
+        "score": 21.283338277277686
+       }
+      }
+     },
+     {
+      "id": "ar_p30_t2",
+      "page": 30,
+      "kind": "text",
+      "score": 0.030117753623188408,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 9,
+        "score": 0.5664114924884793
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 22.798059772751934
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "answer",
+    "answer": "Không đủ bằng chứng để trả lời. Báo cáo chỉ công bố doanh thu dịch vụ CNTT cho thị trường nước ngoài theo 4 khu vực (Nhật Bản 15.452 tỷ đồng; Mỹ 8.163; Châu Á-Thái Bình Dương 8.173; Châu Âu 3.593) và doanh thu theo khu vực địa lý dạng % (Việt Nam 48,9%; Nhật Bản 22,8%; Châu Mỹ 11,6%; Châu Á-TBD 11,1%; Châu Âu 5,6%). Hàn Quốc chỉ xuất hiện như một nhãn trên bản đồ thị trường và trong danh sách công ty con (Công ty TNHH Phần mềm FPT Korea, sở hữu 100%), không có số liệu doanh thu riêng của thị trường Hàn Quốc năm 2025.",
+    "citations": [
+     "ar_p62_v0",
+     "ar_p27_v2",
+     "ar_p27_img",
+     "ar_p218_v0"
+    ],
+    "invalid_citations": []
+   }
+  ],
+  "llm_calls": [
+   {
+    "step": 0,
+    "usage": {
+     "prompt_tokens": 1094,
+     "completion_tokens": 83
+    },
+    "cost_usd": 5.308199999999999e-05,
+    "latency_ms": 886.8017499917187,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_2umjPTde5OC8oEzFPn7A6393",
+      "name": "search",
+      "arguments": {
+       "query": "doanh thu thị trường Hàn Quốc 2025"
+      }
+     },
+     {
+      "id": "call_01_Y6xQ5Pfm3q4ctAY66Hdv7016",
+      "name": "search",
+      "arguments": {
+       "query": "Hàn Quốc doanh thu tỷ đồng"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 1,
+    "usage": {
+     "prompt_tokens": 4031,
+     "completion_tokens": 143
+    },
+    "cost_usd": 9.7893e-05,
+    "latency_ms": 1467.8145409852732,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_Hu5MdVQ9BLck9xs8vWwC3885",
+      "name": "search",
+      "arguments": {
+       "query": "thị trường nước ngoài Nhật Bản Hàn Quốc châu Á Thái Bình Dương doanh thu"
+      }
+     },
+     {
+      "id": "call_01_zugd0dfZxvqj9ZysFhkt0874",
+      "name": "view_page",
+      "arguments": {
+       "page": 27,
+       "question": "Doanh thu theo khu vực địa lý: có số liệu doanh thu của Hàn Quốc không? Liệt kê các con số và nhãn."
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 2,
+    "usage": {
+     "prompt_tokens": 5679,
+     "completion_tokens": 98
+    },
+    "cost_usd": 7.583699999999999e-05,
+    "latency_ms": 1370.1665000116918,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_NcN0kTVUiSfThmqOOZWF4257",
+      "name": "search",
+      "arguments": {
+       "query": "Hàn Quốc chi nhánh công ty FPT Korea"
+      }
+     },
+     {
+      "id": "call_01_7Jpr3qr0sIBNxmdcJVzg2229",
+      "name": "search",
+      "arguments": {
+       "query": "doanh thu theo thị trường quốc gia Nhật Bản Mỹ châu Âu APAC chi tiết"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 3,
+    "usage": {
+     "prompt_tokens": 9338,
+     "completion_tokens": 310
+    },
+    "cost_usd": 0.000214014,
+    "latency_ms": 2240.987583005335,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_aM2Ef8GwhDZrF3KNLz1I1012",
+      "name": "answer",
+      "arguments": {
+       "answer": "Không đủ bằng chứng để trả lời. Báo cáo chỉ công bố doanh thu dịch vụ CNTT cho thị trường nước ngoài theo 4 khu vực (Nhật Bản 15.452 tỷ đồng; Mỹ 8.163; Châu Á-Thái Bình Dương 8.173; Châu Âu 3.593) và doanh thu theo khu vực địa lý dạng % (Việt Nam 48,9%; Nhật Bản 22,8%; Châu Mỹ 11,6%; Châu Á-TBD 11,1%; Châu Âu 5,6%). Hàn Quốc chỉ xuất hiện như một nhãn trên bản đồ thị trường và trong danh sách công ty con (Công ty TNHH Phần mềm FPT Korea, sở hữu 100%), không có số liệu doanh thu riêng của thị trường Hàn Quốc năm 2025.",
+       "citations": [
+        "ar_p62_v0",
+        "ar_p27_v2",
+        "ar_p27_img",
+        "ar_p218_v0"
+       ]
+      }
+     }
+    ],
+    "content": ""
+   }
+  ],
+  "context_ids": [
+   "ar_p63_v0",
+   "ar_p27_t1",
+   "ar_p57_v0",
+   "ar_p209_v0",
+   "ar_p48_t3",
+   "ar_p7_t2",
+   "ar_p76_t1",
+   "ar_p107_t0",
+   "ar_p62_v0",
+   "ar_p27_v2",
+   "ar_p62_t4",
+   "ar_p30_t2",
+   "ar_p27_img",
+   "ar_p218_t1",
+   "ar_p227_t0",
+   "ar_p229_t0",
+   "ar_p218_v0",
+   "ar_p64_t0"
+  ],
+  "latency_s": 26.226164583000354,
+  "tokens": {
+   "prompt_tokens": 21221,
+   "completion_tokens": 4412
+  },
+  "cost_usd": 0.002710863,
+  "tool_counts": {
+   "search": 5,
+   "view_page": 1
+  },
+  "auto_hint": {
+   "gold_pages": [],
+   "cited_gold_pages": [],
+   "abstained": false
+  }
+ },
+ {
+  "query_id": "du2",
+  "split": "dev",
+  "group": "unanswerable",
+  "answerable": false,
+  "question": "Mức lương bình quân hàng tháng của CBNV FPT năm 2025 là bao nhiêu?",
+  "config": {
+   "name": "full-hybrid-view",
+   "kinds": [
+    "table",
+    "text",
+    "visual"
+   ],
+   "retriever": "hybrid",
+   "view_page": true,
+   "top_k": 5,
+   "max_steps": 8,
+   "max_views": 3,
+   "model": "deepseek-chat",
+   "vision_model": "deepseek-flash",
+   "index_chunks": 965
+  },
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. Báo cáo thường niên FPT 2025 không nêu mức lương bình quân hàng tháng của CBNV năm 2025. Các số liệu liên quan tìm được chỉ gồm: chi phí nhân viên trong chi phí sản xuất kinh doanh theo yếu tố năm 2025 là 30.929.275.947.813 VNĐ [ar_p211_v2], tổng nhân sự 54.110 người tại hơn 30 quốc gia tính đến hết năm 2025 [ar_p137_t2], và chính sách lương/thưởng được mô tả định tính (lương theo chức danh, lương theo hiệu quả kinh doanh, tháng lương thứ 13) [ar_p141_t2], [ar_p141_t3] — không có chỉ tiêu \"lương bình quân hàng tháng\".",
+  "citations": [],
+  "cited_pages": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "lương bình quân hàng tháng CBNV",
+    "latency_ms": 213.2312500034459,
+    "results": [
+     {
+      "id": "ar_p65_v1",
+      "page": 65,
+      "kind": "visual",
+      "score": 0.032266458495966696,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.4969297146895105
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 13.934936294515055
+       }
+      }
+     },
+     {
+      "id": "ar_p118_t2",
+      "page": 118,
+      "kind": "text",
+      "score": 0.03009207275993712,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.5427017146455296
+       },
+       "bm25": {
+        "rank": 13,
+        "score": 8.511762848234786
+       }
+      }
+     },
+     {
+      "id": "ar_p141_t2",
+      "page": 141,
+      "kind": "text",
+      "score": 0.02946912242686891,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 11,
+        "score": 0.46636865201863187
+       },
+       "bm25": {
+        "rank": 5,
+        "score": 11.284368795077338
+       }
+      }
+     },
+     {
+      "id": "ar_p141_t3",
+      "page": 141,
+      "kind": "text",
+      "score": 0.029418126757516764,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 7,
+        "score": 0.4705124686301914
+       },
+       "bm25": {
+        "rank": 9,
+        "score": 9.890195359720863
+       }
+      }
+     },
+     {
+      "id": "ar_p118_v0",
+      "page": 118,
+      "kind": "visual",
+      "score": 0.028790389395194696,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 8,
+        "score": 0.4691731338403651
+       },
+       "bm25": {
+        "rank": 11,
+        "score": 8.93315843316866
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "thu nhập bình quân người lao động 2025",
+    "latency_ms": 52.423874993110076,
+    "results": [
+     {
+      "id": "ar_p215_t0",
+      "page": 215,
+      "kind": "text",
+      "score": 0.03047794966520434,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.5958892515097414
+       },
+       "bm25": {
+        "rank": 11,
+        "score": 8.297045789537243
+       }
+      }
+     },
+     {
+      "id": "ar_p210_v2",
+      "page": 210,
+      "kind": "visual",
+      "score": 0.027402402402402402,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 12,
+        "score": 0.5287904166837131
+       },
+       "bm25": {
+        "rank": 14,
+        "score": 7.836331639199465
+       }
+      }
+     },
+     {
+      "id": "ar_p65_v1",
+      "page": 65,
+      "kind": "visual",
+      "score": 0.01639344262295082,
+      "rank": 3,
+      "components": {
+       "bm25": {
+        "rank": 1,
+        "score": 22.865650842377626
+       }
+      }
+     },
+     {
+      "id": "ar_p57_v3",
+      "page": 57,
+      "kind": "visual",
+      "score": 0.016129032258064516,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.5950431575825331
+       }
+      }
+     },
+     {
+      "id": "ar_p65_t0",
+      "page": 65,
+      "kind": "text",
+      "score": 0.016129032258064516,
+      "rank": 5,
+      "components": {
+       "bm25": {
+        "rank": 2,
+        "score": 18.35273610016566
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "lương bình quân tháng người lao động VNĐ",
+    "latency_ms": 124.234000017168,
+    "results": [
+     {
+      "id": "ar_p65_v1",
+      "page": 65,
+      "kind": "visual",
+      "score": 0.031544957774465976,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 6,
+        "score": 0.5322292442968986
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 23.619127282272316
+       }
+      }
+     },
+     {
+      "id": "ar_p215_v0",
+      "page": 215,
+      "kind": "visual",
+      "score": 0.031054405392392875,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.5419202738544243
+       },
+       "bm25": {
+        "rank": 7,
+        "score": 12.742356149587948
+       }
+      }
+     },
+     {
+      "id": "ar_p215_t0",
+      "page": 215,
+      "kind": "text",
+      "score": 0.030158730158730156,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 10,
+        "score": 0.5258910553554063
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 15.94072755037019
+       }
+      }
+     },
+     {
+      "id": "ar_p108_v0",
+      "page": 108,
+      "kind": "visual",
+      "score": 0.027425373134328357,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 7,
+        "score": 0.5314110492602085
+       },
+       "bm25": {
+        "rank": 20,
+        "score": 7.850245164018391
+       }
+      }
+     },
+     {
+      "id": "ar_p211_v2",
+      "page": 211,
+      "kind": "visual",
+      "score": 0.01639344262295082,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.5504445462812376
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "chi phí lương nhân viên thuyết minh",
+    "latency_ms": 42.24099998828024,
+    "results": [
+     {
+      "id": "ar_p210_v0",
+      "page": 210,
+      "kind": "visual",
+      "score": 0.032266458495966696,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.5734025471971085
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 10.631453263929313
+       }
+      }
+     },
+     {
+      "id": "ar_p215_t0",
+      "page": 215,
+      "kind": "text",
+      "score": 0.031544957774465976,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 6,
+        "score": 0.5459213659716754
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 11.785724157922065
+       }
+      }
+     },
+     {
+      "id": "ar_p210_t0",
+      "page": 210,
+      "kind": "text",
+      "score": 0.03128054740957967,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.5726829657666683
+       },
+       "bm25": {
+        "rank": 6,
+        "score": 9.72334165597347
+       }
+      }
+     },
+     {
+      "id": "ar_p210_t1",
+      "page": 210,
+      "kind": "text",
+      "score": 0.02967032967032967,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 10,
+        "score": 0.537030914936124
+       },
+       "bm25": {
+        "rank": 5,
+        "score": 9.73766056665633
+       }
+      }
+     },
+     {
+      "id": "ar_p211_t1",
+      "page": 211,
+      "kind": "text",
+      "score": 0.02967032967032967,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.5475829793826443
+       },
+       "bm25": {
+        "rank": 10,
+        "score": 8.932599914397565
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "thu nhập bình quân CBNV triệu đồng/tháng",
+    "latency_ms": 179.1358750197105,
+    "results": [
+     {
+      "id": "ar_p118_t2",
+      "page": 118,
+      "kind": "text",
+      "score": 0.031544957774465976,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.5240276770778077
+       },
+       "bm25": {
+        "rank": 6,
+        "score": 12.394086806502422
+       }
+      }
+     },
+     {
+      "id": "ar_p65_v1",
+      "page": 65,
+      "kind": "visual",
+      "score": 0.030886196246139225,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 9,
+        "score": 0.47456683396042537
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 19.517990703607644
+       }
+      }
+     },
+     {
+      "id": "ar_p118_v0",
+      "page": 118,
+      "kind": "visual",
+      "score": 0.030798389007344232,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 7,
+        "score": 0.4809281204533442
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 14.120687755806307
+       }
+      }
+     },
+     {
+      "id": "ar_p141_t3",
+      "page": 141,
+      "kind": "text",
+      "score": 0.030090497737556562,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.4837806380751164
+       },
+       "bm25": {
+        "rank": 8,
+        "score": 10.37712669163763
+       }
+      }
+     },
+     {
+      "id": "ar_p35_v0",
+      "page": 35,
+      "kind": "visual",
+      "score": 0.016129032258064516,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.5105513627839432
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "tổng số lượng nhân viên FPT 2025 người",
+    "latency_ms": 38.79849999793805,
+    "results": [
+     {
+      "id": "ar_p65_t0",
+      "page": 65,
+      "kind": "text",
+      "score": 0.03149801587301587,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.6520089642137393
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 7.827044268644885
+       }
+      }
+     },
+     {
+      "id": "ar_p115_t1",
+      "page": 115,
+      "kind": "text",
+      "score": 0.01639344262295082,
+      "rank": 2,
+      "components": {
+       "bm25": {
+        "rank": 1,
+        "score": 9.081480048004346
+       }
+      }
+     },
+     {
+      "id": "ar_p137_v1",
+      "page": 137,
+      "kind": "visual",
+      "score": 0.01639344262295082,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.7037524755983618
+       }
+      }
+     },
+     {
+      "id": "ar_p137_t2",
+      "page": 137,
+      "kind": "text",
+      "score": 0.016129032258064516,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6818416811040207
+       }
+      }
+     },
+     {
+      "id": "ar_p158_v1",
+      "page": 158,
+      "kind": "visual",
+      "score": 0.016129032258064516,
+      "rank": 5,
+      "components": {
+       "bm25": {
+        "rank": 2,
+        "score": 8.03384930654262
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "thu nhập bình quân tháng CBNV FPT 2024 2025 tăng",
+    "latency_ms": 280.7467090024147,
+    "results": [
+     {
+      "id": "ar_p65_t0",
+      "page": 65,
+      "kind": "text",
+      "score": 0.031754032258064516,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.5877517806506916
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 14.663144340259963
+       }
+      }
+     },
+     {
+      "id": "ar_p57_v3",
+      "page": 57,
+      "kind": "visual",
+      "score": 0.027809742999616416,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 6,
+        "score": 0.5714561541837752
+       },
+       "bm25": {
+        "rank": 19,
+        "score": 8.220516450897051
+       }
+      }
+     },
+     {
+      "id": "ar_p141_t3",
+      "page": 141,
+      "kind": "text",
+      "score": 0.02694394213381555,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 19,
+        "score": 0.5415819003273533
+       },
+       "bm25": {
+        "rank": 10,
+        "score": 10.596021205303789
+       }
+      }
+     },
+     {
+      "id": "ar_p10_v3",
+      "page": 10,
+      "kind": "visual",
+      "score": 0.026709401709401708,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 12,
+        "score": 0.5500762019773855
+       },
+       "bm25": {
+        "rank": 18,
+        "score": 8.296834183673361
+       }
+      }
+     },
+     {
+      "id": "ar_p137_v1",
+      "page": 137,
+      "kind": "visual",
+      "score": 0.01639344262295082,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.5990753094729011
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "view_page",
+    "page": 137,
+    "question": "Trang này có nêu mức lương/thu nhập bình quân hàng tháng của CBNV năm 2025 không? Nếu có ghi rõ số liệu.",
+    "id": "ar_p137_img",
+    "observation": "Không. **Trang này không có thông tin đó.**  \nTrang chỉ nêu số liệu nhân sự, không nêu mức lương/thu nhập bình quân hàng tháng của CBNV năm 2025.",
+    "usage": {
+     "prompt_tokens": 1081,
+     "completion_tokens": 360
+    },
+    "cost_usd": 0.000219243,
+    "latency_ms": 2962.6915830012877,
+    "model": "deepseek-flash"
+   },
+   {
+    "event": "search",
+    "query": "\"lương bình quân\" FPT",
+    "latency_ms": 1136.998667003354,
+    "results": [
+     {
+      "id": "ar_p65_t0",
+      "page": 65,
+      "kind": "text",
+      "score": 0.032266458495966696,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6226762421089134
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 11.195607793543276
+       }
+      }
+     },
+     {
+      "id": "ar_p141_t0",
+      "page": 141,
+      "kind": "text",
+      "score": 0.030090497737556562,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.5831508329806119
+       },
+       "bm25": {
+        "rank": 8,
+        "score": 8.594349022155813
+       }
+      }
+     },
+     {
+      "id": "ar_p141_t2",
+      "page": 141,
+      "kind": "text",
+      "score": 0.028814262023217248,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 7,
+        "score": 0.5811894141687639
+       },
+       "bm25": {
+        "rank": 12,
+        "score": 6.51945108053408
+       }
+      }
+     },
+     {
+      "id": "ar_p141_t1",
+      "page": 141,
+      "kind": "text",
+      "score": 0.026144907723855092,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 17,
+        "score": 0.5510455737823889
+       },
+       "bm25": {
+        "rank": 16,
+        "score": 5.3808223612568575
+       }
+      }
+     },
+     {
+      "id": "ar_p65_v1",
+      "page": 65,
+      "kind": "visual",
+      "score": 0.01639344262295082,
+      "rank": 5,
+      "components": {
+       "bm25": {
+        "rank": 1,
+        "score": 13.934936294515055
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "chỉ tiêu nhân sự lao động tiền lương bình quân",
+    "latency_ms": 42.613583005731925,
+    "results": [
+     {
+      "id": "ar_p65_t0",
+      "page": 65,
+      "kind": "text",
+      "score": 0.03252247488101534,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6092244056142079
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 19.1432613063286
+       }
+      }
+     },
+     {
+      "id": "ar_p65_v1",
+      "page": 65,
+      "kind": "visual",
+      "score": 0.03252247488101534,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6015652182386089
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 24.675524980579944
+       }
+      }
+     },
+     {
+      "id": "ar_p100_t0",
+      "page": 100,
+      "kind": "text",
+      "score": 0.031024531024531024,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.5719038971526832
+       },
+       "bm25": {
+        "rank": 6,
+        "score": 13.010776628381947
+       }
+      }
+     },
+     {
+      "id": "ar_p215_t0",
+      "page": 215,
+      "kind": "text",
+      "score": 0.030309988518943745,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 7,
+        "score": 0.5510867163358748
+       },
+       "bm25": {
+        "rank": 5,
+        "score": 13.668886489340611
+       }
+      }
+     },
+     {
+      "id": "ar_p215_v0",
+      "page": 215,
+      "kind": "visual",
+      "score": 0.028381642512077296,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 12,
+        "score": 0.5428591117248439
+       },
+       "bm25": {
+        "rank": 9,
+        "score": 12.023833737293879
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "answer",
+    "answer": "Không đủ bằng chứng để trả lời. Báo cáo thường niên FPT 2025 không nêu mức lương bình quân hàng tháng của CBNV năm 2025. Các số liệu liên quan tìm được chỉ gồm: chi phí nhân viên trong chi phí sản xuất kinh doanh theo yếu tố năm 2025 là 30.929.275.947.813 VNĐ [ar_p211_v2], tổng nhân sự 54.110 người tại hơn 30 quốc gia tính đến hết năm 2025 [ar_p137_t2], và chính sách lương/thưởng được mô tả định tính (lương theo chức danh, lương theo hiệu quả kinh doanh, tháng lương thứ 13) [ar_p141_t2], [ar_p141_t3] — không có chỉ tiêu \"lương bình quân hàng tháng\".",
+    "citations": [],
+    "invalid_citations": []
+   },
+   {
+    "event": "abstain",
+    "reason": "empty_citations"
+   }
+  ],
+  "llm_calls": [
+   {
+    "step": 0,
+    "usage": {
+     "prompt_tokens": 1092,
+     "completion_tokens": 85
+    },
+    "cost_usd": 5.4276e-05,
+    "latency_ms": 1218.9867499982938,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_IgXTTLxRvD2IG3RPDvso1866",
+      "name": "search",
+      "arguments": {
+       "query": "lương bình quân hàng tháng CBNV"
+      }
+     },
+     {
+      "id": "call_01_MlW5katSU2QHna9W7jtf1845",
+      "name": "search",
+      "arguments": {
+       "query": "thu nhập bình quân người lao động 2025"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 1,
+    "usage": {
+     "prompt_tokens": 5208,
+     "completion_tokens": 86
+    },
+    "cost_usd": 6.7224e-05,
+    "latency_ms": 1311.6482500045095,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_TuiJ9Txh57vkmLFHng167333",
+      "name": "search",
+      "arguments": {
+       "query": "lương bình quân tháng người lao động VNĐ"
+      }
+     },
+     {
+      "id": "call_01_GEkqOCrmIRS4GS8ldjFp2417",
+      "name": "search",
+      "arguments": {
+       "query": "chi phí lương nhân viên thuyết minh"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 2,
+    "usage": {
+     "prompt_tokens": 9229,
+     "completion_tokens": 88
+    },
+    "cost_usd": 8.048699999999999e-05,
+    "latency_ms": 1404.3616249982733,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_9jD9Ok6FOZmnNK3jDYe88005",
+      "name": "search",
+      "arguments": {
+       "query": "thu nhập bình quân CBNV triệu đồng/tháng"
+      }
+     },
+     {
+      "id": "call_01_QRuJW2FDkcOOkNaVjI895903",
+      "name": "search",
+      "arguments": {
+       "query": "tổng số lượng nhân viên FPT 2025 người"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 3,
+    "usage": {
+     "prompt_tokens": 13997,
+     "completion_tokens": 138
+    },
+    "cost_usd": 0.000124791,
+    "latency_ms": 1475.2338750113267,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_DRNULQU2Que4zJVQyEfS5258",
+      "name": "search",
+      "arguments": {
+       "query": "thu nhập bình quân tháng CBNV FPT 2024 2025 tăng"
+      }
+     },
+     {
+      "id": "call_01_xpumEGAQMBKEXnwWqIpJ9722",
+      "name": "view_page",
+      "arguments": {
+       "page": 137,
+       "question": "Trang này có nêu mức lương/thu nhập bình quân hàng tháng của CBNV năm 2025 không? Nếu có ghi rõ số liệu."
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 4,
+    "usage": {
+     "prompt_tokens": 15490,
+     "completion_tokens": 85
+    },
+    "cost_usd": 9.747e-05,
+    "latency_ms": 1398.3621249790303,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_tkLmL39uzq4DNDWajQRh8021",
+      "name": "search",
+      "arguments": {
+       "query": "\"lương bình quân\" FPT"
+      }
+     },
+     {
+      "id": "call_01_OOUCcLmqYuW1Dib1APbV5748",
+      "name": "search",
+      "arguments": {
+       "query": "chỉ tiêu nhân sự lao động tiền lương bình quân"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 5,
+    "usage": {
+     "prompt_tokens": 19754,
+     "completion_tokens": 278
+    },
+    "cost_usd": 0.000226062,
+    "latency_ms": 2338.9142920204904,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_YE4jGteeOYNWQ0P1AN2o8979",
+      "name": "answer",
+      "arguments": {
+       "answer": "Không đủ bằng chứng để trả lời. Báo cáo thường niên FPT 2025 không nêu mức lương bình quân hàng tháng của CBNV năm 2025. Các số liệu liên quan tìm được chỉ gồm: chi phí nhân viên trong chi phí sản xuất kinh doanh theo yếu tố năm 2025 là 30.929.275.947.813 VNĐ [ar_p211_v2], tổng nhân sự 54.110 người tại hơn 30 quốc gia tính đến hết năm 2025 [ar_p137_t2], và chính sách lương/thưởng được mô tả định tính (lương theo chức danh, lương theo hiệu quả kinh doanh, tháng lương thứ 13) [ar_p141_t2], [ar_p141_t3] — không có chỉ tiêu \"lương bình quân hàng tháng\".",
+       "citations": []
+      }
+     }
+    ],
+    "content": ""
+   }
+  ],
+  "context_ids": [
+   "ar_p65_v1",
+   "ar_p118_t2",
+   "ar_p141_t2",
+   "ar_p141_t3",
+   "ar_p118_v0",
+   "ar_p215_t0",
+   "ar_p210_v2",
+   "ar_p57_v3",
+   "ar_p65_t0",
+   "ar_p215_v0",
+   "ar_p108_v0",
+   "ar_p211_v2",
+   "ar_p210_v0",
+   "ar_p210_t0",
+   "ar_p210_t1",
+   "ar_p211_t1",
+   "ar_p35_v0",
+   "ar_p115_t1",
+   "ar_p137_v1",
+   "ar_p137_t2",
+   "ar_p158_v1",
+   "ar_p10_v3",
+   "ar_p137_img",
+   "ar_p141_t0",
+   "ar_p141_t1",
+   "ar_p100_t0"
+  ],
+  "latency_s": 14.223835207987577,
+  "tokens": {
+   "prompt_tokens": 65851,
+   "completion_tokens": 1120
+  },
+  "cost_usd": 0.000869553,
+  "tool_counts": {
+   "search": 9,
+   "view_page": 1
+  },
+  "auto_hint": {
+   "gold_pages": [],
+   "cited_gold_pages": [],
+   "abstained": true
+  }
+ },
+ {
+  "query_id": "du3",
+  "split": "dev",
+  "group": "unanswerable",
+  "answerable": false,
+  "question": "Tổng chi phí nghiên cứu và phát triển (R&D) của FPT năm 2025 là bao nhiêu tỷ đồng?",
+  "config": {
+   "name": "full-hybrid-view",
+   "kinds": [
+    "table",
+    "text",
+    "visual"
+   ],
+   "retriever": "hybrid",
+   "view_page": true,
+   "top_k": 5,
+   "max_steps": 8,
+   "max_views": 3,
+   "model": "deepseek-chat",
+   "vision_model": "deepseek-flash",
+   "index_chunks": 965
+  },
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "cited_pages": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "chi phí nghiên cứu và phát triển R&D năm 2025",
+    "latency_ms": 221.24374998384155,
+    "results": [
+     {
+      "id": "ar_p49_t2",
+      "page": 49,
+      "kind": "text",
+      "score": 0.027031963470319637,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 15,
+        "score": 0.5201851876639658
+       },
+       "bm25": {
+        "rank": 13,
+        "score": 11.989673648278307
+       }
+      }
+     },
+     {
+      "id": "ar_p47_v0",
+      "page": 47,
+      "kind": "visual",
+      "score": 0.01639344262295082,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.5617840961858906
+       }
+      }
+     },
+     {
+      "id": "ar_p54_t1",
+      "page": 54,
+      "kind": "text",
+      "score": 0.01639344262295082,
+      "rank": 3,
+      "components": {
+       "bm25": {
+        "rank": 1,
+        "score": 19.465981764795153
+       }
+      }
+     },
+     {
+      "id": "ar_p17_v2",
+      "page": 17,
+      "kind": "visual",
+      "score": 0.016129032258064516,
+      "rank": 4,
+      "components": {
+       "bm25": {
+        "rank": 2,
+        "score": 17.103249527942452
+       }
+      }
+     },
+     {
+      "id": "ar_p46_t0",
+      "page": 46,
+      "kind": "text",
+      "score": 0.016129032258064516,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.5602103036122221
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "đầu tư R&D tỷ đồng",
+    "latency_ms": 51.150958985090256,
+    "results": [
+     {
+      "id": "ar_p17_v2",
+      "page": 17,
+      "kind": "visual",
+      "score": 0.032266458495966696,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.5571167027169803
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 14.693881203315957
+       }
+      }
+     },
+     {
+      "id": "ar_p55_v2",
+      "page": 55,
+      "kind": "visual",
+      "score": 0.02938045560996381,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.5777303276445791
+       },
+       "bm25": {
+        "rank": 17,
+        "score": 5.746515383067041
+       }
+      }
+     },
+     {
+      "id": "ar_p30_t1",
+      "page": 30,
+      "kind": "text",
+      "score": 0.02904040404040404,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 12,
+        "score": 0.5346049613671533
+       },
+       "bm25": {
+        "rank": 6,
+        "score": 8.837026552322257
+       }
+      }
+     },
+     {
+      "id": "ar_p55_t0",
+      "page": 55,
+      "kind": "text",
+      "score": 0.027583600982429624,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 7,
+        "score": 0.5366903316152472
+       },
+       "bm25": {
+        "rank": 19,
+        "score": 5.357853908076573
+       }
+      }
+     },
+     {
+      "id": "ar_p122_t1",
+      "page": 122,
+      "kind": "text",
+      "score": 0.016129032258064516,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.5672240515739378
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "chi phí R&D năm 2025 tỷ đồng Tập đoàn",
+    "latency_ms": 128.83662499370985,
+    "results": [
+     {
+      "id": "ar_p7_t2",
+      "page": 7,
+      "kind": "text",
+      "score": 0.031544957774465976,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6400856568557557
+       },
+       "bm25": {
+        "rank": 6,
+        "score": 10.8048452844674
+       }
+      }
+     },
+     {
+      "id": "ar_p17_v2",
+      "page": 17,
+      "kind": "visual",
+      "score": 0.01639344262295082,
+      "rank": 2,
+      "components": {
+       "bm25": {
+        "rank": 1,
+        "score": 14.693881203315957
+       }
+      }
+     },
+     {
+      "id": "ar_p212_v0",
+      "page": 212,
+      "kind": "visual",
+      "score": 0.016129032258064516,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6171591571535175
+       }
+      }
+     },
+     {
+      "id": "ar_p61_v5",
+      "page": 61,
+      "kind": "visual",
+      "score": 0.016129032258064516,
+      "rank": 4,
+      "components": {
+       "bm25": {
+        "rank": 2,
+        "score": 13.24742689614608
+       }
+      }
+     },
+     {
+      "id": "ar_p17_t0",
+      "page": 17,
+      "kind": "text",
+      "score": 0.015873015873015872,
+      "rank": 5,
+      "components": {
+       "bm25": {
+        "rank": 3,
+        "score": 13.2110307402941
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "đầu tư cho nghiên cứu phát triển công nghệ chiến lược AI bán dẫn",
+    "latency_ms": 35.42062500491738,
+    "results": [
+     {
+      "id": "ar_p119_t1",
+      "page": 119,
+      "kind": "text",
+      "score": 0.03128054740957967,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6083703485007637
+       },
+       "bm25": {
+        "rank": 6,
+        "score": 17.896951412629967
+       }
+      }
+     },
+     {
+      "id": "ar_p48_t1",
+      "page": 48,
+      "kind": "text",
+      "score": 0.030679156908665108,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6244510314194301
+       },
+       "bm25": {
+        "rank": 10,
+        "score": 17.07940591738674
+       }
+      }
+     },
+     {
+      "id": "ar_p123_t0",
+      "page": 123,
+      "kind": "text",
+      "score": 0.0304147465437788,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 10,
+        "score": 0.5897291007348117
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 21.637638796413114
+       }
+      }
+     },
+     {
+      "id": "ar_p103_t1",
+      "page": 103,
+      "kind": "text",
+      "score": 0.030330882352941176,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.602419133960379
+       },
+       "bm25": {
+        "rank": 8,
+        "score": 17.466043944297578
+       }
+      }
+     },
+     {
+      "id": "ar_p138_t2",
+      "page": 138,
+      "kind": "text",
+      "score": 0.029030910609857977,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 16,
+        "score": 0.5757543397837191
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 20.270077080815255
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "tổng chi phí nghiên cứu phát triển năm 2025",
+    "latency_ms": 147.07304199691862,
+    "results": [
+     {
+      "id": "ar_p210_v2",
+      "page": 210,
+      "kind": "visual",
+      "score": 0.029513888888888888,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 12,
+        "score": 0.5377989878435885
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 10.736275698907994
+       }
+      }
+     },
+     {
+      "id": "ar_p46_t0",
+      "page": 46,
+      "kind": "text",
+      "score": 0.01639344262295082,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.5859654678463997
+       }
+      }
+     },
+     {
+      "id": "ar_p4_t1",
+      "page": 4,
+      "kind": "text",
+      "score": 0.01639344262295082,
+      "rank": 3,
+      "components": {
+       "bm25": {
+        "rank": 1,
+        "score": 13.913149062884573
+       }
+      }
+     },
+     {
+      "id": "ar_p148_v1",
+      "page": 148,
+      "kind": "visual",
+      "score": 0.016129032258064516,
+      "rank": 4,
+      "components": {
+       "bm25": {
+        "rank": 2,
+        "score": 11.509521044917395
+       }
+      }
+     },
+     {
+      "id": "ar_p47_v0",
+      "page": 47,
+      "kind": "visual",
+      "score": 0.016129032258064516,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.5613058084876675
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "chi cho hoạt động R&D sáng kiến giá trị kinh tế",
+    "latency_ms": 39.60437499335967,
+    "results": [
+     {
+      "id": "ar_p122_t1",
+      "page": 122,
+      "kind": "text",
+      "score": 0.031544957774465976,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.5896695126552192
+       },
+       "bm25": {
+        "rank": 6,
+        "score": 12.710867433999784
+       }
+      }
+     },
+     {
+      "id": "ar_p140_t2",
+      "page": 140,
+      "kind": "text",
+      "score": 0.0315136476426799,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.5611189036583257
+       },
+       "bm25": {
+        "rank": 5,
+        "score": 13.062161011609192
+       }
+      }
+     },
+     {
+      "id": "ar_p17_t1",
+      "page": 17,
+      "kind": "text",
+      "score": 0.02702702702702703,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 14,
+        "score": 0.5039230035544664
+       },
+       "bm25": {
+        "rank": 14,
+        "score": 9.81812298715937
+       }
+      }
+     },
+     {
+      "id": "ar_p17_v2",
+      "page": 17,
+      "kind": "visual",
+      "score": 0.01639344262295082,
+      "rank": 4,
+      "components": {
+       "bm25": {
+        "rank": 1,
+        "score": 14.693881203315957
+       }
+      }
+     },
+     {
+      "id": "ar_p28_t0",
+      "page": 28,
+      "kind": "text",
+      "score": 0.016129032258064516,
+      "rank": 5,
+      "components": {
+       "bm25": {
+        "rank": 2,
+        "score": 14.489348335967813
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "chi phí nghiên cứu phát triển hợp nhất thuyết minh",
+    "latency_ms": 179.74479199619964,
+    "results": [
+     {
+      "id": "ar_p199_t0",
+      "page": 199,
+      "kind": "text",
+      "score": 0.03028233151183971,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.5548729377485339
+       },
+       "bm25": {
+        "rank": 12,
+        "score": 9.568670666037066
+       }
+      }
+     },
+     {
+      "id": "ar_p213_t0",
+      "page": 213,
+      "kind": "text",
+      "score": 0.028949545078577336,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.5445533700088292
+       },
+       "bm25": {
+        "rank": 18,
+        "score": 9.234433691554964
+       }
+      }
+     },
+     {
+      "id": "ar_p212_t0",
+      "page": 212,
+      "kind": "text",
+      "score": 0.02886002886002886,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.5432448291593633
+       },
+       "bm25": {
+        "rank": 17,
+        "score": 9.281317072112662
+       }
+      }
+     },
+     {
+      "id": "ar_p187_t0",
+      "page": 187,
+      "kind": "text",
+      "score": 0.028283227848101264,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 19,
+        "score": 0.5097993438480592
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 11.670420373676775
+       }
+      }
+     },
+     {
+      "id": "ar_p169_t0",
+      "page": 169,
+      "kind": "text",
+      "score": 0.027650648360030512,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 9,
+        "score": 0.5275845241877355
+       },
+       "bm25": {
+        "rank": 16,
+        "score": 9.290587632013242
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "ngân sách R&D hàng năm FPT chiếm doanh thu",
+    "latency_ms": 32.31537499232218,
+    "results": [
+     {
+      "id": "ar_p63_t0",
+      "page": 63,
+      "kind": "text",
+      "score": 0.02964254577157803,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 14,
+        "score": 0.5897794016507073
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 13.42436522568607
+       }
+      }
+     },
+     {
+      "id": "ar_p17_v2",
+      "page": 17,
+      "kind": "visual",
+      "score": 0.01639344262295082,
+      "rank": 2,
+      "components": {
+       "bm25": {
+        "rank": 1,
+        "score": 14.693881203315957
+       }
+      }
+     },
+     {
+      "id": "ar_p76_v0",
+      "page": 76,
+      "kind": "visual",
+      "score": 0.01639344262295082,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.636053782603677
+       }
+      }
+     },
+     {
+      "id": "ar_p76_t0",
+      "page": 76,
+      "kind": "text",
+      "score": 0.016129032258064516,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6280019789948963
+       }
+      }
+     },
+     {
+      "id": "ar_p61_v5",
+      "page": 61,
+      "kind": "visual",
+      "score": 0.015873015873015872,
+      "rank": 5,
+      "components": {
+       "bm25": {
+        "rank": 3,
+        "score": 13.24742689614608
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "chi phí trả trước dài hạn chi phí nghiên cứu phát triển phân bổ",
+    "latency_ms": 134.0109579905402,
+    "results": [
+     {
+      "id": "ar_p183_t1",
+      "page": 183,
+      "kind": "text",
+      "score": 0.03278688524590164,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6344804273825022
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 27.923867996081295
+       }
+      }
+     },
+     {
+      "id": "ar_p183_t3",
+      "page": 183,
+      "kind": "text",
+      "score": 0.03200204813108039,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6137020407222915
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 25.546659688922162
+       }
+      }
+     },
+     {
+      "id": "ar_p183_t2",
+      "page": 183,
+      "kind": "text",
+      "score": 0.0315136476426799,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.5670387143276019
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 25.81336894130129
+       }
+      }
+     },
+     {
+      "id": "ar_p195_v1",
+      "page": 195,
+      "kind": "visual",
+      "score": 0.030798389007344232,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.6029420730572301
+       },
+       "bm25": {
+        "rank": 7,
+        "score": 21.99039889362587
+       }
+      }
+     },
+     {
+      "id": "ar_p200_v3",
+      "page": 200,
+      "kind": "visual",
+      "score": 0.02658450704225352,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 11,
+        "score": 0.5498616287737219
+       },
+       "bm25": {
+        "rank": 20,
+        "score": 16.977519257684726
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "FPT đầu tư R&D mỗi năm khoảng tỷ đồng thông tin chung vị thế quy mô",
+    "latency_ms": 72.34704200527631,
+    "results": [
+     {
+      "id": "ar_p28_t0",
+      "page": 28,
+      "kind": "text",
+      "score": 0.032018442622950824,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.6316393064658112
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 20.23299568498639
+       }
+      }
+     },
+     {
+      "id": "ar_p27_t0",
+      "page": 27,
+      "kind": "text",
+      "score": 0.03028233151183971,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.647728011765323
+       },
+       "bm25": {
+        "rank": 12,
+        "score": 13.50009404151524
+       }
+      }
+     },
+     {
+      "id": "ar_p28_v0",
+      "page": 28,
+      "kind": "visual",
+      "score": 0.028205128205128206,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.6302071199083122
+       },
+       "bm25": {
+        "rank": 18,
+        "score": 13.123718259169573
+       }
+      }
+     },
+     {
+      "id": "ar_p54_t1",
+      "page": 54,
+      "kind": "text",
+      "score": 0.016129032258064516,
+      "rank": 4,
+      "components": {
+       "bm25": {
+        "rank": 2,
+        "score": 18.63549925669251
+       }
+      }
+     },
+     {
+      "id": "ar_p5_t0",
+      "page": 5,
+      "kind": "text",
+      "score": 0.016129032258064516,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6352580511791761
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "\"R&D\" chi phí năm 2025 tỷ đồng FPT báo cáo thường niên",
+    "latency_ms": 193.1690830097068,
+    "results": [
+     {
+      "id": "ar_p105_t1",
+      "page": 105,
+      "kind": "text",
+      "score": 0.03278688524590164,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.7161889912261323
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 19.15855769782345
+       }
+      }
+     },
+     {
+      "id": "ar_p88_v1",
+      "page": 88,
+      "kind": "visual",
+      "score": 0.027106227106227107,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 10,
+        "score": 0.6575787973822729
+       },
+       "bm25": {
+        "rank": 18,
+        "score": 11.985081576232133
+       }
+      }
+     },
+     {
+      "id": "ar_p95_t1",
+      "page": 95,
+      "kind": "text",
+      "score": 0.02638888888888889,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 12,
+        "score": 0.6558024509330491
+       },
+       "bm25": {
+        "rank": 20,
+        "score": 11.599493886653653
+       }
+      }
+     },
+     {
+      "id": "ar_p105_v0",
+      "page": 105,
+      "kind": "visual",
+      "score": 0.016129032258064516,
+      "rank": 4,
+      "components": {
+       "bm25": {
+        "rank": 2,
+        "score": 18.05852688163974
+       }
+      }
+     },
+     {
+      "id": "ar_p76_t0",
+      "page": 76,
+      "kind": "text",
+      "score": 0.016129032258064516,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.7001284078009389
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "chi phí nghiên cứu và phát triển ghi nhận chi phí trong kỳ",
+    "latency_ms": 35.954374994616956,
+    "results": [
+     {
+      "id": "ar_p186_t3",
+      "page": 186,
+      "kind": "text",
+      "score": 0.03225806451612903,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6257976569620448
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 26.1594442619009
+       }
+      }
+     },
+     {
+      "id": "ar_p181_t2",
+      "page": 181,
+      "kind": "text",
+      "score": 0.032018442622950824,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6272324316760511
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 23.18204770609131
+       }
+      }
+     },
+     {
+      "id": "ar_p183_t1",
+      "page": 183,
+      "kind": "text",
+      "score": 0.03149801587301587,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.5663279880315643
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 24.40431071614151
+       }
+      }
+     },
+     {
+      "id": "ar_p181_t4",
+      "page": 181,
+      "kind": "text",
+      "score": 0.030309988518943745,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 7,
+        "score": 0.5544236100329121
+       },
+       "bm25": {
+        "rank": 5,
+        "score": 21.534240322659695
+       }
+      }
+     },
+     {
+      "id": "ar_p184_t0",
+      "page": 184,
+      "kind": "text",
+      "score": 0.029857397504456328,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 6,
+        "score": 0.5568471975949432
+       },
+       "bm25": {
+        "rank": 8,
+        "score": 18.968040627762335
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "chi phí nghiên cứu phát triển sản phẩm công nghệ Made by FPT đầu tư bao nhiêu",
+    "latency_ms": 151.95087500615045,
+    "results": [
+     {
+      "id": "ar_p67_t2",
+      "page": 67,
+      "kind": "text",
+      "score": 0.03278688524590164,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.6696344277598377
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 29.42572141930628
+       }
+      }
+     },
+     {
+      "id": "ar_p66_v1",
+      "page": 66,
+      "kind": "visual",
+      "score": 0.03200204813108039,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.6112175070711204
+       },
+       "bm25": {
+        "rank": 3,
+        "score": 24.888087103570882
+       }
+      }
+     },
+     {
+      "id": "ar_p67_t0",
+      "page": 67,
+      "kind": "text",
+      "score": 0.029709507042253523,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.6034121887304473
+       },
+       "bm25": {
+        "rank": 11,
+        "score": 17.665978681418682
+       }
+      }
+     },
+     {
+      "id": "ar_p120_t1",
+      "page": 120,
+      "kind": "text",
+      "score": 0.016129032258064516,
+      "rank": 4,
+      "components": {
+       "bm25": {
+        "rank": 2,
+        "score": 25.70107870625637
+       }
+      }
+     },
+     {
+      "id": "ar_p18_t0",
+      "page": 18,
+      "kind": "text",
+      "score": 0.015873015873015872,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.6093927546763338
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "ESG chỉ số chi đầu tư R&D doanh thu",
+    "latency_ms": 33.40920899063349,
+    "results": [
+     {
+      "id": "ar_p115_v0",
+      "page": 115,
+      "kind": "visual",
+      "score": 0.01639344262295082,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 1,
+        "score": 0.5924711056549203
+       }
+      }
+     },
+     {
+      "id": "ar_p17_v2",
+      "page": 17,
+      "kind": "visual",
+      "score": 0.01639344262295082,
+      "rank": 2,
+      "components": {
+       "bm25": {
+        "rank": 1,
+        "score": 14.693881203315957
+       }
+      }
+     },
+     {
+      "id": "ar_p61_v5",
+      "page": 61,
+      "kind": "visual",
+      "score": 0.016129032258064516,
+      "rank": 3,
+      "components": {
+       "bm25": {
+        "rank": 2,
+        "score": 13.24742689614608
+       }
+      }
+     },
+     {
+      "id": "ar_p75_t0",
+      "page": 75,
+      "kind": "text",
+      "score": 0.016129032258064516,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 2,
+        "score": 0.579230732459646
+       }
+      }
+     },
+     {
+      "id": "ar_p115_t0",
+      "page": 115,
+      "kind": "text",
+      "score": 0.015873015873015872,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.572471362987024
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "chi phí nghiên cứu phát triển 2025 con số nổi bật tỷ đồng đầu tư",
+    "latency_ms": 147.0652499992866,
+    "results": [
+     {
+      "id": "ar_p9_t0",
+      "page": 9,
+      "kind": "text",
+      "score": 0.030536130536130537,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 5,
+        "score": 0.5741961905710264
+       },
+       "bm25": {
+        "rank": 6,
+        "score": 14.331868462844053
+       }
+      }
+     },
+     {
+      "id": "ar_p10_t0",
+      "page": 10,
+      "kind": "text",
+      "score": 0.029827662395050816,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 13,
+        "score": 0.5509167878994766
+       },
+       "bm25": {
+        "rank": 2,
+        "score": 15.718894882173478
+       }
+      }
+     },
+     {
+      "id": "ar_p11_t0",
+      "page": 11,
+      "kind": "text",
+      "score": 0.029709507042253523,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.5864754702284662
+       },
+       "bm25": {
+        "rank": 11,
+        "score": 13.058659841613958
+       }
+      }
+     },
+     {
+      "id": "ar_p123_v0",
+      "page": 123,
+      "kind": "visual",
+      "score": 0.027402402402402402,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 14,
+        "score": 0.5493379280155141
+       },
+       "bm25": {
+        "rank": 12,
+        "score": 13.05791913443916
+       }
+      }
+     },
+     {
+      "id": "ar_p12_t0",
+      "page": 12,
+      "kind": "text",
+      "score": 0.027106227106227107,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 10,
+        "score": 0.557106091322857
+       },
+       "bm25": {
+        "rank": 18,
+        "score": 11.780238002265374
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "query": "tài sản vô hình chi phí phát triển phần mềm tự xây dựng",
+    "latency_ms": 36.457707989029586,
+    "results": [
+     {
+      "id": "ar_p182_t0",
+      "page": 182,
+      "kind": "text",
+      "score": 0.032266458495966696,
+      "rank": 1,
+      "components": {
+       "dense": {
+        "rank": 3,
+        "score": 0.5851024543116474
+       },
+       "bm25": {
+        "rank": 1,
+        "score": 27.045917346927975
+       }
+      }
+     },
+     {
+      "id": "ar_p181_t1",
+      "page": 181,
+      "kind": "text",
+      "score": 0.031009615384615385,
+      "rank": 2,
+      "components": {
+       "dense": {
+        "rank": 4,
+        "score": 0.5472762505912083
+       },
+       "bm25": {
+        "rank": 5,
+        "score": 14.550469198116822
+       }
+      }
+     },
+     {
+      "id": "ar_p181_t2",
+      "page": 181,
+      "kind": "text",
+      "score": 0.02964426877470356,
+      "rank": 3,
+      "components": {
+       "dense": {
+        "rank": 6,
+        "score": 0.5382374343990497
+       },
+       "bm25": {
+        "rank": 9,
+        "score": 13.314739060635606
+       }
+      }
+     },
+     {
+      "id": "ar_p182_t1",
+      "page": 182,
+      "kind": "text",
+      "score": 0.0293236301369863,
+      "rank": 4,
+      "components": {
+       "dense": {
+        "rank": 13,
+        "score": 0.4982819618608282
+       },
+       "bm25": {
+        "rank": 4,
+        "score": 14.938099431500927
+       }
+      }
+     },
+     {
+      "id": "ar_p46_t3",
+      "page": 46,
+      "kind": "text",
+      "score": 0.029211087420042643,
+      "rank": 5,
+      "components": {
+       "dense": {
+        "rank": 10,
+        "score": 0.5066849614472999
+       },
+       "bm25": {
+        "rank": 7,
+        "score": 13.719283397624032
+       }
+      }
+     }
+    ]
+   },
+   {
+    "event": "abstain",
+    "reason": "max_steps"
+   }
+  ],
+  "llm_calls": [
+   {
+    "step": 0,
+    "usage": {
+     "prompt_tokens": 1101,
+     "completion_tokens": 85
+    },
+    "cost_usd": 5.4303e-05,
+    "latency_ms": 1002.962792001199,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_GZ4x81tllEtuR8RkCwb37360",
+      "name": "search",
+      "arguments": {
+       "query": "chi phí nghiên cứu và phát triển R&D năm 2025"
+      }
+     },
+     {
+      "id": "call_01_AzYR6MfUFsZIZ3AvDWcf1047",
+      "name": "search",
+      "arguments": {
+       "query": "đầu tư R&D tỷ đồng"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 1,
+    "usage": {
+     "prompt_tokens": 4271,
+     "completion_tokens": 99
+    },
+    "cost_usd": 7.2213e-05,
+    "latency_ms": 1326.8301670032088,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_ylyLXcsbW2ss8olvukMk3110",
+      "name": "search",
+      "arguments": {
+       "query": "chi phí R&D năm 2025 tỷ đồng Tập đoàn"
+      }
+     },
+     {
+      "id": "call_01_9HDjoG2Zetk97iFjdJFb9402",
+      "name": "search",
+      "arguments": {
+       "query": "đầu tư cho nghiên cứu phát triển công nghệ chiến lược AI bán dẫn"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 2,
+    "usage": {
+     "prompt_tokens": 8092,
+     "completion_tokens": 92
+    },
+    "cost_usd": 7.9476e-05,
+    "latency_ms": 1876.9497089961078,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_cJj0PSc1sooX4NEl5WTd7126",
+      "name": "search",
+      "arguments": {
+       "query": "tổng chi phí nghiên cứu phát triển năm 2025"
+      }
+     },
+     {
+      "id": "call_01_y4km5bPxwQQUMMDxXiNF2513",
+      "name": "search",
+      "arguments": {
+       "query": "chi cho hoạt động R&D sáng kiến giá trị kinh tế"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 3,
+    "usage": {
+     "prompt_tokens": 11231,
+     "completion_tokens": 92
+    },
+    "cost_usd": 8.8893e-05,
+    "latency_ms": 1139.0283750079107,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_6TA3UB4fWuTJn1synlCh2038",
+      "name": "search",
+      "arguments": {
+       "query": "chi phí nghiên cứu phát triển hợp nhất thuyết minh"
+      }
+     },
+     {
+      "id": "call_01_gKYsqaPgcw6P9mucdmLo4208",
+      "name": "search",
+      "arguments": {
+       "query": "ngân sách R&D hàng năm FPT chiếm doanh thu"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 4,
+    "usage": {
+     "prompt_tokens": 15177,
+     "completion_tokens": 112
+    },
+    "cost_usd": 0.00011273099999999999,
+    "latency_ms": 1638.6223339941353,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_Y0vB4m7CSIETFjZgWs878256",
+      "name": "search",
+      "arguments": {
+       "query": "chi phí trả trước dài hạn chi phí nghiên cứu phát triển phân bổ"
+      }
+     },
+     {
+      "id": "call_01_jfv6bgZywRceIgyjzjMo8534",
+      "name": "search",
+      "arguments": {
+       "query": "FPT đầu tư R&D mỗi năm khoảng tỷ đồng thông tin chung vị thế quy mô"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 5,
+    "usage": {
+     "prompt_tokens": 19025,
+     "completion_tokens": 105
+    },
+    "cost_usd": 0.000120075,
+    "latency_ms": 1515.1408329838887,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_IyC5nzfqTDmioHNzIEOB5121",
+      "name": "search",
+      "arguments": {
+       "query": "\"R&D\" chi phí năm 2025 tỷ đồng FPT báo cáo thường niên"
+      }
+     },
+     {
+      "id": "call_01_BQiHb3LhOXzbxePhpikY4124",
+      "name": "search",
+      "arguments": {
+       "query": "chi phí nghiên cứu và phát triển ghi nhận chi phí trong kỳ"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 6,
+    "usage": {
+     "prompt_tokens": 23322,
+     "completion_tokens": 99
+    },
+    "cost_usd": 0.000129366,
+    "latency_ms": 1418.1878340023104,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_Nf6sCP8U2r0FqQHsdRrW3518",
+      "name": "search",
+      "arguments": {
+       "query": "chi phí nghiên cứu phát triển sản phẩm công nghệ Made by FPT đầu tư bao nhiêu"
+      }
+     },
+     {
+      "id": "call_01_9Y5TcmjIHPs5cxTQH86g0305",
+      "name": "search",
+      "arguments": {
+       "query": "ESG chỉ số chi đầu tư R&D doanh thu"
+      }
+     }
+    ],
+    "content": ""
+   },
+   {
+    "step": 7,
+    "usage": {
+     "prompt_tokens": 27076,
+     "completion_tokens": 108
+    },
+    "cost_usd": 0.00014602800000000003,
+    "latency_ms": 1439.5543750142679,
+    "model": "deepseek-flash",
+    "tool_calls": [
+     {
+      "id": "call_00_9LNnH1nfIMYtqbIgTblG4160",
+      "name": "search",
+      "arguments": {
+       "query": "chi phí nghiên cứu phát triển 2025 con số nổi bật tỷ đồng đầu tư"
+      }
+     },
+     {
+      "id": "call_01_jBnhTuW3za02flGMVBOe9721",
+      "name": "search",
+      "arguments": {
+       "query": "tài sản vô hình chi phí phát triển phần mềm tự xây dựng"
+      }
+     }
+    ],
+    "content": ""
+   }
+  ],
+  "context_ids": [
+   "ar_p49_t2",
+   "ar_p47_v0",
+   "ar_p54_t1",
+   "ar_p17_v2",
+   "ar_p46_t0",
+   "ar_p55_v2",
+   "ar_p30_t1",
+   "ar_p55_t0",
+   "ar_p122_t1",
+   "ar_p7_t2",
+   "ar_p212_v0",
+   "ar_p61_v5",
+   "ar_p17_t0",
+   "ar_p119_t1",
+   "ar_p48_t1",
+   "ar_p123_t0",
+   "ar_p103_t1",
+   "ar_p138_t2",
+   "ar_p210_v2",
+   "ar_p4_t1",
+   "ar_p148_v1",
+   "ar_p140_t2",
+   "ar_p17_t1",
+   "ar_p28_t0",
+   "ar_p199_t0",
+   "ar_p213_t0",
+   "ar_p212_t0",
+   "ar_p187_t0",
+   "ar_p169_t0",
+   "ar_p63_t0",
+   "ar_p76_v0",
+   "ar_p76_t0",
+   "ar_p183_t1",
+   "ar_p183_t3",
+   "ar_p183_t2",
+   "ar_p195_v1",
+   "ar_p200_v3",
+   "ar_p27_t0",
+   "ar_p28_v0",
+   "ar_p5_t0",
+   "ar_p105_t1",
+   "ar_p88_v1",
+   "ar_p95_t1",
+   "ar_p105_v0",
+   "ar_p186_t3",
+   "ar_p181_t2",
+   "ar_p181_t4",
+   "ar_p184_t0",
+   "ar_p67_t2",
+   "ar_p66_v1",
+   "ar_p67_t0",
+   "ar_p120_t1",
+   "ar_p18_t0",
+   "ar_p115_v0",
+   "ar_p75_t0",
+   "ar_p115_t0",
+   "ar_p9_t0",
+   "ar_p10_t0",
+   "ar_p11_t0",
+   "ar_p123_v0",
+   "ar_p12_t0",
+   "ar_p182_t0",
+   "ar_p181_t1",
+   "ar_p182_t1",
+   "ar_p46_t3"
+  ],
+  "latency_s": 12.998394875001395,
+  "tokens": {
+   "prompt_tokens": 109295,
+   "completion_tokens": 792
+  },
+  "cost_usd": 0.000803085,
+  "tool_counts": {
+   "search": 16,
+   "view_page": 0
+  },
+  "auto_hint": {
+   "gold_pages": [],
+   "cited_gold_pages": [],
+   "abstained": true
+  }
+ }
+]

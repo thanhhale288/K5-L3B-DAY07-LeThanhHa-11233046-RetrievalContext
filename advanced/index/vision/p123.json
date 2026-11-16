@@ -1,0 +1,25 @@
+{
+ "page": 123,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Chính phủ, Bộ ban ngành",
+   "position": "nửa phải, phía trên",
+   "content": "| Chương trình hành động nổi bật | Kết quả năm 2025 |\n|---|---|\n| Nghiên cứu, phát triển, triển khai các giải pháp công nghệ, tham gia các liên minh hợp phần hiện thực hóa mục tiêu của các chương trình, đề án lớn của quốc gia | • Đóng góp lập Liên minh Nhân lực chiến lược thực thi Nghị quyết 57-NQ/TW;<br>• Khởi xướng Liên minh AI Âu Lạc, tập hợp trí tuệ và khát vọng Việt, hướng tới xây dựng nền tảng AI mang bản sắc riêng, đồng thời định hình chính sách công nghệ quốc gia;<br>• Tham gia Liên minh bán dẫn để giải quyết khoảng trống về nhân lực và kết nối nghiên cứu – ứng dụng, mở đường cho Việt Nam bước vào chuỗi giá trị toàn cầu của ngành công nghiệp chiến lược này;<br>• Thúc đẩy thành lập Liên minh Kinh tế tư nhân hỗ trợ doanh nghiệp vừa và nhỏ, giúp chuyển đổi số trong các ngành truyền thống, nâng cao năng lực quản trị và hội nhập vào chuỗi giá trị toàn cầu. |\n| Thực hiện nghiêm túc trách nhiệm của doanh nghiệp như nghĩa vụ nộp thuế, đóng bảo hiểm xã hội,... | • Nộp ngân sách Nhà nước 11.078 tỷ đồng. |\n| Nâng cao hình ảnh thương hiệu của ngành CNTT | • Tham gia quảng bá và phối hợp tổ chức nhiều sự kiện lớn nhằm thúc đẩy phát triển kinh tế số tại Việt Nam và nâng cao hình ảnh của ngành CNTT Việt Nam trên trường quốc tế như: Triển lãm 80 năm hành trình Độc lập – Tự do – Hạnh phúc, Vietnam – ASIA DX Summit, Diễn đàn Make in Viet Nam...;<br>• Đứng trong Top 40 Công ty Dịch vụ CNTT châu Á (Gartner);<br>• Ký hợp đồng dịch vụ CNTT kỷ lục 256 triệu USD tại nước ngoài và mở rộng quy mô hiện diện tại Nhật Bản, Đức, Hàn Quốc. |"
+  },
+  {
+   "type": "table",
+   "title": "Đối tác và nhà cung cấp",
+   "position": "nửa phải, phía dưới",
+   "content": "| Chương trình hành động nổi bật | Kết quả năm 2025 |\n|---|---|\n| Xây dựng và áp dụng các chuẩn mực làm việc và ứng xử đối tác và nhà cung cấp | • Triển khai đồng bộ hệ thống CNTT các quy trình mua hàng và chính sách mua sắm bền vững, trong đó ưu tiên hàng hóa, dịch vụ và nhà cung cấp đáp ứng các tiêu chí xanh;<br>• Ứng dụng AI trong mua sắm giúp kiểm soát chênh lệch giá;<br>• Triển khai đánh giá CSR 42% nhà cung cấp trọng yếu của Tập đoàn. |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 9823
+ },
+ "cost_usd": 0.005897886000000001,
+ "latency_ms": 41716.56195799005
+}

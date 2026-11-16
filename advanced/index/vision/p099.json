@@ -1,0 +1,19 @@
+{
+ "page": 99,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Quan hệ với các bên có quyền lợi liên quan",
+   "position": "bên trái, phía giữa trang",
+   "content": "| Bên liên quan | Cam kết của FPT |\n|---|---|\n| Khách hàng | • Đầu tư phát triển các nền tảng, giải pháp, sản phẩm, dịch vụ công nghệ, viễn thông, giáo dục đáp ứng nhu cầu của khách hàng;<br>• Không ngừng nâng cao uy tín thương hiệu, chất lượng nguồn nhân lực nhằm đảm bảo uy tín với khách hàng. |\n| Cổ đông, nhà đầu tư | • Minh bạch hóa thông tin và nỗ lực mang lại lợi ích cao nhất cho cổ đông, nhà đầu tư. |\n| Cán bộ nhân viên | • Tạo điều kiện tốt nhất để CBNV phát huy thế mạnh, thành công. |\n| Cộng đồng | • Ứng dụng công nghệ kết nối cộng đồng, mang lại những giá trị tốt đẹp hơn cho cuộc sống và trở thành điểm tựa tin cậy, kịp thời cho sự phát triển của cộng đồng. |\n| Chính phủ, bộ, ban ngành, tỉnh thành | • Luôn đồng hành với các chương trình, đề án lớn của quốc gia hướng đến mục tiêu vì một Việt Nam hùng cường, thịnh vượng. |\n| Đối tác, nhà cung cấp | • Nỗ lực thiết lập quan hệ với các đối tác trên cơ sở thấu hiểu sâu sắc, phát huy tối đa sức mạnh hợp tác, gắn bó lâu dài, cùng thành công và phát triển bền vững. |\n| Báo chí và cơ quan truyền thông | • Cung cấp kịp thời và minh bạch các thông tin liên quan đến hoạt động của FPT cũng như công ty thành viên. |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2661
+ },
+ "cost_usd": 0.0016006859999999998,
+ "latency_ms": 13740.621167002246
+}

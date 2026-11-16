@@ -47,8 +47,13 @@ def validate(chunks, questions):
                 raise ValueError(f"question {q['id']}: gold không nằm trọn trong chunk đúng nguồn/trang")
 
 
+def norm_ws(text):
+    """NFC + collapse whitespace: PDF chunks keep line breaks, evidence quotes do not (same rule as Day 6)."""
+    return re.sub(r'\s+', ' ', unicodedata.normalize('NFC', text)).strip()
+
+
 def hit(chunk, gold):
-    return any(chunk['source_id'] == g['source_id'] and chunk['page'] == g['page'] and g['evidence'] in chunk['text'] for g in gold)
+    return any(chunk['source_id'] == g['source_id'] and chunk['page'] == g['page'] and norm_ws(g['evidence']) in norm_ws(chunk['text']) for g in gold)
 
 
 class TfidfIndex:

@@ -1,0 +1,19 @@
+{
+ "page": 70,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "FPT chính thức đưa vào vận hành Trung tâm Dữ liệu FPT Fornix HCM02 tại Khu Công nghệ cao Tp. Hồ Chí Minh với diện tích gần 10.000 m².",
+   "position": "phía dưới bên phải",
+   "content": "Ảnh sự kiện ra mắt: hội trường đông người tham dự, phía trước là sân khấu có màn hình lớn. Trên màn hình hiển thị các dòng chữ: “LỄ RA MẮT TRUNG TÂM DỮ LIỆU FPT FORNIX HCM02” và “KHU CÔNG NGHỆ CAO TP. HỒ CHÍ MINH”. Chú thích dưới ảnh: “FPT chính thức đưa vào vận hành Trung tâm Dữ liệu FPT Fornix HCM02 tại Khu Công nghệ cao Tp. Hồ Chí Minh với diện tích gần 10.000 m².”"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1201
+ },
+ "cost_usd": 0.000724686,
+ "latency_ms": 7145.198792015435
+}

@@ -1,0 +1,359 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "FPT đứng ở vị trí nào trong xếp hạng doanh nghiệp Việt Nam có chất lượng quản trị công ty tốt nhất ASEAN?",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3200,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p36_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 36,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.6545585621455806,
+        "rank": 1,
+        "strategy": "dense",
+        "hit": false,
+        "text_preview": "Là một trong những tập đoàn công nghệ hàng đầu Việt Nam, FPT xác định ứng dụng\ncông nghệ trong môi trường làm việc là trụ cột chiến lược nhằm nâng cao trải nghi"
+      },
+      {
+        "id": "fpt_esg_report_2025_p4_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 4,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.6270451394265724,
+        "rank": 2,
+        "strategy": "dense",
+        "hit": false,
+        "text_preview": "Môi trường làm việc\nđẳng cấp\nNơi làm việc\ntốt nhất Việt Nam\nTop 10\nViệc làm ổn định\n54.110\nNhân sự người\nnước ngoài\n(82 quốc tịch)\n4.124\nDấu ấn nổi bật\nCán bộ q"
+      },
+      {
+        "id": "fpt_esg_report_2025_p30_b_1",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 30,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.6133877499833406,
+        "rank": 3,
+        "strategy": "dense",
+        "hit": false,
+        "text_preview": "alaysia, Mexico, Philippines, tăng 18% so với cùng kỳ.\nTrong bối cảnh thị trường lao động có nhiều biến động, FPT vẫn duy trì sự ổn định\nvề nhân sự với tỷ lệ ng"
+      }
+    ],
+    "context_ids": [
+      "fpt_esg_report_2025_p36_b_0",
+      "fpt_esg_report_2025_p4_b_0",
+      "fpt_esg_report_2025_p30_b_1"
+    ],
+    "context_chars": 2615,
+    "hit1": false,
+    "hit3": false,
+    "first_hit_rank": null,
+    "context_hit": false,
+    "latency_ms": 538.5493340145331,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 9,
+        "evidence": "Top 5 Doanh nghiệp Việt Nam có chất lượng quản trị công ty tốt nhất ASEAN, Top 8 Doanh nghiệp vốn hóa lớn có quản trị công ty tốt nhất"
+      }
+    ]
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "Các hoạt động trồng rừng của FPT tại Sóc Trăng (cũ), Tp.Huế và Thanh Hóa đã trồng bao nhiêu cây?",
+    "filter": {
+      "pillar": "Environment"
+    },
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3200,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p41_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 41,
+        "metadata": {
+          "pillar": "Environment"
+        },
+        "score": 0.7019529875600968,
+        "rank": 1,
+        "strategy": "dense",
+        "hit": true,
+        "text_preview": "Triển khai và duy trì mô hình\nlàm việc kết hợp từ xa, góp\nphần tối ưu nhu cầu di chuyển\nvà giảm phát thải khí nhà kính\n(Phạm vi 3).\nTiên phong thực hiện thành c"
+      },
+      {
+        "id": "fpt_esg_report_2025_p46_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 46,
+        "metadata": {
+          "pillar": "Environment"
+        },
+        "score": 0.5169436007242926,
+        "rank": 2,
+        "strategy": "dense",
+        "hit": false,
+        "text_preview": "Với hệ thống văn phòng trải rộng trên toàn quốc, FPT\nxác định mô hình văn phòng xanh không chỉ góp phần\ntiết kiệm năng lượng, tối ưu chi phí vận hành mà còn\ntạo"
+      },
+      {
+        "id": "fpt_esg_report_2025_p39_b_4",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 39,
+        "metadata": {
+          "pillar": "Environment"
+        },
+        "score": 0.49458479945841194,
+        "rank": 3,
+        "strategy": "dense",
+        "hit": false,
+        "text_preview": "• Kết quả thực hiện kiểm kê khí nhà kính\nTổng hợp lượng phát thải khí nhà kính của FPT năm 2025\nNăm 2025Năm 2024Năm 2023Phạm vi\nPhạm vi 1 13.217 4.826 4.383\nPhạ"
+      }
+    ],
+    "context_ids": [
+      "fpt_esg_report_2025_p41_b_0",
+      "fpt_esg_report_2025_p46_b_0",
+      "fpt_esg_report_2025_p39_b_4"
+    ],
+    "context_chars": 2155,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true,
+    "latency_ms": 47.0925000263378,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 41,
+        "evidence": "Tiên phong thực hiện thành công các hoạt động trồng rừng tại Sóc Trăng (cũ), Tp.Huế, Thanh Hóa với 4.500 cây được trồng tại các khu vực rừng ngập mặn, khu bảo tồn thiên nhiên"
+      }
+    ]
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "FPT hợp tác với tổ chức nào để triển khai dự án “Bếp Xanh – Sống Lành”, và dự án được thực hiện tại đâu?",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3200,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p51_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 51,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.6836740797272446,
+        "rank": 1,
+        "strategy": "dense",
+        "hit": true,
+        "text_preview": "BÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi tr"
+      },
+      {
+        "id": "fpt_esg_report_2025_p51_b_1",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 51,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.6454801348137947,
+        "rank": 2,
+        "strategy": "dense",
+        "hit": false,
+        "text_preview": "uyên\nrừng, nâng cao chất lượng sống và năng lực chống chịu của các cộng đồng dễ bị\ntổn thương trước tác động của biến đổi khí hậu.\n\n• Dự án \"Bếp Xanh – Sống Làn"
+      },
+      {
+        "id": "fpt_esg_report_2025_p46_b_1",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 46,
+        "metadata": {
+          "pillar": "Environment"
+        },
+        "score": 0.6067430142607112,
+        "rank": 3,
+        "strategy": "dense",
+        "hit": false,
+        "text_preview": "inh\nvà Cần Thơ được phát triển theo mô hình campus xanh,\ntích hợp không gian làm việc, đào tạo, vui chơi giải trí\nvà cảnh quan sinh thái. Nhiều công trình đã đư"
+      }
+    ],
+    "context_ids": [
+      "fpt_esg_report_2025_p51_b_0",
+      "fpt_esg_report_2025_p51_b_1",
+      "fpt_esg_report_2025_p46_b_1"
+    ],
+    "context_chars": 2602,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true,
+    "latency_ms": 44.337166007608175,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 51,
+        "evidence": "Tổ chức World Vision và FPT ký kết Biên bản ghi nhớ hợp tác triển khai Dự án “Bếp Xanh – Sống Lành” tại xã Sín Chải, tỉnh Điện Biên."
+      }
+    ]
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "FPT có quy tắc nào về việc ký hợp đồng với nhà cung cấp liên quan đến sức khỏe, an toàn lao động và môi trường?",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3200,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p28_b_5",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 28,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.6976155638694763,
+        "rank": 1,
+        "strategy": "dense",
+        "hit": false,
+        "text_preview": "nhà cung cấp\nđược thực hiện dựa trên nhu cầu thực tế, chất lượng, giá cả và các tiêu chí minh bạch.\nNhà cung cấp có trách nhiệm tuân thủ pháp luật, không đưa – "
+      },
+      {
+        "id": "fpt_esg_report_2025_p21_b_3",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 21,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.6740385300551558,
+        "rank": 2,
+        "strategy": "dense",
+        "hit": false,
+        "text_preview": "lao động, môi trường\nvà quản trị.\nSong song, để đảm bảo công tác mua sắm bền vững,\nFPT tiếp tục duy trì:\n\n• Chính sách mua sắm bền vững với những nguyên\ntắc cơ "
+      },
+      {
+        "id": "fpt_esg_report_2025_p21_b_2",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 21,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.6576481069536158,
+        "rank": 3,
+        "strategy": "dense",
+        "hit": false,
+        "text_preview": "m tập trung, đấu thầu online; nhà cung cấp tự\nbáo giá online; tự động hóa các thao tác nội bộ;\nsử dụng AI hỗ trợ giao dịch mua sắm, hỏi đáp nhanh\nvề mua sắm, gợ"
+      }
+    ],
+    "context_ids": [
+      "fpt_esg_report_2025_p28_b_5",
+      "fpt_esg_report_2025_p21_b_3",
+      "fpt_esg_report_2025_p21_b_2"
+    ],
+    "context_chars": 2414,
+    "hit1": false,
+    "hit3": false,
+    "first_hit_rank": null,
+    "context_hit": false,
+    "latency_ms": 42.172459012363106,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 8,
+        "evidence": "Không ký hợp đồng với các nhà cung cấp có các hoạt động ảnh hưởng đến sức khoẻ, an toàn lao động và môi trường."
+      }
+    ]
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Năm 2025, FPT ghi nhận tổng số giờ đào tạo và số giờ học trung bình trên mỗi CBNV/năm là bao nhiêu?",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3200,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p31_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 31,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.7303902563801641,
+        "rank": 1,
+        "strategy": "dense",
+        "hit": false,
+        "text_preview": "Tại FPT, phát triển nguồn nhân lực được xác định là trụ cột chiến lược nhằm duy trì\nnăng lực cạnh tranh và vị thế công ty công nghệ đẳng cấp toàn cầu. Năm 2025,"
+      },
+      {
+        "id": "fpt_esg_report_2025_p31_b_1",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 31,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.7123089048954522,
+        "rank": 2,
+        "strategy": "dense",
+        "hit": false,
+        "text_preview": "ri thức và kinh nghiệm quản lý trong nội bộ. Công tác\nphát triển đội ngũ quản lý được đẩy mạnh thông qua các chương trình MiniMBA và\nđào tạo cán bộ quản lý cấp "
+      },
+      {
+        "id": "fpt_esg_report_2025_p11_b_2",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 11,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.6673974195898374,
+        "rank": 3,
+        "strategy": "dense",
+        "hit": true,
+        "text_preview": "• Khởi công xây dựng Khu công viên công nghệ số góp phần\nkhẳng định vị thế Hà Nội là trung tâm khoa học công nghệ\ncủa cả nước, xa hơn là từng bước hiện thực hóa"
+      }
+    ],
+    "context_ids": [
+      "fpt_esg_report_2025_p31_b_0",
+      "fpt_esg_report_2025_p31_b_1",
+      "fpt_esg_report_2025_p11_b_2"
+    ],
+    "context_chars": 2606,
+    "hit1": false,
+    "hit3": true,
+    "first_hit_rank": 3,
+    "context_hit": true,
+    "latency_ms": 46.49779200553894,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 11,
+        "evidence": "Ghi nhận trên 7,1 triệu giờ đào tạo, đạt 151 giờ học trung bình/năm/CBNV"
+      }
+    ]
+  }
+]

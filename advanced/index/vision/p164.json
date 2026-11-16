@@ -1,0 +1,19 @@
+{
+ "page": 164,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "Thay mặt và đại diện cho Công ty TNHH PwC (Việt Nam)",
+   "position": "nửa phải, phía dưới",
+   "content": "Con dấu tròn màu đỏ của Công ty TNHH PwC (Việt Nam) và chữ ký tay màu xanh. Phía dưới ghi: TRẦN KHẮC THẾ; Số Giấy CN ĐKHN kiểm toán: 2043-2023-006-1; Người được ủy quyền. NGUYỄN THANH LOAN; Số Giấy CN ĐKHN kiểm toán: 5979-2023-006-1; Người được ủy quyền. Số hiệu báo cáo kiểm toán: HAN 4324; Hà Nội, ngày 19 tháng 3 năm 2026."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2699
+ },
+ "cost_usd": 0.001623486,
+ "latency_ms": 14415.07366701262
+}

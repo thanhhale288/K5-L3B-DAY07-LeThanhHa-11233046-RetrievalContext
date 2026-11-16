@@ -1,0 +1,19 @@
+{
+ "page": 112,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "ESG",
+   "position": "nửa phải, chiếm gần toàn bộ chiều cao trang",
+   "content": "Ảnh/đồ họa minh họa về ESG: quả địa cầu phát sáng trong khung cảnh xanh, có chữ lớn “ESG” ở giữa. Xung quanh là các khối lục giác/biểu tượng với các nhãn nhìn thấy được: “231.654”, “50.05”, “ENVIRONMENT”, “NET ZERO”, “AI”, “CO2”, “H2”, “CCS”, “ESG”; các biểu tượng nhỏ khác không đọc rõ."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1648
+ },
+ "cost_usd": 0.000992886,
+ "latency_ms": 10445.054167008493
+}

@@ -1,0 +1,19 @@
+{
+ "page": 222,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "A. Công ty con khác (Tiếp theo)",
+   "position": "giữa trang, phía dưới tiêu đề; chiếm gần toàn bộ chiều ngang nội dung",
+   "content": "Bảng: STT; Công ty; Hoạt động chính; Nơi thành lập, đăng ký hoạt động; Tại ngày 31/12/2025 (Tỷ lệ sở hữu, Tỷ lệ biểu quyết); Tại ngày 31/12/2024 (Tỷ lệ sở hữu, Tỷ lệ biểu quyết).\n\n| STT | Công ty | Hoạt động chính | Nơi thành lập, đăng ký hoạt động | Tại ngày 31/12/2025 - Tỷ lệ sở hữu | Tại ngày 31/12/2025 - Tỷ lệ biểu quyết | Tại ngày 31/12/2024 - Tỷ lệ sở hữu | Tại ngày 31/12/2024 - Tỷ lệ biểu quyết |\n|---:|---|---|---|---:|---:|---:|---:|\n| 53 | Công ty TNHH NAC | Sản xuất phần mềm | Nhật Bản | 100% | 100% | 100% | 100% |\n| 54 | Công ty TNHH Tư vấn AOSIS | Sản xuất phần mềm | Pháp | 80% | 80% | 80% | 80% |\n| 55 | Công ty TNHH Phần mềm FPT Đại Liên | Sản xuất phần mềm | Trung Quốc | 100% | 100% | 100% | 100% |\n| 56 | Công ty FPT Automotive | Sản xuất phần mềm | Hoa Kỳ | 100% | 100% | 100% | 100% |\n| 57 | Công ty Phần mềm FPT Rumania | Sản xuất phần mềm | Romania | 100% | 100% | 100% | 100% |\n| 58 | Công ty TNHH Công nghệ mới FPT | Sản xuất phần mềm | Việt Nam | 100% | 100% | 100% | 100% |\n| 59 | Công ty TNHH FPT Software Scandinavia ApS | Sản xuất phần mềm | Đan Mạch | 100% | 100% | 100% | 100% |\n| 60 | Công ty TNHH FPT Smart Cloud Japan | Dịch vụ CNTT | Nhật Bản | 60% | 60% | 100% | 100% |\n| 61 | Công ty TNHH Đổi mới và Sáng tạo FPT | Nghiên cứu khoa học và phát triển công nghệ | Việt Nam | 100% | 100% | Chưa thành lập | Chưa thành lập |\n| 62 | Công ty Mugur Filey PE TIE Khu vực (Một Đối tác) | Sản xuất phần mềm | Ả rập xê út | 100% | 100% | Chưa thành lập | Chưa thành lập |\n| 63 | Công ty FPT Software Sverige AB | Sản xuất phần mềm | Thụy Điển | 100% | 100% | Chưa thành lập | Chưa thành lập |\n| 64 | Công ty TNHH Bất động sản FPT | Kinh doanh, môi giới BĐS | Việt Nam | 100% | 100% | 100% | 100% |\n| 65 | Công ty Cổ phần An toàn Thông tin Cyradar | Dịch vụ CNTT | Việt Nam | 77,78% | 77,78% | 77,78% | 77,78% |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3952
+ },
+ "cost_usd": 0.0023752859999999995,
+ "latency_ms": 16357.647457974963
+}

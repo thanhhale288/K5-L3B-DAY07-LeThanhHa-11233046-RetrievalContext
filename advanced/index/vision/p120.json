@@ -1,0 +1,19 @@
+{
+ "page": 120,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Khách hàng",
+   "position": "phần nội dung chính bên phải, khoảng giữa trang; ngay dưới tiêu đề “Khách hàng”",
+   "content": "| Chương trình hành động nổi bật | Kết quả năm 2025 |\n|---|---|\n| **Nâng cấp sản phẩm, dịch vụ, giải pháp dựa trên các xu hướng công nghệ mới đem lại hiệu quả và năng suất cho khách hàng** | • Đạt chứng nhận cao nhất về Generative AI từ Amazon Web Services khẳng định năng lực xây dựng các dịch vụ, công cụ và hạ tầng cốt lõi cho việc triển khai các công nghệ AI tạo sinh;<br>• 06 sản phẩm, giải pháp thuộc hệ sinh thái Made by FPT đứng trong Top sản phẩm công nghệ chủ lực của Hà Nội;<br>• Ra mắt AI Notebook – Nền tảng nghiên cứu và phát triển AI trên hạ tầng NVIDIA GPU đáp ứng nhu cầu chuyên biệt về nghiên cứu và đào tạo phát triển AI;<br>• Hai nhà máy AI lọt TOP500 siêu máy tính mạnh nhất thế giới. |\n| **Nâng cao uy tín thương hiệu của FPT** | • Tiếp tục khẳng định vị trí doanh nghiệp đầu ngành với những giải thưởng uy tín về quản trị, kinh doanh, công nghệ trên toàn cầu như: Top 40 Công ty Dịch vụ CNTT châu Á; Top 5 Doanh nghiệp Việt Nam có chất lượng quản trị công ty tốt nhất ASEAN; Top 8 Doanh nghiệp quản trị công ty tốt nhất nhóm vốn hóa lớn; Giá trị thương hiệu tăng 18%, đạt 1,2 tỷ USD; Top 10 Thương hiệu mạnh Việt Nam; Dẫn đầu Top 50 Công ty đại chúng uy tín nhất Việt Nam; Top 50 Công ty kinh doanh hiệu quả nhất Việt Nam.... |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4499
+ },
+ "cost_usd": 0.0027034859999999997,
+ "latency_ms": 21585.72429200285
+}

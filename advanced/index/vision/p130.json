@@ -1,0 +1,19 @@
+{
+ "page": 130,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "Phạm vi của chính sách và kế hoạch ứng phó sự cố",
+   "position": "nửa phải, phía dưới",
+   "content": "Ảnh minh họa một người đang sử dụng laptop. Trên màn hình/không gian phía trên có các biểu tượng đồ họa về an toàn thông tin: ổ khóa nằm trong khiên bảo mật, các nút mạng dạng hexagon, biểu tượng dữ liệu và kết nối. Không có chữ hoặc số liệu đọc rõ ràng ngoài các biểu tượng minh họa."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1271
+ },
+ "cost_usd": 0.000766686,
+ "latency_ms": 8917.630790994735
+}

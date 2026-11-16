@@ -1,0 +1,25 @@
+{
+ "page": 172,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "BÁO CÁO LƯU CHUYỂN TIỀN TỆ HỢP NHẤT (Tiếp theo) (Theo phương pháp gián tiếp) - Mẫu số B 03 – DN/HN",
+   "position": "phần giữa, phía trên đến giữa trang; chiếm phần lớn chiều ngang",
+   "content": "Đơn vị: VND\n\n| Mã số |  | Thuyết minh | Năm tài chính kết thúc ngày 31 tháng 12 năm 2025 | Năm tài chính kết thúc ngày 31 tháng 12 năm 2024 |\n|---|---|---|---:|---:|\n|  | LƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG ĐẦU TƯ (Tiếp theo) |  |  |  |\n| 25 | Tiền chi đầu tư góp vốn vào đơn vị khác |  | (710.700.052.777) | (1.106.193.484.800) |\n| 26 | Tiền thu hồi đầu tư góp vốn vào đơn vị khác |  | 23.532.256.656 | 48.102.486.048 |\n| 27 | Tiền thu lãi cho vay, cổ tức và lợi nhuận được chia |  | 2.000.759.192.153 | 1.530.174.506.877 |\n| 30 | Lưu chuyển tiền thuần từ hoạt động đầu tư |  | (11.624.743.591.629) | (8.461.812.173.101) |\n|  | LƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG TÀI CHÍNH |  |  |  |\n| 31 | Tiền thu từ phát hành cổ phiếu |  | 1.196.235.184.778 | 163.342.989.874 |\n| 33 | Tiền thu từ đi vay |  | 43.070.812.885.074 | 30.946.282.706.201 |\n| 34 | Tiền chi trả nợ gốc vay |  | (36.890.984.827.601) | (30.013.226.682.923) |\n| 35 | Tiền chi trả nợ gốc thuê tài chính |  | (986.795.056) | (2.305.346.865) |\n| 36 | Tiền cổ tức, lợi nhuận đã trả cho chủ sở hữu |  | (4.573.753.577.663) | (3.291.859.792.121) |\n| 40 | Lưu chuyển tiền thuần từ hoạt động tài chính |  | 2.801.322.869.532 | (2.197.766.125.834) |\n| 50 | Lưu chuyển tiền thuần trong năm |  | 1.312.623.193.814 | 1.044.198.889.933 |\n| 60 | Tiền và tương đương tiền đầu năm | 4 | 9.315.440.438.884 | 8.279.156.683.221 |\n| 61 | Ảnh hưởng của thay đổi tỷ giá hối đoái quy đổi ngoại tệ |  | (105.957.902.706) | (7.915.134.270) |\n| 70 | Tiền và tương đương tiền cuối năm | 4 | 10.522.105.729.992 | 9.315.440.438.884 |"
+  },
+  {
+   "type": "image",
+   "title": "Chữ ký, dấu xác nhận",
+   "position": "phía dưới bên phải trang",
+   "content": "HOÀNG NGỌC BÍCH - Người lập; HOÀNG HỮU CHIẾN - Kế toán trưởng; NGUYỄN THẾ PHƯƠNG - Phó Tổng Giám đốc, Chữ ký được ủy quyền; Ngày 18 tháng 3 năm 2026; Dấu tròn: CÔNG TY CỔ PHẦN FPT."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 10290
+ },
+ "cost_usd": 0.006178086,
+ "latency_ms": 42956.93412501714
+}

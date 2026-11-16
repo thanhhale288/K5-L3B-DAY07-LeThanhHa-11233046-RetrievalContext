@@ -1,0 +1,25 @@
+{
+ "page": 205,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "(b) Chi tiết vốn góp của chủ sở hữu",
+   "position": "giữa trang, phía trên",
+   "content": "Đơn vị: VND\n\n| Chỉ tiêu | 31/12/2025 - Cổ phiếu phổ thông | 31/12/2025 - % | 31/12/2024 - Cổ phiếu phổ thông | 31/12/2024 - % |\n|---|---:|---:|---:|---:|\n| Tổng Công ty Đầu tư và Kinh doanh vốn Nhà nước | 96.585.637 | 5,67 | 83.987.511 | 5,71 |\n| Ông Trương Gia Bình | 117.347.966 | 6,89 | 102.041.710 | 6,94 |\n| Cổ đông khác | 1.489.573.518 | 87,44 | 1.285.039.962 | 87,35 |\n| Số lượng cổ phiếu đang lưu hành | 1.703.507.121 | 100 | 1.471.069.183 | 100 |"
+  },
+  {
+   "type": "table",
+   "title": "(c) Tình hình biến động vốn cổ phần",
+   "position": "giữa trang, phía dưới",
+   "content": "Đơn vị: VND\n\n| Chỉ tiêu | Số cổ phiếu | Cổ phiếu phổ thông | Tổng cộng |\n|---|---:|---:|---:|\n| Tại ngày 1 tháng 1 năm 2024 | 1.269.968.875 | 12.699.688.750.000 | 12.699.688.750.000 |\n| Phát hành cổ phiếu mới | 10.621.117 | 106.211.170.000 | 106.211.170.000 |\n| Tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu | 190.479.191 | 1.904.791.910.000 | 1.904.791.910.000 |\n| Tại ngày 31 tháng 12 năm 2024 | 1.471.069.183 | 14.710.691.830.000 | 14.710.691.830.000 |\n| Phát hành cổ phiếu mới | 10.260.939 | 102.609.390.000 | 102.609.390.000 |\n| Tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu | 222.176.999 | 2.221.769.990.000 | 2.221.769.990.000 |\n| Tại ngày 31 tháng 12 năm 2025 | 1.703.507.121 | 17.035.071.210.000 | 17.035.071.210.000 |\n\nMệnh giá cổ phiếu: 10.000 đồng trên mỗi cổ phiếu."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3925
+ },
+ "cost_usd": 0.002359086,
+ "latency_ms": 16351.80045798188
+}

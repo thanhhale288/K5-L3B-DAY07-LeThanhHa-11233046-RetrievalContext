@@ -1,0 +1,25 @@
+{
+ "page": 65,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "chart",
+   "title": "Doanh thu từ Dịch vụ AI/Data Analytics",
+   "position": "nửa trái, phía giữa/dưới; dưới đoạn văn về nhân lực chất lượng cao",
+   "content": "Biểu đồ cột. Trục tung: 0, 500, 1.000, 1.500, 2.000, 2.500, 3.000. Trục hoành: 2022, 2023, 2024, 2025. Giá trị từng năm: 2022: 980; 2023: 1.221; 2024: 1.856; 2025: 2.612. Đơn vị: Tỷ VNĐ. Không có chú giải."
+  },
+  {
+   "type": "table",
+   "title": "Nhân sự bình quân của lĩnh vực Dịch vụ CNTT cho thị trường nước ngoài và năng suất lao động",
+   "position": "nửa phải, phía trên",
+   "content": "| Tiêu chí | 2024 | 2025 | +/- |\n|---|---:|---:|---:|\n| Tổng nhân sự bình quân (người) | 28.814 | 31.208 | 8,3% |\n| Tổng nhân sự bình quân sản xuất (người) | 26.586 | 29.899 | 12,5% |\n| Doanh thu/người (triệu VNĐ) | 1.037 | 1.116 | 7,6% |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1775
+ },
+ "cost_usd": 0.001069086,
+ "latency_ms": 9814.345582999522
+}

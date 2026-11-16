@@ -1,0 +1,19 @@
+{
+ "page": 116,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "QUẢN TRỊ XUẤT SẮC",
+   "position": "phần nội dung chính bên phải, phía trên",
+   "content": "| Hoạt động trọng yếu | Cam kết | Mục tiêu | Kết quả nổi bật 2025 |\n|---|---|---|---|\n| Quản trị công ty | Quản trị công ty xuất sắc hướng tới phát triển bền vững. | Không ngừng nâng cao năng lực quản trị đáp ứng lợi ích của tất cả các bên liên quan. | • Top 5 Doanh nghiệp Việt Nam có chất lượng quản trị công ty tốt nhất ASEAN, Top 8 Doanh nghiệp vốn hóa lớn có quản trị công ty tốt nhất;<br>• Tiên phong nghiên cứu và ứng dụng AI trong quản lý tài chính, bán hàng – marketing và tối ưu hệ thống CRM nhằm nâng cao hiệu quả vận hành và kiểm soát rủi ro;<br>• Ứng dụng AI trong quản trị, phát triển và triển khai phần mềm, từ thiết kế, lập trình, kiểm thử đến đảm bảo chất lượng sản phẩm;<br>• Triển khai hệ thống quản lý năng lượng thông minh trên nền tảng đám mây, tích hợp AI dự báo tiêu thụ và chi phí năng lượng, hướng tới mục tiêu phát thải ròng bằng không. |\n| Quản trị dữ liệu | Đảm bảo an toàn và quyền riêng tư dữ liệu. | Tuân thủ 100% quy định của luật pháp về quyền riêng tư của khách hàng. | • Hướng dẫn, tư vấn triển khai tuân thủ quy định pháp luật và quy định nội bộ về bảo vệ dữ liệu cá nhân cho công ty thành viên;<br>• Triển khai công cụ phân quyền, kiểm duyệt sử dụng dữ liệu giữa các đơn vị trong Tập đoàn;<br>• Đạt ISO/IEC 42001:2023 – Tiêu chuẩn dành cho hệ thống quản lý trí tuệ nhân tạo (AIMS). |\n| Quản trị rủi ro, chống tham nhũng | • Cam kết tuân thủ pháp luật và duy trì tiêu chuẩn đạo đức cao nhất trong tất cả các hoạt động kinh doanh;<br>• Không chấp nhận hành vi vi phạm các quy định về đạo đức của bất kỳ cá nhân nào trong tổ chức. | • 100% cán bộ quản lý thực hiện kê khai chống xung đột lợi ích;<br>• 100% các trường hợp liên quan đến xung đột lợi ích và gian lận được xử lý;<br>• Triển khai AI trong quản trị lĩnh vực trọng yếu: tài chính, mua sắm. | • Đẩy mạnh đào tạo, truyền thông để duy trì văn hóa chống tham nhũng;<br>• Tổ chức bộ máy, xây dựng quy trình quy định, chế tài xử lý các vấn đề liên quan đến xung đột lợi ích và tham nhũng;<br>• Ứng dụng AI trong mua sắm giúp kiểm soát chênh lệch giá;<br>• Đẩy mạnh kênh iNghe – Nền tảng ghi nhận mọi ý kiến và đóng góp thẳng thắn của CBNV khi phát hiện những vấn đề tiêu cực;<br>• Xử lý nghiêm minh với các trường hợp vi phạm. |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3554
+ },
+ "cost_usd": 0.002136486,
+ "latency_ms": 15238.361458003055
+}

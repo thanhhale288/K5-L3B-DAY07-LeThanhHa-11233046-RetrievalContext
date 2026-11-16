@@ -1,0 +1,25 @@
+{
+ "page": 60,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "chart",
+   "title": "Cơ cấu doanh thu theo khối",
+   "position": "nửa trái, phía trên (dưới đoạn mô tả)",
+   "content": "Biểu đồ vòng tròn (donut) thể hiện cơ cấu doanh thu theo khối. Không có trục; đơn vị: Tỷ VND. Tổng/trung tâm: 70.113 (mũi tên tăng 11,6%). Chú giải: Khối Công nghệ (cam); Khối Viễn thông (xanh dương); Khối Giáo dục, Đầu tư và Khác (xanh lá). Số liệu: Khối Công nghệ: 44.475, 63,4% (mũi tên tăng 13,7%); Khối Viễn thông: 19.507, 27,8% (mũi tên tăng 10,8%); Khối Giáo dục, Đầu tư và Khác: 6.132, 8,8% (mũi tên tăng 0,05%). Số liệu thuộc trang Báo cáo thường niên FPT 2025."
+  },
+  {
+   "type": "chart",
+   "title": "Cơ cấu lợi nhuận trước thuế theo khối",
+   "position": "nửa phải, phía trên (dưới đoạn mô tả)",
+   "content": "Biểu đồ vòng tròn (donut) thể hiện cơ cấu lợi nhuận trước thuế theo khối. Không có trục; đơn vị: Tỷ VND. Tổng/trung tâm: 13.044 (mũi tên tăng 17,8%). Chú giải: Khối Công nghệ (cam); Khối Viễn thông (xanh dương); Khối Giáo dục, Đầu tư và Khác (xanh lá). Số liệu: Khối Công nghệ: 5.907, 45,3% (mũi tên tăng 12,9%); Khối Viễn thông: 4.364, 33,5% (mũi tên tăng 21,6%); Khối Giáo dục, Đầu tư và Khác: 2.773, 21,2% (mũi tên tăng 23,1%). Số liệu thuộc trang Báo cáo thường niên FPT 2025."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3281
+ },
+ "cost_usd": 0.001972686,
+ "latency_ms": 15436.33891697391
+}

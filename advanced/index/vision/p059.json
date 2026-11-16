@@ -1,0 +1,19 @@
+{
+ "page": 59,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Các chỉ tiêu tài chính chủ yếu (Tiếp theo)",
+   "position": "nửa phải, từ phía trên đến cuối trang",
+   "content": "| Chỉ tiêu | 2024 | 2025 |\n|---|---:|---:|\n| **1. Chỉ tiêu về khả năng thanh toán** | | |\n| Hệ số thanh toán ngắn hạn (lần) | 1,31 | 1,40 |\n| Hệ số thanh toán nhanh (lần) | 1,25 | 1,35 |\n| **2. Chỉ tiêu về cơ cấu vốn và đảm bảo lãi vay** | | |\n| Hệ số Nợ/Tổng tài sản | 20,8% | 23,9% |\n| Hệ số Nợ/Vốn chủ sở hữu | 41,8% | 48,2% |\n| Hệ số Nợ thuần/Vốn chủ sở hữu | -45,2% | -43,6% |\n| **3. Chỉ tiêu về năng lực hoạt động** | | |\n| Vòng quay hàng tồn kho (lần) | 19,7 | 20,5 |\n| Vòng quay khoản phải thu (lần) | 6,2 | 6,1 |\n| Vòng quay khoản phải trả (lần) | 11,9 | 12,7 |\n| Vòng quay tiền mặt (ngày) | 47,1 | 49,0 |\n| **4. Chỉ tiêu về khả năng sinh lời** | | |\n| Tỷ suất lợi nhuận từ hoạt động kinh doanh | 17,5% | 18,5% |\n| Tỷ suất lợi nhuận trước thuế | 17,6% | 18,6% |\n| Tỷ suất lợi nhuận sau thuế | 15,0% | 16,0% |\n| Tỷ suất sinh lời trên vốn chủ sở hữu (ROE) | 28,5% | 28,1% |\n| Tỷ suất sinh lời trên vốn đầu tư (ROCE) | 22,9% | 21,9% |\n| Tỷ suất sinh lời trên tổng tài sản (ROA) | 14,4% | 14,1% |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2671
+ },
+ "cost_usd": 0.001606686,
+ "latency_ms": 11540.064667002298
+}

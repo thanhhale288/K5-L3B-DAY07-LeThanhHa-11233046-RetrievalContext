@@ -1,0 +1,19 @@
+{
+ "page": 108,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Chi tiết thù lao của BKS năm 2025",
+   "position": "nửa trái, phía trên",
+   "content": "Đơn vị: VNĐ\n\n| STT | Nội dung | Ngân sách 2025 | Đã chi trả |\n|---:|---|---:|---:|\n| 1 | Thù tư vấn bên ngoài | 100.000.000 | 0 |\n| 2 | Thù lao hoạt động của thành viên BKS | 1.456.000.000 | 1.456.000.000 |\n| 3 | Đi lại, công tác phí | 75.000.000 | 0 |\n|  | **Tổng** | **1.631.000.000** | **1.456.000.000** |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1440
+ },
+ "cost_usd": 0.000868086,
+ "latency_ms": 7892.205250012921
+}

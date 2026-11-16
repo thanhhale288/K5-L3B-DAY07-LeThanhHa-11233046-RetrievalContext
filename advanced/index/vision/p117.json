@@ -1,0 +1,19 @@
+{
+ "page": 117,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "QUẢN TRỊ XUẤT SẮC (Tiếp theo)",
+   "position": "phía trên, chiếm gần toàn bộ chiều ngang vùng nội dung",
+   "content": "| Hoạt động trọng yếu | Cam kết | Mục tiêu | Kết quả nổi bật 2025 |\n|---|---|---|---|\n| **Quản trị an toàn thông tin** | Cam kết hệ thống hiện đại, tập trung, bảo mật. | - Số sự cố an toàn thông tin ảnh hưởng danh tiếng của Tập đoàn bằng 0;<br>- 100% CBNV được đào tạo nâng cao nhận thức để ngăn chặn vi phạm an toàn thông tin. | - Không xảy ra sự cố an toàn thông tin ảnh hưởng đến danh tiếng của Tập đoàn;<br>- Ban hành và áp dụng bộ tiêu chuẩn an ninh bảo mật, làm cơ sở thống nhất cho công tác triển khai, giám sát và tuân thủ tại công ty thành viên;<br>- Xây dựng, hoàn thiện và đưa vào vận hành Hệ thống giám sát và cảnh báo sớm sự cố an toàn thông tin (SOC) tập trung trên toàn Tập đoàn, phục vụ hiệu quả công tác giám sát, phòng ngừa và ứng phó sự cố;<br>- Hoàn thành 03 đợt kiểm soát nội bộ an toàn thông tin với công ty thành viên. |\n| **Quản trị mua sắm bền vững** | Tín bền vững trong chuỗi cung ứng. | - Xây dựng các chính sách liên quan đến nguồn cung ứng nhằm đáp ứng mục tiêu mua sắm bền vững;<br>- Nỗ lực áp dụng chính sách mua sắm bền vững cho 60% nhà cung cấp trọng yếu vào năm 2026;<br>- Minh bạch quá trình mua sắm thông qua hệ thống thông tin toàn trình mua sắm, đấu thầu online và đẩy mạnh ứng dụng AI vào quá trình mua sắm, đánh giá nhà cung cấp. | - Triển khai đồng bộ hệ thống CNTT mua sắm tập trung, các quy trình mua hàng và chính sách mua sắm bền vững, trong đó ưu tiên hàng hóa, dịch vụ và nhà cung cấp đáp ứng các tiêu chí xanh;<br>- Triển khai đánh giá CSR 42% nhà cung cấp trọng yếu của Tập đoàn;<br>- Đào tạo, hướng dẫn về phát triển bền vững, mục tiêu mua sắm bền vững tới toàn bộ đội ngũ lãnh đạo và cán bộ quản lý mua sắm. |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3325
+ },
+ "cost_usd": 0.001999086,
+ "latency_ms": 13623.968917003367
+}

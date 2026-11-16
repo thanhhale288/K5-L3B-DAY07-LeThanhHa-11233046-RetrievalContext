@@ -1,0 +1,31 @@
+{
+ "page": 32,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Thông tin về cổ phiếu",
+   "position": "nửa trái, phía trên",
+   "content": "Trong năm 2025, Tập đoàn không thực hiện giao dịch cổ phiếu quỹ\n\n| Chỉ tiêu | Giá trị |\n|---|---|\n| Tên cổ phiếu | Cổ phiếu Công ty Cổ phần FPT |\n| Loại cổ phiếu | Cổ phiếu phổ thông |\n| Mã chứng khoán | FPT |\n| Mệnh giá cổ phiếu | 10.000 VNĐ |\n| Ngày bắt đầu niêm yết/đăng ký giao dịch | 13/12/2006 |\n| Tổng số cổ phiếu đang lưu hành | 1.703.507.121 cổ phiếu |\n| Tổng số cổ phiếu quỹ | 0 cổ phiếu |\n| Số lượng cổ phiếu tự do chuyển nhượng | 1.671.922.715 cổ phiếu |\n| Số lượng cổ phiếu hạn chế chuyển nhượng | 31.584.406 cổ phiếu |\n| Tỷ lệ sở hữu tối đa của cổ đông nước ngoài | 49% |"
+  },
+  {
+   "type": "table",
+   "title": "Cơ cấu cổ đông theo các mức cổ phiếu sở hữu",
+   "position": "nửa phải, phía trên",
+   "content": "| Các mức cổ phiếu sở hữu | Số lượng cổ đông | Tỷ lệ/ Tổng số cổ đông | Số lượng cổ phiếu sở hữu | Tỷ lệ/Tổng số cổ phiếu đã phát hành |\n|---|---:|---:|---:|---:|\n| 01 – 999 | 89.786 | 70,43% | 19.527.027 | 1,15% |\n| 1.000 – 10.000 | 32.023 | 25,12% | 94.203.628 | 5,53% |\n| 10.001 – 1.000.000 | 5.425 | 4,26% | 348.178.407 | 20,44% |\n| 1.000.001 trở lên | 254 | 0,20% | 1.241.598.059 | 72,88% |\n| Tổng số | 127.488 | 100,00% | 1.703.507.121 | 100,00% |"
+  },
+  {
+   "type": "table",
+   "title": "Cơ cấu cổ đông theo đối tượng sở hữu",
+   "position": "nửa phải, phía dưới",
+   "content": "| Đối tượng | Số lượng cổ đông | Tỷ lệ/ Tổng số cổ đông | Số lượng cổ phiếu đang nắm giữ | Tỷ lệ/Tổng số cổ phiếu đã phát hành |\n|---|---:|---:|---:|---:|\n| Nhà nước | 1 | 0,00% | 96.585.637 | 5,67% |\n| Cổ đông nội bộ | 10 | 0,01% | 273.445.441 | 16,05% |\n| Cổ đông ngoài (Cá nhân) | 126.709 | 99,39% | 583.704.491 | 34,26% |\n| Cổ đông ngoài (Tổ chức) | 768 | 0,60% | 749.771.552 | 44,01% |\n| Tổng số | 127.488 | 100,00% | 1.703.507.121 | 100,00% |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4698
+ },
+ "cost_usd": 0.0028228859999999997,
+ "latency_ms": 21762.570874998346
+}

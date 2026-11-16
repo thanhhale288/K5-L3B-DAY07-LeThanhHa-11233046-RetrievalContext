@@ -1,0 +1,19 @@
+{
+ "page": 94,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Hợp đồng hoặc giao dịch với cổ đông nội bộ",
+   "position": "phần nội dung chính, phía trên, trải rộng gần hết trang",
+   "content": "| STT | Tên tổ chức | Mối quan hệ liên quan với công ty | Số giấy NSH, ngày cấp, nơi cấp | Địa chỉ trụ sở chính | Thời điểm giao dịch | Số nghị quyết/ quyết định của ĐHĐCĐ/ HĐQT... thông qua | Nội dung và tổng giá trị giao dịch - Giao dịch | Tổng giá trị (VND) | Ghi chú |\n|---|---|---|---|---|---|---|---|---|---|\n| 1 | Công ty TNHH Phần mềm FPT | Công ty con trong cùng Tập đoàn | • 0101601092<br>• 23/12/2004<br>• Sở Kế hoạch và Đầu tư TP.Hà Nội | Tầng 6-12, tòa nhà FPT Cầu Giấy, phố Duy Tân, phường Cầu Giấy, TP.Hà Nội | Năm 2025 | Giao dịch giữa công ty với các doanh nghiệp và người có liên quan thuộc diện thực hiện theo Nghị quyết số 02.03-2021/NQ-HĐQT.FPT ban hành ngày 12/03/2021 và có hiệu lực đến khi có Nghị quyết khác thay thế. | Cung cấp dịch vụ, chia sẻ chi phí và tiện ích dùng chung | 397.763.273.322 | Giao dịch thường xuyên |\n|  |  |  |  |  |  |  | Mua dịch vụ phần mềm | 64.068.740.823 | Giao dịch thường xuyên |\n|  |  |  |  |  |  |  | Lãi đi vay | 24.095.488.172 | Giao dịch theo tháng |\n|  |  |  |  |  |  |  | Vay | 3.935.686.187.170 | Giao dịch thường xuyên |\n|  |  |  |  |  |  |  | Trả nợ vay | 3.791.286.187.170 | Giao dịch thường xuyên |\n| 2 | Công ty TNHH FPT IS | Công ty con trong cùng Tập đoàn | • 0104128565<br>• 13/08/2009<br>• Sở Kế hoạch và Đầu tư TP.Hà Nội | Số 10 phố Phạm Văn Bạch, phường Cầu Giấy, TP.Hà Nội | Năm 2025 | Giao dịch giữa công ty với các doanh nghiệp và người có liên quan thuộc diện thực hiện theo Nghị quyết số 02.03-2021/NQ-HĐQT.FPT ban hành ngày 12/03/2021 và có hiệu lực đến khi có Nghị quyết khác thay thế. | Cung cấp dịch vụ, chia sẻ chi phí và tiện ích dùng chung | 58.531.876.766 | Giao dịch thường xuyên |\n|  |  |  |  |  |  |  | Mua hàng hóa, dịch vụ | 126.842.017.121 | Giao dịch thường xuyên |\n|  |  |  |  |  |  |  | Lãi đi vay | 53.695.883.577 | Giao dịch theo tháng |\n|  |  |  |  |  |  |  | Vay | 1.670.000.000.000 | Giao dịch thường xuyên |\n|  |  |  |  |  |  |  | Trả nợ vay | 1.760.000.000.000 | Giao dịch thường xuyên |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 8161
+ },
+ "cost_usd": 0.004900686,
+ "latency_ms": 35894.15816598921
+}

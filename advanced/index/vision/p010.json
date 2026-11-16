@@ -1,0 +1,37 @@
+{
+ "page": 10,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "chart",
+   "title": "Tổng doanh thu",
+   "position": "phần nội dung chính bên phải, hàng trên bên trái",
+   "content": "Biểu đồ cột. Trục hoành: năm 2021, 2022, 2023, 2024, 2025. Trục tung: 0; 15.000; 30.000; 45.000; 60.000; 75.000. Chú giải: mỗi cột tương ứng một năm. Đơn vị: Tỷ VND. Giá trị theo năm: 2021: 35.657; 2022: 44.010; 2023: 52.618; 2024: 62.849; 2025: 70.113. Số liệu nổi bật: 70.113 Tỷ VND; tăng 11,6% so với cùng kỳ."
+  },
+  {
+   "type": "chart",
+   "title": "Lợi nhuận sau thuế thuộc về cổ đông công ty mẹ",
+   "position": "phần nội dung chính bên phải, hàng trên bên phải",
+   "content": "Biểu đồ cột. Trục hoành: năm 2021, 2022, 2023, 2024, 2025. Trục tung: 0; 2.000; 4.000; 6.000; 8.000; 10.000. Chú giải: mỗi cột tương ứng một năm. Đơn vị: Tỷ VND. Giá trị theo năm: 2021: 4.337; 2022: 5.310; 2023: 6.465; 2024: 7.857; 2025: 9.376. Số liệu nổi bật: 9.376 Tỷ VND; tăng 19,3% so với cùng kỳ."
+  },
+  {
+   "type": "chart",
+   "title": "Lợi nhuận sau thuế",
+   "position": "phần nội dung chính bên phải, hàng dưới bên trái",
+   "content": "Biểu đồ cột. Trục hoành: năm 2021, 2022, 2023, 2024, 2025. Trục tung: 0; 2.000; 4.000; 6.000; 8.000; 10.000; 12.000. Chú giải: mỗi cột tương ứng một năm. Đơn vị: Tỷ VND. Giá trị theo năm: 2021: 5.349; 2022: 6.491; 2023: 7.788; 2024: 9.427; 2025: 11.232. Số liệu nổi bật: 11.232 Tỷ VND; tăng 19,1% so với cùng kỳ."
+  },
+  {
+   "type": "chart",
+   "title": "Thu nhập trên cổ phiếu (EPS)",
+   "position": "phần nội dung chính bên phải, hàng dưới bên phải",
+   "content": "Biểu đồ cột. Trục hoành: năm 2021, 2022, 2023, 2024, 2025. Trục tung: 0; 1.500; 2.500; 3.500; 4.500; 5.500. Chú giải: mỗi cột tương ứng một năm. Đơn vị: VND. Giá trị theo năm: 2021: 2.367; 2022: 2.910; 2023: 3.518; 2024: 4.292; 2025: 5.216. Số liệu nổi bật: 5.216 VND; tăng 21,5% so với cùng kỳ (*). Ghi chú: (*) EPS từ năm 2021-2024 được điều chỉnh hồi tố theo tỷ lệ chi trả cổ tức bằng cổ phiếu 15% trong năm 2025 và quy định về cách tính EPS theo thông tư 200/2014/TT-BTC."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4033
+ },
+ "cost_usd": 0.0024238859999999997,
+ "latency_ms": 18840.11920800549
+}

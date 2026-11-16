@@ -1,0 +1,19 @@
+{
+ "page": 145,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Quản lý nguồn nguyên liệu",
+   "position": "giữa trang, phía dưới",
+   "content": "| Nguyên tắc | Hành động |\n|---|---|\n| **Bền vững là trọng tâm** | • Ưu tiên sử dụng các vật liệu được chứng nhận bởi bên thứ ba hoặc đáp ứng các tiêu chuẩn phát triển bền vững được công nhận rộng rãi trên phạm vi quốc tế, nhằm giảm thiểu các tác động tiêu cực đến môi trường và xã hội;<br>• Ưu tiên triển khai sử dụng các vật liệu thân thiện với môi trường trong toàn bộ hoạt động vận hành nội bộ. Theo đó, Tập đoàn thay thế nước đóng chai nhựa dùng một lần bằng chai thủy tinh và vật liệu tái chế tại 100% cuộc họp cấp Tập đoàn;<br>• Lựa chọn và hợp tác với nhà cung cấp có trách nhiệm về môi trường. |\n| **Giảm thiểu việc sử dụng các chất gây hại** | • Từng bước loại bỏ các chất có nguy cơ gây ảnh hưởng đến sức khỏe con người và môi trường thông qua việc ưu tiên áp dụng các giải pháp và vật liệu thay thế an toàn hơn khi có thể. Cách tiếp cận này nhằm bảo đảm an toàn trong quá trình sử dụng, đồng thời tuân thủ đầy đủ các quy định pháp luật và yêu cầu quản lý tại tất cả các khu vực mà FPT đang hoạt động. |\n| **Thúc đẩy hiệu quả sử dụng tài nguyên** | • Cải tiến quy trình và tối ưu hóa vận hành nhằm nâng cao hiệu quả sử dụng vật liệu, hạn chế phát sinh chất thải và thúc đẩy việc sử dụng bền vững các tài sản, góp phần kéo dài vòng đời sử dụng;<br>• Triển khai các chương trình thu hồi, tái sử dụng và luân chuyển trang thiết bị văn phòng giữa các đơn vị theo quy trình quản lý tài sản nhằm hạn chế phát sinh chất thải. Các tài sản được thu hồi và tái phân bổ bao gồm bàn ghế, trang thiết bị văn phòng và các vật dụng liên quan. |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4362
+ },
+ "cost_usd": 0.0026212859999999996,
+ "latency_ms": 18514.691250020405
+}

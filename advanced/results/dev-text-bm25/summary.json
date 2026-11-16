@@ -1,0 +1,16 @@
+{
+  "split": "dev",
+  "config": "text-bm25",
+  "cases": 18,
+  "errors": 0,
+  "answered": 14,
+  "abstained_on_unanswerable": "3/3",
+  "answered_with_gold_page_cited": "14/15",
+  "tokens_total": {
+    "prompt_tokens": 520936,
+    "completion_tokens": 8984
+  },
+  "cost_usd_total": 0.006953,
+  "latency_s_median": 4.2128780630009715,
+  "note": "Auto counts only. Pass/fail is labelled by hand in labels.json."
+}

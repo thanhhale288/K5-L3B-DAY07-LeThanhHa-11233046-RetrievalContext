@@ -1,0 +1,19 @@
+{
+ "page": 113,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "ESG tạo thêm sức mạnh để FPT phát huy giá trị cốt lõi, tiếp tục thực hiện sứ mệnh Tập đoàn toàn cầu trường tồn và hạnh phúc.",
+   "position": "giữa trang, bên dưới hai đoạn định hướng ESG; chiếm gần toàn bộ chiều ngang trang",
+   "content": "Bảng ma trận kết hợp biểu tượng GRI.\n\nDải tiêu đề: ESG tạo thêm sức mạnh để FPT phát huy giá trị cốt lõi, tiếp tục thực hiện sứ mệnh Tập đoàn toàn cầu trường tồn và hạnh phúc.\n\n| Các vấn đề trọng yếu | Quản trị xuất sắc | Tạo môi trường làm việc đẳng cấp, hạnh phúc | Hoạt động vì môi trường xanh | Vì sự phát triển của cộng đồng |\n|---|---|---|---|---|\n| Tiêu chuẩn GRI (*) | Phương pháp quản trị – GRI 103 | Kinh tế – GRI 200; Xã hội – GRI 400 | Môi trường – GRI 300 | Xã hội – GRI 400 |\n| Cam kết của FPT | - Quản trị Công ty<br>- Quản trị dữ liệu<br>- Quản trị rủi ro, chống tham nhũng<br>- Quản trị an toàn thông tin<br>- Quản trị mua sắm bền vững | - Nơi làm việc hạnh phúc<br>- Tổ chức học tập suốt đời<br>- Bình đẳng và đa dạng | - Mục tiêu ngắn hạn đến năm 2030, giảm 15,8% tổng lượng khí thải khí nhà kính<br>- Mục tiêu dài hạn đến năm 2040 là Net Zero | - Đào tạo nguồn nhân lực công nghệ chất lượng cao<br>- Tạo điều kiện tốt nhất để trẻ em Việt Nam có cơ hội tiếp cận giáo dục chất lượng và bền vững |\n\nGhi chú: (*) Tổ chức sử dụng một số tiêu chuẩn hoặc một phần nội dung của tiêu chuẩn GRI để báo cáo các tác động liên quan đến từng chủ đề kinh tế, xã hội hoặc môi trường."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 6141
+ },
+ "cost_usd": 0.0036886859999999996,
+ "latency_ms": 28255.130083009135
+}

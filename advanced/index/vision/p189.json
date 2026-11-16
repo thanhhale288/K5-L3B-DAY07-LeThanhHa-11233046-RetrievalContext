@@ -1,0 +1,19 @@
+{
+ "page": 189,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "4. Tiền và các khoản tương đương tiền",
+   "position": "Nằm ở vùng nội dung chính bên phải, phía trên trang, ngay dưới tiêu đề mục 4",
+   "content": "Đơn vị: VND\n\n| Chỉ tiêu | 31/12/2025 | 31/12/2024 |\n|---|---:|---:|\n| Tiền mặt | 4.255.375.565 | 3.236.297.367 |\n| Tiền gửi ngân hàng không kỳ hạn | 8.078.385.544.605 | 6.713.912.691.054 |\n| Tiền đang chuyển | 2.110.160.016 | 8.470.940.868 |\n| Các khoản tương đương tiền (*) | 2.437.354.649.806 | 2.589.820.509.595 |\n|  | 10.522.105.729.992 | 9.315.440.438.884 |\n\n(*) Các khoản tương đương tiền chủ yếu bao gồm các khoản tiền gửi ngân hàng có kỳ hạn gốc không quá 3 tháng. Lãi suất được quy định cụ thể cho từng khoản tiền gửi."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1678
+ },
+ "cost_usd": 0.001010886,
+ "latency_ms": 8515.54049999686
+}

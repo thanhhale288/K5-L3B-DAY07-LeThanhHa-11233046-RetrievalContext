@@ -1,0 +1,19 @@
+{
+ "page": 48,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "chart",
+   "title": "Quy mô thị trường AI doanh nghiệp",
+   "position": "nửa trái, phía dưới",
+   "content": "Biểu đồ đường. Tiêu đề: Quy mô thị trường AI doanh nghiệp. Đơn vị: Tỷ USD. Trục hoành: các năm 2022, 2023, 2024, 2025. Trục tung: 0, 10, 20, 30, 40. Giá trị theo từng năm: 2022: 0; 2023: 1,7; 2024: 11,5; 2025: 37,0. Chú thích tăng trưởng: 6,8x gần đoạn 2023–2024 và 3,2x gần đoạn 2024–2025, kèm mũi tên tăng màu xanh. Đường biểu diễn màu cam, các điểm dữ liệu có nhãn số liệu."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1689
+ },
+ "cost_usd": 0.001017486,
+ "latency_ms": 9029.117292026058
+}

@@ -1,0 +1,19 @@
+{
+ "page": 67,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "chart",
+   "title": "Doanh thu hệ sinh thái Made by FPT giai đoạn 2021-2025",
+   "position": "nửa phải, phía trên",
+   "content": "Loại biểu đồ: biểu đồ cột đứng.\nTrục tung: 0; 500; 1.000; 1.500; 2.000; 2.500; 3.000.\nTrục hoành: 2021; 2022; 2023; 2024; 2025.\nGiá trị từng cột theo năm: 2021: 746; 2022: 1.150; 2023: 1.637; 2024: 2.244; 2025: 2.672.\nĐơn vị: Tỷ VND.\nGhi chú: Đơn vị: Tỷ VND."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 905
+ },
+ "cost_usd": 0.000547086,
+ "latency_ms": 5767.664207989583
+}

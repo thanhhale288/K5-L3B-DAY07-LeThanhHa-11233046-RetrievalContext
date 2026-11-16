@@ -1,0 +1,19 @@
+{
+ "page": 225,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Phụ lục 1 - Danh sách công ty con và công ty liên doanh, liên kết khác mà công ty sở hữu gián tiếp tại ngày 31 tháng 12 năm 2025 (Tiếp theo) - A. Công ty con khác (Tiếp theo)",
+   "position": "toàn bộ phần nội dung chính bên phải, từ phía trên đến gần cuối trang",
+   "content": "Bảng: Danh sách công ty con khác (Tiếp theo)\n\n| STT | Công ty | Hoạt động chính | Nơi thành lập, đăng ký hoạt động | Tại ngày 31/12/2025 - Tỷ lệ sở hữu | Tại ngày 31/12/2025 - Tỷ lệ biểu quyết | Tại ngày 31/12/2024 - Tỷ lệ sở hữu | Tại ngày 31/12/2024 - Tỷ lệ biểu quyết |\n|---|---|---|---|---|---|---|---|\n| 94 | Công ty TNHH Hệ thống Thông tin Campuchia | Tích hợp hệ thống, dịch vụ phần mềm | Campuchia | 100% | 100% | 100% | 100% |\n| 95 | Công ty TNHH Đầu tư và Phát triển Hệ thống đấu thầu qua mạng quốc gia | Giải pháp ứng dụng thương mại điện tử trong hoạt động mua sắm chính phủ | Việt Nam | 100% | 100% | 100% | 100% |\n| 96 | Công ty Cổ phần Truyền thông TechUp | Xuất bản phần mềm | Việt Nam | 73,75% | 73,75% | 73,75% | 73,75% |\n| 97 | Công ty Cổ phần bán dẫn FPT | Sản xuất linh kiện điện tử | Việt Nam | 94,99% | 94,99% | 94,99% | 94,99% |\n| 98 | Công ty TNHH MTV Giải pháp Công nghệ FPT | Tích hợp hệ thống, dịch vụ và giải pháp phần mềm | Việt Nam | 100% | 100% | 100% | 100% |\n| 99 | Công ty Cổ phần Giải pháp và Dịch vụ Phần mềm Nam Việt | Tích hợp hệ thống, dịch vụ và giải pháp phần mềm | Việt Nam | 65,58% | 65,58% | 0% | 0% |\n| 100 | Công ty TNHH MTV Viễn thông FPT Tân Thuận | Dịch vụ internet tốc độ cao và các dịch vụ viễn thông khác | Việt Nam | 45,66% | 100% | 45,66% | 100% |\n| 101 | Công ty TNHH MTV Viễn thông Quốc tế FPT | Dịch vụ internet tốc độ cao và các dịch vụ viễn thông khác | Việt Nam | 45,66% | 100% | 45,66% | 100% |\n| 102 | Công ty Cổ phần Công nghệ Viễn thông FPT | Dịch vụ internet tốc độ cao và các dịch vụ viễn thông khác | Việt Nam | 45,66% | 99,999% | 45,66% | 99,999% |\n| 103 | Công ty TNHH Truyền hình FPT | Dịch vụ truyền hình | Việt Nam | 45,66% | 100% | 45,66% | 100% |\n| 104 | Công ty TNHH MTV Viễn thông FPT Thăng Long | Dịch vụ internet tốc độ cao và các dịch vụ viễn thông khác | Việt Nam | 45,66% | 100% | 45,66% | 100% |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2558
+ },
+ "cost_usd": 0.001538886,
+ "latency_ms": 10473.991334001767
+}

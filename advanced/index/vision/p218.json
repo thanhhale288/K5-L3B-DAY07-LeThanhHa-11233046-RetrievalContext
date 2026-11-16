@@ -1,0 +1,19 @@
+{
+ "page": 218,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Phụ lục 1 - Danh sách công ty con và công ty liên doanh, liên kết khác mà công ty sở hữu gián tiếp tại ngày 31 tháng 12 năm 2025 — A. Công ty con khác",
+   "position": "giữa trang, phía dưới tiêu đề; chiếm phần lớn nội dung bên phải",
+   "content": "Đơn vị: %\n\n| STT | Công ty | Hoạt động chính | Nơi thành lập, đăng ký hoạt động | Tại ngày 31/12/2025 - Tỷ lệ sở hữu | Tại ngày 31/12/2025 - Tỷ lệ biểu quyết | Tại ngày 31/12/2024 - Tỷ lệ sở hữu | Tại ngày 31/12/2024 - Tỷ lệ biểu quyết |\n|---:|---|---|---|---:|---:|---:|---:|\n| 1 | Công ty TNHH FPT Nhật Bản | Sản xuất phần mềm | Nhật Bản | 100% | 100% | 100% | 100% |\n| 2 | Công ty TNHH FPT Nearshore Nhật Bản | Sản xuất phần mềm | Nhật Bản | 100% | 100% | 100% | 100% |\n| 3 | Công ty TNHH Phần mềm FPT Thượng Hải | Sản xuất phần mềm | Trung Quốc | 100% | 100% | 100% | 100% |\n| 4 | Công ty TNHH FPT Techno Nhật Bản | Sản xuất phần mềm | Nhật Bản | 100% | 100% | 100% | 100% |\n| 5 | Công ty TNHH Phần mềm FPT Indonesia | Sản xuất phần mềm | Nhật Bản | 99,79% | 99,79% | 99,79% | 99,79% |\n| 6 | Công ty TNHH Phần mềm FPT Nhật Bản | Sản xuất phần mềm | Nhật Bản | 100% | 100% | 100% | 100% |\n| 7 | Công ty TNHH FPT Taiwan | Sản xuất phần mềm | Đài Loan | 100% | 100% | 100% | 100% |\n| 8 | Công ty TNHH Tư vấn FPT Nhật Bản | Tư vấn công nghệ | Nhật Bản | 80% | 80% | 80% | 80% |\n| 9 | Công ty TNHH Phần mềm FPT Korea | Sản xuất phần mềm | Hàn Quốc | 100% | 100% | 100% | 100% |\n| 10 | Công ty TNHH FPT OKI Thường Châu | Sản xuất phần mềm | Trung Quốc | 65% | 65% | 0% | 0% |\n| 11 | Công ty TNHH FPT OKI Đại Liên | Sản xuất phần mềm | Trung Quốc | 65% | 65% | 0% | 0% |\n| 12 | Công ty TNHH FPT USA | Sản xuất phần mềm | Hoa Kỳ | 100% | 100% | 100% | 100% |\n| 13 | Công ty TNHH FPT Canada | Sản xuất phần mềm | Canada | 100% | 100% | 100% | 100% |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2320
+ },
+ "cost_usd": 0.001396086,
+ "latency_ms": 9300.245916994754
+}

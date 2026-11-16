@@ -1,0 +1,81 @@
+[
+  {
+    "query_id": "q16",
+    "answerable": true,
+    "status": "abstain",
+    "answer_grade": 0,
+    "citation_support": [],
+    "abstention_correct": null,
+    "context_grade": 0,
+    "note": "Từ chối sau 3 lần search; context (p30, p32, p36) không có Top 5. Lỗi retrieval: dense không lấy được p9/p13/p4."
+  },
+  {
+    "query_id": "q17",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "context_grade": 2,
+    "note": "Đúng 4.500 cây."
+  },
+  {
+    "query_id": "q18",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "context_grade": 2,
+    "note": "Đúng World Vision và Sín Chải, Điện Biên."
+  },
+  {
+    "query_id": "q19",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 1,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "context_grade": 0,
+    "note": "Trả lời một quy định khác có trong p21_b_3 (điều khoản chống hối lộ, tuân thủ nhân quyền/lao động/môi trường trong hợp đồng mẫu). Liên quan nhưng không nêu quy tắc \"không ký hợp đồng với nhà cung cấp gây ảnh hưởng...\". Context không chứa evidence này."
+  },
+  {
+    "query_id": "q20",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": null,
+    "context_grade": 2,
+    "note": "Đúng; ý \"tăng 12%\" được p15_b_3 hỗ trợ."
+  },
+  {
+    "query_id": "u03",
+    "answerable": false,
+    "status": "abstain",
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "context_grade": null,
+    "note": "Search 3 lần rồi từ chối."
+  },
+  {
+    "query_id": "u04",
+    "answerable": false,
+    "status": "abstain",
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "context_grade": null,
+    "note": "Search 2 lần rồi từ chối."
+  }
+]

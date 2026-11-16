@@ -1,0 +1,49 @@
+{
+ "page": 20,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "DỰ ÁN AI NỔI BẬT – Hiện đại hóa hệ thống máy tính quy mô lớn với AI, tăng tốc chuyển đổi các hệ thống CNTT “di sản”",
+   "position": "nửa trái, phía trên, khối số liệu thứ nhất",
+   "content": "220-300 Tỷ đồng mã COBOL đang được vận hành trên toàn cầu."
+  },
+  {
+   "type": "infographic",
+   "title": "DỰ ÁN AI NỔI BẬT – Hiện đại hóa hệ thống máy tính quy mô lớn với AI, tăng tốc chuyển đổi các hệ thống CNTT “di sản”",
+   "position": "nửa trái, phía giữa, khối số liệu thứ hai",
+   "content": "60-80% Ngân sách CNTT của doanh nghiệp dành cho duy trì hệ thống CNTT “di sản”."
+  },
+  {
+   "type": "infographic",
+   "title": "DỰ ÁN AI NỔI BẬT – Hiện đại hóa hệ thống máy tính quy mô lớn với AI, tăng tốc chuyển đổi các hệ thống CNTT “di sản”",
+   "position": "nửa trái, phía dưới, khối số liệu thứ ba",
+   "content": "70-80% Giao dịch kinh doanh trên thế giới được xử lý bởi các hệ thống COBOL."
+  },
+  {
+   "type": "infographic",
+   "title": "DỰ ÁN AI NỔI BẬT – Hiện đại hóa hệ thống máy tính quy mô lớn với AI, tăng tốc chuyển đổi các hệ thống CNTT “di sản”",
+   "position": "nửa phải, phía trên",
+   "content": "300 Hệ thống CNTT di sản được khai thác hiệu quả."
+  },
+  {
+   "type": "infographic",
+   "title": "DỰ ÁN AI NỔI BẬT – Hiện đại hóa hệ thống máy tính quy mô lớn với AI, tăng tốc chuyển đổi các hệ thống CNTT “di sản”",
+   "position": "nửa phải, phía dưới, bên trái",
+   "content": "40 Doanh nghiệp toàn cầu."
+  },
+  {
+   "type": "infographic",
+   "title": "DỰ ÁN AI NỔI BẬT – Hiện đại hóa hệ thống máy tính quy mô lớn với AI, tăng tốc chuyển đổi các hệ thống CNTT “di sản”",
+   "position": "nửa phải, phía dưới, bên phải",
+   "content": "200 triệu Dòng mã nguồn được chuyển đổi."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3949
+ },
+ "cost_usd": 0.0023734859999999997,
+ "latency_ms": 20283.889500016812
+}

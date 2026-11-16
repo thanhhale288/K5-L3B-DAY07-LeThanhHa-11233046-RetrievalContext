@@ -1,0 +1,19 @@
+{
+ "page": 132,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Rủi ro hoạt động",
+   "position": "phần chính bên phải, từ phía trên đến gần cuối trang",
+   "content": "| Tên rủi ro | Nội dung | Biện pháp quản trị |\n|---|---|---|\n| **Rủi ro về công bố thông tin** | Thông tin công bố không đầy đủ, kịp thời hoặc không chính xác. | - Cập nhật đầy đủ các quy định liên quan đến công bố thông tin đối với công ty niêm yết;<br>- Xây dựng quy trình nội bộ về cung cấp và công bố thông tin nhằm đảm bảo thông tin công bố được báo cáo chính xác, kịp thời, đúng thời hạn;<br>- Thường xuyên trao đổi với đại diện phụ trách công bố thông tin của Ủy ban Chứng khoán Nhà nước, Sở giao dịch Chứng khoán Tp.Hồ Chí Minh để kiểm tra tính đầy đủ và chính xác của thông tin công bố. |\n| **Rủi ro về nguồn nhân lực** | Cạnh tranh thu hút nhân sự; số lượng, chất lượng không bắt kịp nhu cầu tăng trưởng. | - Xây dựng FPT thành tổ chức học tập, phát triển lực lượng lao động có trình độ cao, quy hoạch nhân sự quản lý với định hướng lâu dài;<br>- Xây dựng chính sách đãi ngộ đảm bảo các tiêu chí: “Làm nhiều – hưởng nhiều”, thu nhập tương xứng với kết quả công việc, ghi nhận đóng góp cho FPT; công bằng và minh bạch; cạnh tranh theo thị trường, đồng thời thực hiện chính sách trợ cấp mua nhà, mua xe cho CBNV;<br>- Xây dựng môi trường làm việc tốt để nâng cao năng lực cạnh tranh trong thu hút nguồn nhân lực;<br>- Đẩy mạnh phát triển hệ thống giáo dục FPT cả về chiều rộng và chiều sâu, đồng thời tăng cường hợp tác với các đối tác, trường đại học để đào tạo, nghiên cứu các công nghệ mới (AI, chip bán dẫn), tạo nguồn nhân lực chất lượng cao trong dài hạn. |\n| **Rủi ro về danh tiếng/ thương hiệu** | Danh tiếng xấu ảnh hưởng lớn tới thương hiệu, hoạt động kinh doanh. | - Xây dựng hệ thống thu thập và phân tích ý kiến khách hàng để kịp thời điều chỉnh, cải tiến dịch vụ, đáp ứng nhu cầu khách hàng. Định kỳ khảo sát đo độ hài lòng của các bên liên quan;<br>- Xây dựng quy trình quản trị xử lý khủng hoảng truyền thông;<br>- Xây dựng quy định phát ngôn, chia sẻ và cung cấp thông tin trên các phương tiện truyền thông;<br>- Giám sát, theo dõi các thông tin về Tập đoàn và công ty thành viên trên các phương tiện truyền thông, mạng xã hội để có phương án xử lý kịp thời khi có các thông tin không chính xác hoặc ảnh hưởng bất lợi đến danh tiếng/thương hiệu của Tập đoàn. |\n| **Rủi ro về bảo mật thông tin và rủi ro an ninh mạng** | Lộ, thay đổi, mất thông tin ảnh hưởng đến hoạt động, uy tín, chiến lược của Tập đoàn. | - Áp dụng triệt để các biện pháp chống thất thoát dữ liệu và an toàn hệ thống nhằm đảm bảo an ninh thông tin của Tập đoàn;<br>- Tăng cường đầu tư hệ thống và giải pháp an toàn thông tin, cập nhật các quy trình áp dụng các tiêu chuẩn bảo mật mới nhất. Hiện tại, bên cạnh các hệ thống mua ngoài, FPT đã đầu tư phát triển một số sản phẩm về an toàn an ninh mạng như CyRadar, FPT.EagleEye...;<br>- Định kỳ kiểm tra, đánh giá toàn bộ hệ thống. |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 5212
+ },
+ "cost_usd": 0.0031312859999999996,
+ "latency_ms": 21573.47225002013
+}

@@ -1,0 +1,32 @@
+{
+  "split": "dev",
+  "method": "dense",
+  "top_k": 3,
+  "budget_chars": 3200,
+  "max_searches": 3,
+  "fix_citations": true,
+  "provider": "deepseek",
+  "model_requested": "deepseek-chat",
+  "temperature": 0.0,
+  "cases": 17,
+  "status": {
+    "answered": 15,
+    "abstain": 2
+  },
+  "errors": 0,
+  "tool_use": "17/17",
+  "searches_distribution": {
+    "1": 15,
+    "3": 2
+  },
+  "auto_context_evidence_rate": "13/15",
+  "auto_answered_on_answerable": "15/15",
+  "auto_abstained_on_unanswerable": "2/2",
+  "tokens_total": {
+    "prompt_tokens": 55633,
+    "completion_tokens": 3778
+  },
+  "cost_usd_total": 0.002433699,
+  "latency_s_median": 2.3410021669988055,
+  "note": "auto_* counts come from status/gold only; grounded answer, citation support and abstention need human labels in reviews.json."
+}

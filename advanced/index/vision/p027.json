@@ -1,0 +1,31 @@
+{
+ "page": 27,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "VỊ THẾ VÀ QUY MÔ",
+   "position": "nửa phải, phía trên",
+   "content": "Khối chỉ số quy mô: 34 Tỉnh thành tại Việt Nam; 30+ Quốc gia và vùng lãnh thổ; 04 Châu lục."
+  },
+  {
+   "type": "infographic",
+   "title": "VỊ THẾ VÀ QUY MÔ",
+   "position": "trung tâm, phía dưới",
+   "content": "Bản đồ thế giới với các điểm đánh dấu màu cam và nhãn quốc gia/vùng lãnh thổ: Canada; USA; Mexico; Costa Rica; Colombia; Thụy Điển; Đan Mạch; Anh; Đức; Pháp; Cộng hòa Séc; Slovakia; Romania; Thổ Nhĩ Kỳ; Israel; Ả Rập thống nhất; Ả-rập Xê-út; Ấn Độ; Trung Quốc; Hàn Quốc; Nhật Bản; Đài Loan; Hồng Kông; Việt Nam; Campuchia; Philippines; Malaysia; Singapore; Indonesia; Thái Lan; Myanmar; Úc."
+  },
+  {
+   "type": "chart",
+   "title": "Doanh thu theo khu vực địa lý",
+   "position": "nửa phải, phía dưới",
+   "content": "Biểu đồ tròn dạng vành khuyên, đơn vị: %. Các lát: Việt Nam 48,9%; Châu Mỹ 11,6%; Châu Âu 5,6%; Nhật Bản 22,8%; Châu Á-Thái Bình Dương 11,1%. Chú giải màu: Việt Nam; Châu Mỹ; Châu Âu; Nhật Bản; Châu Á-Thái Bình Dương. Chú giải vòng: Việt Nam; Nước ngoài."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 6597
+ },
+ "cost_usd": 0.003962286,
+ "latency_ms": 34373.01391700748
+}

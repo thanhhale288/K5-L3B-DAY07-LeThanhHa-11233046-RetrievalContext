@@ -1,0 +1,19 @@
+{
+ "page": 226,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Phụ lục 1 - Danh sách công ty con và công ty liên doanh, liên kết khác mà công ty sở hữu gián tiếp tại ngày 31 tháng 12 năm 2025 (Tiếp theo) – B. Công ty liên doanh, liên kết khác",
+   "position": "giữa trang, phía dưới",
+   "content": "Đơn vị: %\n\n| STT | Công ty | Hoạt động chính | Nơi thành lập, đăng ký hoạt động | Tại ngày 31/12/2025 – Tỷ lệ sở hữu | Tại ngày 31/12/2025 – Tỷ lệ biểu quyết | Tại ngày 31/12/2024 – Tỷ lệ sở hữu | Tại ngày 31/12/2024 – Tỷ lệ biểu quyết |\n|---|---|---|---|---:|---:|---:|---:|\n| 1 | Công ty Cổ phần Quản lý quỹ Đầu tư FPT | Quản lý quỹ đầu tư, quản lý danh mục đầu tư và các dịch vụ khác | Việt Nam | 25% | 25% | 25% | 25% |\n| 2 | Công ty TNHH SBI FPT | Sản xuất phần mềm | Việt Nam | 30% | 30% | 30% | 30% |\n| 3 | Công ty TNHH MJS FPT | Sản xuất phần mềm | Nhật Bản | 50% | 50% | 50% | 50% |\n| 4 | Công ty TNHH FPT Smart Technologies | Sản xuất phần mềm | Việt Nam | 50% | 50% | 50% | 50% |\n| 5 | Công ty TNHH Trí tuệ nhân tạo Quy Nhơn | Kinh doanh bất động sản | Việt Nam | 49% | 49% | 49% | 49% |\n| 6 | Công ty Cổ phần Next Robotics | Sản xuất thiết bị tự hành, tự động hóa | Việt Nam | 25,44% | 25,44% | 26,70% | 26,70% |\n| 7 | Công ty Dịch vụ Công nghệ Ackerton | Sản xuất phần mềm | Hàn Quốc | 50% | 50% | 50% | 50% |\n| 8 | Công ty Konica Minolta FPT Solution Labs, Inc | Sản xuất phần mềm | Nhật Bản | 41% | 41% | 41% | 41% |\n| 9 | Công ty FSC – FPT Solutions & Consulting SDN.BHD | Sản xuất phần mềm | Malaysia | 49% | 49% | 0% | 0% |\n| 10 | Công ty FST Japan – FPT Smart Technologies Japan | Sản xuất phần mềm | Nhật Bản | 49% | 49% | 0% | 0% |\n| 11 | Công ty PT FPT Metrodota Indonesia | Tích hợp hệ thống, dịch vụ phần mềm | Indonesia | 40% | 40% | 40% | 40% |\n| 12 | Công ty Cobol Park Corporation | Sản xuất phần mềm | Nhật Bản | 33,3% | 33,3% | 0% | 0% |\n| 13 | Công ty TNHH P3 Group (Việt Nam) | Sản xuất phần mềm | Việt Nam | 49% | 49% | 0% | 0% |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2217
+ },
+ "cost_usd": 0.001334286,
+ "latency_ms": 10181.15741602378
+}

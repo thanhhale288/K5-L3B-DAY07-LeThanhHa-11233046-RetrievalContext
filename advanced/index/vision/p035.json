@@ -1,0 +1,19 @@
+{
+ "page": 35,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Tình hình thay đổi vốn điều lệ (Tiếp theo)",
+   "position": "phần chính bên phải, từ phía trên xuống gần cuối trang",
+   "content": "Đơn vị: VND\n\n| Lần | Thời điểm phát hành | Vốn điều lệ sau khi phát hành | Lý do |\n|---|---:|---:|---|\n| 22 | 04/2015 | 3.456.959.170.000 | Tăng vốn điều lệ thông qua phát hành cổ phiếu cho CBNV có thành tích đóng góp trong năm 2014. |\n| 23 | 06/2015 | 3.975.316.400.000 | Tăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 15% từ kết quả kinh doanh năm 2014. |\n| 24 | 04/2016 | 3.995.184.690.000 | Tăng vốn điều lệ thông qua phát hành cổ phiếu cho CBNV có thành tích đóng góp trong năm 2015. |\n| 25 | 06/2016 | 4.594.266.840.000 | Tăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 15% từ kết quả kinh doanh năm 2015. |\n| 26 | 04/2017 | 4.617.230.540.000 | Tăng vốn điều lệ thông qua phát hành cổ phiếu cho CBNV có thành tích đóng góp trong năm 2016. |\n| 27 | 06/2017 | 5.309.611.050.000 | Tăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 15% từ kết quả kinh doanh năm 2016. |\n| 28 | 04/2018 | 5.336.156.610.000 | Tăng vốn điều lệ thông qua phát hành cổ phiếu cho CBNV có thành tích đóng góp trong năm 2017. |\n| 29 | 06/2018 | 6.136.367.720.000 | Tăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 15% từ kết quả kinh doanh năm 2017. |\n| 30 | 04/2019 | 6.167.039.720.000 | Tăng vốn điều lệ thông qua phát hành cổ phiếu cho CBNV có thành tích đóng góp trong năm 2018. |\n| 31 | 06/2019 | 6.783.586.880.000 | Tăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 10% từ kết quả kinh doanh năm 2018. |\n| 32 | 04/2020 | 6.817.504.780.000 | Tăng vốn điều lệ thông qua phát hành cổ phiếu cho CBNV có thành tích đóng góp trong năm 2019. |\n| 33 | 06/2020 | 7.839.874.860.000 | Tăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 15% từ kết quả kinh doanh năm 2019. |\n| 34 | 04/2021 | 7.891.972.540.000 | Tăng vốn điều lệ thông qua phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng là CBNV có thành tích đóng góp trong năm 2020; phát hành cổ phiếu mới theo chương trình phát hành cổ phiếu cho đối tượng là cán bộ lãnh đạo cấp cao năm 2021. |\n| 35 | 06/2021 | 9.075.516.490.000 | Tăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 15% từ kết quả kinh doanh năm 2020. |\n| 36 | 05/2022 | 9.141.959.140.000 | Tăng vốn điều lệ thông qua phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng là CBNV có thành tích đóng góp trong năm 2021; phát hành cổ phiếu mới theo chương trình phát hành cổ phiếu cho đối tượng là cán bộ lãnh đạo cấp cao năm 2022. |\n| 37 | 07/2022 | 10.970.265.720.000 | Tăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 20% từ kết quả kinh doanh năm 2021. |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2693
+ },
+ "cost_usd": 0.001619886,
+ "latency_ms": 9720.394666976063
+}

@@ -1,0 +1,19 @@
+{
+ "page": 24,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "SỨ MỆNH, GIÁ TRỊ CỐT LÕI",
+   "position": "toàn bộ phần nội dung chính bên phải menu điều hướng; tiêu đề ở phía trên, nội dung sứ mệnh và 06 giá trị cốt lõi trải từ trên xuống dưới",
+   "content": "SỨ MỆNH, GIÁ TRỊ CỐT LÕI\nFPT mong muốn trở thành một tổ chức mới, hùng mạnh bằng nỗ lực lao động, sáng tạo trong khoa học kỹ thuật và công nghệ, làm khách hàng hài lòng, góp phần hưng thịnh quốc gia, đem lại cho mỗi thành viên của mình điều kiện phát triển tài năng tốt nhất và một cuộc sống đầy đủ về vật chất, phong phú về tinh thần.\n06 GIÁ TRỊ CỐT LÕI\n- TÔN TRỌNG: FPT chấp nhận mọi người như họ vốn có, không phân biệt vị trí cao thấp, quan hệ thân sơ. Mỗi thành viên được tạo điều kiện tốt đa để phát triển tài năng và được là chính mình.\n- ĐỔI MỚI: Mọi thành viên được tạo điều kiện tốt nhất để học tập suốt đời, đồng thời, FPT không ngừng học hỏi, tiếp thu phương thức quản trị/kinh doanh mới và luôn nỗ lực, chủ động đầu tư nghiên cứu, phát triển để dẫn đầu trong sáng tạo, đổi mới công nghệ, sản phẩm, giải pháp, dịch vụ.\n- ĐỒNG ĐỘI: Là sự tôn trọng, tình bằng hữu, sự đoàn kết. FPT như một đại gia đình, yêu thương, che chở, bảo vệ lẫn nhau. Người FPT ở bất cứ vị trí nào đều thấm nhuần tinh thần đồng cam cộng khổ, sát cánh vì mục tiêu chung.\n- CHÍ CÔNG: Mọi quyết định không thiên vị, không phụ thuộc thân sơ. Quyền lợi của FPT được đặt lên trên quyền lợi cá nhân.\n- GƯƠNG MẪU: Mỗi lãnh đạo FPT phải là người thể hiện rõ nét nhất về Tinh thần FPT, giá trị của ba chữ “Tôn trọng - Đổi mới - Đồng đội”.\n- SÁNG SUỐT: FPT luôn yêu cầu người lãnh đạo phải có tầm nhìn xa và tính quyết đoán."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 7685
+ },
+ "cost_usd": 0.004615086,
+ "latency_ms": 36835.25908298907
+}

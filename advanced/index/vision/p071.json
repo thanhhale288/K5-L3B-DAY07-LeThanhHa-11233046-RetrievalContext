@@ -1,0 +1,25 @@
+{
+ "page": 71,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "LĨNH VỰC DỊCH VỤ NỘI DUNG SỐ",
+   "position": "phần trên, giữa trang (bên trái khu vực nội dung chính)",
+   "content": "Hai khối thông tin: (1) biểu tượng loa và dòng chữ “Hệ sinh thái truyền thông marketing số hàng đầu”; (2) số liệu “50+ Triệu” và dòng chữ “Người dùng toàn cầu”. Đơn vị: Triệu người dùng."
+  },
+  {
+   "type": "image",
+   "title": "LĨNH VỰC DỊCH VỤ NỘI DUNG SỐ",
+   "position": "giữa trang, bên trái (dưới khối số liệu)",
+   "content": "Ảnh minh họa nền xanh đen dạng lưới pixel, chứa nhiều ô hình thu nhỏ xếp lớp thể hiện video/người dùng/nội dung số (con người, sự kiện, thể thao, tin tức...). Không thấy số liệu hoặc chú thích đọc rõ trên ảnh."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1821
+ },
+ "cost_usd": 0.001096686,
+ "latency_ms": 10882.199582993053
+}

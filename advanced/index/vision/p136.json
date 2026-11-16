@@ -1,0 +1,19 @@
+{
+ "page": 136,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Mô hình kiểm soát nội bộ",
+   "position": "giữa trang, phía trên",
+   "content": "| Chủ thể | Trách nhiệm |\n|---|---|\n| **Tổng giám đốc** | • Phê duyệt kế hoạch kiểm soát tuân thủ;<br>• Chỉ đạo giải quyết các tồn tại cũng như cải tiến hệ thống;<br>• Xây dựng, phê duyệt, triển khai và kiểm soát khung quản lý rủi ro của Tập đoàn. |\n| **Trưởng Ban Giám sát tuân thủ** | • Hoạch định và tổ chức kiểm soát việc tuân thủ các yêu cầu của pháp luật, kiểm soát các lĩnh vực/hoạt động có rủi ro cao trong hệ thống quản trị của Tập đoàn;<br>• Tổ chức các đợt kiểm soát đột xuất theo yêu cầu của Ban Điều hành. |\n| **Giám đốc Ban Đảm bảo chất lượng** | • Hoạch định và tổ chức kiểm soát việc tuân thủ các yêu cầu của hệ thống quản trị của Tập đoàn;<br>• Tổ chức các đợt kiểm soát theo yêu cầu của Ban Điều hành. |\n| **Trưởng các bộ phận chức năng ngành dọc** | • Rà soát và cập nhật hệ thống tài liệu quản trị của Tập đoàn trong phạm vi phụ trách nhằm đảm bảo phù hợp với các yêu cầu luật pháp, tiêu chuẩn quốc gia/quốc tế liên quan và phù hợp với thực tế hoạt động;<br>• Phối hợp với Ban Đảm bảo chất lượng, Ban Giám sát tuân thủ trong các hoạt động kiểm soát và giải quyết các tồn tại cũng như cải tiến hệ thống. |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2938
+ },
+ "cost_usd": 0.001766886,
+ "latency_ms": 13807.575291983085
+}

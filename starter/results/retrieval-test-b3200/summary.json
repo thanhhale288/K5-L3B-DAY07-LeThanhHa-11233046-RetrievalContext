@@ -1,0 +1,35 @@
+{
+  "split": "test",
+  "methods": [
+    {
+      "method": "dense",
+      "n": 5,
+      "top_k": 3,
+      "budget_chars": 3200,
+      "use_filter": true,
+      "hit1": 2,
+      "hit3": 3,
+      "context_hit": 3,
+      "mrr": 0.4666666666666667,
+      "avg_context_chars": 2478.4,
+      "avg_context_chunks": 3,
+      "median_latency_ms": 46.49779200553894,
+      "cost_usd": 0.0
+    },
+    {
+      "method": "bm25",
+      "n": 5,
+      "top_k": 3,
+      "budget_chars": 3200,
+      "use_filter": true,
+      "hit1": 3,
+      "hit3": 4,
+      "context_hit": 4,
+      "mrr": 0.7,
+      "avg_context_chars": 2566,
+      "avg_context_chunks": 3,
+      "median_latency_ms": 0.8819579961709678,
+      "cost_usd": 0.0
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+ "page": 148,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "Phương tiện công cộng/ Phương tiện sử dụng điện",
+   "position": "hàng dưới, thứ nhất từ trái",
+   "content": "Ảnh minh họa xe ô tô điện/các dòng xe VinFast, có dòng chữ trên ảnh: “FPT ĐỒNG HÀNH VINFAS...” và “KIẾN TẠO TƯƠNG LAI...”. Tiêu đề màu cam: “Phương tiện công cộng/ Phương tiện sử dụng điện”. Nội dung: “Khuyến khích CBNV sử dụng phương tiện công cộng, bố trí xe bus đưa đón CBNV tập trung hoặc các tuyến xe tại các điểm trung chuyển gần khu vực lưu trú của CBNV; cấp tài khoản xe công nghệ. Triển khai một số hoạt động khuyến khích CBNV sử dụng xe điện như: lắp đặt trạm sạc tại một số tòa nhà văn phòng; hợp tác với Vinfast triển khai chương trình ưu đãi mua xe và sử dụng dịch vụ vận chuyển bằng xe điện.”"
+  },
+  {
+   "type": "image",
+   "title": "Nghiên cứu Dự án tín chỉ carbon rừng",
+   "position": "hàng dưới, thứ hai từ trái",
+   "content": "Ảnh bàn tay cầm điện thoại hiển thị giao diện màu xanh. Tiêu đề màu cam: “Nghiên cứu Dự án tín chỉ carbon rừng”. Nội dung: “Nhằm trung hòa/bù trừ lượng phát thải khí nhà kính. FPT đã tham vấn đơn vị tư vấn chuyên môn và tiến hành khảo sát tại một số địa phương như Quảng Bình, Quảng Trị và Thanh Hóa để lên kế hoạch tổng thể triển khai Dự án tín chỉ carbon trong thời gian tới.”"
+  },
+  {
+   "type": "image",
+   "title": "Giảm thiểu tác động từ các chuyến công tác",
+   "position": "hàng dưới, thứ ba từ trái",
+   "content": "Ảnh nhân viên trong phòng họp/điều hành nhìn lên màn hình và làm việc trực tuyến. Tiêu đề màu xanh lá: “Giảm thiểu tác động từ các chuyến công tác”. Nội dung: “Thông qua việc hạn chế các chuyến đi không cần thiết, ưu tiên họp trực tuyến, lựa chọn các chuyến bay thân thiện với môi trường và các giải pháp di chuyển xanh.”"
+  },
+  {
+   "type": "image",
+   "title": "Trồng rừng",
+   "position": "hàng dưới, thứ tư từ trái",
+   "content": "Ảnh nhóm người tham gia hoạt động trồng rừng, cầm băng rôn có dòng chữ “FPT JAPAN FOREST PROJECT” (nhìn thấy một phần). Tiêu đề màu xanh dương: “Trồng rừng”. Nội dung: “Tiên phong thực hiện thành công các hoạt động trồng rừng tại Sóc Trăng (cũ), TP.Huế, Thanh Hóa với 4.500 cây được trồng tại các khu vực rừng ngập mặn, khu bảo tồn thiên nhiên góp phần tích cực chống biến đổi khí hậu, bảo vệ hệ sinh thái và lợi ích của con người và thiên nhiên.”"
+  },
+  {
+   "type": "image",
+   "title": "Làm việc từ xa",
+   "position": "hàng dưới, thứ năm từ trái",
+   "content": "Ảnh một người phụ nữ làm việc tại bàn với laptop, màn hình lớn hiển thị cuộc họp trực tuyến có nhiều người. Tiêu đề màu xanh nhạt: “Làm việc từ xa”. Nội dung: “Triển khai và duy trì mô hình làm việc kết hợp từ xa, góp phần tối ưu nhu cầu di chuyển và giảm phát thải khí nhà kính (Phạm vi 3).”"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4754
+ },
+ "cost_usd": 0.0028564859999999997,
+ "latency_ms": 22842.834790993948
+}

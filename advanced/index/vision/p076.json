@@ -1,0 +1,19 @@
+{
+ "page": 76,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "FPT tiếp tục khẳng định vị thế công ty công nghệ toàn cầu với doanh thu kỳ mới đạt hơn 1,5 tỷ USD.",
+   "position": "nửa phải trang, từ phía trên xuống gần cuối trang",
+   "content": "Ảnh chụp tại gian hàng/triển lãm của FPT: nhóm người đứng trước quầy trưng bày, phía sau có màn hình và các bảng hiệu. Nhìn thấy các chữ/nhãn: 'Drucker', 'Best in Class Forming and Technology', logo 'FPT', 'Cellcentric'. Dưới ảnh có thanh chú thích màu cam: 'FPT tiếp tục khẳng định vị thế công ty công nghệ toàn cầu với doanh thu kỳ mới đạt hơn 1,5 tỷ USD.'"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1857
+ },
+ "cost_usd": 0.001118286,
+ "latency_ms": 10138.807458017254
+}

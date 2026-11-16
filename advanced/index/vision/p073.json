@@ -1,0 +1,19 @@
+{
+ "page": 73,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "Lĩnh vực Giáo dục",
+   "position": "nửa trái, phía trên và giữa trang, dưới tiêu đề “Lĩnh vực Giáo dục”",
+   "content": "Cụm ô số liệu/infographic gồm:\n- Hệ thống giáo dục có tầm ảnh hưởng khu vực châu Á-Thái Bình Dương\n- 180 Đối tác quốc tế từ 40 Quốc gia\n- 3.700 Sinh viên chuyên ngành đào tạo AI, Thiết kế vi mạch bán dẫn\n- 19/34 Tỉnh thành có cơ sở đào tạo\n- 100% Học sinh từ lớp 1 đến lớp 12 được tiếp cận AI"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4438
+ },
+ "cost_usd": 0.0026668859999999994,
+ "latency_ms": 25195.006166002713
+}

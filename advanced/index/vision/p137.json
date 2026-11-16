@@ -1,0 +1,25 @@
+{
+ "page": 137,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "Sự đa dạng, công bằng và hoà hợp",
+   "position": "nửa trái, phía dưới",
+   "content": "43,9% Nhân sự dưới 30 tuổi; 53,2% Cán bộ quản lý dưới 40 tuổi."
+  },
+  {
+   "type": "chart",
+   "title": "Nhân sự của FPT giai đoạn 2021-2025",
+   "position": "nửa phải, phía dưới",
+   "content": "Biểu đồ cột đứng; trục tung: 0, 5.000, 10.000, 15.000, 20.000, 25.000; trục hoành: 2021, 2022, 2023, 2024, 2025; đơn vị: Nhân sự; giá trị theo năm: 2021: 13.841; 2022: 16.155; 2023: 18.022; 2024: 20.280; 2025: 20.383. Không có chú giải."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1573
+ },
+ "cost_usd": 0.000947886,
+ "latency_ms": 9020.349708007416
+}

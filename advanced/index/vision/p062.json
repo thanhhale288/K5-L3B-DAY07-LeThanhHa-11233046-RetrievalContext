@@ -1,0 +1,19 @@
+{
+ "page": 62,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "chart",
+   "title": "Doanh thu lĩnh vực dịch vụ CNTT cho thị trường nước ngoài",
+   "position": "nửa dưới, bên phải trang 62",
+   "content": "Biểu đồ vòng khuyên (donut chart) thể hiện doanh thu lĩnh vực dịch vụ CNTT cho thị trường nước ngoài. Đơn vị: Tỷ VNĐ. Tổng doanh thu ở giữa biểu đồ: 35.382, tăng 14,3%. Chú giải: Châu Âu (xanh dương), Nhật Bản (cam), Mỹ (xanh lá), Châu Á-Thái Bình Dương (xám). Số liệu từng phần: Châu Âu: 3.593; 10,2%; tăng 36,3%. Nhật Bản: 15.452; 43,7%; tăng 25,4%. Mỹ: 8.163; 23,1%; tăng 5,3%. Châu Á-Thái Bình Dương: 8.173; 23,1%; giảm 0,8%."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1442
+ },
+ "cost_usd": 0.0008692859999999999,
+ "latency_ms": 8294.198165996931
+}

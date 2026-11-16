@@ -1,0 +1,19 @@
+{
+ "page": 64,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "FPT đã trở thành đối tác tư vấn, triển khai giải pháp công nghệ nhằm giúp CLB Chelsea tăng cường gắn kết với người hâm mộ.",
+   "position": "nửa phải trang, từ phía trên xuống gần cuối trang",
+   "content": "Ảnh sân vận động có đám đông khán giả trên khán đài; trên nền cỏ có các cầu thủ mặc trang phục màu xanh của CLB Chelsea, một thủ môn và khung thành. Các bảng quảng cáo/băng rôn nhìn thấy chữ “WORLD CHAMPIONS” và “TRANSFORMATION”, cùng logo FPT. Chú thích dưới ảnh: “FPT đã trở thành đối tác tư vấn, triển khai giải pháp công nghệ nhằm giúp CLB Chelsea tăng cường gắn kết với người hâm mộ.”"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 773
+ },
+ "cost_usd": 0.000467886,
+ "latency_ms": 6085.720915987622
+}

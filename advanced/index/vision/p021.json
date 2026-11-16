@@ -1,0 +1,19 @@
+{
+ "page": 21,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "Sau khi triển khai nền tảng iSuite, Tập đoàn bảo hiểm trên đã ghi nhận những cải thiện đáng kể về hiệu quả vận hành.",
+   "position": "nửa phải, từ phía trên đến gần cuối trang",
+   "content": "Infographic gồm các khối số liệu và mũi tên tăng/giảm:\n- 20-30%: Chi phí vận hành (mũi tên giảm).\n- 15%: Tổn thất liên quan đến gian lận bảo hiểm (mũi tên giảm).\n- 50%: Khả năng phát hiện gian lận (mũi tên tăng).\n- 70%: Thời gian phát hành hợp đồng (mũi tên giảm).\n- 18%: Doanh thu (mũi tên tăng).\n- 1-2%: Tỷ lệ khách hàng hủy hợp đồng (mũi tên giảm)."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 5752
+ },
+ "cost_usd": 0.0034552859999999997,
+ "latency_ms": 27855.554832989583
+}

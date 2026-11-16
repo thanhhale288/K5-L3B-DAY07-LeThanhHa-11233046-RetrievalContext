@@ -1,0 +1,25 @@
+{
+ "page": 7,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "Doanh thu",
+   "position": "giữa trang, phía trên, bên trái (dưới đoạn mở đầu)",
+   "content": "Doanh thu: 70.113 Tỷ VND; mũi tên tăng; 11,6%."
+  },
+  {
+   "type": "infographic",
+   "title": "Lợi nhuận sau thuế",
+   "position": "giữa trang, phía trên, bên phải (cạnh ô Doanh thu)",
+   "content": "Lợi nhuận sau thuế: 11.232 Tỷ VND; mũi tên tăng; 19,1%."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1495
+ },
+ "cost_usd": 0.000901086,
+ "latency_ms": 10099.333999998635
+}

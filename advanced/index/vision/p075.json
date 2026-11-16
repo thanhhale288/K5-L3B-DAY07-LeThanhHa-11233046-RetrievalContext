@@ -1,0 +1,25 @@
+{
+ "page": 75,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Tình hình thực hiện các dự án đầu tư",
+   "position": "phía trên, bên trái trung tâm",
+   "content": "Đơn vị: Tỷ VNĐ\n\n| Khối | Kế hoạch 2025 | Giải ngân 2025 | So với kế hoạch |\n|---|---:|---:|---:|\n| Công nghệ | 6.000 | 2.823 | 47,1% |\n| Viễn thông | 2.500 | 1.751 | 70,0% |\n| Giáo dục | 2.500 | 749 | 30,0% |"
+  },
+  {
+   "type": "image",
+   "title": "Tổ hợp giáo dục FPT tại Huế được định hướng phát triển gắn kết đào tạo với các công nghệ mũi nhọn, như STEM, trí tuệ nhân tạo (AI), Robotics... từ bậc phổ thông.",
+   "position": "nửa trái, phía dưới",
+   "content": "Ảnh phối cảnh trên cao của một khuôn viên/tổ hợp giáo dục với nhiều tòa nhà màu trắng-xám, khu quảng trường hình tròn ở giữa, sân thể thao, thảm cỏ, cây xanh và đường nội bộ. Phía dưới ảnh có dải chú thích màu cam ghi: “Tổ hợp giáo dục FPT tại Huế được định hướng phát triển gắn kết đào tạo với các công nghệ mũi nhọn, như STEM, trí tuệ nhân tạo (AI), Robotics... từ bậc phổ thông.”"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1447
+ },
+ "cost_usd": 0.0008722859999999999,
+ "latency_ms": 8723.179082997376
+}

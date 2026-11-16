@@ -1,0 +1,2830 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "answerable": true,
+    "question": "FPT đặt mục tiêu Net Zero vào năm nào?",
+    "filter": null,
+    "config": {
+      "split": "dev",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "FPT đặt mục tiêu Net Zero vào năm 2040 [fpt_esg_report_2025_p7_b_1][fpt_esg_report_2025_p12_b_0][fpt_esg_report_2025_p6_b_2]. Đây là mục tiêu dài hạn, phù hợp với cam kết của Chính phủ Việt Nam tại COP 26 [fpt_esg_report_2025_p12_b_0].",
+    "citations": [
+      "fpt_esg_report_2025_p7_b_1",
+      "fpt_esg_report_2025_p12_b_0",
+      "fpt_esg_report_2025_p6_b_2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "mục tiêu Net Zero",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p7_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 7,
+            "text": "• Lộ trình Net Zero 2040\nLà tập đoàn công nghệ toàn cầu với quy mô và phạm vi hoạt động ngày càng mở rộng,\nFPT nhận thức rõ vai trò và trách nhiệm của mình không chỉ dừng ở cam kết mà cần\nthúc đẩy các hành động cụ thể trong lộ trình giảm phát thải khí nhà kính, hướng tới\nmục tiêu Net Zero vào năm 2040.\nNăm 2025, FPT thực hiện chuẩn hóa và triển khai phương pháp tính toán phát thải\nkhí nhà kính dựa trên các nghiên cứu, hướng dẫn, quy định liên quan của Việt Nam\nvà thế giới, qua đó khẳng định nỗ lực chung trong quản trị chuyển đổi xanh và phát triển\nbền vững. FPT xác định đây là những dữ liệu kiểm kê khởi đầu cho hành trình quản lý\nvà giảm phát thải khí nhà kính trong những năm tiếp theo.\nTập đoàn triển khai xây dựng lộ trình giảm phát thải khí nhà kính dựa trên việc tự tính toán và xác nhận",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 9.562765352133244,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p12_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 12,
+            "text": "HOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nVÌ SỰ PHÁT TRIỂN CỦA CỘNG ĐỒNG\nCam kết Mục tiêuVấn đềtrọng yếu\nBảo vệ\nmôi trường\nKhông ngừng cải thiện môi trường\nlàm việc hướng tới môi trường làm\nviệc xanh, an toàn, lành mạnh.\n\n• Mục tiêu trung hạn: đến năm 2030,\ngiảm 15,8% tổng lượng phát thải\nkhí nhà kính phù hợp với mục tiêu\nchung của Việt Nam;\n\n• Mục tiêu dài hạn: đến năm 2040\nđạt Net Zero như cam kết của\nChính phủ Việt Nam tại COP 26.\n\n• Chuẩn hóa phương pháp kiểm kê số liệu phát thải khí\nnhà kính cho Phạm vi 1 và Phạm vi 2; thực hiện kiểm kê và\ntheo dõi số liệu toàn Tập đoàn định kỳ theo quý;\n\n• 100% số liệu sử dụng năng lượng được giám sát;\n\n• Triển khai 02 hệ thống điện mặt trời mái nhà với tổng\nsản lượng 842.749 kWh;",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 8.626872654133631,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p6_b_2",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 6,
+            "text": "c\nTổ chức học tập suốt đời\nBình đẳng và đa dạng\nMục tiêu ngắn hạn đến\nnăm 2030, giảm 15,8%\ntổng lượng khí thải\nkhí nhà kính\nMục tiêu dài hạn đến\nnăm 2040 là Net Zero\nTạo điều kiện tốt nhất để\ntrẻ em Việt Nam có cơ hội\ntiếp cận giáo dục chất lượng\nvà bền vững\nĐào tạo nguồn nhân lực\ncông nghệ chất lượng cao\nPhương pháp\nquản trị\nGRI\n103\nKinh tế\nGRI\n200\nXã hội\nGRI\n400\nXã hội\nGRI\n400\nMôi trường\nGRI\n300\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n05",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 8.306397352528933,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p7_b_1 | data/fpt_esg_report_2025.pdf | page 7]\n• Lộ trình Net Zero 2040\nLà tập đoàn công nghệ toàn cầu với quy mô và phạm vi hoạt động ngày càng mở rộng,\nFPT nhận thức rõ vai trò và trách nhiệm của mình không chỉ dừng ở cam kết mà cần\nthúc đẩy các hành động cụ thể trong lộ trình giảm phát thải khí nhà kính, hướng tới\nmục tiêu Net Zero vào năm 2040.\nNăm 2025, FPT thực hiện chuẩn hóa và triển khai phương pháp tính toán phát thải\nkhí nhà kính dựa trên các nghiên cứu, hướng dẫn, quy định liên quan của Việt Nam\nvà thế giới, qua đó khẳng định nỗ lực chung trong quản trị chuyển đổi xanh và phát triển\nbền vững. FPT xác định đây là những dữ liệu kiểm kê khởi đầu cho hành trình quản lý\nvà giảm phát thải khí nhà kính trong những năm tiếp theo.\nTập đoàn triển khai xây dựng lộ trình giảm phát thải khí nhà kính dựa trên việc tự tính toán và xác nhận\n\n[fpt_esg_report_2025_p12_b_0 | data/fpt_esg_report_2025.pdf | page 12]\nHOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nVÌ SỰ PHÁT TRIỂN CỦA CỘNG ĐỒNG\nCam kết Mục tiêuVấn đềtrọng yếu\nBảo vệ\nmôi trường\nKhông ngừng cải thiện môi trường\nlàm việc hướng tới môi trường làm\nviệc xanh, an toàn, lành mạnh.\n\n• Mục tiêu trung hạn: đến năm 2030,\ngiảm 15,8% tổng lượng phát thải\nkhí nhà kính phù hợp với mục tiêu\nchung của Việt Nam;\n\n• Mục tiêu dài hạn: đến năm 2040\nđạt Net Zero như cam kết của\nChính phủ Việt Nam tại COP 26.\n\n• Chuẩn hóa phương pháp kiểm kê số liệu phát thải khí\nnhà kính cho Phạm vi 1 và Phạm vi 2; thực hiện kiểm kê và\ntheo dõi số liệu toàn Tập đoàn định kỳ theo quý;\n\n• 100% số liệu sử dụng năng lượng được giám sát;\n\n• Triển khai 02 hệ thống điện mặt trời mái nhà với tổng\nsản lượng 842.749 kWh;\n\n[fpt_esg_report_2025_p6_b_2 | data/fpt_esg_report_2025.pdf | page 6]\nc\nTổ chức học tập suốt đời\nBình đẳng và đa dạng\nMục tiêu ngắn hạn đến\nnăm 2030, giảm 15,8%\ntổng lượng khí thải\nkhí nhà kính\nMục tiêu dài hạn đến\nnăm 2040 là Net Zero\nTạo điều kiện tốt nhất để\ntrẻ em Việt Nam có cơ hội\ntiếp cận giáo dục chất lượng\nvà bền vững\nĐào tạo nguồn nhân lực\ncông nghệ chất lượng cao\nPhương pháp\nquản trị\nGRI\n103\nKinh tế\nGRI\n200\nXã hội\nGRI\n400\nXã hội\nGRI\n400\nMôi trường\nGRI\n300\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n05",
+        "context_ids": [
+          "fpt_esg_report_2025_p7_b_1",
+          "fpt_esg_report_2025_p12_b_0",
+          "fpt_esg_report_2025_p6_b_2"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_yuSsCQUTK5gdB8BdNUxP7246",
+            "name": "search",
+            "arguments": {
+              "query": "mục tiêu Net Zero"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 813,
+          "completion_tokens": 41
+        },
+        "latency_ms": 1355.869333987357,
+        "cost_usd": 2.7038999999999996e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_FhqwprC5Ckf3XBhFIdWX4209",
+            "name": "answer",
+            "arguments": {
+              "answer": "FPT đặt mục tiêu Net Zero vào năm 2040 [fpt_esg_report_2025_p7_b_1][fpt_esg_report_2025_p12_b_0][fpt_esg_report_2025_p6_b_2]. Đây là mục tiêu dài hạn, phù hợp với cam kết của Chính phủ Việt Nam tại COP 26 [fpt_esg_report_2025_p12_b_0].",
+              "citations": [
+                "fpt_esg_report_2025_p7_b_1",
+                "fpt_esg_report_2025_p12_b_0",
+                "fpt_esg_report_2025_p6_b_2"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 1957,
+          "completion_tokens": 207
+        },
+        "latency_ms": 1035.1305410149507,
+        "cost_usd": 0.000130071,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 2770,
+      "completion_tokens": 248
+    },
+    "cost_usd": 0.00015711,
+    "latency_s": 2.3920570829941425,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p7_b_1",
+      "fpt_esg_report_2025_p12_b_0",
+      "fpt_esg_report_2025_p6_b_2"
+    ],
+    "auto_context_hit": true
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "answerable": true,
+    "question": "Năm 2025 là lần thứ bao nhiêu FPT thực hiện Báo cáo ESG?",
+    "filter": null,
+    "config": {
+      "split": "dev",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "Năm 2025 là năm thứ 05 FPT thực hiện Báo cáo Môi trường – Trách nhiệm xã hội – Quản trị (Báo cáo ESG). [fpt_esg_report_2025_p5_b_0]",
+    "citations": [
+      "fpt_esg_report_2025_p5_b_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Báo cáo ESG FPT 2025 lần thứ",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p5_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 5,
+            "text": "2025 là năm thứ 05, FPT thực hiện Báo cáo Môi trường – Trách nhiệm xã hội – Quản\ntrị (Báo cáo ESG). Thông qua Báo cáo này, FPT có cơ hội đánh giá toàn diện về các\nhoạt động liên quan môi trường, trách nhiệm xã hội, quản trị, từ đó điều chỉnh và\ncân bằng chiến lược, kế hoạch kinh doanh hướng đến mục tiêu phát triển bền vững\ncho Tập đoàn và cộng đồng.\nBáo cáo được xây dựng trên nguyên tắc đảm bảo các yếu tố sau: tính toàn diện,\ntính rõ ràng, tính cập nhật và tính tin cậy, đồng thời tham chiếu theo bộ tiêu chuẩn\nGRI Standards của Tổ chức Sáng kiến toàn cầu (GRI).\n\n• Liên hệ\nĐể gửi các câu hỏi, các khuyến nghị liên quan đến hoạt động ESG của FPT cũng\nnhư nội dung chi tiết của Báo cáo ESG, vui lòng liên hệ theo thông tin như sau:",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 8.231713358755647,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p42_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 42,
+            "text": "Bảng tổng hợp so sánh kết quả tiêu thụ nước\nNăm 2025, chỉ số tiêu thụ nước của FPT chỉ tăng 0,48% so với năm 2024. Mức tăng\nnày được đánh giá là tích cực trong bối cảnh Tập đoàn tiếp tục mở rộng quy mô\nhoạt động và tăng trưởng kinh doanh, đồng thời phản ánh tính hiệu quả của các\nbiện pháp quản lý và sử dụng nước được triển khai đồng bộ như sau:\n• Tuân thủ các quy định của cơ quan quản lý về xử lý và tái chế nước thải;\n• Thực hiện quan trắc chất lượng nước sinh hoạt 1 tháng/lần, nước thải 3 tháng/lần\nvà lập báo cáo gửi cơ quan quản lý theo đúng quy định;\n• Bổ sung chế phẩm vi sinh nhằm nâng cao hiệu quả xử lý nước tại bể tự hoại;",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 7.6376625257957205,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p20_b_5",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 20,
+            "text": "• Top 101-200 về xếp hạng Chất lượng giáo dục (SDG4). Thứ hạng 80\ntrong các trường đại học toàn cầu trong mục tiêu phát triển bền\nvững SDG8 về Việc làm tốt và Tăng trưởng kinh tế, ghi dấu ấn về\nnăng lực trong việc đào tạo gắn liền thực tiễn – tạo ra việc làm thật,\nchất lượng thật cho sinh viên trong kỷ nguyên toàn cầu hóa và\nchuyển đổi số.\nLĩnh vực\nGiáo dục\n4\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n19",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 6.162130252596411,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p5_b_0 | data/fpt_esg_report_2025.pdf | page 5]\n2025 là năm thứ 05, FPT thực hiện Báo cáo Môi trường – Trách nhiệm xã hội – Quản\ntrị (Báo cáo ESG). Thông qua Báo cáo này, FPT có cơ hội đánh giá toàn diện về các\nhoạt động liên quan môi trường, trách nhiệm xã hội, quản trị, từ đó điều chỉnh và\ncân bằng chiến lược, kế hoạch kinh doanh hướng đến mục tiêu phát triển bền vững\ncho Tập đoàn và cộng đồng.\nBáo cáo được xây dựng trên nguyên tắc đảm bảo các yếu tố sau: tính toàn diện,\ntính rõ ràng, tính cập nhật và tính tin cậy, đồng thời tham chiếu theo bộ tiêu chuẩn\nGRI Standards của Tổ chức Sáng kiến toàn cầu (GRI).\n\n• Liên hệ\nĐể gửi các câu hỏi, các khuyến nghị liên quan đến hoạt động ESG của FPT cũng\nnhư nội dung chi tiết của Báo cáo ESG, vui lòng liên hệ theo thông tin như sau:\n\n[fpt_esg_report_2025_p42_b_0 | data/fpt_esg_report_2025.pdf | page 42]\nBảng tổng hợp so sánh kết quả tiêu thụ nước\nNăm 2025, chỉ số tiêu thụ nước của FPT chỉ tăng 0,48% so với năm 2024. Mức tăng\nnày được đánh giá là tích cực trong bối cảnh Tập đoàn tiếp tục mở rộng quy mô\nhoạt động và tăng trưởng kinh doanh, đồng thời phản ánh tính hiệu quả của các\nbiện pháp quản lý và sử dụng nước được triển khai đồng bộ như sau:\n• Tuân thủ các quy định của cơ quan quản lý về xử lý và tái chế nước thải;\n• Thực hiện quan trắc chất lượng nước sinh hoạt 1 tháng/lần, nước thải 3 tháng/lần\nvà lập báo cáo gửi cơ quan quản lý theo đúng quy định;\n• Bổ sung chế phẩm vi sinh nhằm nâng cao hiệu quả xử lý nước tại bể tự hoại;\n\n[fpt_esg_report_2025_p20_b_5 | data/fpt_esg_report_2025.pdf | page 20]\n• Top 101-200 về xếp hạng Chất lượng giáo dục (SDG4). Thứ hạng 80\ntrong các trường đại học toàn cầu trong mục tiêu phát triển bền\nvững SDG8 về Việc làm tốt và Tăng trưởng kinh tế, ghi dấu ấn về\nnăng lực trong việc đào tạo gắn liền thực tiễn – tạo ra việc làm thật,\nchất lượng thật cho sinh viên trong kỷ nguyên toàn cầu hóa và\nchuyển đổi số.\nLĩnh vực\nGiáo dục\n4\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n19",
+        "context_ids": [
+          "fpt_esg_report_2025_p5_b_0",
+          "fpt_esg_report_2025_p42_b_0",
+          "fpt_esg_report_2025_p20_b_5"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_orUWavnVTyOlk3ykbQls7278",
+            "name": "search",
+            "arguments": {
+              "query": "Báo cáo ESG FPT 2025 lần thứ"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 824,
+          "completion_tokens": 49
+        },
+        "latency_ms": 1280.9372500050813,
+        "cost_usd": 3.1872e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_iTPGTaCI4wt1EbKefQh36459",
+            "name": "answer",
+            "arguments": {
+              "answer": "Năm 2025 là năm thứ 05 FPT thực hiện Báo cáo Môi trường – Trách nhiệm xã hội – Quản trị (Báo cáo ESG).",
+              "citations": [
+                "fpt_esg_report_2025_p5_b_0"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 1850,
+          "completion_tokens": 112
+        },
+        "latency_ms": 649.7132499935105,
+        "cost_usd": 7.275e-05,
+        "model": "deepseek-flash",
+        "citation_markers_added": [
+          "fpt_esg_report_2025_p5_b_0"
+        ]
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 2674,
+      "completion_tokens": 161
+    },
+    "cost_usd": 0.00010462200000000002,
+    "latency_s": 1.9355635000101756,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p5_b_0",
+      "fpt_esg_report_2025_p42_b_0",
+      "fpt_esg_report_2025_p20_b_5"
+    ],
+    "auto_context_hit": true
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "answerable": true,
+    "question": "Kỳ báo cáo ESG năm 2025 của FPT bao phủ khoảng thời gian nào?",
+    "filter": null,
+    "config": {
+      "split": "dev",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "Kỳ báo cáo là từ 01/01/2025 đến 31/12/2025, chu kỳ báo cáo thường niên [fpt_esg_report_2025_p5_b_1].",
+    "citations": [
+      "fpt_esg_report_2025_p5_b_1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "kỳ báo cáo ESG 2025 khoảng thời gian",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p5_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 5,
+            "text": "• Bà: Mai Thị Lan Anh, Người ủy quyền công bố thông tin, Công ty Cổ phần FPT\n\n• Địa chỉ: Số 10 phố Phạm Văn Bạch, phường Cầu Giấy, Tp.Hà Nội\n\n• Điện thoại: +84 24 7300 7300\n\n• Email: fptnews@fpt.com\n\n• Thời gian báo cáo: 01/01/2025-31/12/2025.\n\n• Chu kì báo cáo: Thường niên.\n\n• Phạm vi báo cáo: Báo cáo dựa trên hoạt động của Tập đoàn, công ty thành viên\ntại Việt Nam và một số thị trường trọng yếu.\nThông tin chung về báo cáo\n\n• Phạm vi báo cáo\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n04",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 6.401469466514998,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p45_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 45,
+            "text": "Năm 2025, FPT không chỉ tập trung vào việc hỗ trợ các doanh nghiệp khác chuyển\nmình thành doanh nghiệp xanh mà còn mạnh mẽ thúc đẩy quá trình chuyển đổi số\nnội bộ để tối ưu hóa hoạt động và gián tiếp giảm thiểu tác động tiêu cực đến môi trường.\nĐặc biệt, hầu hết các quy trình quản trị và vận hành của Tập đoàn được số hóa,\nchuyển sang mô hình doanh nghiệp thông minh và hiệu quả hơn.\nNgoài ra, FPT triển khai kế hoạch sử dụng văn bản điện tử (Paperless), bắt đầu với\nviệc rà soát toàn bộ tài liệu và phân loại các tài liệu cần ký số hoặc ký bản cứng.\nNăm 2025, tỷ lệ sử dụng paperless tại FPT đạt 95,42%, đặc biệt, hợp đồng giao dịch\nđiện tử chiếm khoảng 97% tổng số hợp đồng ký kết. So với năm 2024, các chỉ số\nnày ghi nhận mức cải thiện rõ rệt, giúp tiết kiệm chi phí, thời gian và góp phần bảo vệ",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 6.07207641047656,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p24_b_3",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 24,
+            "text": "• Đẩy mạnh chuyển đổi số nội bộ nhằm đảm bảo hoạt động của Tập đoàn được\nthống nhất, thông suốt và minh bạch hướng đến mô hình công ty hoạt động theo\nthời gian thực.\n\n• Sức ép cạnh tranh từ các công ty\nnước ngoài hoặc các công ty mới\nnổi, năng động ở trong nước do các\nlĩnh vực kinh doanh có rào cản ra\nnhập thị trường không cao.\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n23",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 6.041968420130333,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p5_b_1 | data/fpt_esg_report_2025.pdf | page 5]\n• Bà: Mai Thị Lan Anh, Người ủy quyền công bố thông tin, Công ty Cổ phần FPT\n\n• Địa chỉ: Số 10 phố Phạm Văn Bạch, phường Cầu Giấy, Tp.Hà Nội\n\n• Điện thoại: +84 24 7300 7300\n\n• Email: fptnews@fpt.com\n\n• Thời gian báo cáo: 01/01/2025-31/12/2025.\n\n• Chu kì báo cáo: Thường niên.\n\n• Phạm vi báo cáo: Báo cáo dựa trên hoạt động của Tập đoàn, công ty thành viên\ntại Việt Nam và một số thị trường trọng yếu.\nThông tin chung về báo cáo\n\n• Phạm vi báo cáo\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n04\n\n[fpt_esg_report_2025_p45_b_0 | data/fpt_esg_report_2025.pdf | page 45]\nNăm 2025, FPT không chỉ tập trung vào việc hỗ trợ các doanh nghiệp khác chuyển\nmình thành doanh nghiệp xanh mà còn mạnh mẽ thúc đẩy quá trình chuyển đổi số\nnội bộ để tối ưu hóa hoạt động và gián tiếp giảm thiểu tác động tiêu cực đến môi trường.\nĐặc biệt, hầu hết các quy trình quản trị và vận hành của Tập đoàn được số hóa,\nchuyển sang mô hình doanh nghiệp thông minh và hiệu quả hơn.\nNgoài ra, FPT triển khai kế hoạch sử dụng văn bản điện tử (Paperless), bắt đầu với\nviệc rà soát toàn bộ tài liệu và phân loại các tài liệu cần ký số hoặc ký bản cứng.\nNăm 2025, tỷ lệ sử dụng paperless tại FPT đạt 95,42%, đặc biệt, hợp đồng giao dịch\nđiện tử chiếm khoảng 97% tổng số hợp đồng ký kết. So với năm 2024, các chỉ số\nnày ghi nhận mức cải thiện rõ rệt, giúp tiết kiệm chi phí, thời gian và góp phần bảo vệ\n\n[fpt_esg_report_2025_p24_b_3 | data/fpt_esg_report_2025.pdf | page 24]\n• Đẩy mạnh chuyển đổi số nội bộ nhằm đảm bảo hoạt động của Tập đoàn được\nthống nhất, thông suốt và minh bạch hướng đến mô hình công ty hoạt động theo\nthời gian thực.\n\n• Sức ép cạnh tranh từ các công ty\nnước ngoài hoặc các công ty mới\nnổi, năng động ở trong nước do các\nlĩnh vực kinh doanh có rào cản ra\nnhập thị trường không cao.\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n23",
+        "context_ids": [
+          "fpt_esg_report_2025_p5_b_1",
+          "fpt_esg_report_2025_p45_b_0",
+          "fpt_esg_report_2025_p24_b_3"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_qVJvHz7s9pmRGSroqMhj7663",
+            "name": "search",
+            "arguments": {
+              "query": "kỳ báo cáo ESG 2025 khoảng thời gian"
+            }
+          },
+          {
+            "id": "call_01_uDBboKihAf42v5ydXiMd1078",
+            "name": "search",
+            "arguments": {
+              "query": "phạm vi báo cáo năm tài chính 2025"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 824,
+          "completion_tokens": 93
+        },
+        "latency_ms": 1045.4997080087196,
+        "cost_usd": 5.8272e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_o9UE94sBBROAgyUgrCEI3951",
+            "name": "answer",
+            "arguments": {
+              "answer": "Kỳ báo cáo là từ 01/01/2025 đến 31/12/2025, chu kỳ báo cáo thường niên [fpt_esg_report_2025_p5_b_1].",
+              "citations": [
+                "fpt_esg_report_2025_p5_b_1"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 1933,
+          "completion_tokens": 120
+        },
+        "latency_ms": 1048.7084579945076,
+        "cost_usd": 7.7799e-05,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 2757,
+      "completion_tokens": 213
+    },
+    "cost_usd": 0.000136071,
+    "latency_s": 2.1010543340235017,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p5_b_1",
+      "fpt_esg_report_2025_p45_b_0",
+      "fpt_esg_report_2025_p24_b_3"
+    ],
+    "auto_context_hit": true
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "answerable": true,
+    "question": "Đến năm 2030, FPT muốn cắt giảm tổng phát thải khí nhà kính bao nhiêu phần trăm so với lộ trình đã công bố?",
+    "filter": null,
+    "config": {
+      "split": "dev",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "Đến năm 2030, FPT đặt mục tiêu giảm 15,8% tổng lượng phát thải khí nhà kính (mục tiêu trung hạn, phù hợp với mục tiêu chung của Việt Nam), hướng tới Net Zero vào năm 2040 [fpt_esg_report_2025_p12_b_0][fpt_esg_report_2025_p7_b_2].",
+    "citations": [
+      "fpt_esg_report_2025_p12_b_0",
+      "fpt_esg_report_2025_p7_b_2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "mục tiêu cắt giảm phát thải khí nhà kính 2030",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p12_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 12,
+            "text": "HOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nVÌ SỰ PHÁT TRIỂN CỦA CỘNG ĐỒNG\nCam kết Mục tiêuVấn đềtrọng yếu\nBảo vệ\nmôi trường\nKhông ngừng cải thiện môi trường\nlàm việc hướng tới môi trường làm\nviệc xanh, an toàn, lành mạnh.\n\n• Mục tiêu trung hạn: đến năm 2030,\ngiảm 15,8% tổng lượng phát thải\nkhí nhà kính phù hợp với mục tiêu\nchung của Việt Nam;\n\n• Mục tiêu dài hạn: đến năm 2040\nđạt Net Zero như cam kết của\nChính phủ Việt Nam tại COP 26.\n\n• Chuẩn hóa phương pháp kiểm kê số liệu phát thải khí\nnhà kính cho Phạm vi 1 và Phạm vi 2; thực hiện kiểm kê và\ntheo dõi số liệu toàn Tập đoàn định kỳ theo quý;\n\n• 100% số liệu sử dụng năng lượng được giám sát;\n\n• Triển khai 02 hệ thống điện mặt trời mái nhà với tổng\nsản lượng 842.749 kWh;",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 17.299484792348775,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p7_b_2",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 7,
+            "text": "đường cơ sở phát thải,\nđặt mục tiêu đến năm 2030 giảm 15,8% tổng lượng phát thải khí nhà kính và hướng tới mục tiêu Net Zero vào năm 2040.\nXác định lĩnh vực trọng tâm\ngiảm phát thải\n02\nXác định mục tiêu giảm phát\nthải cho từng lĩnh vực\n03\nThiết lập các giải pháp giảm\nphát thải khả thi và hiệu quả\n04\nXác định các giải pháp ưu tiên\n05\nKiểm soát và đánh giá định kỳ\n\n• Tiêu thụ điện trong Phạm vi 2. Chuyển đổi sang sử dụng năng\nlượng sạch, song song với triển\nkhai các giải pháp nâng cao\nhiệu quả năng lượng tại các cơ\nsở vận hành, bao gồm: Tòa nhà\nvăn phòng; Trung tâm dữ liệu.\n\n• Tối ưu hệ thống điện và ứng\ndụng các giải pháp quản lý\nnăng lượng thông minh;\n\n• Đẩy mạnh sử dụng điện từ\nnguồn năng lượng tái tạo\nnhư năng lượng mặt trời;\n\n• Cân nhắc mua chứng chỉ\nnăng lượng tái tạo (REC).",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 16.86200175601666,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p7_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 7,
+            "text": "• Lộ trình Net Zero 2040\nLà tập đoàn công nghệ toàn cầu với quy mô và phạm vi hoạt động ngày càng mở rộng,\nFPT nhận thức rõ vai trò và trách nhiệm của mình không chỉ dừng ở cam kết mà cần\nthúc đẩy các hành động cụ thể trong lộ trình giảm phát thải khí nhà kính, hướng tới\nmục tiêu Net Zero vào năm 2040.\nNăm 2025, FPT thực hiện chuẩn hóa và triển khai phương pháp tính toán phát thải\nkhí nhà kính dựa trên các nghiên cứu, hướng dẫn, quy định liên quan của Việt Nam\nvà thế giới, qua đó khẳng định nỗ lực chung trong quản trị chuyển đổi xanh và phát triển\nbền vững. FPT xác định đây là những dữ liệu kiểm kê khởi đầu cho hành trình quản lý\nvà giảm phát thải khí nhà kính trong những năm tiếp theo.\nTập đoàn triển khai xây dựng lộ trình giảm phát thải khí nhà kính dựa trên việc tự tính toán và xác nhận",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 15.500331045813633,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p12_b_0 | data/fpt_esg_report_2025.pdf | page 12]\nHOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nVÌ SỰ PHÁT TRIỂN CỦA CỘNG ĐỒNG\nCam kết Mục tiêuVấn đềtrọng yếu\nBảo vệ\nmôi trường\nKhông ngừng cải thiện môi trường\nlàm việc hướng tới môi trường làm\nviệc xanh, an toàn, lành mạnh.\n\n• Mục tiêu trung hạn: đến năm 2030,\ngiảm 15,8% tổng lượng phát thải\nkhí nhà kính phù hợp với mục tiêu\nchung của Việt Nam;\n\n• Mục tiêu dài hạn: đến năm 2040\nđạt Net Zero như cam kết của\nChính phủ Việt Nam tại COP 26.\n\n• Chuẩn hóa phương pháp kiểm kê số liệu phát thải khí\nnhà kính cho Phạm vi 1 và Phạm vi 2; thực hiện kiểm kê và\ntheo dõi số liệu toàn Tập đoàn định kỳ theo quý;\n\n• 100% số liệu sử dụng năng lượng được giám sát;\n\n• Triển khai 02 hệ thống điện mặt trời mái nhà với tổng\nsản lượng 842.749 kWh;\n\n[fpt_esg_report_2025_p7_b_2 | data/fpt_esg_report_2025.pdf | page 7]\nđường cơ sở phát thải,\nđặt mục tiêu đến năm 2030 giảm 15,8% tổng lượng phát thải khí nhà kính và hướng tới mục tiêu Net Zero vào năm 2040.\nXác định lĩnh vực trọng tâm\ngiảm phát thải\n02\nXác định mục tiêu giảm phát\nthải cho từng lĩnh vực\n03\nThiết lập các giải pháp giảm\nphát thải khả thi và hiệu quả\n04\nXác định các giải pháp ưu tiên\n05\nKiểm soát và đánh giá định kỳ\n\n• Tiêu thụ điện trong Phạm vi 2. Chuyển đổi sang sử dụng năng\nlượng sạch, song song với triển\nkhai các giải pháp nâng cao\nhiệu quả năng lượng tại các cơ\nsở vận hành, bao gồm: Tòa nhà\nvăn phòng; Trung tâm dữ liệu.\n\n• Tối ưu hệ thống điện và ứng\ndụng các giải pháp quản lý\nnăng lượng thông minh;\n\n• Đẩy mạnh sử dụng điện từ\nnguồn năng lượng tái tạo\nnhư năng lượng mặt trời;\n\n• Cân nhắc mua chứng chỉ\nnăng lượng tái tạo (REC).\n\n[fpt_esg_report_2025_p7_b_1 | data/fpt_esg_report_2025.pdf | page 7]\n• Lộ trình Net Zero 2040\nLà tập đoàn công nghệ toàn cầu với quy mô và phạm vi hoạt động ngày càng mở rộng,\nFPT nhận thức rõ vai trò và trách nhiệm của mình không chỉ dừng ở cam kết mà cần\nthúc đẩy các hành động cụ thể trong lộ trình giảm phát thải khí nhà kính, hướng tới\nmục tiêu Net Zero vào năm 2040.\nNăm 2025, FPT thực hiện chuẩn hóa và triển khai phương pháp tính toán phát thải\nkhí nhà kính dựa trên các nghiên cứu, hướng dẫn, quy định liên quan của Việt Nam\nvà thế giới, qua đó khẳng định nỗ lực chung trong quản trị chuyển đổi xanh và phát triển\nbền vững. FPT xác định đây là những dữ liệu kiểm kê khởi đầu cho hành trình quản lý\nvà giảm phát thải khí nhà kính trong những năm tiếp theo.\nTập đoàn triển khai xây dựng lộ trình giảm phát thải khí nhà kính dựa trên việc tự tính toán và xác nhận",
+        "context_ids": [
+          "fpt_esg_report_2025_p12_b_0",
+          "fpt_esg_report_2025_p7_b_2",
+          "fpt_esg_report_2025_p7_b_1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_tZK2uFvKenhr8sdysjQX1270",
+            "name": "search",
+            "arguments": {
+              "query": "mục tiêu cắt giảm phát thải khí nhà kính 2030"
+            }
+          },
+          {
+            "id": "call_01_2U0cTJHXhxu9Hy55gN9p4791",
+            "name": "search",
+            "arguments": {
+              "query": "lộ trình phát thải ròng bằng 0 net zero 2030"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 844,
+          "completion_tokens": 100
+        },
+        "latency_ms": 1267.5546249956824,
+        "cost_usd": 6.253199999999999e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_jwBLKt8cPeDRQdtUkP9E9755",
+            "name": "answer",
+            "arguments": {
+              "answer": "Đến năm 2030, FPT đặt mục tiêu giảm 15,8% tổng lượng phát thải khí nhà kính (mục tiêu trung hạn, phù hợp với mục tiêu chung của Việt Nam), hướng tới Net Zero vào năm 2040 [fpt_esg_report_2025_p12_b_0][fpt_esg_report_2025_p7_b_2].",
+              "citations": [
+                "fpt_esg_report_2025_p12_b_0",
+                "fpt_esg_report_2025_p7_b_2"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 2028,
+          "completion_tokens": 188
+        },
+        "latency_ms": 1318.621082988102,
+        "cost_usd": 0.000118884,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 2872,
+      "completion_tokens": 288
+    },
+    "cost_usd": 0.000181416,
+    "latency_s": 2.5902142919949256,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p12_b_0",
+      "fpt_esg_report_2025_p7_b_2",
+      "fpt_esg_report_2025_p7_b_1"
+    ],
+    "auto_context_hit": true
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "answerable": true,
+    "question": "Tính đến hết năm 2025, FPT có bao nhiêu nhân sự và bao nhiêu nhân sự người nước ngoài đến từ bao nhiêu quốc tịch?",
+    "filter": null,
+    "config": {
+      "split": "dev",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "Tính đến hết năm 2025, FPT có 54.110 nhân sự làm việc tại hơn 30 quốc gia, trong đó có 4.124 nhân sự người nước ngoài đến từ 82 quốc tịch (tăng 18,2% so với năm 2024). [fpt_esg_report_2025_p30_b_0][fpt_esg_report_2025_p11_b_3][fpt_esg_report_2025_p4_b_0]",
+    "citations": [
+      "fpt_esg_report_2025_p30_b_0",
+      "fpt_esg_report_2025_p11_b_3",
+      "fpt_esg_report_2025_p4_b_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "tổng số nhân sự FPT 2025 quốc tịch nhân sự nước ngoài",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p11_b_3",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 11,
+            "text": "• 1,1 triệu giờ học nâng cao kiến thức kỹ năng AI.\nBình đẳng và\nđa dạng\nDuy trì môi trường làm việc\nbình đẳng, tôn trọng cá nhân,\nkhông phân biệt đối xử.\n\n• Duy trì tỷ lệ nữ giới trong quy mô\nnhân sự trên 35%;\n\n• Duy trì và tăng cường sự đa dạng,\ncông bằng và hòa hợp.\n\n• Tỷ lệ nhân sự nữ chiếm 37,7% tổng nhân sự;\n\n• Tích cực mở rộng tuyển dụng CBNV người nước ngoài. Tổng\nsố CBNV người nước ngoài là 4.124 người từ 82 quốc tịch,\ntăng 18,2% so với năm 2024.\nKết quả nổi bật 2025\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n10",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 17.447473139363908,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p30_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 30,
+            "text": "• Sự đa dạng về văn hóa, màu da, sắc tộc, độ tuổi, trình độ\nLà tập đoàn toàn cầu, FPT phát huy hiệu quả nguồn nhân lực đa dạng, tạo nền tảng\nvững chắc cho tăng trưởng dài hạn và năng lực cạnh tranh bền vững, đồng thời\nxây dựng môi trường làm việc chuyên nghiệp, thu hút và giữ chân nhân tài. Tập đoàn\nbảo đảm cơ hội việc làm bình đẳng, góp phần thu hẹp khoảng cách phát triển giữa\ncác vùng miền, tuân thủ đầy đủ quy định pháp luật và cam kết không sử dụng lao động\ndưới 18 tuổi.\nFPT sở hữu nguồn nhân lực đa dạng về văn hóa, quốc tịch, độ tuổi, trình độ….\nĐây cũng là yếu tố quan trọng tạo lợi thế cạnh tranh bền vững cho FPT. Tính đến hết\nnăm 2025, FPT có 54.110 nhân sự làm việc tại hơn 30 quốc gia, trong đó, có 4.124\nnhân sự người nước ngoài với 82 quốc tịch, chủ yếu từ Mỹ, Nhật Bản, Slovakia,\nM",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 16.30459585735815,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p4_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 4,
+            "text": "Môi trường làm việc\nđẳng cấp\nNơi làm việc\ntốt nhất Việt Nam\nTop 10\nViệc làm ổn định\n54.110\nNhân sự người\nnước ngoài\n(82 quốc tịch)\n4.124\nDấu ấn nổi bật\nCán bộ quản lý nữ\n36,4%\nGiờ học nâng cao\nkiến thức kỹ năng AI\n1,1 triệu\nDoanh nghiệp Việt Nam\ncó chất lượng quản trị\ncông ty tốt nhất ASEAN\nTop 5\nISO 27001:2013\nHệ thống quản lý\nan toàn thông tin\nISO 14001:2015\nHệ thống quản lý\nmôi trường\nISO 45001:2018\nHệ thống an toàn\nsức khoẻ\nISO 14064:2018\nTiêu chuẩn đo lường\nvà quản lý phát thải\nkhí nhà kính\nISO/IEC\n42001:2023\nTiêu chuẩn dành cho\nhệ thống quản lý trí tuệ\nnhân tạo (AIMS)\nHoạt động\nvì môi trường xanh\n02\nTổng sản lượng\n842.749\nkWh\nCơ sở được giám sát\nphát thải khí\nnhà kính định kỳ\n100%\nHệ thống điện\nmặt trời mái nhà\nTrách nhiệm\nxã hội\n15 năm\nLiên tiếp triển khai\nNgày FPT vì cộng đồng\n26\nĐ",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 12.93836199680676,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p11_b_3 | data/fpt_esg_report_2025.pdf | page 11]\n• 1,1 triệu giờ học nâng cao kiến thức kỹ năng AI.\nBình đẳng và\nđa dạng\nDuy trì môi trường làm việc\nbình đẳng, tôn trọng cá nhân,\nkhông phân biệt đối xử.\n\n• Duy trì tỷ lệ nữ giới trong quy mô\nnhân sự trên 35%;\n\n• Duy trì và tăng cường sự đa dạng,\ncông bằng và hòa hợp.\n\n• Tỷ lệ nhân sự nữ chiếm 37,7% tổng nhân sự;\n\n• Tích cực mở rộng tuyển dụng CBNV người nước ngoài. Tổng\nsố CBNV người nước ngoài là 4.124 người từ 82 quốc tịch,\ntăng 18,2% so với năm 2024.\nKết quả nổi bật 2025\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n10\n\n[fpt_esg_report_2025_p30_b_0 | data/fpt_esg_report_2025.pdf | page 30]\n• Sự đa dạng về văn hóa, màu da, sắc tộc, độ tuổi, trình độ\nLà tập đoàn toàn cầu, FPT phát huy hiệu quả nguồn nhân lực đa dạng, tạo nền tảng\nvững chắc cho tăng trưởng dài hạn và năng lực cạnh tranh bền vững, đồng thời\nxây dựng môi trường làm việc chuyên nghiệp, thu hút và giữ chân nhân tài. Tập đoàn\nbảo đảm cơ hội việc làm bình đẳng, góp phần thu hẹp khoảng cách phát triển giữa\ncác vùng miền, tuân thủ đầy đủ quy định pháp luật và cam kết không sử dụng lao động\ndưới 18 tuổi.\nFPT sở hữu nguồn nhân lực đa dạng về văn hóa, quốc tịch, độ tuổi, trình độ….\nĐây cũng là yếu tố quan trọng tạo lợi thế cạnh tranh bền vững cho FPT. Tính đến hết\nnăm 2025, FPT có 54.110 nhân sự làm việc tại hơn 30 quốc gia, trong đó, có 4.124\nnhân sự người nước ngoài với 82 quốc tịch, chủ yếu từ Mỹ, Nhật Bản, Slovakia,\nM\n\n[fpt_esg_report_2025_p4_b_0 | data/fpt_esg_report_2025.pdf | page 4]\nMôi trường làm việc\nđẳng cấp\nNơi làm việc\ntốt nhất Việt Nam\nTop 10\nViệc làm ổn định\n54.110\nNhân sự người\nnước ngoài\n(82 quốc tịch)\n4.124\nDấu ấn nổi bật\nCán bộ quản lý nữ\n36,4%\nGiờ học nâng cao\nkiến thức kỹ năng AI\n1,1 triệu\nDoanh nghiệp Việt Nam\ncó chất lượng quản trị\ncông ty tốt nhất ASEAN\nTop 5\nISO 27001:2013\nHệ thống quản lý\nan toàn thông tin\nISO 14001:2015\nHệ thống quản lý\nmôi trường\nISO 45001:2018\nHệ thống an toàn\nsức khoẻ\nISO 14064:2018\nTiêu chuẩn đo lường\nvà quản lý phát thải\nkhí nhà kính\nISO/IEC\n42001:2023\nTiêu chuẩn dành cho\nhệ thống quản lý trí tuệ\nnhân tạo (AIMS)\nHoạt động\nvì môi trường xanh\n02\nTổng sản lượng\n842.749\nkWh\nCơ sở được giám sát\nphát thải khí\nnhà kính định kỳ\n100%\nHệ thống điện\nmặt trời mái nhà\nTrách nhiệm\nxã hội\n15 năm\nLiên tiếp triển khai\nNgày FPT vì cộng đồng\n26\nĐ",
+        "context_ids": [
+          "fpt_esg_report_2025_p11_b_3",
+          "fpt_esg_report_2025_p30_b_0",
+          "fpt_esg_report_2025_p4_b_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_hSSDfBMfWJkYkSTt6Zk85672",
+            "name": "search",
+            "arguments": {
+              "query": "tổng số nhân sự FPT 2025 quốc tịch nhân sự nước ngoài"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 845,
+          "completion_tokens": 63
+        },
+        "latency_ms": 846.0928749991581,
+        "cost_usd": 4.033499999999999e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_9pjpjiiSCj9CjFENTE8n9860",
+            "name": "answer",
+            "arguments": {
+              "answer": "Tính đến hết năm 2025, FPT có 54.110 nhân sự làm việc tại hơn 30 quốc gia, trong đó có 4.124 nhân sự người nước ngoài đến từ 82 quốc tịch (tăng 18,2% so với năm 2024).",
+              "citations": [
+                "fpt_esg_report_2025_p30_b_0",
+                "fpt_esg_report_2025_p11_b_3",
+                "fpt_esg_report_2025_p4_b_0"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 2166,
+          "completion_tokens": 177
+        },
+        "latency_ms": 1148.0175000033341,
+        "cost_usd": 0.00011269800000000001,
+        "model": "deepseek-flash",
+        "citation_markers_added": [
+          "fpt_esg_report_2025_p30_b_0",
+          "fpt_esg_report_2025_p11_b_3",
+          "fpt_esg_report_2025_p4_b_0"
+        ]
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 3011,
+      "completion_tokens": 240
+    },
+    "cost_usd": 0.000153033,
+    "latency_s": 1.9962178329878952,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p11_b_3",
+      "fpt_esg_report_2025_p30_b_0",
+      "fpt_esg_report_2025_p4_b_0"
+    ],
+    "auto_context_hit": true
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "answerable": true,
+    "question": "Đến ngày 31/12/2025, tỷ lệ lao động nữ tại FPT là bao nhiêu?",
+    "filter": null,
+    "config": {
+      "split": "dev",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "Đến ngày 31/12/2025, tỷ lệ lao động nữ tại FPT đạt 37,7% [fpt_esg_report_2025_p30_b_3], tương ứng tỷ lệ nhân sự nữ chiếm 37,7% tổng nhân sự [fpt_esg_report_2025_p11_b_3].",
+    "citations": [
+      "fpt_esg_report_2025_p30_b_3",
+      "fpt_esg_report_2025_p11_b_3"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "tỷ lệ lao động nữ 31/12/2025",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p30_b_3",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 30,
+            "text": "• Tôn trọng, đổi mới và đảm bảo hài hòa về cân bằng giới tính\nVới quan điểm con người là tài sản cốt lõi và trung tâm của chiến lược phát triển,\nngay từ khi thành lập, FPT luôn đề cao tôn trọng quyền con người và xây dựng môi trường\nlàm việc dân chủ, bình đẳng, khuyến khích tự do sáng tạo, trao quyền và tạo cơ hội\nđể mỗi cá nhân học hỏi, phát huy năng lực và đóng góp cho Tập đoàn. CBNV được\nkhuyến khích đối thoại, đóng góp ý kiến và bảo vệ quan điểm trên tinh thần minh bạch,\ntôn trọng và không phân biệt vị trí, trong khi đội ngũ lãnh đạo và quản lý có trách nhiệm\nghi nhận, phát triển và trọng dụng nhân tài.\nFPT cam kết không phân biệt đối xử trong sử dụng lao động, đặc biệt là vấn đề\nbình đẳng giới. Nhờ đó, đến ngày 31/12/2025, tỷ lệ lao động nữ tại FPT đạt 37,7%,\ncao hơn mức trung bình to",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 16.880989311861377,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p8_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 8,
+            "text": "• Cam kết, mục tiêu và kết quả nổi bật về ESG\nCÁC CHỈ TIÊU ESG CAM KẾT\nTT Chỉ tiêu Cam kết2025Cam kết\nQUẢN TRỊ XUẤT SẮC\n0\n100%\n100%\n100%\n0\n100%\n100%\n100%\n0\n100%\n100%\n100%\nMÔI TRƯỜNG LÀM VIỆC ĐẲNG CẤP, HẠNH PHÚC\nHOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nSố lượng sự cố an toàn thông tin ảnh hưởng đến danh tiếng Tập đoàn bằng 0.\n100% CBNV trải qua đào tạo/diễn tập an toàn bảo mật thông tin.\n100% cán bộ mua sắm được đào tạo về mua sắm bền vững.\nKhông ký hợp đồng với các nhà cung cấp có các hoạt động ảnh hưởng đến\nsức khoẻ, an toàn lao động và môi trường.\nTỷ lệ nghỉ việc thấp hơn so với mức trung bình thị trường (Khối Công nghệ).\nHỗ trợ CBNV mua nhà, mua xe.\nĐẩy mạnh và nâng cao số giờ học trung bình CBNV/năm (giờ).\nTỷ lệ nữ giới trong tổng số nhân sự.\nTỷ lệ nữ giới là quản lý trong tổng số nhân sự quản lý.",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 13.475384518706681,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p11_b_3",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 11,
+            "text": "• 1,1 triệu giờ học nâng cao kiến thức kỹ năng AI.\nBình đẳng và\nđa dạng\nDuy trì môi trường làm việc\nbình đẳng, tôn trọng cá nhân,\nkhông phân biệt đối xử.\n\n• Duy trì tỷ lệ nữ giới trong quy mô\nnhân sự trên 35%;\n\n• Duy trì và tăng cường sự đa dạng,\ncông bằng và hòa hợp.\n\n• Tỷ lệ nhân sự nữ chiếm 37,7% tổng nhân sự;\n\n• Tích cực mở rộng tuyển dụng CBNV người nước ngoài. Tổng\nsố CBNV người nước ngoài là 4.124 người từ 82 quốc tịch,\ntăng 18,2% so với năm 2024.\nKết quả nổi bật 2025\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n10",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 10.794994480244227,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p30_b_3 | data/fpt_esg_report_2025.pdf | page 30]\n• Tôn trọng, đổi mới và đảm bảo hài hòa về cân bằng giới tính\nVới quan điểm con người là tài sản cốt lõi và trung tâm của chiến lược phát triển,\nngay từ khi thành lập, FPT luôn đề cao tôn trọng quyền con người và xây dựng môi trường\nlàm việc dân chủ, bình đẳng, khuyến khích tự do sáng tạo, trao quyền và tạo cơ hội\nđể mỗi cá nhân học hỏi, phát huy năng lực và đóng góp cho Tập đoàn. CBNV được\nkhuyến khích đối thoại, đóng góp ý kiến và bảo vệ quan điểm trên tinh thần minh bạch,\ntôn trọng và không phân biệt vị trí, trong khi đội ngũ lãnh đạo và quản lý có trách nhiệm\nghi nhận, phát triển và trọng dụng nhân tài.\nFPT cam kết không phân biệt đối xử trong sử dụng lao động, đặc biệt là vấn đề\nbình đẳng giới. Nhờ đó, đến ngày 31/12/2025, tỷ lệ lao động nữ tại FPT đạt 37,7%,\ncao hơn mức trung bình to\n\n[fpt_esg_report_2025_p8_b_0 | data/fpt_esg_report_2025.pdf | page 8]\n• Cam kết, mục tiêu và kết quả nổi bật về ESG\nCÁC CHỈ TIÊU ESG CAM KẾT\nTT Chỉ tiêu Cam kết2025Cam kết\nQUẢN TRỊ XUẤT SẮC\n0\n100%\n100%\n100%\n0\n100%\n100%\n100%\n0\n100%\n100%\n100%\nMÔI TRƯỜNG LÀM VIỆC ĐẲNG CẤP, HẠNH PHÚC\nHOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nSố lượng sự cố an toàn thông tin ảnh hưởng đến danh tiếng Tập đoàn bằng 0.\n100% CBNV trải qua đào tạo/diễn tập an toàn bảo mật thông tin.\n100% cán bộ mua sắm được đào tạo về mua sắm bền vững.\nKhông ký hợp đồng với các nhà cung cấp có các hoạt động ảnh hưởng đến\nsức khoẻ, an toàn lao động và môi trường.\nTỷ lệ nghỉ việc thấp hơn so với mức trung bình thị trường (Khối Công nghệ).\nHỗ trợ CBNV mua nhà, mua xe.\nĐẩy mạnh và nâng cao số giờ học trung bình CBNV/năm (giờ).\nTỷ lệ nữ giới trong tổng số nhân sự.\nTỷ lệ nữ giới là quản lý trong tổng số nhân sự quản lý.\n\n[fpt_esg_report_2025_p11_b_3 | data/fpt_esg_report_2025.pdf | page 11]\n• 1,1 triệu giờ học nâng cao kiến thức kỹ năng AI.\nBình đẳng và\nđa dạng\nDuy trì môi trường làm việc\nbình đẳng, tôn trọng cá nhân,\nkhông phân biệt đối xử.\n\n• Duy trì tỷ lệ nữ giới trong quy mô\nnhân sự trên 35%;\n\n• Duy trì và tăng cường sự đa dạng,\ncông bằng và hòa hợp.\n\n• Tỷ lệ nhân sự nữ chiếm 37,7% tổng nhân sự;\n\n• Tích cực mở rộng tuyển dụng CBNV người nước ngoài. Tổng\nsố CBNV người nước ngoài là 4.124 người từ 82 quốc tịch,\ntăng 18,2% so với năm 2024.\nKết quả nổi bật 2025\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n10",
+        "context_ids": [
+          "fpt_esg_report_2025_p30_b_3",
+          "fpt_esg_report_2025_p8_b_0",
+          "fpt_esg_report_2025_p11_b_3"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_tTeO2Eov7BWhx56FKB4H3796",
+            "name": "search",
+            "arguments": {
+              "query": "tỷ lệ lao động nữ 31/12/2025"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 828,
+          "completion_tokens": 52
+        },
+        "latency_ms": 965.785667009186,
+        "cost_usd": 3.3684e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_jUx18Q8qektCS1IVTcO89549",
+            "name": "answer",
+            "arguments": {
+              "answer": "Đến ngày 31/12/2025, tỷ lệ lao động nữ tại FPT đạt 37,7% [fpt_esg_report_2025_p30_b_3], tương ứng tỷ lệ nhân sự nữ chiếm 37,7% tổng nhân sự [fpt_esg_report_2025_p11_b_3].",
+              "citations": [
+                "fpt_esg_report_2025_p30_b_3",
+                "fpt_esg_report_2025_p11_b_3"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 2117,
+          "completion_tokens": 174
+        },
+        "latency_ms": 1372.0189579762518,
+        "cost_usd": 0.000110751,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 2945,
+      "completion_tokens": 226
+    },
+    "cost_usd": 0.000144435,
+    "latency_s": 2.3403542079904582,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p30_b_3",
+      "fpt_esg_report_2025_p8_b_0",
+      "fpt_esg_report_2025_p11_b_3"
+    ],
+    "auto_context_hit": true
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "answerable": true,
+    "question": "Hệ thống học trực tuyến MOOCs của FPT ghi nhận quy mô giờ học và tỷ lệ hoàn thành như thế nào trong năm 2025?",
+    "filter": null,
+    "config": {
+      "split": "dev",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "Năm 2025, hệ thống MOOCs của FPT ghi nhận hơn 3 triệu giờ học với tỷ lệ hoàn thành đạt 99,7% [fpt_esg_report_2025_p31_b_0].",
+    "citations": [
+      "fpt_esg_report_2025_p31_b_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "hệ thống học trực tuyến MOOCs giờ học tỷ lệ hoàn thành",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p31_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 31,
+            "text": "Tại FPT, phát triển nguồn nhân lực được xác định là trụ cột chiến lược nhằm duy trì\nnăng lực cạnh tranh và vị thế công ty công nghệ đẳng cấp toàn cầu. Năm 2025,\nTập đoàn triển khai sâu rộng các chương trình đào tạo theo nhiều hình thức, nổi bật\nlà hệ thống MOOCs với hơn 3 triệu giờ học, tỷ lệ hoàn thành đạt 99,7%; 100%\nCBNV từ cấp 02 trở lên tham gia đào tạo thường niên và được cấp tài khoản học tập\ntrực tuyến. Tập đoàn cũng cung cấp hơn 63.000 tài khoản học tập trên các nền tảng\nuy tín như: Udemy, LinkedIn, Harvard, DataCamp, Coursera tạo điều kiện cho\nCBNV chủ động nâng cao năng lực chuyên môn và kỹ năng.\nBên cạnh đó, mô hình Mentor – Mentee tiếp tục được mở rộng, thu hút 1.581\nMentor và 10.606 Mentee tham gia với 209.138 giờ sinh hoạt, cao hơn 2,1 lần so với\nnăm 2024, góp phần lan tỏa t",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 25.119054350593753,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p45_b_2",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 45,
+            "text": "• Văn phòng không giấy tờ\n2022 2023 2024 2025\n7,1%\n92,9%\n17,6%\n82,4%\n78,9% 95,42%\n21,1% 4,58%\nTỷ lệ văn bản phát\nhành điện tử\nTỷ lệ văn bản cứng\nTỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025\n2025\n2024\n2023\n0 20 40 60 80 9070503010 100\n94,0%\n73,2%\n67,8%\n32,2%\n26,8%\n6,0%\nHọp trực tuyến\nHọp trực tiếp\nBên cạnh đó, Tập đoàn cũng khuyến khích CBNV sử dụng các giải pháp công nghệ\nhỗ trợ họp/trao đổi trực tuyến thay thế cho việc thường xuyên đi công tác để giảm\nlượng khí thải carbon từ phương tiện cá nhân.\nSố liệu biểu đồ phản ánh tỷ lệ các cuộc họp trực tuyến tại FPT tăng đều qua các\nnăm, đạt 94% vào năm 2025, phản ánh nỗ lực đẩy mạnh ứng dụng công nghệ số\ntrong quản trị và vận hành. Việc giảm tỷ lệ họp trực tiếp góp phần hạn chế nhu cầu\ndi chuyển, qua đó giảm tiêu thụ năng lượng",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 17.777532956416675,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p19_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 19,
+            "text": "Các quy trình quản trị chuẩn mực là công cụ quan trọng để Tập đoàn đảm bảo tính\ntuân thủ, hiệu quả trong việc thực hiện các mục tiêu phát triển bền vững nâng cao\nnăng lực cạnh tranh, vị thế cũng như mang lại giá trị cho các bên liên quan.\nNăm 2025, FPT tiếp tục đẩy mạnh triển khai phương pháp quản trị theo mục tiêu\nvà kết quả then chốt (OKRs) trên toàn Tập đoàn, bảo đảm sự thống nhất giữa mục\ntiêu của từng cá nhân với mục tiêu của phòng ban, công ty thành viên và Tập đoàn,\nqua đó bám sát chiến lược và định hướng chung, góp phần nâng cao hiệu quả\nhoạt động và năng suất lao động. Các mục tiêu và kết quả ở mọi cấp được cập\nnhật, theo dõi và đánh giá định kỳ trên công cụ quản lý OKRs trực tuyến, giúp đo\nlường chính xác mức độ hoàn thành theo kế hoạch chung. Tỷ lệ cá nhân hoàn\nthành việc thiết",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 13.789146411330593,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p31_b_0 | data/fpt_esg_report_2025.pdf | page 31]\nTại FPT, phát triển nguồn nhân lực được xác định là trụ cột chiến lược nhằm duy trì\nnăng lực cạnh tranh và vị thế công ty công nghệ đẳng cấp toàn cầu. Năm 2025,\nTập đoàn triển khai sâu rộng các chương trình đào tạo theo nhiều hình thức, nổi bật\nlà hệ thống MOOCs với hơn 3 triệu giờ học, tỷ lệ hoàn thành đạt 99,7%; 100%\nCBNV từ cấp 02 trở lên tham gia đào tạo thường niên và được cấp tài khoản học tập\ntrực tuyến. Tập đoàn cũng cung cấp hơn 63.000 tài khoản học tập trên các nền tảng\nuy tín như: Udemy, LinkedIn, Harvard, DataCamp, Coursera tạo điều kiện cho\nCBNV chủ động nâng cao năng lực chuyên môn và kỹ năng.\nBên cạnh đó, mô hình Mentor – Mentee tiếp tục được mở rộng, thu hút 1.581\nMentor và 10.606 Mentee tham gia với 209.138 giờ sinh hoạt, cao hơn 2,1 lần so với\nnăm 2024, góp phần lan tỏa t\n\n[fpt_esg_report_2025_p45_b_2 | data/fpt_esg_report_2025.pdf | page 45]\n• Văn phòng không giấy tờ\n2022 2023 2024 2025\n7,1%\n92,9%\n17,6%\n82,4%\n78,9% 95,42%\n21,1% 4,58%\nTỷ lệ văn bản phát\nhành điện tử\nTỷ lệ văn bản cứng\nTỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025\n2025\n2024\n2023\n0 20 40 60 80 9070503010 100\n94,0%\n73,2%\n67,8%\n32,2%\n26,8%\n6,0%\nHọp trực tuyến\nHọp trực tiếp\nBên cạnh đó, Tập đoàn cũng khuyến khích CBNV sử dụng các giải pháp công nghệ\nhỗ trợ họp/trao đổi trực tuyến thay thế cho việc thường xuyên đi công tác để giảm\nlượng khí thải carbon từ phương tiện cá nhân.\nSố liệu biểu đồ phản ánh tỷ lệ các cuộc họp trực tuyến tại FPT tăng đều qua các\nnăm, đạt 94% vào năm 2025, phản ánh nỗ lực đẩy mạnh ứng dụng công nghệ số\ntrong quản trị và vận hành. Việc giảm tỷ lệ họp trực tiếp góp phần hạn chế nhu cầu\ndi chuyển, qua đó giảm tiêu thụ năng lượng\n\n[fpt_esg_report_2025_p19_b_0 | data/fpt_esg_report_2025.pdf | page 19]\nCác quy trình quản trị chuẩn mực là công cụ quan trọng để Tập đoàn đảm bảo tính\ntuân thủ, hiệu quả trong việc thực hiện các mục tiêu phát triển bền vững nâng cao\nnăng lực cạnh tranh, vị thế cũng như mang lại giá trị cho các bên liên quan.\nNăm 2025, FPT tiếp tục đẩy mạnh triển khai phương pháp quản trị theo mục tiêu\nvà kết quả then chốt (OKRs) trên toàn Tập đoàn, bảo đảm sự thống nhất giữa mục\ntiêu của từng cá nhân với mục tiêu của phòng ban, công ty thành viên và Tập đoàn,\nqua đó bám sát chiến lược và định hướng chung, góp phần nâng cao hiệu quả\nhoạt động và năng suất lao động. Các mục tiêu và kết quả ở mọi cấp được cập\nnhật, theo dõi và đánh giá định kỳ trên công cụ quản lý OKRs trực tuyến, giúp đo\nlường chính xác mức độ hoàn thành theo kế hoạch chung. Tỷ lệ cá nhân hoàn\nthành việc thiết",
+        "context_ids": [
+          "fpt_esg_report_2025_p31_b_0",
+          "fpt_esg_report_2025_p45_b_2",
+          "fpt_esg_report_2025_p19_b_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_7FmGoLejHAdnfBwReJDc4274",
+            "name": "search",
+            "arguments": {
+              "query": "hệ thống học trực tuyến MOOCs giờ học tỷ lệ hoàn thành"
+            }
+          },
+          {
+            "id": "call_01_IKNgK6EeOhKK95q0PMH55887",
+            "name": "search",
+            "arguments": {
+              "query": "MOOCs 2025 số giờ học hoàn thành khóa học"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 841,
+          "completion_tokens": 95
+        },
+        "latency_ms": 899.9099160137121,
+        "cost_usd": 5.9523000000000006e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_lWjoZAprwXsJJLLNnoY05714",
+            "name": "answer",
+            "arguments": {
+              "answer": "Năm 2025, hệ thống MOOCs của FPT ghi nhận hơn 3 triệu giờ học với tỷ lệ hoàn thành đạt 99,7% [fpt_esg_report_2025_p31_b_0].",
+              "citations": [
+                "fpt_esg_report_2025_p31_b_0"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 2085,
+          "completion_tokens": 123
+        },
+        "latency_ms": 1186.5284999948926,
+        "cost_usd": 8.005499999999999e-05,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 2926,
+      "completion_tokens": 218
+    },
+    "cost_usd": 0.000139578,
+    "latency_s": 2.089869791001547,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p31_b_0",
+      "fpt_esg_report_2025_p45_b_2",
+      "fpt_esg_report_2025_p19_b_0"
+    ],
+    "auto_context_hit": true
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "answerable": true,
+    "question": "Trong quản trị chuỗi cung ứng, tỷ lệ nhà cung cấp trọng yếu tham gia đánh giá CSR năm 2025 là bao nhiêu và so với năm 2024 thế nào?",
+    "filter": {
+      "pillar": "Governance"
+    },
+    "config": {
+      "split": "dev",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "Năm 2025, 42% nhà cung cấp trọng yếu tham gia đánh giá CSR trên Cổng Hệ thống mua sắm FPT, tăng mạnh so với tỷ lệ 18% của năm 2024 [fpt_esg_report_2025_p21_b_0].",
+    "citations": [
+      "fpt_esg_report_2025_p21_b_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "nhà cung cấp trọng yếu tham gia đánh giá CSR",
+        "filter": {
+          "pillar": "Governance"
+        },
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p21_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 21,
+            "text": "Năm 2025, Tập đoàn thúc đẩy thực hành mua sắm\nbền vững trong toàn bộ chuỗi cung ứng, với các kết\nquả nổi bật như sau:\n\n• 42% nhà cung cấp trọng yếu tham gia đánh giá\nCSR trên Cổng Hệ thống mua sắm FPT, tăng mạnh\nso với tỷ lệ 18% của năm 2024;\n\n• 97% nhà cung cấp đạt yêu cầu theo các tiêu chí\nđánh giá với điểm trung bình trên 04 (thang điểm 05);",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 22.494825840210325,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p16_b_3",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 16,
+            "text": "• Triển khai đánh giá CSR 42% nhà cung cấp trọng yếu\ncủa Tập đoàn.\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n15",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 16.79017589190603,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p10_b_2",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 10,
+            "text": "• Triển khai đồng bộ hệ thống CNTT mua sắm tập trung, các quy\ntrình mua hàng và chính sách mua sắm bền vững, trong đó ưu tiên\nhàng hóa, dịch vụ và nhà cung cấp đáp ứng các tiêu chí xanh;\n\n• Triển khai đánh giá CSR 42% nhà cung cấp trọng yếu của\nTập đoàn;\n\n• Đào tạo, hướng dẫn về phát triển bền vững, mục tiêu mua sắm bền\nvững tới toàn bộ đội ngũ lãnh đạo và cán bộ quản lý mua sắm.\nKết quả nổi bật 2025\nQUẢN TRỊ XUẤT SẮC ( Tiếp theo)",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 15.815079800482362,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p21_b_0 | data/fpt_esg_report_2025.pdf | page 21]\nNăm 2025, Tập đoàn thúc đẩy thực hành mua sắm\nbền vững trong toàn bộ chuỗi cung ứng, với các kết\nquả nổi bật như sau:\n\n• 42% nhà cung cấp trọng yếu tham gia đánh giá\nCSR trên Cổng Hệ thống mua sắm FPT, tăng mạnh\nso với tỷ lệ 18% của năm 2024;\n\n• 97% nhà cung cấp đạt yêu cầu theo các tiêu chí\nđánh giá với điểm trung bình trên 04 (thang điểm 05);\n\n[fpt_esg_report_2025_p16_b_3 | data/fpt_esg_report_2025.pdf | page 16]\n• Triển khai đánh giá CSR 42% nhà cung cấp trọng yếu\ncủa Tập đoàn.\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n15\n\n[fpt_esg_report_2025_p10_b_2 | data/fpt_esg_report_2025.pdf | page 10]\n• Triển khai đồng bộ hệ thống CNTT mua sắm tập trung, các quy\ntrình mua hàng và chính sách mua sắm bền vững, trong đó ưu tiên\nhàng hóa, dịch vụ và nhà cung cấp đáp ứng các tiêu chí xanh;\n\n• Triển khai đánh giá CSR 42% nhà cung cấp trọng yếu của\nTập đoàn;\n\n• Đào tạo, hướng dẫn về phát triển bền vững, mục tiêu mua sắm bền\nvững tới toàn bộ đội ngũ lãnh đạo và cán bộ quản lý mua sắm.\nKết quả nổi bật 2025\nQUẢN TRỊ XUẤT SẮC ( Tiếp theo)",
+        "context_ids": [
+          "fpt_esg_report_2025_p21_b_0",
+          "fpt_esg_report_2025_p16_b_3",
+          "fpt_esg_report_2025_p10_b_2"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_tEm3RxY3A3WREx9G2gg39452",
+            "name": "search",
+            "arguments": {
+              "query": "nhà cung cấp trọng yếu tham gia đánh giá CSR"
+            }
+          },
+          {
+            "id": "call_01_23VlhprTpDyk6phCKVX99856",
+            "name": "search",
+            "arguments": {
+              "query": "chuỗi cung ứng đánh giá nhà cung cấp 2025 2024"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 854,
+          "completion_tokens": 104
+        },
+        "latency_ms": 1105.2387499948964,
+        "cost_usd": 6.4962e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_IuTVGCpL1AConciRTFmg9651",
+            "name": "answer",
+            "arguments": {
+              "answer": "Năm 2025, 42% nhà cung cấp trọng yếu tham gia đánh giá CSR trên Cổng Hệ thống mua sắm FPT, tăng mạnh so với tỷ lệ 18% của năm 2024 [fpt_esg_report_2025_p21_b_0].",
+              "citations": [
+                "fpt_esg_report_2025_p21_b_0"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 1556,
+          "completion_tokens": 147
+        },
+        "latency_ms": 1137.091166980099,
+        "cost_usd": 9.2868e-05,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 2410,
+      "completion_tokens": 251
+    },
+    "cost_usd": 0.00015783000000000003,
+    "latency_s": 2.246345708001172,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p21_b_0",
+      "fpt_esg_report_2025_p16_b_3",
+      "fpt_esg_report_2025_p10_b_2"
+    ],
+    "auto_context_hit": true
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "answerable": true,
+    "question": "Đối với phát triển bền vững, FPT xác định bao nhiêu nhóm rủi ro chính và gồm những nhóm nào?",
+    "filter": null,
+    "config": {
+      "split": "dev",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "Tập đoàn xác định có 05 nhóm rủi ro chính đối với phát triển bền vững, gồm: Rủi ro chiến lược, Rủi ro hoạt động, Rủi ro tài chính và Rủi ro luật định, Rủi ro môi trường – thiên tai – dịch bệnh [fpt_esg_report_2025_p24_b_0].",
+    "citations": [
+      "fpt_esg_report_2025_p24_b_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "nhóm rủi ro chính phát triển bền vững",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p24_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 24,
+            "text": "Căn cứ đặc thù từng lĩnh vực kinh doanh, khung quản lý rủi ro của Tập đoàn được\nTổng giám đốc chỉ đạo xây dựng, phê duyệt và cải tiến định kỳ hàng năm. Trong đó,\nđối với phát triển bền vững, Tập đoàn xác định có 05 nhóm rủi ro chính bao gồm:\nRủi ro chiến lược, Rủi ro hoạt động, Rủi ro tài chính và Rủi ro luật định, Rủi ro môi trường\n– thiên tai – dịch bệnh.\nNăm 2025, Tập đoàn và công ty thành viên tiếp tục tăng cường công tác kiểm\nsoát rủi ro thông qua việc hoàn thiện hệ thống kiểm soát nội bộ và chính sách quản lý\nrủi ro; giám sát tuân thủ pháp luật trong hoạt động sản xuất kinh doanh; thực hiện\nkiểm tra định kỳ và đột xuất; quản trị minh bạch quan hệ với đối tác, nhà cung cấp;\nđồng thời chủ động đề xuất các giải pháp phòng ngừa rủi ro tiềm tàng trong tương lai.\nQuản trị rủi ro",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 15.38991843627747,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p26_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 26,
+            "text": "• Rủi ro tài chính\nNội dung Biện pháp quản trịTên rủi ro\nRủi ro tỷ giá • Theo dõi sát biến động của các nhân tố chính tác động lên tỷ giá, đa dạng các nguồn thu ngoại tệ;\n\n• Áp dụng các chính sách phòng ngừa tỷ giá, đặc biệt với Yên Nhật;\n\n• Áp dụng các hợp đồng hoán đổi tiền tệ để phòng ngừa rủi ro tỷ giá với các khoản vay bằng ngoại tệ;\n\n• Áp dụng các chính sách bán hàng linh hoạt dựa trên biến động tỷ giá.\nBiến động tỷ giá tại các\nthị trường trọng điểm.\nRủi ro kinh doanh\nthông thường\nRủi ro liên quan\nđến các chính sách\n\n• Chuẩn hóa quy trình kinh doanh và hợp đồng, kiểm soát chặt chẽ công nợ, tồn kho nhằm hạn chế rủi ro phát sinh;\n\n• Ứng dụng công nghệ và AI trong dự báo nhu cầu, quản lý thanh toán, tối ưu mua sắm và phát hiện giao dịch bất\nthường;",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 11.393688014622079,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p25_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 25,
+            "text": "• Rủi ro hoạt động\nNội dung Biện pháp quản trịTên rủi ro\nRủi ro về\ncông bố thông tin\n\n• Cập nhật đầy đủ các quy định liên quan đến công bố thông tin đối với công ty niêm yết;\n\n• Xây dựng quy trình nội bộ về cung cấp và công bố thông tin nhằm đảm bảo thông tin công bố được báo cáo\nchính xác, kịp thời, đúng thời hạn;\n\n• Thường xuyên trao đổi với đại diện phụ trách công bố thông tin của Ủy ban Chứng khoán Nhà nước, Sở giao dịch\nChứng khoán Tp.Hồ Chí Minh để kiểm tra tính đầy đủ và chính xác của thông tin công bố.\nThông tin công bố không\nđúng thời hạn và không\nđầy đủ, chính xác.\nRủi ro về\nnguồn nhân lực\n\n• Xây dựng FPT thành tổ chức học tập, phát triển lực lượng lao động có trình độ cao, quy hoạch nhân sự quản lý\nvới định hướng lâu dài;",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 10.533408866200979,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p24_b_0 | data/fpt_esg_report_2025.pdf | page 24]\nCăn cứ đặc thù từng lĩnh vực kinh doanh, khung quản lý rủi ro của Tập đoàn được\nTổng giám đốc chỉ đạo xây dựng, phê duyệt và cải tiến định kỳ hàng năm. Trong đó,\nđối với phát triển bền vững, Tập đoàn xác định có 05 nhóm rủi ro chính bao gồm:\nRủi ro chiến lược, Rủi ro hoạt động, Rủi ro tài chính và Rủi ro luật định, Rủi ro môi trường\n– thiên tai – dịch bệnh.\nNăm 2025, Tập đoàn và công ty thành viên tiếp tục tăng cường công tác kiểm\nsoát rủi ro thông qua việc hoàn thiện hệ thống kiểm soát nội bộ và chính sách quản lý\nrủi ro; giám sát tuân thủ pháp luật trong hoạt động sản xuất kinh doanh; thực hiện\nkiểm tra định kỳ và đột xuất; quản trị minh bạch quan hệ với đối tác, nhà cung cấp;\nđồng thời chủ động đề xuất các giải pháp phòng ngừa rủi ro tiềm tàng trong tương lai.\nQuản trị rủi ro\n\n[fpt_esg_report_2025_p26_b_0 | data/fpt_esg_report_2025.pdf | page 26]\n• Rủi ro tài chính\nNội dung Biện pháp quản trịTên rủi ro\nRủi ro tỷ giá • Theo dõi sát biến động của các nhân tố chính tác động lên tỷ giá, đa dạng các nguồn thu ngoại tệ;\n\n• Áp dụng các chính sách phòng ngừa tỷ giá, đặc biệt với Yên Nhật;\n\n• Áp dụng các hợp đồng hoán đổi tiền tệ để phòng ngừa rủi ro tỷ giá với các khoản vay bằng ngoại tệ;\n\n• Áp dụng các chính sách bán hàng linh hoạt dựa trên biến động tỷ giá.\nBiến động tỷ giá tại các\nthị trường trọng điểm.\nRủi ro kinh doanh\nthông thường\nRủi ro liên quan\nđến các chính sách\n\n• Chuẩn hóa quy trình kinh doanh và hợp đồng, kiểm soát chặt chẽ công nợ, tồn kho nhằm hạn chế rủi ro phát sinh;\n\n• Ứng dụng công nghệ và AI trong dự báo nhu cầu, quản lý thanh toán, tối ưu mua sắm và phát hiện giao dịch bất\nthường;\n\n[fpt_esg_report_2025_p25_b_0 | data/fpt_esg_report_2025.pdf | page 25]\n• Rủi ro hoạt động\nNội dung Biện pháp quản trịTên rủi ro\nRủi ro về\ncông bố thông tin\n\n• Cập nhật đầy đủ các quy định liên quan đến công bố thông tin đối với công ty niêm yết;\n\n• Xây dựng quy trình nội bộ về cung cấp và công bố thông tin nhằm đảm bảo thông tin công bố được báo cáo\nchính xác, kịp thời, đúng thời hạn;\n\n• Thường xuyên trao đổi với đại diện phụ trách công bố thông tin của Ủy ban Chứng khoán Nhà nước, Sở giao dịch\nChứng khoán Tp.Hồ Chí Minh để kiểm tra tính đầy đủ và chính xác của thông tin công bố.\nThông tin công bố không\nđúng thời hạn và không\nđầy đủ, chính xác.\nRủi ro về\nnguồn nhân lực\n\n• Xây dựng FPT thành tổ chức học tập, phát triển lực lượng lao động có trình độ cao, quy hoạch nhân sự quản lý\nvới định hướng lâu dài;",
+        "context_ids": [
+          "fpt_esg_report_2025_p24_b_0",
+          "fpt_esg_report_2025_p26_b_0",
+          "fpt_esg_report_2025_p25_b_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_83OJwCqcszM7oVRsYHjc0945",
+            "name": "search",
+            "arguments": {
+              "query": "nhóm rủi ro chính phát triển bền vững"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 836,
+          "completion_tokens": 51
+        },
+        "latency_ms": 1066.7099170095753,
+        "cost_usd": 3.3107999999999995e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_mKEl3KzhKbN1coQrxqdu6748",
+            "name": "answer",
+            "arguments": {
+              "answer": "Tập đoàn xác định có 05 nhóm rủi ro chính đối với phát triển bền vững, gồm: Rủi ro chiến lược, Rủi ro hoạt động, Rủi ro tài chính và Rủi ro luật định, Rủi ro môi trường – thiên tai – dịch bệnh [fpt_esg_report_2025_p24_b_0].",
+              "citations": [
+                "fpt_esg_report_2025_p24_b_0"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 1988,
+          "completion_tokens": 169
+        },
+        "latency_ms": 1026.1431660037488,
+        "cost_usd": 0.00010736399999999998,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 2824,
+      "completion_tokens": 220
+    },
+    "cost_usd": 0.000140472,
+    "latency_s": 2.095290583994938,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p24_b_0",
+      "fpt_esg_report_2025_p26_b_0",
+      "fpt_esg_report_2025_p25_b_0"
+    ],
+    "auto_context_hit": true
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "answerable": true,
+    "question": "FPT đã triển khai bao nhiêu hệ thống điện mặt trời mái nhà và tổng sản lượng đạt bao nhiêu?",
+    "filter": {
+      "pillar": "Environment"
+    },
+    "config": {
+      "split": "dev",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "Trong năm 2025, FPT triển khai 02 hệ thống điện mặt trời mái nhà (tại tòa nhà F-Complex, Đà Nẵng và Data Center, Tp.Hồ Chí Minh) với tổng sản lượng 842.749 kWh [fpt_esg_report_2025_p12_b_0][fpt_esg_report_2025_p40_b_2].",
+    "citations": [
+      "fpt_esg_report_2025_p12_b_0",
+      "fpt_esg_report_2025_p40_b_2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "điện mặt trời mái nhà số hệ thống sản lượng",
+        "filter": {
+          "pillar": "Environment"
+        },
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p40_b_3",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 40,
+            "text": "• Biện pháp giảm phát thải khí nhà kính\nĐơn vị: kWh\nĐiện mặt trời mái nhà\nChênh lệch\n-8,58%\n-\n-\nNăm 2025\n187.453.013\n842.749\n0,45%\nNăm 2024\n205.053.314\n0\n0%\nDanh mục\nTiêu thụ điện\nĐiện từ năng lượng tái tạo\nTỷ lệ điện từ năng lượng tái\ntạo so với điện tiêu thụ\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n39\nHệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng).",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 21.79562043678896,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p12_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 12,
+            "text": "HOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nVÌ SỰ PHÁT TRIỂN CỦA CỘNG ĐỒNG\nCam kết Mục tiêuVấn đềtrọng yếu\nBảo vệ\nmôi trường\nKhông ngừng cải thiện môi trường\nlàm việc hướng tới môi trường làm\nviệc xanh, an toàn, lành mạnh.\n\n• Mục tiêu trung hạn: đến năm 2030,\ngiảm 15,8% tổng lượng phát thải\nkhí nhà kính phù hợp với mục tiêu\nchung của Việt Nam;\n\n• Mục tiêu dài hạn: đến năm 2040\nđạt Net Zero như cam kết của\nChính phủ Việt Nam tại COP 26.\n\n• Chuẩn hóa phương pháp kiểm kê số liệu phát thải khí\nnhà kính cho Phạm vi 1 và Phạm vi 2; thực hiện kiểm kê và\ntheo dõi số liệu toàn Tập đoàn định kỳ theo quý;\n\n• 100% số liệu sử dụng năng lượng được giám sát;\n\n• Triển khai 02 hệ thống điện mặt trời mái nhà với tổng\nsản lượng 842.749 kWh;",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 18.136034935283647,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p40_b_2",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 40,
+            "text": "đầu tư và từng bước xây dựng các hệ thống năng lượng sạch đã đóng\nvai trò quan trọng, không chỉ giúp giảm nhu cầu sử dụng điện từ nguồn truyền\nthống mà còn tạo nền tảng cho quá trình chuyển dịch năng lượng bền vững trong\ndài hạn. Các nỗ lực này cho thấy cách tiếp cận toàn diện của Tập đoàn, kết hợp\nđồng thời giữa giải pháp công nghệ, yếu tố con người và định hướng đầu tư hạ tầng,\ngóp phần hiện thực hóa các mục tiêu sử dụng năng lượng hiệu quả và giảm phát\nthải trong lộ trình Net Zero.\nTrong năm 2025, FPT hoàn thành và đưa vào hoạt động hai hệ thống điện mặt trời\nmái nhà tại tòa nhà F-Complex (Đà Nẵng) và Data Center (Tp.Hồ Chí Minh) tạo ra\n842.749 kWh điện.\nBảng tổng hợp so sánh kết quả tiêu thụ điện",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 16.67950317282861,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p40_b_3 | data/fpt_esg_report_2025.pdf | page 40]\n• Biện pháp giảm phát thải khí nhà kính\nĐơn vị: kWh\nĐiện mặt trời mái nhà\nChênh lệch\n-8,58%\n-\n-\nNăm 2025\n187.453.013\n842.749\n0,45%\nNăm 2024\n205.053.314\n0\n0%\nDanh mục\nTiêu thụ điện\nĐiện từ năng lượng tái tạo\nTỷ lệ điện từ năng lượng tái\ntạo so với điện tiêu thụ\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n39\nHệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng).\n\n[fpt_esg_report_2025_p12_b_0 | data/fpt_esg_report_2025.pdf | page 12]\nHOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nVÌ SỰ PHÁT TRIỂN CỦA CỘNG ĐỒNG\nCam kết Mục tiêuVấn đềtrọng yếu\nBảo vệ\nmôi trường\nKhông ngừng cải thiện môi trường\nlàm việc hướng tới môi trường làm\nviệc xanh, an toàn, lành mạnh.\n\n• Mục tiêu trung hạn: đến năm 2030,\ngiảm 15,8% tổng lượng phát thải\nkhí nhà kính phù hợp với mục tiêu\nchung của Việt Nam;\n\n• Mục tiêu dài hạn: đến năm 2040\nđạt Net Zero như cam kết của\nChính phủ Việt Nam tại COP 26.\n\n• Chuẩn hóa phương pháp kiểm kê số liệu phát thải khí\nnhà kính cho Phạm vi 1 và Phạm vi 2; thực hiện kiểm kê và\ntheo dõi số liệu toàn Tập đoàn định kỳ theo quý;\n\n• 100% số liệu sử dụng năng lượng được giám sát;\n\n• Triển khai 02 hệ thống điện mặt trời mái nhà với tổng\nsản lượng 842.749 kWh;\n\n[fpt_esg_report_2025_p40_b_2 | data/fpt_esg_report_2025.pdf | page 40]\nđầu tư và từng bước xây dựng các hệ thống năng lượng sạch đã đóng\nvai trò quan trọng, không chỉ giúp giảm nhu cầu sử dụng điện từ nguồn truyền\nthống mà còn tạo nền tảng cho quá trình chuyển dịch năng lượng bền vững trong\ndài hạn. Các nỗ lực này cho thấy cách tiếp cận toàn diện của Tập đoàn, kết hợp\nđồng thời giữa giải pháp công nghệ, yếu tố con người và định hướng đầu tư hạ tầng,\ngóp phần hiện thực hóa các mục tiêu sử dụng năng lượng hiệu quả và giảm phát\nthải trong lộ trình Net Zero.\nTrong năm 2025, FPT hoàn thành và đưa vào hoạt động hai hệ thống điện mặt trời\nmái nhà tại tòa nhà F-Complex (Đà Nẵng) và Data Center (Tp.Hồ Chí Minh) tạo ra\n842.749 kWh điện.\nBảng tổng hợp so sánh kết quả tiêu thụ điện",
+        "context_ids": [
+          "fpt_esg_report_2025_p40_b_3",
+          "fpt_esg_report_2025_p12_b_0",
+          "fpt_esg_report_2025_p40_b_2"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_Sb5vw47sLlXUfbvRoqxj7662",
+            "name": "search",
+            "arguments": {
+              "query": "điện mặt trời mái nhà số hệ thống sản lượng"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 834,
+          "completion_tokens": 52
+        },
+        "latency_ms": 646.3715829886496,
+        "cost_usd": 3.3702e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_V7t3SXSMiutP1Qa4yfSi8567",
+            "name": "answer",
+            "arguments": {
+              "answer": "Trong năm 2025, FPT triển khai 02 hệ thống điện mặt trời mái nhà (tại tòa nhà F-Complex, Đà Nẵng và Data Center, Tp.Hồ Chí Minh) với tổng sản lượng 842.749 kWh [fpt_esg_report_2025_p12_b_0][fpt_esg_report_2025_p40_b_2].",
+              "citations": [
+                "fpt_esg_report_2025_p12_b_0",
+                "fpt_esg_report_2025_p40_b_2"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 1917,
+          "completion_tokens": 182
+        },
+        "latency_ms": 1229.374624992488,
+        "cost_usd": 0.000114951,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 2751,
+      "completion_tokens": 234
+    },
+    "cost_usd": 0.000148653,
+    "latency_s": 1.8771726249833591,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p40_b_3",
+      "fpt_esg_report_2025_p12_b_0",
+      "fpt_esg_report_2025_p40_b_2"
+    ],
+    "auto_context_hit": true
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "answerable": true,
+    "question": "Năm 2025, chỉ số tiêu thụ nước của FPT thay đổi như thế nào so với năm 2024?",
+    "filter": null,
+    "config": {
+      "split": "dev",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "Năm 2025, chỉ số tiêu thụ nước của FPT tăng 0,48% so với năm 2024 (từ 827.940 lên 831.885, tức tăng 3.945 đơn vị) [fpt_esg_report_2025_p42_b_0][fpt_esg_report_2025_p42_b_3].",
+    "citations": [
+      "fpt_esg_report_2025_p42_b_0",
+      "fpt_esg_report_2025_p42_b_3"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "tiêu thụ nước 2025 so với 2024",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p42_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 42,
+            "text": "Bảng tổng hợp so sánh kết quả tiêu thụ nước\nNăm 2025, chỉ số tiêu thụ nước của FPT chỉ tăng 0,48% so với năm 2024. Mức tăng\nnày được đánh giá là tích cực trong bối cảnh Tập đoàn tiếp tục mở rộng quy mô\nhoạt động và tăng trưởng kinh doanh, đồng thời phản ánh tính hiệu quả của các\nbiện pháp quản lý và sử dụng nước được triển khai đồng bộ như sau:\n• Tuân thủ các quy định của cơ quan quản lý về xử lý và tái chế nước thải;\n• Thực hiện quan trắc chất lượng nước sinh hoạt 1 tháng/lần, nước thải 3 tháng/lần\nvà lập báo cáo gửi cơ quan quản lý theo đúng quy định;\n• Bổ sung chế phẩm vi sinh nhằm nâng cao hiệu quả xử lý nước tại bể tự hoại;",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 13.240766401687464,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p42_b_3",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 42,
+            "text": "máy phun xoay chiều tự động được áp dụng trên tất cả khu vực cây\nxanh trong các tòa nhà để giảm thiểu việc sử dụng nước và đảm bảo sự phát triển\ncủa hệ thống cây xanh mang lại môi trường làm việc thân thiện với thiên nhiên.\nĐối với nguồn nước sử dụng từ hệ thống nước sạch của thành phố, FPT luôn đảm bảo\nthực hiện các quy định thống nhất trong các tòa nhà, campus về tiết kiệm và\nsử dụng nước. Các khu vực chung sử dụng vòi nước cảm ứng tự động tắt khi không\nsử dụng và phát động phong trào sử dụng nước tiết kiệm tại các văn phòng trên\ntoàn hệ thống.\nQuản lý nước thải và các nguồn phát thải khác\n• Quản lý nước, nước thải\nChênh lệch\nNăm 2024\n827.940\nNăm 2025\n831.885\nMức tiêu thụ\n3.945\nTỷ lệ\n0,48%\nNăm 2023\n774.152\nDanh mục\nTiêu thụ nước\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 9.438229933170046,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p40_b_3",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 40,
+            "text": "• Biện pháp giảm phát thải khí nhà kính\nĐơn vị: kWh\nĐiện mặt trời mái nhà\nChênh lệch\n-8,58%\n-\n-\nNăm 2025\n187.453.013\n842.749\n0,45%\nNăm 2024\n205.053.314\n0\n0%\nDanh mục\nTiêu thụ điện\nĐiện từ năng lượng tái tạo\nTỷ lệ điện từ năng lượng tái\ntạo so với điện tiêu thụ\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n39\nHệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng).",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 9.421456579986486,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p42_b_0 | data/fpt_esg_report_2025.pdf | page 42]\nBảng tổng hợp so sánh kết quả tiêu thụ nước\nNăm 2025, chỉ số tiêu thụ nước của FPT chỉ tăng 0,48% so với năm 2024. Mức tăng\nnày được đánh giá là tích cực trong bối cảnh Tập đoàn tiếp tục mở rộng quy mô\nhoạt động và tăng trưởng kinh doanh, đồng thời phản ánh tính hiệu quả của các\nbiện pháp quản lý và sử dụng nước được triển khai đồng bộ như sau:\n• Tuân thủ các quy định của cơ quan quản lý về xử lý và tái chế nước thải;\n• Thực hiện quan trắc chất lượng nước sinh hoạt 1 tháng/lần, nước thải 3 tháng/lần\nvà lập báo cáo gửi cơ quan quản lý theo đúng quy định;\n• Bổ sung chế phẩm vi sinh nhằm nâng cao hiệu quả xử lý nước tại bể tự hoại;\n\n[fpt_esg_report_2025_p42_b_3 | data/fpt_esg_report_2025.pdf | page 42]\nmáy phun xoay chiều tự động được áp dụng trên tất cả khu vực cây\nxanh trong các tòa nhà để giảm thiểu việc sử dụng nước và đảm bảo sự phát triển\ncủa hệ thống cây xanh mang lại môi trường làm việc thân thiện với thiên nhiên.\nĐối với nguồn nước sử dụng từ hệ thống nước sạch của thành phố, FPT luôn đảm bảo\nthực hiện các quy định thống nhất trong các tòa nhà, campus về tiết kiệm và\nsử dụng nước. Các khu vực chung sử dụng vòi nước cảm ứng tự động tắt khi không\nsử dụng và phát động phong trào sử dụng nước tiết kiệm tại các văn phòng trên\ntoàn hệ thống.\nQuản lý nước thải và các nguồn phát thải khác\n• Quản lý nước, nước thải\nChênh lệch\nNăm 2024\n827.940\nNăm 2025\n831.885\nMức tiêu thụ\n3.945\nTỷ lệ\n0,48%\nNăm 2023\n774.152\nDanh mục\nTiêu thụ nước\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng\n\n[fpt_esg_report_2025_p40_b_3 | data/fpt_esg_report_2025.pdf | page 40]\n• Biện pháp giảm phát thải khí nhà kính\nĐơn vị: kWh\nĐiện mặt trời mái nhà\nChênh lệch\n-8,58%\n-\n-\nNăm 2025\n187.453.013\n842.749\n0,45%\nNăm 2024\n205.053.314\n0\n0%\nDanh mục\nTiêu thụ điện\nĐiện từ năng lượng tái tạo\nTỷ lệ điện từ năng lượng tái\ntạo so với điện tiêu thụ\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n39\nHệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng).",
+        "context_ids": [
+          "fpt_esg_report_2025_p42_b_0",
+          "fpt_esg_report_2025_p42_b_3",
+          "fpt_esg_report_2025_p40_b_3"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_BtHM8z5APpc9PoSuwazX2822",
+            "name": "search",
+            "arguments": {
+              "query": "tiêu thụ nước 2025 so với 2024"
+            }
+          },
+          {
+            "id": "call_01_xJ6QpGJgQcpkh0ENaMC67810",
+            "name": "search",
+            "arguments": {
+              "query": "chỉ số nước cấp nước tiêu thụ nước FPT"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 831,
+          "completion_tokens": 93
+        },
+        "latency_ms": 1222.6419580110814,
+        "cost_usd": 5.8293e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_WRN5l1iWfTvXUhS2u4uj6232",
+            "name": "answer",
+            "arguments": {
+              "answer": "Năm 2025, chỉ số tiêu thụ nước của FPT tăng 0,48% so với năm 2024 (từ 827.940 lên 831.885, tức tăng 3.945 đơn vị) [fpt_esg_report_2025_p42_b_0][fpt_esg_report_2025_p42_b_3].",
+              "citations": [
+                "fpt_esg_report_2025_p42_b_0",
+                "fpt_esg_report_2025_p42_b_3"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 1918,
+          "completion_tokens": 171
+        },
+        "latency_ms": 1056.6201669862494,
+        "cost_usd": 0.000108354,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 2749,
+      "completion_tokens": 264
+    },
+    "cost_usd": 0.000166647,
+    "latency_s": 2.281246625003405,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p42_b_0",
+      "fpt_esg_report_2025_p42_b_3",
+      "fpt_esg_report_2025_p40_b_3"
+    ],
+    "auto_context_hit": true
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "answerable": true,
+    "question": "Trung tâm bồi dưỡng tài năng trẻ FPT (FYT) hiện có bao nhiêu thành viên và năm 2025 đã cấp bao nhiêu suất học bổng?",
+    "filter": null,
+    "config": {
+      "split": "dev",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "FYT hiện có 646 thành viên [fpt_esg_report_2025_p48_b_0]. Trong năm 2025, FYT đã cấp 38 suất học bổng với số tiền 912 triệu đồng [fpt_esg_report_2025_p48_b_0][fpt_esg_report_2025_p17_b_1].",
+    "citations": [
+      "fpt_esg_report_2025_p48_b_0",
+      "fpt_esg_report_2025_p17_b_1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Trung tâm bồi dưỡng tài năng trẻ FPT FYT thành viên học bổng",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p48_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 48,
+            "text": "Tạo cơ hội học tập, phát triển tài năng trẻ cho đất nước\n26 năm qua, thông qua Trung tâm bồi dưỡng tài năng trẻ FPT (FYT), Tập đoàn đã\nbền bỉ tạo điều kiện cho sinh viên có thành tích học tập cao, đạt giải thưởng quốc\ngia, quốc tế phát triển một cách toàn diện và trưởng thành qua các dự án lớn. FYT\nhiện có 646 thành viên, trong đó, có rất nhiều thành viên đã trưởng thành và trở\nthành những nhà sáng lập, nhà quản lý, nhà khoa học và chuyên gia có tầm ảnh\nhưởng trong và ngoài nước. Trong năm 2025, FYT đã cấp 38 suất học bổng với số\ntiền 912 triệu đồng, đồng thời hỗ trợ chi phí, cơ sở vật chất, kết nối cựu thành viên\nlà các chuyên gia trong một số lĩnh vực giúp các thành viên theo đuổi khát vọng,\nmở rộng kết nối, phát triển các kỹ năng mềm thiết yếu cho tương lai.",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 32.24712338190839,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p48_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 48,
+            "text": "• Trung tâm bồi dưỡng tài năng trẻ FPT\nVới mong muốn giúp thế hệ trẻ có cơ hội học tập, tiếp cận công nghệ mới, phát triển\ntài năng, FPT triển khai thường niên học bổng Nguyễn Văn Đạo từ năm 2010 đến\nnay. Riêng trong năm 2025, đã có 8.875 học bổng được trao tới các sinh viên có\nhoàn cảnh khó khăn đạt thành tích học tập xuất sắc hoặc có tài năng nổi trội tại\nnhiều tỉnh thành trên toàn quốc, với tổng giá trị 151 tỷ đồng.",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 31.41683188408983,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p17_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 17,
+            "text": "• Cấp 38 học bổng với tổng số tiền tương ứng 912 triệu đồng hỗ trợ các thành viên Trung tâm bồi dưỡng tài năng trẻ FPT\n(FYT), đồng thời hỗ trợ chi phí, cơ sở vật chất, kết nối chuyên gia trong một số lĩnh vực giúp các thành viên theo đuổi\nkhát vọng, mở rộng kết nối, phát triển các kỹ năng mềm thiết yếu cho tương lai;\n\n• Tiếp tục triển khai học bổng thường niên Nguyễn Văn Đạo với 8.875 học bổng cho các sinh viên có hoàn cảnh khó khăn\nđạt thành tích học tập xuất sắc hoặc có tài năng nổi trội tại nhiều tỉnh thành trên toàn quốc.\n\n• Báo chí và các cơ quan truyền thông\nKết quả năm 2025Chương trình hành động nổi bật\nThường xuyên, chủ động cung cấp thông tin\ncho báo chí, thông qua: bản tin FPT, thông cáo\nbáo chí, họp báo, bài viết…",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 31.140206220115346,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p48_b_0 | data/fpt_esg_report_2025.pdf | page 48]\nTạo cơ hội học tập, phát triển tài năng trẻ cho đất nước\n26 năm qua, thông qua Trung tâm bồi dưỡng tài năng trẻ FPT (FYT), Tập đoàn đã\nbền bỉ tạo điều kiện cho sinh viên có thành tích học tập cao, đạt giải thưởng quốc\ngia, quốc tế phát triển một cách toàn diện và trưởng thành qua các dự án lớn. FYT\nhiện có 646 thành viên, trong đó, có rất nhiều thành viên đã trưởng thành và trở\nthành những nhà sáng lập, nhà quản lý, nhà khoa học và chuyên gia có tầm ảnh\nhưởng trong và ngoài nước. Trong năm 2025, FYT đã cấp 38 suất học bổng với số\ntiền 912 triệu đồng, đồng thời hỗ trợ chi phí, cơ sở vật chất, kết nối cựu thành viên\nlà các chuyên gia trong một số lĩnh vực giúp các thành viên theo đuổi khát vọng,\nmở rộng kết nối, phát triển các kỹ năng mềm thiết yếu cho tương lai.\n\n[fpt_esg_report_2025_p48_b_1 | data/fpt_esg_report_2025.pdf | page 48]\n• Trung tâm bồi dưỡng tài năng trẻ FPT\nVới mong muốn giúp thế hệ trẻ có cơ hội học tập, tiếp cận công nghệ mới, phát triển\ntài năng, FPT triển khai thường niên học bổng Nguyễn Văn Đạo từ năm 2010 đến\nnay. Riêng trong năm 2025, đã có 8.875 học bổng được trao tới các sinh viên có\nhoàn cảnh khó khăn đạt thành tích học tập xuất sắc hoặc có tài năng nổi trội tại\nnhiều tỉnh thành trên toàn quốc, với tổng giá trị 151 tỷ đồng.\n\n[fpt_esg_report_2025_p17_b_1 | data/fpt_esg_report_2025.pdf | page 17]\n• Cấp 38 học bổng với tổng số tiền tương ứng 912 triệu đồng hỗ trợ các thành viên Trung tâm bồi dưỡng tài năng trẻ FPT\n(FYT), đồng thời hỗ trợ chi phí, cơ sở vật chất, kết nối chuyên gia trong một số lĩnh vực giúp các thành viên theo đuổi\nkhát vọng, mở rộng kết nối, phát triển các kỹ năng mềm thiết yếu cho tương lai;\n\n• Tiếp tục triển khai học bổng thường niên Nguyễn Văn Đạo với 8.875 học bổng cho các sinh viên có hoàn cảnh khó khăn\nđạt thành tích học tập xuất sắc hoặc có tài năng nổi trội tại nhiều tỉnh thành trên toàn quốc.\n\n• Báo chí và các cơ quan truyền thông\nKết quả năm 2025Chương trình hành động nổi bật\nThường xuyên, chủ động cung cấp thông tin\ncho báo chí, thông qua: bản tin FPT, thông cáo\nbáo chí, họp báo, bài viết…",
+        "context_ids": [
+          "fpt_esg_report_2025_p48_b_0",
+          "fpt_esg_report_2025_p48_b_1",
+          "fpt_esg_report_2025_p17_b_1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_4NCphNOrlTy2iyNJ3u0s8858",
+            "name": "search",
+            "arguments": {
+              "query": "Trung tâm bồi dưỡng tài năng trẻ FPT FYT thành viên học bổng"
+            }
+          },
+          {
+            "id": "call_01_PDreQtD8RLZu9HTdSTO82617",
+            "name": "search",
+            "arguments": {
+              "query": "FYT số lượng thành viên 2025 suất học bổng"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 851,
+          "completion_tokens": 105
+        },
+        "latency_ms": 1029.9826670088805,
+        "cost_usd": 6.5553e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_YYSyuIZENsXw56OMtxnE4231",
+            "name": "answer",
+            "arguments": {
+              "answer": "FYT hiện có 646 thành viên [fpt_esg_report_2025_p48_b_0]. Trong năm 2025, FYT đã cấp 38 suất học bổng với số tiền 912 triệu đồng [fpt_esg_report_2025_p48_b_0][fpt_esg_report_2025_p17_b_1].",
+              "citations": [
+                "fpt_esg_report_2025_p48_b_0",
+                "fpt_esg_report_2025_p17_b_1"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 1857,
+          "completion_tokens": 171
+        },
+        "latency_ms": 1416.9464589795098,
+        "cost_usd": 0.00010817099999999999,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 2708,
+      "completion_tokens": 276
+    },
+    "cost_usd": 0.000173724,
+    "latency_s": 2.448474792006891,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p48_b_0",
+      "fpt_esg_report_2025_p48_b_1",
+      "fpt_esg_report_2025_p17_b_1"
+    ],
+    "auto_context_hit": true
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "answerable": true,
+    "question": "Chiến dịch “Cùng đồng bào vượt lũ” thu được bao nhiêu tiền hỗ trợ và tái thiết bao nhiêu điểm trường?",
+    "filter": null,
+    "config": {
+      "split": "dev",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "Chiến dịch “Cùng đồng bào vượt lũ” do FPT phát động thu được số tiền hỗ trợ hơn 05 tỷ đồng và giúp tái thiết 26 điểm trường tại Nghệ An, Thanh Hóa, Lào Cai (cũ), Tuyên Quang (cũ) – những điểm trường bị thiệt hại nặng sau bão trong năm 2025 [fpt_esg_report_2025_p50_b_0].",
+    "citations": [
+      "fpt_esg_report_2025_p50_b_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Cùng đồng bào vượt lũ",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p50_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 50,
+            "text": "Chiến dịch “Cùng đồng bào vượt lũ” do FPT phát động\nđã thu hút được sự sẻ chia từ hàng nghìn CBNV trong\nvà ngoài nước với số tiền hỗ trợ hơn 05 tỷ đồng, giúp\ntái thiết 26 điểm trường tại Nghệ An, Thanh Hóa,\nLào Cai (cũ), Tuyên Quang (cũ) – những điểm trường\nbị thiệt hại nặng sau bão trong năm 2025.\n\n• Cùng đồng bào vượt lũ tái thiết\n26 điểm trường thiệt hại nặng\nTừ năm 2018, FPT đồng hành cùng chương trình\n“Nâng bước em đến trường” do Quỹ Hy Vọng\nkhởi xướng, tham gia xây dựng các cây cầu bê tông\nkiên cố tại khu vực Đồng bằng sông Cửu Long, góp\nphần đảm bảo an toàn cho học sinh đến trường, đồng\nthời nâng cao chất lượng sống và cải thiện an sinh xã\nhội tại các địa phương. Năm 2025, FPT đã đóng góp\n08 tỷ đồng cho Chương trình.",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 21.07149717880062,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p50_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 50,
+            "text": "• Chương trình Nâng bước em đến trường\nVới ý nghĩa tạo những hiệu ứng tích cực cho xã hội,\nFPT không chỉ chú trọng vào những hoạt động cứu trợ\ntrong tình huống khẩn cấp mà còn tham gia cũng như\ntrực tiếp triển khai nhiều chương trình truyền cảm hứng,\nmang lại lợi ích lâu dài cho cộng đồng.\nKết nối cộng đồng hạnh phúc\nChiến dịch “Cùng đồng bào vượt lũ” do FPT phát động\nđã thu hút được sự sẻ chia từ hàng nghìn CBNV trong\nvà ngoài nước với số tiền hỗ trợ hơn 05 tỷ đồng,\ngiúp tái thiết 26 điểm trường tại Nghệ An, Thanh\nHóa, Lào Cai (cũ), Tuyên Quang (cũ) – những điểm\ntrường bị thiệt hại nặng sau bão trong năm 2025.",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 15.70748759722483,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p17_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 17,
+            "text": "• Cộng đồng\nKết quả năm 2025Chương trình hành động nổi bật\nChung tay cùng cộng đồng vượt qua\nthách thức vì một cuộc sống tốt đẹp hơn\n\n• Trường Hy Vọng nhận giải thưởng Hành động vì cộng đồng ở hạng mục Dự án kịp thời;\n\n• 15 năm liên tiếp triển khai Ngày FPT vì cộng đồng;\n\n• 26 điểm trường thiệt hại nặng được tái thiết kịp thời sau lũ;\n\n• Triển khai dự án máy khử rung tim tự động cho cộng đồng đầu tiên tại Việt Nam;\n\n• Tiếp tục đồng hành cùng chương trình “Nâng bước em đến trường” (Quỹ Hy Vọng khởi xướng) xây dựng cầu bê tông\nkiên cố tại khu vực Đồng bằng sông Cửu Long. Năm 2025, FPT đã đóng góp 08 tỷ đồng cho Chương trình.\nTriển khai các chương trình trao học bổng,\nhỗ trợ tài năng trẻ",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 11.958364604411463,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p50_b_0 | data/fpt_esg_report_2025.pdf | page 50]\nChiến dịch “Cùng đồng bào vượt lũ” do FPT phát động\nđã thu hút được sự sẻ chia từ hàng nghìn CBNV trong\nvà ngoài nước với số tiền hỗ trợ hơn 05 tỷ đồng, giúp\ntái thiết 26 điểm trường tại Nghệ An, Thanh Hóa,\nLào Cai (cũ), Tuyên Quang (cũ) – những điểm trường\nbị thiệt hại nặng sau bão trong năm 2025.\n\n• Cùng đồng bào vượt lũ tái thiết\n26 điểm trường thiệt hại nặng\nTừ năm 2018, FPT đồng hành cùng chương trình\n“Nâng bước em đến trường” do Quỹ Hy Vọng\nkhởi xướng, tham gia xây dựng các cây cầu bê tông\nkiên cố tại khu vực Đồng bằng sông Cửu Long, góp\nphần đảm bảo an toàn cho học sinh đến trường, đồng\nthời nâng cao chất lượng sống và cải thiện an sinh xã\nhội tại các địa phương. Năm 2025, FPT đã đóng góp\n08 tỷ đồng cho Chương trình.\n\n[fpt_esg_report_2025_p50_b_1 | data/fpt_esg_report_2025.pdf | page 50]\n• Chương trình Nâng bước em đến trường\nVới ý nghĩa tạo những hiệu ứng tích cực cho xã hội,\nFPT không chỉ chú trọng vào những hoạt động cứu trợ\ntrong tình huống khẩn cấp mà còn tham gia cũng như\ntrực tiếp triển khai nhiều chương trình truyền cảm hứng,\nmang lại lợi ích lâu dài cho cộng đồng.\nKết nối cộng đồng hạnh phúc\nChiến dịch “Cùng đồng bào vượt lũ” do FPT phát động\nđã thu hút được sự sẻ chia từ hàng nghìn CBNV trong\nvà ngoài nước với số tiền hỗ trợ hơn 05 tỷ đồng,\ngiúp tái thiết 26 điểm trường tại Nghệ An, Thanh\nHóa, Lào Cai (cũ), Tuyên Quang (cũ) – những điểm\ntrường bị thiệt hại nặng sau bão trong năm 2025.\n\n[fpt_esg_report_2025_p17_b_0 | data/fpt_esg_report_2025.pdf | page 17]\n• Cộng đồng\nKết quả năm 2025Chương trình hành động nổi bật\nChung tay cùng cộng đồng vượt qua\nthách thức vì một cuộc sống tốt đẹp hơn\n\n• Trường Hy Vọng nhận giải thưởng Hành động vì cộng đồng ở hạng mục Dự án kịp thời;\n\n• 15 năm liên tiếp triển khai Ngày FPT vì cộng đồng;\n\n• 26 điểm trường thiệt hại nặng được tái thiết kịp thời sau lũ;\n\n• Triển khai dự án máy khử rung tim tự động cho cộng đồng đầu tiên tại Việt Nam;\n\n• Tiếp tục đồng hành cùng chương trình “Nâng bước em đến trường” (Quỹ Hy Vọng khởi xướng) xây dựng cầu bê tông\nkiên cố tại khu vực Đồng bằng sông Cửu Long. Năm 2025, FPT đã đóng góp 08 tỷ đồng cho Chương trình.\nTriển khai các chương trình trao học bổng,\nhỗ trợ tài năng trẻ",
+        "context_ids": [
+          "fpt_esg_report_2025_p50_b_0",
+          "fpt_esg_report_2025_p50_b_1",
+          "fpt_esg_report_2025_p17_b_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_71NRJZyFqF451TB9eAaq5019",
+            "name": "search",
+            "arguments": {
+              "query": "Cùng đồng bào vượt lũ"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 840,
+          "completion_tokens": 46
+        },
+        "latency_ms": 819.6251250046771,
+        "cost_usd": 3.0119999999999996e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_wnGf4rMTFxrIJXbRwkil8447",
+            "name": "answer",
+            "arguments": {
+              "answer": "Chiến dịch “Cùng đồng bào vượt lũ” do FPT phát động thu được số tiền hỗ trợ hơn 05 tỷ đồng và giúp tái thiết 26 điểm trường tại Nghệ An, Thanh Hóa, Lào Cai (cũ), Tuyên Quang (cũ) – những điểm trường bị thiệt hại nặng sau bão trong năm 2025 [fpt_esg_report_2025_p50_b_0].",
+              "citations": [
+                "fpt_esg_report_2025_p50_b_0"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 1885,
+          "completion_tokens": 185
+        },
+        "latency_ms": 1073.8920829899143,
+        "cost_usd": 0.000116655,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 2725,
+      "completion_tokens": 231
+    },
+    "cost_usd": 0.000146775,
+    "latency_s": 1.895211166003719,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p50_b_0",
+      "fpt_esg_report_2025_p50_b_1",
+      "fpt_esg_report_2025_p17_b_0"
+    ],
+    "auto_context_hit": true
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "answerable": true,
+    "question": "Về độ tuổi lao động, FPT có cam kết loại trừ nhóm đối tượng nào?",
+    "filter": {
+      "pillar": "Social"
+    },
+    "config": {
+      "split": "dev",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "FPT cam kết không sử dụng lao động dưới 18 tuổi [fpt_esg_report_2025_p30_b_0], đồng thời cam kết không sử dụng lao động trẻ em trong tất cả các hoạt động sản xuất kinh doanh [fpt_esg_report_2025_p34_b_4].",
+    "citations": [
+      "fpt_esg_report_2025_p30_b_0",
+      "fpt_esg_report_2025_p34_b_4"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "độ tuổi lao động loại trừ lao động trẻ em",
+        "filter": {
+          "pillar": "Social"
+        },
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p30_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 30,
+            "text": "alaysia, Mexico, Philippines, tăng 18% so với cùng kỳ.\nTrong bối cảnh thị trường lao động có nhiều biến động, FPT vẫn duy trì sự ổn định\nvề nhân sự với tỷ lệ nghỉ việc chủ động ở mức 15,4%, nằm trong ngưỡng kiểm soát\nan toàn, bảo đảm tính liên tục của hoạt động kinh doanh. Cơ cấu nhân sự cho thấy\nsự cân bằng và kế thừa bền vững, với 43,9% nhân sự dưới 30 tuổi, 13,0% trên 40\ntuổi, 53,2% cán bộ quản lý dưới 40 tuổi. Nhân sự có trình độ đại học và sau đại học\nchiếm trên 84% tổng số nhân sự toàn Tập đoàn.\nMÔI TRƯỜNG LÀM VIỆC ĐẲNG CẤP, HẠNH PHÚC\nSự đa dạng, công bằng và hoà hợp\nNhân sự dưới 30 tuổi\n43,9%\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát tr",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 14.591369102559941,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p30_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 30,
+            "text": "• Sự đa dạng về văn hóa, màu da, sắc tộc, độ tuổi, trình độ\nLà tập đoàn toàn cầu, FPT phát huy hiệu quả nguồn nhân lực đa dạng, tạo nền tảng\nvững chắc cho tăng trưởng dài hạn và năng lực cạnh tranh bền vững, đồng thời\nxây dựng môi trường làm việc chuyên nghiệp, thu hút và giữ chân nhân tài. Tập đoàn\nbảo đảm cơ hội việc làm bình đẳng, góp phần thu hẹp khoảng cách phát triển giữa\ncác vùng miền, tuân thủ đầy đủ quy định pháp luật và cam kết không sử dụng lao động\ndưới 18 tuổi.\nFPT sở hữu nguồn nhân lực đa dạng về văn hóa, quốc tịch, độ tuổi, trình độ….\nĐây cũng là yếu tố quan trọng tạo lợi thế cạnh tranh bền vững cho FPT. Tính đến hết\nnăm 2025, FPT có 54.110 nhân sự làm việc tại hơn 30 quốc gia, trong đó, có 4.124\nnhân sự người nước ngoài với 82 quốc tịch, chủ yếu từ Mỹ, Nhật Bản, Slovakia,\nM",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 13.889120410496508,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p34_b_4",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 34,
+            "text": "• Các chính sách phúc lợi khác\nVới triết lý đem lại cho mỗi thành viên một cuộc sống đầy đủ về vật chất, phong phú về tinh thần và tạo điều kiện phát triển tài năng tốt nhất, FPT cam kết xây dựng một môi\ntrường làm việc công bằng, minh bạch, giữ vững nguyên tắc bình đẳng nam nữ trong việc tuyển dụng, sử dụng, đào tạo, trả lương, cơ hội thăng tiến…. Đồng thời, Tập đoàn\ncam kết không phân biệt đối xử, không sử dụng lao động cưỡng bức cũng như lao động trẻ em trong tất cả các hoạt động sản xuất kinh doanh của FPT.\nLiên tục cải thiện chính sách lương thưởng và phúc lợi\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀ",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 13.504574977112778,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p30_b_1 | data/fpt_esg_report_2025.pdf | page 30]\nalaysia, Mexico, Philippines, tăng 18% so với cùng kỳ.\nTrong bối cảnh thị trường lao động có nhiều biến động, FPT vẫn duy trì sự ổn định\nvề nhân sự với tỷ lệ nghỉ việc chủ động ở mức 15,4%, nằm trong ngưỡng kiểm soát\nan toàn, bảo đảm tính liên tục của hoạt động kinh doanh. Cơ cấu nhân sự cho thấy\nsự cân bằng và kế thừa bền vững, với 43,9% nhân sự dưới 30 tuổi, 13,0% trên 40\ntuổi, 53,2% cán bộ quản lý dưới 40 tuổi. Nhân sự có trình độ đại học và sau đại học\nchiếm trên 84% tổng số nhân sự toàn Tập đoàn.\nMÔI TRƯỜNG LÀM VIỆC ĐẲNG CẤP, HẠNH PHÚC\nSự đa dạng, công bằng và hoà hợp\nNhân sự dưới 30 tuổi\n43,9%\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát tr\n\n[fpt_esg_report_2025_p30_b_0 | data/fpt_esg_report_2025.pdf | page 30]\n• Sự đa dạng về văn hóa, màu da, sắc tộc, độ tuổi, trình độ\nLà tập đoàn toàn cầu, FPT phát huy hiệu quả nguồn nhân lực đa dạng, tạo nền tảng\nvững chắc cho tăng trưởng dài hạn và năng lực cạnh tranh bền vững, đồng thời\nxây dựng môi trường làm việc chuyên nghiệp, thu hút và giữ chân nhân tài. Tập đoàn\nbảo đảm cơ hội việc làm bình đẳng, góp phần thu hẹp khoảng cách phát triển giữa\ncác vùng miền, tuân thủ đầy đủ quy định pháp luật và cam kết không sử dụng lao động\ndưới 18 tuổi.\nFPT sở hữu nguồn nhân lực đa dạng về văn hóa, quốc tịch, độ tuổi, trình độ….\nĐây cũng là yếu tố quan trọng tạo lợi thế cạnh tranh bền vững cho FPT. Tính đến hết\nnăm 2025, FPT có 54.110 nhân sự làm việc tại hơn 30 quốc gia, trong đó, có 4.124\nnhân sự người nước ngoài với 82 quốc tịch, chủ yếu từ Mỹ, Nhật Bản, Slovakia,\nM\n\n[fpt_esg_report_2025_p34_b_4 | data/fpt_esg_report_2025.pdf | page 34]\n• Các chính sách phúc lợi khác\nVới triết lý đem lại cho mỗi thành viên một cuộc sống đầy đủ về vật chất, phong phú về tinh thần và tạo điều kiện phát triển tài năng tốt nhất, FPT cam kết xây dựng một môi\ntrường làm việc công bằng, minh bạch, giữ vững nguyên tắc bình đẳng nam nữ trong việc tuyển dụng, sử dụng, đào tạo, trả lương, cơ hội thăng tiến…. Đồng thời, Tập đoàn\ncam kết không phân biệt đối xử, không sử dụng lao động cưỡng bức cũng như lao động trẻ em trong tất cả các hoạt động sản xuất kinh doanh của FPT.\nLiên tục cải thiện chính sách lương thưởng và phúc lợi\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀ",
+        "context_ids": [
+          "fpt_esg_report_2025_p30_b_1",
+          "fpt_esg_report_2025_p30_b_0",
+          "fpt_esg_report_2025_p34_b_4"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_rrfTQyArZV37PBOEsCV93173",
+            "name": "search",
+            "arguments": {
+              "query": "độ tuổi lao động loại trừ lao động trẻ em"
+            }
+          },
+          {
+            "id": "call_01_iDfD3HmixsTDlbJ1POUo4999",
+            "name": "search",
+            "arguments": {
+              "query": "cam kết không sử dụng lao động trẻ em"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 827,
+          "completion_tokens": 91
+        },
+        "latency_ms": 831.5432500094175,
+        "cost_usd": 5.7081000000000005e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_DJQvdvNhqNosHkqj1mvQ8031",
+            "name": "answer",
+            "arguments": {
+              "answer": "FPT cam kết không sử dụng lao động dưới 18 tuổi [fpt_esg_report_2025_p30_b_0], đồng thời cam kết không sử dụng lao động trẻ em trong tất cả các hoạt động sản xuất kinh doanh [fpt_esg_report_2025_p34_b_4].",
+              "citations": [
+                "fpt_esg_report_2025_p30_b_0",
+                "fpt_esg_report_2025_p34_b_4"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 2129,
+          "completion_tokens": 167
+        },
+        "latency_ms": 1254.5510829950217,
+        "cost_usd": 0.000106587,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 2956,
+      "completion_tokens": 258
+    },
+    "cost_usd": 0.000163668,
+    "latency_s": 2.0877781659946777,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p30_b_1",
+      "fpt_esg_report_2025_p30_b_0",
+      "fpt_esg_report_2025_p34_b_4"
+    ],
+    "auto_context_hit": true
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "answerable": true,
+    "question": "FPT nhận được chứng chỉ ISO/IEC nào liên quan đến hệ thống quản lý trí tuệ nhân tạo?",
+    "filter": null,
+    "config": {
+      "split": "dev",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "answered",
+    "answer": "FPT nhận được chứng chỉ ISO/IEC 42001:2023 – tiêu chuẩn toàn cầu đầu tiên về Hệ thống quản lý Trí tuệ nhân tạo (AIMS) [fpt_esg_report_2025_p19_b_1][fpt_esg_report_2025_p4_b_0].",
+    "citations": [
+      "fpt_esg_report_2025_p19_b_1",
+      "fpt_esg_report_2025_p4_b_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "chứng chỉ ISO/IEC hệ thống quản lý trí tuệ nhân tạo",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p20_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 20,
+            "text": "Chứng chỉ/Chứng nhậnKhốiKinh doanhSTT\nTập đoàn1 • ISO 9001:2015: Tiêu chuẩn Hệ thống quản lý chất lượng; • OKRs: Bộ tiêu chuẩn đánh giá chất lượng theo mục tiêu và kết quả\nthen chốt.\nKhối\nCông nghệ\n2 • ISO 9001:2015: Tiêu chuẩn Hệ thống quản lý chất lượng;\n\n• ISO/IEC 27001:2022 Hệ thống Quản lý an ninh thông tin;\n\n• ISO 22301: Tiêu chuẩn về Hệ thống quản lý liên tục trong kinh doanh;\n\n• ISO/IEC 27017: Quy tắc thực hành về kiểm soát an toàn thông tin cho các\ndịch vụ đám mây dựa trên ISO/IEC 27002;\n\n• HIPAA: Đạo luật về Trách nhiệm giải trình và cung cấp thông tin bảo hiểm\ny tế 1996 của Mỹ;\n\n• CMMiDEV/5: Mô hình năng lực thuần thục tích hợp cấp độ 5;\n\n• ISO/IEC 20000-1:2018: Tiêu chuẩn Quản lý dịch vụ công nghệ thông tin;",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 21.98245257661039,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p19_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 19,
+            "text": "lập và báo cáo mục tiêu duy trì ở mức cao, từ 95% đến 97% qua\ncác kỳ đánh giá.\nBên cạnh đó, hoạt động của Tập đoàn và từng lĩnh vực kinh doanh cốt lõi áp dụng và\nđạt được các chứng nhận tiêu chuẩn quốc tế uy tín.\nQUẢN TRỊ HƯỚNG ĐẾN PHÁT TRIỂN BỀN VỮNG\nÁp dụng các quy trình quản trị theo chuẩn quốc tế\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n18\nFPT nhận được chứng chỉ ISO/IEC 42001:2023 - tiêu chuẩn toàn cầu đầu tiên về Hệ thống quản lý Trí tuệ nhân tạo.",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 21.728322226960007,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p4_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 4,
+            "text": "Môi trường làm việc\nđẳng cấp\nNơi làm việc\ntốt nhất Việt Nam\nTop 10\nViệc làm ổn định\n54.110\nNhân sự người\nnước ngoài\n(82 quốc tịch)\n4.124\nDấu ấn nổi bật\nCán bộ quản lý nữ\n36,4%\nGiờ học nâng cao\nkiến thức kỹ năng AI\n1,1 triệu\nDoanh nghiệp Việt Nam\ncó chất lượng quản trị\ncông ty tốt nhất ASEAN\nTop 5\nISO 27001:2013\nHệ thống quản lý\nan toàn thông tin\nISO 14001:2015\nHệ thống quản lý\nmôi trường\nISO 45001:2018\nHệ thống an toàn\nsức khoẻ\nISO 14064:2018\nTiêu chuẩn đo lường\nvà quản lý phát thải\nkhí nhà kính\nISO/IEC\n42001:2023\nTiêu chuẩn dành cho\nhệ thống quản lý trí tuệ\nnhân tạo (AIMS)\nHoạt động\nvì môi trường xanh\n02\nTổng sản lượng\n842.749\nkWh\nCơ sở được giám sát\nphát thải khí\nnhà kính định kỳ\n100%\nHệ thống điện\nmặt trời mái nhà\nTrách nhiệm\nxã hội\n15 năm\nLiên tiếp triển khai\nNgày FPT vì cộng đồng\n26\nĐ",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 20.392082510833248,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p20_b_0 | data/fpt_esg_report_2025.pdf | page 20]\nChứng chỉ/Chứng nhậnKhốiKinh doanhSTT\nTập đoàn1 • ISO 9001:2015: Tiêu chuẩn Hệ thống quản lý chất lượng; • OKRs: Bộ tiêu chuẩn đánh giá chất lượng theo mục tiêu và kết quả\nthen chốt.\nKhối\nCông nghệ\n2 • ISO 9001:2015: Tiêu chuẩn Hệ thống quản lý chất lượng;\n\n• ISO/IEC 27001:2022 Hệ thống Quản lý an ninh thông tin;\n\n• ISO 22301: Tiêu chuẩn về Hệ thống quản lý liên tục trong kinh doanh;\n\n• ISO/IEC 27017: Quy tắc thực hành về kiểm soát an toàn thông tin cho các\ndịch vụ đám mây dựa trên ISO/IEC 27002;\n\n• HIPAA: Đạo luật về Trách nhiệm giải trình và cung cấp thông tin bảo hiểm\ny tế 1996 của Mỹ;\n\n• CMMiDEV/5: Mô hình năng lực thuần thục tích hợp cấp độ 5;\n\n• ISO/IEC 20000-1:2018: Tiêu chuẩn Quản lý dịch vụ công nghệ thông tin;\n\n[fpt_esg_report_2025_p19_b_1 | data/fpt_esg_report_2025.pdf | page 19]\nlập và báo cáo mục tiêu duy trì ở mức cao, từ 95% đến 97% qua\ncác kỳ đánh giá.\nBên cạnh đó, hoạt động của Tập đoàn và từng lĩnh vực kinh doanh cốt lõi áp dụng và\nđạt được các chứng nhận tiêu chuẩn quốc tế uy tín.\nQUẢN TRỊ HƯỚNG ĐẾN PHÁT TRIỂN BỀN VỮNG\nÁp dụng các quy trình quản trị theo chuẩn quốc tế\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n18\nFPT nhận được chứng chỉ ISO/IEC 42001:2023 - tiêu chuẩn toàn cầu đầu tiên về Hệ thống quản lý Trí tuệ nhân tạo.\n\n[fpt_esg_report_2025_p4_b_0 | data/fpt_esg_report_2025.pdf | page 4]\nMôi trường làm việc\nđẳng cấp\nNơi làm việc\ntốt nhất Việt Nam\nTop 10\nViệc làm ổn định\n54.110\nNhân sự người\nnước ngoài\n(82 quốc tịch)\n4.124\nDấu ấn nổi bật\nCán bộ quản lý nữ\n36,4%\nGiờ học nâng cao\nkiến thức kỹ năng AI\n1,1 triệu\nDoanh nghiệp Việt Nam\ncó chất lượng quản trị\ncông ty tốt nhất ASEAN\nTop 5\nISO 27001:2013\nHệ thống quản lý\nan toàn thông tin\nISO 14001:2015\nHệ thống quản lý\nmôi trường\nISO 45001:2018\nHệ thống an toàn\nsức khoẻ\nISO 14064:2018\nTiêu chuẩn đo lường\nvà quản lý phát thải\nkhí nhà kính\nISO/IEC\n42001:2023\nTiêu chuẩn dành cho\nhệ thống quản lý trí tuệ\nnhân tạo (AIMS)\nHoạt động\nvì môi trường xanh\n02\nTổng sản lượng\n842.749\nkWh\nCơ sở được giám sát\nphát thải khí\nnhà kính định kỳ\n100%\nHệ thống điện\nmặt trời mái nhà\nTrách nhiệm\nxã hội\n15 năm\nLiên tiếp triển khai\nNgày FPT vì cộng đồng\n26\nĐ",
+        "context_ids": [
+          "fpt_esg_report_2025_p20_b_0",
+          "fpt_esg_report_2025_p19_b_1",
+          "fpt_esg_report_2025_p4_b_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_FBTiJ092HTYIYuUKBd7J6737",
+            "name": "search",
+            "arguments": {
+              "query": "chứng chỉ ISO/IEC hệ thống quản lý trí tuệ nhân tạo"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 831,
+          "completion_tokens": 56
+        },
+        "latency_ms": 1213.8042919978034,
+        "cost_usd": 3.6093e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_c3B4dnbncuKzcRaq3bZT9180",
+            "name": "answer",
+            "arguments": {
+              "answer": "FPT nhận được chứng chỉ ISO/IEC 42001:2023 – tiêu chuẩn toàn cầu đầu tiên về Hệ thống quản lý Trí tuệ nhân tạo (AIMS) [fpt_esg_report_2025_p19_b_1][fpt_esg_report_2025_p4_b_0].",
+              "citations": [
+                "fpt_esg_report_2025_p19_b_1",
+                "fpt_esg_report_2025_p4_b_0"
+              ]
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 2049,
+          "completion_tokens": 165
+        },
+        "latency_ms": 1359.8567080043722,
+        "cost_usd": 0.000105147,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "tokens": {
+      "prompt_tokens": 2880,
+      "completion_tokens": 221
+    },
+    "cost_usd": 0.00014124,
+    "latency_s": 2.578361583990045,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p20_b_0",
+      "fpt_esg_report_2025_p19_b_1",
+      "fpt_esg_report_2025_p4_b_0"
+    ],
+    "auto_context_hit": true
+  },
+  {
+    "query_id": "u01",
+    "split": "dev",
+    "answerable": false,
+    "question": "Tổng doanh thu hợp nhất năm 2025 của FPT là bao nhiêu tỷ đồng?",
+    "filter": null,
+    "config": {
+      "split": "dev",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "tổng doanh thu hợp nhất năm 2025",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p45_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 45,
+            "text": "Năm 2025, FPT không chỉ tập trung vào việc hỗ trợ các doanh nghiệp khác chuyển\nmình thành doanh nghiệp xanh mà còn mạnh mẽ thúc đẩy quá trình chuyển đổi số\nnội bộ để tối ưu hóa hoạt động và gián tiếp giảm thiểu tác động tiêu cực đến môi trường.\nĐặc biệt, hầu hết các quy trình quản trị và vận hành của Tập đoàn được số hóa,\nchuyển sang mô hình doanh nghiệp thông minh và hiệu quả hơn.\nNgoài ra, FPT triển khai kế hoạch sử dụng văn bản điện tử (Paperless), bắt đầu với\nviệc rà soát toàn bộ tài liệu và phân loại các tài liệu cần ký số hoặc ký bản cứng.\nNăm 2025, tỷ lệ sử dụng paperless tại FPT đạt 95,42%, đặc biệt, hợp đồng giao dịch\nđiện tử chiếm khoảng 97% tổng số hợp đồng ký kết. So với năm 2024, các chỉ số\nnày ghi nhận mức cải thiện rõ rệt, giúp tiết kiệm chi phí, thời gian và góp phần bảo vệ",
+            "metadata": {
+              "pillar": "Environment",
+              "strategy": "B"
+            },
+            "score": 5.13906358886041,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p47_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 47,
+            "text": "Song song với việc duy trì tăng trưởng kinh tế bền vững, FPT nhất quán triển khai\ncác hoạt động trách nhiệm xã hội dài hạn lấy con người, đặc biệt là thế hệ trẻ làm\ntrung tâm và hướng tới tạo giá trị dài hạn cho cộng đồng.\nTrên nền tảng triết lý phát triển gắn kết lợi ích doanh nghiệp với lợi ích xã hội, các\nchương trình của FPT được triển khai xuyên suốt nhiều năm, với quy mô ngày càng\nmở rộng và bám sát các Mục tiêu Phát triển Bền vững của Liên Hợp Quốc.\nVới sự đồng hành của CBNV, năm 2025, FPT đã đóng góp 72,8 tỷ đồng cho các\nhoạt động trách nhiệm xã hội, mang lại giá trị vật chất và tinh thần thiết thực cho\n97.300 người trên phạm vi toàn quốc.\nCác chương trình trọng tâm tập trung vào lan tỏa tinh thần trách nhiệm cộng đồng,\nmở rộng cơ hội học tập, phát triển tài năng trẻ và thu hẹp kho",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 5.0862739379788,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p34_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 34,
+            "text": "• Lương theo chức danh công việc được xây dựng dựa trên báo cáo khảo sát lương\ncủa một số công ty tư vấn nhân sự uy tín trên thế giới và điều chỉnh theo chức danh\ncông việc phù hợp với sự phát triển của FPT, thị trường lao động và chỉ số lạm phát\n(CPI) của Việt Nam. Bên cạnh đó, người lao động còn có thể nhận được tháng\nlương thứ 13;\n\n• Lương theo hiệu quả kinh doanh và theo thành tích công việc được ghi nhận,\nkhen thưởng kịp thời, công bằng và minh bạch. Đặc biệt trong những năm vừa qua,\nFPT đã triển khai chính sách khoán thu nhập, theo đó thu nhập hàng tháng/quý\nsẽ thay đổi theo kết quả công việc thực tế. Bên cạnh đó, Tập đoàn đặc biệt\nkhuyến khích các hoạt động khởi nghiệp trong doanh nghiệp với cam kết tỷ lệ\nthưởng hấp dẫn;",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 4.976120193625898,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p45_b_0 | data/fpt_esg_report_2025.pdf | page 45]\nNăm 2025, FPT không chỉ tập trung vào việc hỗ trợ các doanh nghiệp khác chuyển\nmình thành doanh nghiệp xanh mà còn mạnh mẽ thúc đẩy quá trình chuyển đổi số\nnội bộ để tối ưu hóa hoạt động và gián tiếp giảm thiểu tác động tiêu cực đến môi trường.\nĐặc biệt, hầu hết các quy trình quản trị và vận hành của Tập đoàn được số hóa,\nchuyển sang mô hình doanh nghiệp thông minh và hiệu quả hơn.\nNgoài ra, FPT triển khai kế hoạch sử dụng văn bản điện tử (Paperless), bắt đầu với\nviệc rà soát toàn bộ tài liệu và phân loại các tài liệu cần ký số hoặc ký bản cứng.\nNăm 2025, tỷ lệ sử dụng paperless tại FPT đạt 95,42%, đặc biệt, hợp đồng giao dịch\nđiện tử chiếm khoảng 97% tổng số hợp đồng ký kết. So với năm 2024, các chỉ số\nnày ghi nhận mức cải thiện rõ rệt, giúp tiết kiệm chi phí, thời gian và góp phần bảo vệ\n\n[fpt_esg_report_2025_p47_b_0 | data/fpt_esg_report_2025.pdf | page 47]\nSong song với việc duy trì tăng trưởng kinh tế bền vững, FPT nhất quán triển khai\ncác hoạt động trách nhiệm xã hội dài hạn lấy con người, đặc biệt là thế hệ trẻ làm\ntrung tâm và hướng tới tạo giá trị dài hạn cho cộng đồng.\nTrên nền tảng triết lý phát triển gắn kết lợi ích doanh nghiệp với lợi ích xã hội, các\nchương trình của FPT được triển khai xuyên suốt nhiều năm, với quy mô ngày càng\nmở rộng và bám sát các Mục tiêu Phát triển Bền vững của Liên Hợp Quốc.\nVới sự đồng hành của CBNV, năm 2025, FPT đã đóng góp 72,8 tỷ đồng cho các\nhoạt động trách nhiệm xã hội, mang lại giá trị vật chất và tinh thần thiết thực cho\n97.300 người trên phạm vi toàn quốc.\nCác chương trình trọng tâm tập trung vào lan tỏa tinh thần trách nhiệm cộng đồng,\nmở rộng cơ hội học tập, phát triển tài năng trẻ và thu hẹp kho\n\n[fpt_esg_report_2025_p34_b_1 | data/fpt_esg_report_2025.pdf | page 34]\n• Lương theo chức danh công việc được xây dựng dựa trên báo cáo khảo sát lương\ncủa một số công ty tư vấn nhân sự uy tín trên thế giới và điều chỉnh theo chức danh\ncông việc phù hợp với sự phát triển của FPT, thị trường lao động và chỉ số lạm phát\n(CPI) của Việt Nam. Bên cạnh đó, người lao động còn có thể nhận được tháng\nlương thứ 13;\n\n• Lương theo hiệu quả kinh doanh và theo thành tích công việc được ghi nhận,\nkhen thưởng kịp thời, công bằng và minh bạch. Đặc biệt trong những năm vừa qua,\nFPT đã triển khai chính sách khoán thu nhập, theo đó thu nhập hàng tháng/quý\nsẽ thay đổi theo kết quả công việc thực tế. Bên cạnh đó, Tập đoàn đặc biệt\nkhuyến khích các hoạt động khởi nghiệp trong doanh nghiệp với cam kết tỷ lệ\nthưởng hấp dẫn;",
+        "context_ids": [
+          "fpt_esg_report_2025_p45_b_0",
+          "fpt_esg_report_2025_p47_b_0",
+          "fpt_esg_report_2025_p34_b_1"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "doanh thu hợp nhất 2025 tỷ đồng kết quả kinh doanh",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p26_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 26,
+            "text": "• Rủi ro tài chính\nNội dung Biện pháp quản trịTên rủi ro\nRủi ro tỷ giá • Theo dõi sát biến động của các nhân tố chính tác động lên tỷ giá, đa dạng các nguồn thu ngoại tệ;\n\n• Áp dụng các chính sách phòng ngừa tỷ giá, đặc biệt với Yên Nhật;\n\n• Áp dụng các hợp đồng hoán đổi tiền tệ để phòng ngừa rủi ro tỷ giá với các khoản vay bằng ngoại tệ;\n\n• Áp dụng các chính sách bán hàng linh hoạt dựa trên biến động tỷ giá.\nBiến động tỷ giá tại các\nthị trường trọng điểm.\nRủi ro kinh doanh\nthông thường\nRủi ro liên quan\nđến các chính sách\n\n• Chuẩn hóa quy trình kinh doanh và hợp đồng, kiểm soát chặt chẽ công nợ, tồn kho nhằm hạn chế rủi ro phát sinh;\n\n• Ứng dụng công nghệ và AI trong dự báo nhu cầu, quản lý thanh toán, tối ưu mua sắm và phát hiện giao dịch bất\nthường;",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 11.661260903386022,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p13_b_2",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 13,
+            "text": "• Tiếp tục khẳng định vị trí doanh nghiệp đầu ngành với những giải thưởng uy tín về quản trị, kinh doanh, công nghệ trên\ntoàn cầu như: Top 40 Công ty Dịch vụ CNTT châu Á; Top 5 Doanh nghiệp Việt Nam có chất lượng quản trị công ty\ntốt nhất ASEAN; Top 8 Doanh nghiệp quản trị công ty tốt nhất nhóm vốn hóa lớn; Giá trị thương hiệu tăng 18%,\nđạt 1,2 tỷ USD; Top 10 Thương hiệu mạnh Việt Nam; Dẫn đầu Top 50 Công ty đại chúng uy tín nhất Việt Nam; Top 50\nCông ty kinh doanh hiệu quả nhất Việt Nam….\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n12",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 11.443993253990717,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p34_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 34,
+            "text": "• Lương theo chức danh công việc được xây dựng dựa trên báo cáo khảo sát lương\ncủa một số công ty tư vấn nhân sự uy tín trên thế giới và điều chỉnh theo chức danh\ncông việc phù hợp với sự phát triển của FPT, thị trường lao động và chỉ số lạm phát\n(CPI) của Việt Nam. Bên cạnh đó, người lao động còn có thể nhận được tháng\nlương thứ 13;\n\n• Lương theo hiệu quả kinh doanh và theo thành tích công việc được ghi nhận,\nkhen thưởng kịp thời, công bằng và minh bạch. Đặc biệt trong những năm vừa qua,\nFPT đã triển khai chính sách khoán thu nhập, theo đó thu nhập hàng tháng/quý\nsẽ thay đổi theo kết quả công việc thực tế. Bên cạnh đó, Tập đoàn đặc biệt\nkhuyến khích các hoạt động khởi nghiệp trong doanh nghiệp với cam kết tỷ lệ\nthưởng hấp dẫn;",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 10.21729740708082,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p45_b_0 | data/fpt_esg_report_2025.pdf | page 45]\nNăm 2025, FPT không chỉ tập trung vào việc hỗ trợ các doanh nghiệp khác chuyển\nmình thành doanh nghiệp xanh mà còn mạnh mẽ thúc đẩy quá trình chuyển đổi số\nnội bộ để tối ưu hóa hoạt động và gián tiếp giảm thiểu tác động tiêu cực đến môi trường.\nĐặc biệt, hầu hết các quy trình quản trị và vận hành của Tập đoàn được số hóa,\nchuyển sang mô hình doanh nghiệp thông minh và hiệu quả hơn.\nNgoài ra, FPT triển khai kế hoạch sử dụng văn bản điện tử (Paperless), bắt đầu với\nviệc rà soát toàn bộ tài liệu và phân loại các tài liệu cần ký số hoặc ký bản cứng.\nNăm 2025, tỷ lệ sử dụng paperless tại FPT đạt 95,42%, đặc biệt, hợp đồng giao dịch\nđiện tử chiếm khoảng 97% tổng số hợp đồng ký kết. So với năm 2024, các chỉ số\nnày ghi nhận mức cải thiện rõ rệt, giúp tiết kiệm chi phí, thời gian và góp phần bảo vệ\n\n[fpt_esg_report_2025_p47_b_0 | data/fpt_esg_report_2025.pdf | page 47]\nSong song với việc duy trì tăng trưởng kinh tế bền vững, FPT nhất quán triển khai\ncác hoạt động trách nhiệm xã hội dài hạn lấy con người, đặc biệt là thế hệ trẻ làm\ntrung tâm và hướng tới tạo giá trị dài hạn cho cộng đồng.\nTrên nền tảng triết lý phát triển gắn kết lợi ích doanh nghiệp với lợi ích xã hội, các\nchương trình của FPT được triển khai xuyên suốt nhiều năm, với quy mô ngày càng\nmở rộng và bám sát các Mục tiêu Phát triển Bền vững của Liên Hợp Quốc.\nVới sự đồng hành của CBNV, năm 2025, FPT đã đóng góp 72,8 tỷ đồng cho các\nhoạt động trách nhiệm xã hội, mang lại giá trị vật chất và tinh thần thiết thực cho\n97.300 người trên phạm vi toàn quốc.\nCác chương trình trọng tâm tập trung vào lan tỏa tinh thần trách nhiệm cộng đồng,\nmở rộng cơ hội học tập, phát triển tài năng trẻ và thu hẹp kho\n\n[fpt_esg_report_2025_p34_b_1 | data/fpt_esg_report_2025.pdf | page 34]\n• Lương theo chức danh công việc được xây dựng dựa trên báo cáo khảo sát lương\ncủa một số công ty tư vấn nhân sự uy tín trên thế giới và điều chỉnh theo chức danh\ncông việc phù hợp với sự phát triển của FPT, thị trường lao động và chỉ số lạm phát\n(CPI) của Việt Nam. Bên cạnh đó, người lao động còn có thể nhận được tháng\nlương thứ 13;\n\n• Lương theo hiệu quả kinh doanh và theo thành tích công việc được ghi nhận,\nkhen thưởng kịp thời, công bằng và minh bạch. Đặc biệt trong những năm vừa qua,\nFPT đã triển khai chính sách khoán thu nhập, theo đó thu nhập hàng tháng/quý\nsẽ thay đổi theo kết quả công việc thực tế. Bên cạnh đó, Tập đoàn đặc biệt\nkhuyến khích các hoạt động khởi nghiệp trong doanh nghiệp với cam kết tỷ lệ\nthưởng hấp dẫn;",
+        "context_ids": [
+          "fpt_esg_report_2025_p45_b_0",
+          "fpt_esg_report_2025_p47_b_0",
+          "fpt_esg_report_2025_p34_b_1"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "doanh thu hợp nhất 2025 tỷ đồng",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p26_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 26,
+            "text": "• Rủi ro tài chính\nNội dung Biện pháp quản trịTên rủi ro\nRủi ro tỷ giá • Theo dõi sát biến động của các nhân tố chính tác động lên tỷ giá, đa dạng các nguồn thu ngoại tệ;\n\n• Áp dụng các chính sách phòng ngừa tỷ giá, đặc biệt với Yên Nhật;\n\n• Áp dụng các hợp đồng hoán đổi tiền tệ để phòng ngừa rủi ro tỷ giá với các khoản vay bằng ngoại tệ;\n\n• Áp dụng các chính sách bán hàng linh hoạt dựa trên biến động tỷ giá.\nBiến động tỷ giá tại các\nthị trường trọng điểm.\nRủi ro kinh doanh\nthông thường\nRủi ro liên quan\nđến các chính sách\n\n• Chuẩn hóa quy trình kinh doanh và hợp đồng, kiểm soát chặt chẽ công nợ, tồn kho nhằm hạn chế rủi ro phát sinh;\n\n• Ứng dụng công nghệ và AI trong dự báo nhu cầu, quản lý thanh toán, tối ưu mua sắm và phát hiện giao dịch bất\nthường;",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 8.62518030775177,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p47_b_0",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 47,
+            "text": "Song song với việc duy trì tăng trưởng kinh tế bền vững, FPT nhất quán triển khai\ncác hoạt động trách nhiệm xã hội dài hạn lấy con người, đặc biệt là thế hệ trẻ làm\ntrung tâm và hướng tới tạo giá trị dài hạn cho cộng đồng.\nTrên nền tảng triết lý phát triển gắn kết lợi ích doanh nghiệp với lợi ích xã hội, các\nchương trình của FPT được triển khai xuyên suốt nhiều năm, với quy mô ngày càng\nmở rộng và bám sát các Mục tiêu Phát triển Bền vững của Liên Hợp Quốc.\nVới sự đồng hành của CBNV, năm 2025, FPT đã đóng góp 72,8 tỷ đồng cho các\nhoạt động trách nhiệm xã hội, mang lại giá trị vật chất và tinh thần thiết thực cho\n97.300 người trên phạm vi toàn quốc.\nCác chương trình trọng tâm tập trung vào lan tỏa tinh thần trách nhiệm cộng đồng,\nmở rộng cơ hội học tập, phát triển tài năng trẻ và thu hẹp kho",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 7.53939756927842,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p13_b_2",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 13,
+            "text": "• Tiếp tục khẳng định vị trí doanh nghiệp đầu ngành với những giải thưởng uy tín về quản trị, kinh doanh, công nghệ trên\ntoàn cầu như: Top 40 Công ty Dịch vụ CNTT châu Á; Top 5 Doanh nghiệp Việt Nam có chất lượng quản trị công ty\ntốt nhất ASEAN; Top 8 Doanh nghiệp quản trị công ty tốt nhất nhóm vốn hóa lớn; Giá trị thương hiệu tăng 18%,\nđạt 1,2 tỷ USD; Top 10 Thương hiệu mạnh Việt Nam; Dẫn đầu Top 50 Công ty đại chúng uy tín nhất Việt Nam; Top 50\nCông ty kinh doanh hiệu quả nhất Việt Nam….\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n12",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 7.101094707067121,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p45_b_0 | data/fpt_esg_report_2025.pdf | page 45]\nNăm 2025, FPT không chỉ tập trung vào việc hỗ trợ các doanh nghiệp khác chuyển\nmình thành doanh nghiệp xanh mà còn mạnh mẽ thúc đẩy quá trình chuyển đổi số\nnội bộ để tối ưu hóa hoạt động và gián tiếp giảm thiểu tác động tiêu cực đến môi trường.\nĐặc biệt, hầu hết các quy trình quản trị và vận hành của Tập đoàn được số hóa,\nchuyển sang mô hình doanh nghiệp thông minh và hiệu quả hơn.\nNgoài ra, FPT triển khai kế hoạch sử dụng văn bản điện tử (Paperless), bắt đầu với\nviệc rà soát toàn bộ tài liệu và phân loại các tài liệu cần ký số hoặc ký bản cứng.\nNăm 2025, tỷ lệ sử dụng paperless tại FPT đạt 95,42%, đặc biệt, hợp đồng giao dịch\nđiện tử chiếm khoảng 97% tổng số hợp đồng ký kết. So với năm 2024, các chỉ số\nnày ghi nhận mức cải thiện rõ rệt, giúp tiết kiệm chi phí, thời gian và góp phần bảo vệ\n\n[fpt_esg_report_2025_p47_b_0 | data/fpt_esg_report_2025.pdf | page 47]\nSong song với việc duy trì tăng trưởng kinh tế bền vững, FPT nhất quán triển khai\ncác hoạt động trách nhiệm xã hội dài hạn lấy con người, đặc biệt là thế hệ trẻ làm\ntrung tâm và hướng tới tạo giá trị dài hạn cho cộng đồng.\nTrên nền tảng triết lý phát triển gắn kết lợi ích doanh nghiệp với lợi ích xã hội, các\nchương trình của FPT được triển khai xuyên suốt nhiều năm, với quy mô ngày càng\nmở rộng và bám sát các Mục tiêu Phát triển Bền vững của Liên Hợp Quốc.\nVới sự đồng hành của CBNV, năm 2025, FPT đã đóng góp 72,8 tỷ đồng cho các\nhoạt động trách nhiệm xã hội, mang lại giá trị vật chất và tinh thần thiết thực cho\n97.300 người trên phạm vi toàn quốc.\nCác chương trình trọng tâm tập trung vào lan tỏa tinh thần trách nhiệm cộng đồng,\nmở rộng cơ hội học tập, phát triển tài năng trẻ và thu hẹp kho\n\n[fpt_esg_report_2025_p34_b_1 | data/fpt_esg_report_2025.pdf | page 34]\n• Lương theo chức danh công việc được xây dựng dựa trên báo cáo khảo sát lương\ncủa một số công ty tư vấn nhân sự uy tín trên thế giới và điều chỉnh theo chức danh\ncông việc phù hợp với sự phát triển của FPT, thị trường lao động và chỉ số lạm phát\n(CPI) của Việt Nam. Bên cạnh đó, người lao động còn có thể nhận được tháng\nlương thứ 13;\n\n• Lương theo hiệu quả kinh doanh và theo thành tích công việc được ghi nhận,\nkhen thưởng kịp thời, công bằng và minh bạch. Đặc biệt trong những năm vừa qua,\nFPT đã triển khai chính sách khoán thu nhập, theo đó thu nhập hàng tháng/quý\nsẽ thay đổi theo kết quả công việc thực tế. Bên cạnh đó, Tập đoàn đặc biệt\nkhuyến khích các hoạt động khởi nghiệp trong doanh nghiệp với cam kết tỷ lệ\nthưởng hấp dẫn;",
+        "context_ids": [
+          "fpt_esg_report_2025_p45_b_0",
+          "fpt_esg_report_2025_p47_b_0",
+          "fpt_esg_report_2025_p34_b_1"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_vgFJjILkGwV6SNghzObp1759",
+            "name": "search",
+            "arguments": {
+              "query": "tổng doanh thu hợp nhất năm 2025"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 823,
+          "completion_tokens": 47
+        },
+        "latency_ms": 990.9650000045076,
+        "cost_usd": 3.0669e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_OAYKbxPkmzzmu59RKM5w9939",
+            "name": "search",
+            "arguments": {
+              "query": "doanh thu hợp nhất 2025 tỷ đồng kết quả kinh doanh"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 1981,
+          "completion_tokens": 55
+        },
+        "latency_ms": 1065.714124997612,
+        "cost_usd": 3.8942999999999996e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_ysyRQV9MY1TrGUxp98AP1512",
+            "name": "search",
+            "arguments": {
+              "query": "doanh thu hợp nhất 2025 tỷ đồng"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 2003,
+          "completion_tokens": 47
+        },
+        "latency_ms": 594.5208749908488,
+        "cost_usd": 3.4209000000000004e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_8LFVR3GAb4mPOGDZZCX07675",
+            "name": "answer",
+            "arguments": {
+              "answer": "Không đủ bằng chứng để trả lời.",
+              "citations": []
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 1995,
+          "completion_tokens": 64
+        },
+        "latency_ms": 1295.0764579873066,
+        "cost_usd": 4.4384999999999996e-05,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 3,
+    "n_llm_calls": 4,
+    "tokens": {
+      "prompt_tokens": 6802,
+      "completion_tokens": 213
+    },
+    "cost_usd": 0.000148206,
+    "latency_s": 3.951997834024951,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p45_b_0",
+      "fpt_esg_report_2025_p47_b_0",
+      "fpt_esg_report_2025_p34_b_1"
+    ]
+  },
+  {
+    "query_id": "u02",
+    "split": "dev",
+    "answerable": false,
+    "question": "Mức lương bình quân hàng tháng của CBNV FPT năm 2025 là bao nhiêu?",
+    "filter": null,
+    "config": {
+      "split": "dev",
+      "method": "bm25",
+      "top_k": 3,
+      "budget_chars": 3200,
+      "max_searches": 3,
+      "fix_citations": true,
+      "provider": "deepseek",
+      "model_requested": "deepseek-chat",
+      "temperature": 0.0
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "lương bình quân hàng tháng CBNV FPT 2025",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p34_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 34,
+            "text": "• Lương theo chức danh công việc được xây dựng dựa trên báo cáo khảo sát lương\ncủa một số công ty tư vấn nhân sự uy tín trên thế giới và điều chỉnh theo chức danh\ncông việc phù hợp với sự phát triển của FPT, thị trường lao động và chỉ số lạm phát\n(CPI) của Việt Nam. Bên cạnh đó, người lao động còn có thể nhận được tháng\nlương thứ 13;\n\n• Lương theo hiệu quả kinh doanh và theo thành tích công việc được ghi nhận,\nkhen thưởng kịp thời, công bằng và minh bạch. Đặc biệt trong những năm vừa qua,\nFPT đã triển khai chính sách khoán thu nhập, theo đó thu nhập hàng tháng/quý\nsẽ thay đổi theo kết quả công việc thực tế. Bên cạnh đó, Tập đoàn đặc biệt\nkhuyến khích các hoạt động khởi nghiệp trong doanh nghiệp với cam kết tỷ lệ\nthưởng hấp dẫn;",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 13.46353531098302,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p34_b_4",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 34,
+            "text": "• Các chính sách phúc lợi khác\nVới triết lý đem lại cho mỗi thành viên một cuộc sống đầy đủ về vật chất, phong phú về tinh thần và tạo điều kiện phát triển tài năng tốt nhất, FPT cam kết xây dựng một môi\ntrường làm việc công bằng, minh bạch, giữ vững nguyên tắc bình đẳng nam nữ trong việc tuyển dụng, sử dụng, đào tạo, trả lương, cơ hội thăng tiến…. Đồng thời, Tập đoàn\ncam kết không phân biệt đối xử, không sử dụng lao động cưỡng bức cũng như lao động trẻ em trong tất cả các hoạt động sản xuất kinh doanh của FPT.\nLiên tục cải thiện chính sách lương thưởng và phúc lợi\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀ",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 7.967281598928728,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p34_b_2",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 34,
+            "text": "• Chi phí hỗ trợ theo hướng đảm bảo hỗ trợ tối đa cho CBNV và luôn được xem xét\nbổ sung phù hợp với tình hình thực tế.\n\n• Chính sách lương, thưởng\nBền bỉ trên hành trình trở thành “Nơi làm việc hạnh phúc – Happy Workplace”, FPT\ntriển khai nhiều chương trình, chính sách lan tỏa giá trị hạnh phúc tới mỗi thành\nviên. Các chế độ phúc lợi khác biệt với mục đích chăm sóc toàn diện cho CBNV và\nngười thân được FPT triển khai liên tục và thường xuyên cập nhật, cải tiến trong\nnhiều năm qua như:\n\n• Chương trình kiểm tra sức khỏe định kỳ hàng năm cho CBNV đã ký hợp đồng lao động\nchính thức tại các bệnh viện uy tín với chi phí do Tập đoàn chi trả;",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 7.895230519873317,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p34_b_1 | data/fpt_esg_report_2025.pdf | page 34]\n• Lương theo chức danh công việc được xây dựng dựa trên báo cáo khảo sát lương\ncủa một số công ty tư vấn nhân sự uy tín trên thế giới và điều chỉnh theo chức danh\ncông việc phù hợp với sự phát triển của FPT, thị trường lao động và chỉ số lạm phát\n(CPI) của Việt Nam. Bên cạnh đó, người lao động còn có thể nhận được tháng\nlương thứ 13;\n\n• Lương theo hiệu quả kinh doanh và theo thành tích công việc được ghi nhận,\nkhen thưởng kịp thời, công bằng và minh bạch. Đặc biệt trong những năm vừa qua,\nFPT đã triển khai chính sách khoán thu nhập, theo đó thu nhập hàng tháng/quý\nsẽ thay đổi theo kết quả công việc thực tế. Bên cạnh đó, Tập đoàn đặc biệt\nkhuyến khích các hoạt động khởi nghiệp trong doanh nghiệp với cam kết tỷ lệ\nthưởng hấp dẫn;\n\n[fpt_esg_report_2025_p34_b_4 | data/fpt_esg_report_2025.pdf | page 34]\n• Các chính sách phúc lợi khác\nVới triết lý đem lại cho mỗi thành viên một cuộc sống đầy đủ về vật chất, phong phú về tinh thần và tạo điều kiện phát triển tài năng tốt nhất, FPT cam kết xây dựng một môi\ntrường làm việc công bằng, minh bạch, giữ vững nguyên tắc bình đẳng nam nữ trong việc tuyển dụng, sử dụng, đào tạo, trả lương, cơ hội thăng tiến…. Đồng thời, Tập đoàn\ncam kết không phân biệt đối xử, không sử dụng lao động cưỡng bức cũng như lao động trẻ em trong tất cả các hoạt động sản xuất kinh doanh của FPT.\nLiên tục cải thiện chính sách lương thưởng và phúc lợi\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀ\n\n[fpt_esg_report_2025_p34_b_2 | data/fpt_esg_report_2025.pdf | page 34]\n• Chi phí hỗ trợ theo hướng đảm bảo hỗ trợ tối đa cho CBNV và luôn được xem xét\nbổ sung phù hợp với tình hình thực tế.\n\n• Chính sách lương, thưởng\nBền bỉ trên hành trình trở thành “Nơi làm việc hạnh phúc – Happy Workplace”, FPT\ntriển khai nhiều chương trình, chính sách lan tỏa giá trị hạnh phúc tới mỗi thành\nviên. Các chế độ phúc lợi khác biệt với mục đích chăm sóc toàn diện cho CBNV và\nngười thân được FPT triển khai liên tục và thường xuyên cập nhật, cải tiến trong\nnhiều năm qua như:\n\n• Chương trình kiểm tra sức khỏe định kỳ hàng năm cho CBNV đã ký hợp đồng lao động\nchính thức tại các bệnh viện uy tín với chi phí do Tập đoàn chi trả;",
+        "context_ids": [
+          "fpt_esg_report_2025_p34_b_1",
+          "fpt_esg_report_2025_p34_b_4",
+          "fpt_esg_report_2025_p34_b_2"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "thu nhập bình quân CBNV FPT 2025 triệu đồng/tháng",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p34_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 34,
+            "text": "• Lương theo chức danh công việc được xây dựng dựa trên báo cáo khảo sát lương\ncủa một số công ty tư vấn nhân sự uy tín trên thế giới và điều chỉnh theo chức danh\ncông việc phù hợp với sự phát triển của FPT, thị trường lao động và chỉ số lạm phát\n(CPI) của Việt Nam. Bên cạnh đó, người lao động còn có thể nhận được tháng\nlương thứ 13;\n\n• Lương theo hiệu quả kinh doanh và theo thành tích công việc được ghi nhận,\nkhen thưởng kịp thời, công bằng và minh bạch. Đặc biệt trong những năm vừa qua,\nFPT đã triển khai chính sách khoán thu nhập, theo đó thu nhập hàng tháng/quý\nsẽ thay đổi theo kết quả công việc thực tế. Bên cạnh đó, Tập đoàn đặc biệt\nkhuyến khích các hoạt động khởi nghiệp trong doanh nghiệp với cam kết tỷ lệ\nthưởng hấp dẫn;",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 12.332098246312766,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p11_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 11,
+            "text": "• Triển khai các chính sách phúc lợi chăm sóc sức khỏe thể\nchất và tinh thần cho CBNV như: khám sức khỏe cho 100%\nCBNV; bảo hiểm y tế riêng FPT Care cho 100% CBNV;\n\n• Tổ chức chuỗi chương trình Vui khỏe – Gắn kết – Yêu thương;\n\n• Đẩy mạnh triển khai và nâng cao hiệu quả chương trình\nkhoán thu nhập: minh bạch, làm nhiều hưởng nhiều và trả\nsớm; hướng tới nâng cao mặt bằng thu nhập;\n\n• Xây dựng và phát triển các chính sách phúc lợi ngoài lương:\nchính sách An cư lạc nghiệp (hỗ trợ mua nhà, xe);",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 9.994133574568274,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p25_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 25,
+            "text": "• Xây dựng chính sách đãi ngộ đảm bảo các tiêu chí: “Làm nhiều – hưởng nhiều”, thu nhập tương xứng với kết quả\ncông việc, giá trị đóng góp cho FPT; công bằng và minh bạch; cạnh tranh theo thị trường, đồng thời thực hiện\nchính sách trợ cấp mua nhà, mua xe cho CBNV;\n\n• Xây dựng môi trường làm việc tốt để nâng cao năng lực cạnh tranh trong thu hút nguồn nhân lực;\n\n• Đẩy mạnh phát triển hệ thống giáo dục FPT cả về chiều rộng và chiều sâu, đồng thời tăng cường hợp tác với\ncác đối tác, trường đại học để đào tạo, nghiên cứu các công nghệ mới (AI, chip bán dẫn), tạo nguồn nhân lực\nchất lượng cao trong dài hạn.\nCạnh tranh thu hút\nnhân sự; số lượng, chất\nlượng không bắt kịp nhu\ncầu tăng trưởng.\nRủi ro về\ndanh tiếng/\nthương hiệu\nDanh tiếng xấu ảnh hưởng\nlớn tới thương hiệu, hoạt\nđộng kinh doanh.",
+            "metadata": {
+              "pillar": "Governance",
+              "strategy": "B"
+            },
+            "score": 8.713719642174118,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p34_b_1 | data/fpt_esg_report_2025.pdf | page 34]\n• Lương theo chức danh công việc được xây dựng dựa trên báo cáo khảo sát lương\ncủa một số công ty tư vấn nhân sự uy tín trên thế giới và điều chỉnh theo chức danh\ncông việc phù hợp với sự phát triển của FPT, thị trường lao động và chỉ số lạm phát\n(CPI) của Việt Nam. Bên cạnh đó, người lao động còn có thể nhận được tháng\nlương thứ 13;\n\n• Lương theo hiệu quả kinh doanh và theo thành tích công việc được ghi nhận,\nkhen thưởng kịp thời, công bằng và minh bạch. Đặc biệt trong những năm vừa qua,\nFPT đã triển khai chính sách khoán thu nhập, theo đó thu nhập hàng tháng/quý\nsẽ thay đổi theo kết quả công việc thực tế. Bên cạnh đó, Tập đoàn đặc biệt\nkhuyến khích các hoạt động khởi nghiệp trong doanh nghiệp với cam kết tỷ lệ\nthưởng hấp dẫn;\n\n[fpt_esg_report_2025_p34_b_4 | data/fpt_esg_report_2025.pdf | page 34]\n• Các chính sách phúc lợi khác\nVới triết lý đem lại cho mỗi thành viên một cuộc sống đầy đủ về vật chất, phong phú về tinh thần và tạo điều kiện phát triển tài năng tốt nhất, FPT cam kết xây dựng một môi\ntrường làm việc công bằng, minh bạch, giữ vững nguyên tắc bình đẳng nam nữ trong việc tuyển dụng, sử dụng, đào tạo, trả lương, cơ hội thăng tiến…. Đồng thời, Tập đoàn\ncam kết không phân biệt đối xử, không sử dụng lao động cưỡng bức cũng như lao động trẻ em trong tất cả các hoạt động sản xuất kinh doanh của FPT.\nLiên tục cải thiện chính sách lương thưởng và phúc lợi\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀ\n\n[fpt_esg_report_2025_p34_b_2 | data/fpt_esg_report_2025.pdf | page 34]\n• Chi phí hỗ trợ theo hướng đảm bảo hỗ trợ tối đa cho CBNV và luôn được xem xét\nbổ sung phù hợp với tình hình thực tế.\n\n• Chính sách lương, thưởng\nBền bỉ trên hành trình trở thành “Nơi làm việc hạnh phúc – Happy Workplace”, FPT\ntriển khai nhiều chương trình, chính sách lan tỏa giá trị hạnh phúc tới mỗi thành\nviên. Các chế độ phúc lợi khác biệt với mục đích chăm sóc toàn diện cho CBNV và\nngười thân được FPT triển khai liên tục và thường xuyên cập nhật, cải tiến trong\nnhiều năm qua như:\n\n• Chương trình kiểm tra sức khỏe định kỳ hàng năm cho CBNV đã ký hợp đồng lao động\nchính thức tại các bệnh viện uy tín với chi phí do Tập đoàn chi trả;\n\n[fpt_esg_report_2025_p11_b_1 | data/fpt_esg_report_2025.pdf | page 11]\n• Triển khai các chính sách phúc lợi chăm sóc sức khỏe thể\nchất và tinh thần cho CBNV như: khám sức khỏe cho 100%\nCBNV; bảo hiểm y tế riêng FPT Care cho 100% CBNV;\n\n• Tổ chức chuỗi chương trình Vui khỏe – Gắn kết – Yêu thương;\n\n• Đẩy mạnh triển khai và nâng cao hiệu quả chương trình\nkhoán thu nhập: minh bạch, làm nhiều hưởng nhiều và trả\nsớm; hướng tới nâng cao mặt bằng thu nhập;\n\n• Xây dựng và phát triển các chính sách phúc lợi ngoài lương:\nchính sách An cư lạc nghiệp (hỗ trợ mua nhà, xe);",
+        "context_ids": [
+          "fpt_esg_report_2025_p34_b_1",
+          "fpt_esg_report_2025_p34_b_4",
+          "fpt_esg_report_2025_p34_b_2",
+          "fpt_esg_report_2025_p11_b_1"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "lương bình quân CBNV triệu đồng/tháng",
+        "filter": null,
+        "results": [
+          {
+            "id": "fpt_esg_report_2025_p34_b_1",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 34,
+            "text": "• Lương theo chức danh công việc được xây dựng dựa trên báo cáo khảo sát lương\ncủa một số công ty tư vấn nhân sự uy tín trên thế giới và điều chỉnh theo chức danh\ncông việc phù hợp với sự phát triển của FPT, thị trường lao động và chỉ số lạm phát\n(CPI) của Việt Nam. Bên cạnh đó, người lao động còn có thể nhận được tháng\nlương thứ 13;\n\n• Lương theo hiệu quả kinh doanh và theo thành tích công việc được ghi nhận,\nkhen thưởng kịp thời, công bằng và minh bạch. Đặc biệt trong những năm vừa qua,\nFPT đã triển khai chính sách khoán thu nhập, theo đó thu nhập hàng tháng/quý\nsẽ thay đổi theo kết quả công việc thực tế. Bên cạnh đó, Tập đoàn đặc biệt\nkhuyến khích các hoạt động khởi nghiệp trong doanh nghiệp với cam kết tỷ lệ\nthưởng hấp dẫn;",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 10.841629658250486,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p11_b_3",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 11,
+            "text": "• 1,1 triệu giờ học nâng cao kiến thức kỹ năng AI.\nBình đẳng và\nđa dạng\nDuy trì môi trường làm việc\nbình đẳng, tôn trọng cá nhân,\nkhông phân biệt đối xử.\n\n• Duy trì tỷ lệ nữ giới trong quy mô\nnhân sự trên 35%;\n\n• Duy trì và tăng cường sự đa dạng,\ncông bằng và hòa hợp.\n\n• Tỷ lệ nhân sự nữ chiếm 37,7% tổng nhân sự;\n\n• Tích cực mở rộng tuyển dụng CBNV người nước ngoài. Tổng\nsố CBNV người nước ngoài là 4.124 người từ 82 quốc tịch,\ntăng 18,2% so với năm 2024.\nKết quả nổi bật 2025\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\n10",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 8.328409032850782,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "fpt_esg_report_2025_p34_b_4",
+            "source_id": "fpt_esg_report_2025",
+            "source": "data/fpt_esg_report_2025.pdf",
+            "page": 34,
+            "text": "• Các chính sách phúc lợi khác\nVới triết lý đem lại cho mỗi thành viên một cuộc sống đầy đủ về vật chất, phong phú về tinh thần và tạo điều kiện phát triển tài năng tốt nhất, FPT cam kết xây dựng một môi\ntrường làm việc công bằng, minh bạch, giữ vững nguyên tắc bình đẳng nam nữ trong việc tuyển dụng, sử dụng, đào tạo, trả lương, cơ hội thăng tiến…. Đồng thời, Tập đoàn\ncam kết không phân biệt đối xử, không sử dụng lao động cưỡng bức cũng như lao động trẻ em trong tất cả các hoạt động sản xuất kinh doanh của FPT.\nLiên tục cải thiện chính sách lương thưởng và phúc lợi\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀ",
+            "metadata": {
+              "pillar": "Social",
+              "strategy": "B"
+            },
+            "score": 7.876535306728456,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[fpt_esg_report_2025_p34_b_1 | data/fpt_esg_report_2025.pdf | page 34]\n• Lương theo chức danh công việc được xây dựng dựa trên báo cáo khảo sát lương\ncủa một số công ty tư vấn nhân sự uy tín trên thế giới và điều chỉnh theo chức danh\ncông việc phù hợp với sự phát triển của FPT, thị trường lao động và chỉ số lạm phát\n(CPI) của Việt Nam. Bên cạnh đó, người lao động còn có thể nhận được tháng\nlương thứ 13;\n\n• Lương theo hiệu quả kinh doanh và theo thành tích công việc được ghi nhận,\nkhen thưởng kịp thời, công bằng và minh bạch. Đặc biệt trong những năm vừa qua,\nFPT đã triển khai chính sách khoán thu nhập, theo đó thu nhập hàng tháng/quý\nsẽ thay đổi theo kết quả công việc thực tế. Bên cạnh đó, Tập đoàn đặc biệt\nkhuyến khích các hoạt động khởi nghiệp trong doanh nghiệp với cam kết tỷ lệ\nthưởng hấp dẫn;\n\n[fpt_esg_report_2025_p34_b_4 | data/fpt_esg_report_2025.pdf | page 34]\n• Các chính sách phúc lợi khác\nVới triết lý đem lại cho mỗi thành viên một cuộc sống đầy đủ về vật chất, phong phú về tinh thần và tạo điều kiện phát triển tài năng tốt nhất, FPT cam kết xây dựng một môi\ntrường làm việc công bằng, minh bạch, giữ vững nguyên tắc bình đẳng nam nữ trong việc tuyển dụng, sử dụng, đào tạo, trả lương, cơ hội thăng tiến…. Đồng thời, Tập đoàn\ncam kết không phân biệt đối xử, không sử dụng lao động cưỡng bức cũng như lao động trẻ em trong tất cả các hoạt động sản xuất kinh doanh của FPT.\nLiên tục cải thiện chính sách lương thưởng và phúc lợi\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm việc đẳng cấp,\nhạnh phúc\nHoạt động vì môi trường xanh\nSong hành vì sự phát triển cộng đồng\nBÁO CÁO PHÁT TRIỂN BỀ\n\n[fpt_esg_report_2025_p34_b_2 | data/fpt_esg_report_2025.pdf | page 34]\n• Chi phí hỗ trợ theo hướng đảm bảo hỗ trợ tối đa cho CBNV và luôn được xem xét\nbổ sung phù hợp với tình hình thực tế.\n\n• Chính sách lương, thưởng\nBền bỉ trên hành trình trở thành “Nơi làm việc hạnh phúc – Happy Workplace”, FPT\ntriển khai nhiều chương trình, chính sách lan tỏa giá trị hạnh phúc tới mỗi thành\nviên. Các chế độ phúc lợi khác biệt với mục đích chăm sóc toàn diện cho CBNV và\nngười thân được FPT triển khai liên tục và thường xuyên cập nhật, cải tiến trong\nnhiều năm qua như:\n\n• Chương trình kiểm tra sức khỏe định kỳ hàng năm cho CBNV đã ký hợp đồng lao động\nchính thức tại các bệnh viện uy tín với chi phí do Tập đoàn chi trả;\n\n[fpt_esg_report_2025_p11_b_1 | data/fpt_esg_report_2025.pdf | page 11]\n• Triển khai các chính sách phúc lợi chăm sóc sức khỏe thể\nchất và tinh thần cho CBNV như: khám sức khỏe cho 100%\nCBNV; bảo hiểm y tế riêng FPT Care cho 100% CBNV;\n\n• Tổ chức chuỗi chương trình Vui khỏe – Gắn kết – Yêu thương;\n\n• Đẩy mạnh triển khai và nâng cao hiệu quả chương trình\nkhoán thu nhập: minh bạch, làm nhiều hưởng nhiều và trả\nsớm; hướng tới nâng cao mặt bằng thu nhập;\n\n• Xây dựng và phát triển các chính sách phúc lợi ngoài lương:\nchính sách An cư lạc nghiệp (hỗ trợ mua nhà, xe);",
+        "context_ids": [
+          "fpt_esg_report_2025_p34_b_1",
+          "fpt_esg_report_2025_p34_b_4",
+          "fpt_esg_report_2025_p34_b_2",
+          "fpt_esg_report_2025_p11_b_1"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "llm_calls": [
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_Km8SLZb3o2qq9U8Uiq0m8204",
+            "name": "search",
+            "arguments": {
+              "query": "lương bình quân hàng tháng CBNV FPT 2025"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 826,
+          "completion_tokens": 53
+        },
+        "latency_ms": 572.0172080036718,
+        "cost_usd": 3.4278e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_qo3u8RDZekB8hBwDcgU65931",
+            "name": "search",
+            "arguments": {
+              "query": "thu nhập bình quân CBNV FPT 2025 triệu đồng/tháng"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 1925,
+          "completion_tokens": 56
+        },
+        "latency_ms": 1035.6666659936309,
+        "cost_usd": 3.9375e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_Zd9oM6b0XWaPFCONhYEi1982",
+            "name": "search",
+            "arguments": {
+              "query": "lương bình quân CBNV triệu đồng/tháng"
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 2205,
+          "completion_tokens": 49
+        },
+        "latency_ms": 897.1467500086874,
+        "cost_usd": 3.6015e-05,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_calls": [
+          {
+            "id": "call_00_1U7heOUUR0ZCBLk0rQjd2291",
+            "name": "answer",
+            "arguments": {
+              "answer": "Không đủ bằng chứng để trả lời.",
+              "citations": []
+            }
+          }
+        ],
+        "content": "",
+        "usage": {
+          "prompt_tokens": 2199,
+          "completion_tokens": 64
+        },
+        "latency_ms": 935.1553749875166,
+        "cost_usd": 4.4997e-05,
+        "model": "deepseek-flash"
+      }
+    ],
+    "error": null,
+    "n_searches": 3,
+    "n_llm_calls": 4,
+    "tokens": {
+      "prompt_tokens": 7155,
+      "completion_tokens": 222
+    },
+    "cost_usd": 0.000154665,
+    "latency_s": 3.448559790995205,
+    "models": [
+      "deepseek-flash"
+    ],
+    "final_context_ids": [
+      "fpt_esg_report_2025_p34_b_1",
+      "fpt_esg_report_2025_p34_b_4",
+      "fpt_esg_report_2025_p34_b_2",
+      "fpt_esg_report_2025_p11_b_1"
+    ]
+  }
+]

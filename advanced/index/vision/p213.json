@@ -1,0 +1,19 @@
+{
+ "page": 213,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Báo cáo bộ phận theo lĩnh vực kinh doanh của Tập đoàn (Tiếp theo) – Cho năm tài chính kết thúc ngày 31 tháng 12 năm 2024",
+   "position": "phần nội dung chính, phía trên và chiếm gần hết trang",
+   "content": "Đơn vị: Triệu VND\n\nCông nghệ thông tin và viễn thông gồm 3 cột: Sản phẩm và Dịch vụ CNTT nước ngoài; Sản phẩm và Dịch vụ CNTT trong nước; Viễn thông.\n\n| Chỉ tiêu | Sản phẩm và Dịch vụ CNTT nước ngoài | Sản phẩm và Dịch vụ CNTT trong nước | Viễn thông | Nội dung số | Đầu tư, giáo dục và khác | Loại trừ hợp nhất | Tổng cộng |\n|---|---:|---:|---:|---:|---:|---:|---:|\n| **Doanh thu thuần theo bộ phận** | 30.952.512 | 8.157.364 | 16.905.897 | 704.503 | 7.444.159 | (1.315.641) | 62.848.794 |\n| **Chi phí theo bộ phận (*)** | (26.223.076) | (7.774.217) | (13.728.756) | (573.344) | (5.308.937) | 1.267.883 | (52.340.447) |\n| **Trong đó:** |  |  |  |  |  |  |  |\n| • Tổng chi phí khấu hao TSCĐ và phân bổ LTTM | (658.053) | (187.498) | (1.368.719) | (3.565) | (346.445) | 28.982 | (2.535.298) |\n| • Tổng phân bổ chi phí trả trước dài hạn | (200.481) | (28.966) | (1.674.772) | (3.148) | (172.009) | 11.107 | (2.068.269) |\n| Phần (lỗ)/lãi trong công ty liên doanh, liên kết | 2.119 | (56) | - | - | 390.468 | - | 392.531 |\n| **Kết quả HĐKD theo bộ phận** | 4.731.555 | 383.091 | 3.177.141 | 131.159 | 2.525.690 | (47.758) | 10.900.878 |\n| **Lợi nhuận trước thuế theo bộ phận** | 4.769.586 | 460.526 | 3.420.133 | 167.465 | 7.493.034 | (5.241.078) | 11.069.666 |\n| Tổng chi phí đã phát sinh để mua TSCĐ và các tài sản dài hạn khác | 1.251.781 | 407.397 | 3.067.731 | 5.081 | 1.233.301 | 109.238 | 6.074.529 |\n| Tài sản bộ phận tại 31/12/2024 | 24.664.380 | 9.413.307 | 23.649.241 | 1.012.765 | 26.338.566 | (13.078.263) | 71.999.996 |\n| Nợ phải trả bộ phận tại 31/12/2024 | 14.899.508 | 6.294.529 | 13.173.832 | 174.064 | 14.239.677 | (12.509.154) | 36.272.456 |\n\n(*) Chi phí theo bộ phận là chi phí phát sinh từ các hoạt động kinh doanh của bộ phận được tính trực tiếp cho bộ phận đó và phần chi phí chung của Tập đoàn được phân bổ cho bộ phận đó. Theo đó, chi phí theo bộ phận này bao gồm giá vốn hàng bán và dịch vụ cung cấp, chi phí bán hàng và chi phí quản lý doanh nghiệp."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 5422
+ },
+ "cost_usd": 0.0032572859999999994,
+ "latency_ms": 22498.402000026545
+}

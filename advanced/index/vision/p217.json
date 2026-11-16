@@ -1,0 +1,25 @@
+{
+ "page": 217,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Nợ khó đòi đã xử lý",
+   "position": "nửa trái, phía trên",
+   "content": "Đơn vị: VNĐ\n\n|  | 31/12/2025 | 31/12/2024 |\n|---|---:|---:|\n| Nợ khó đòi (*) | 729.438.551.433 | 638.434.100.449 |\n\n(*) Số nợ khó đòi đã xử lý chủ yếu là khoản nợ phải thu khách hàng cá nhân sử dụng dịch vụ internet bị quá hạn trên 2 năm và được đánh giá không có khả năng thu hồi."
+  },
+  {
+   "type": "image",
+   "title": "Chữ ký và con dấu xác nhận",
+   "position": "nửa phải, phía dưới",
+   "content": "Chữ ký và con dấu xác nhận: HOÀNG NGỌC BÍCH – Người lập; HOÀNG HỮU CHIẾN – Kế toán trưởng; NGUYỄN THẾ PHƯƠNG – Phó Tổng Giám đốc, Chữ ký được ủy quyền. Con dấu tròn có chữ CÔNG TY CỔ PHẦN FPT và logo FPT."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2105
+ },
+ "cost_usd": 0.001267086,
+ "latency_ms": 10457.343415997457
+}

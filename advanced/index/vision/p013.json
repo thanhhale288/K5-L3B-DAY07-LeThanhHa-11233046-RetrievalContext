@@ -1,0 +1,67 @@
+{
+ "page": 13,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "Hai nhà máy AI lọt TOP500 Siêu máy tính mạnh nhất thế giới",
+   "position": "phía trên, cột trái (vùng nội dung)",
+   "content": "Hai ảnh chứng nhận đặt cạnh nhau, mỗi ảnh có dòng chữ “TOP 500 CERTIFICATE”. Chú thích bên dưới: “Hai nhà máy AI lọt TOP500 Siêu máy tính mạnh nhất thế giới”."
+  },
+  {
+   "type": "infographic",
+   "title": "Bằng sáng chế tại Mỹ cho công nghệ phát hiện âm thanh bất thường",
+   "position": "phía trên, cột giữa (vùng nội dung)",
+   "content": "Biểu tượng chứng nhận/bằng sáng chế. Nội dung: “Bằng sáng chế tại Mỹ cho công nghệ phát hiện âm thanh bất thường”."
+  },
+  {
+   "type": "infographic",
+   "title": "Công ty Dịch vụ Công nghệ thông tin châu Á",
+   "position": "phía trên, cột phải (vùng nội dung)",
+   "content": "“TOP 40” — “Công ty Dịch vụ Công nghệ thông tin châu Á”."
+  },
+  {
+   "type": "infographic",
+   "title": "Công ty Đại chúng uy tín nhất Việt Nam",
+   "position": "giữa trang, cột trái (vùng nội dung)",
+   "content": "“TOP 1” — “Công ty Đại chúng uy tín nhất Việt Nam”."
+  },
+  {
+   "type": "infographic",
+   "title": "Thương hiệu mạnh Việt Nam",
+   "position": "giữa trang, cột giữa (vùng nội dung)",
+   "content": "“TOP 10” — “Thương hiệu mạnh Việt Nam”."
+  },
+  {
+   "type": "infographic",
+   "title": "Công ty kinh doanh hiệu quả nhất Việt Nam",
+   "position": "giữa trang, cột phải (vùng nội dung)",
+   "content": "“TOP 50” — “Công ty kinh doanh hiệu quả nhất Việt Nam”."
+  },
+  {
+   "type": "infographic",
+   "title": "Doanh nghiệp Việt Nam có chất lượng quản trị công ty tốt nhất ASEAN",
+   "position": "phía dưới, cột trái (vùng nội dung)",
+   "content": "“TOP 5” — “Doanh nghiệp Việt Nam có chất lượng quản trị công ty tốt nhất ASEAN”."
+  },
+  {
+   "type": "infographic",
+   "title": "Doanh nghiệp Nhóm vốn hóa lớn có quản trị công ty tốt nhất",
+   "position": "phía dưới, cột giữa (vùng nội dung)",
+   "content": "“TOP 8” — “Doanh nghiệp Nhóm vốn hóa lớn có quản trị công ty tốt nhất”."
+  },
+  {
+   "type": "image",
+   "title": "Trương Hy Vọng được trao giải thưởng Hành động vì cộng đồng ở hạng mục Dự án kịp thời",
+   "position": "phía dưới, cột phải (vùng nội dung)",
+   "content": "Ảnh lễ trao giải trên sân khấu có phông nền đỏ, các cá nhân đứng nhận giải. Chú thích bên cạnh: “Trương Hy Vọng được trao giải thưởng Hành động vì cộng đồng ở hạng mục Dự án kịp thời”."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3969
+ },
+ "cost_usd": 0.002385486,
+ "latency_ms": 19107.05983400112
+}

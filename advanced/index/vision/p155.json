@@ -1,0 +1,25 @@
+{
+ "page": 155,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "chart",
+   "title": "Học bổng Nguyễn Văn Đạo giai đoạn 2010-2025",
+   "position": "nửa phải, phía trên",
+   "content": "Biểu đồ cột. Trục hoành: các năm 2010, 2015, 2020, 2025. Trục tung: 0, 2.000, 4.000, 6.000, 8.000, 10.000. Đơn vị: Suất học bổng. Giá trị theo từng năm: 2010: 93; 2015: 682; 2020: 2.611; 2025: 8.875."
+  },
+  {
+   "type": "image",
+   "title": "LỄ TRƯỞNG THÀNH FPT YOUNG TALENTS K24 - Niên khóa 2023 - 2025",
+   "position": "toàn chiều ngang, phía dưới",
+   "content": "Ảnh sự kiện: nhóm học sinh/sinh viên và người lớn đứng thành hai hàng trên sân khấu, phía sau là phông nền có dòng chữ “LỄ TRƯỞNG THÀNH FPT YOUNG TALENTS K24” và “Niên khóa 2023 - 2025”. Nhiều người trong ảnh cầm giấy chứng nhận/ bằng khen. Sân khấu trải thảm đỏ, hai bên có hoa trang trí."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1226
+ },
+ "cost_usd": 0.000739686,
+ "latency_ms": 7868.393332988489
+}

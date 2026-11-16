@@ -1,0 +1,13 @@
+# Same versions as the Day 6 venv so query embeddings match the existing pgvector index.
+psycopg[binary]==3.3.8
+sentence-transformers==6.3.0
+transformers==5.23.0
+torch==2.15.0
+numpy==2.5.4
+pypdf==6.21.4
+# Lexical retrieval
+rank-bm25==0.2.2
+# LLM providers (DeepSeek uses the OpenAI-compatible API)
+openai>=1.40,<3
+pymupdf==1.26.5
+pillow==11.3.0

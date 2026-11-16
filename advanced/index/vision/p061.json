@@ -1,0 +1,49 @@
+{
+ "page": 61,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "LĨNH VỰC DỊCH VỤ CNTT CHO THỊ TRƯỜNG NƯỚC NGOÀI",
+   "position": "cột trái, phía trên",
+   "content": "Top 40\nCông ty dịch vụ CNTT châu Á"
+  },
+  {
+   "type": "infographic",
+   "title": "LĨNH VỰC DỊCH VỤ CNTT CHO THỊ TRƯỜNG NƯỚC NGOÀI",
+   "position": "cột giữa, phía trên",
+   "content": "1.100+\nKhách hàng toàn cầu"
+  },
+  {
+   "type": "infographic",
+   "title": "LĨNH VỰC DỊCH VỤ CNTT CHO THỊ TRƯỜNG NƯỚC NGOÀI",
+   "position": "cột trái, giữa",
+   "content": "130+\nKhách hàng Fortune Global 500"
+  },
+  {
+   "type": "image",
+   "title": "LĨNH VỰC DỊCH VỤ CNTT CHO THỊ TRƯỜNG NƯỚC NGOÀI",
+   "position": "cột giữa, giữa",
+   "content": "Ảnh: hai người đàn ông bắt tay; phía sau/bên cạnh có logo FPT màu xanh, cam. Không có chữ/số liệu khác đọc được."
+  },
+  {
+   "type": "image",
+   "title": "LĨNH VỰC DỊCH VỤ CNTT CHO THỊ TRƯỜNG NƯỚC NGOÀI",
+   "position": "cột trái, phía dưới",
+   "content": "Ảnh: khuôn viên/tòa nhà hình tròn nhiều tầng với mái có mảng xanh, bao quanh bởi cây xanh và đường nội bộ; không có chữ/số liệu đọc được trong ảnh."
+  },
+  {
+   "type": "infographic",
+   "title": "LĨNH VỰC DỊCH VỤ CNTT CHO THỊ TRƯỜNG NƯỚC NGOÀI",
+   "position": "cột giữa, phía dưới",
+   "content": "90+\nVăn phòng, trung tâm R&D, trung tâm nguồn lực tại 04 châu lục"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4302
+ },
+ "cost_usd": 0.0025852859999999996,
+ "latency_ms": 23975.111500010826
+}

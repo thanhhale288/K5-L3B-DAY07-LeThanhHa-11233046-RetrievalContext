@@ -1,0 +1,19 @@
+{
+ "page": 220,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "A. Công ty con khác (Tiếp theo) - Phụ lục 1 - Danh sách công ty con và công ty liên doanh, liên kết khác mà công ty sở hữu gián tiếp tại ngày 31 tháng 12 năm 2025 (Tiếp theo)",
+   "position": "Nửa phải trang, phía trên đến gần cuối trang",
+   "content": "Đơn vị: %\n\n| STT | Công ty | Hoạt động chính | Nơi thành lập, đăng ký hoạt động | Tại ngày 31/12/2025 - Tỷ lệ sở hữu | Tại ngày 31/12/2025 - Tỷ lệ biểu quyết | Tại ngày 31/12/2024 - Tỷ lệ sở hữu | Tại ngày 31/12/2024 - Tỷ lệ biểu quyết |\n|---|---|---|---|---|---|---|---|\n| 27 | Công ty TNHH Phần mềm FPT Châu Âu | Sản xuất phần mềm | Pháp | 100% | 100% | 100% | 100% |\n| 28 | Công ty TNHH Phần mềm FPT Philippines | Sản xuất phần mềm | Philippines | 100% | 100% | 100% | 100% |\n| 29 | Công ty TNHH FPT Slovakia | Sản xuất phần mềm | Slovakia | 100% | 100% | 100% | 100% |\n| 30 | Công ty TNHH FPT Cộng hòa Séc | Sản xuất phần mềm | Cộng hòa Séc | 100% | 100% | 100% | 100% |\n| 31 | Công ty TNHH FPT Châu Á Thái Bình Dương | Sản xuất phần mềm | Singapore | 100% | 100% | 100% | 100% |\n| 32 | Công ty TNHH FPT Siam | Sản xuất phần mềm | Thái Lan | 99,97% | 99,97% | 99,97% | 99,97% |\n| 33 | Công ty TNHH Công nghệ FPT DMCC | Sản xuất phần mềm | UAE | 100% | 100% | 100% | 100% |\n| 34 | Công ty TNHH Tư vấn FPT LLC | Sản xuất phần mềm | UAE | 100% | 100% | 100% | 100% |\n| 35 | Công ty TNHH Dịch vụ Tư vấn FPT | Sản xuất phần mềm | HongKong | 100% | 100% | 100% | 100% |\n| 36 | Công ty TNHH Hệ thống thông tin Singapore | Sản xuất phần mềm | Singapore | 100% | 100% | 100% | 100% |\n| 37 | Công ty TNHH FPT Myanmar | Sản xuất phần mềm | Myanmar | 100% | 100% | 100% | 100% |\n| 38 | Công ty TNHH Phần mềm FPT Hồ Chí Minh | Sản xuất phần mềm | Việt Nam | 100% | 100% | 100% | 100% |\n| 39 | Công ty TNHH Phần mềm FPT Hà Nội | Sản xuất phần mềm | Việt Nam | 100% | 100% | 100% | 100% |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3415
+ },
+ "cost_usd": 0.002053086,
+ "latency_ms": 14172.913000016706
+}

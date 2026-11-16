@@ -1,0 +1,19 @@
+{
+ "page": 154,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "16 năm liên tiếp FPT tổ chức Ngày FPT vì cộng đồng lan tỏa tinh thần nhân ái và trách nhiệm xã hội.",
+   "position": "nửa phải trang, từ phía trên đến gần cuối trang",
+   "content": "Ảnh sự kiện Ngày FPT vì cộng đồng: hai người dẫn chương trình (một nam, một nữ) mặc áo cam FPT, cầm micro, đứng trước phông nền hình trái tim. Trên phông nền có các dòng chữ: 'NGÀY FPT VÌ CỘNG ĐỒNG', 'Điều tử tế bay xa', '13.3.2025'. Chú thích dưới ảnh: '16 năm liên tiếp FPT tổ chức Ngày FPT vì cộng đồng lan tỏa tinh thần nhân ái và trách nhiệm xã hội.'"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2698
+ },
+ "cost_usd": 0.001622886,
+ "latency_ms": 14529.756874981103
+}

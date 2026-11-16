@@ -1,0 +1,37 @@
+{
+ "page": 214,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "(b) Báo cáo bộ phận theo khu vực địa lý của Tập đoàn - Cho năm tài chính kết thúc ngày 31 tháng 12 năm 2025",
+   "position": "nửa trái, phía trên",
+   "content": "Đơn vị: Triệu VND\n\n| Chỉ tiêu | Việt Nam | Nước ngoài | Tổng |\n|---|---:|---:|---:|\n| Doanh thu thuần | 34.290.139 | 35.822.686 | 35.822.686 |"
+  },
+  {
+   "type": "table",
+   "title": "(b) Báo cáo bộ phận theo khu vực địa lý của Tập đoàn - Cho năm tài chính kết thúc ngày 31 tháng 12 năm 2024",
+   "position": "nửa trái, phía giữa",
+   "content": "Đơn vị: Triệu VND\n\n| Chỉ tiêu | Việt Nam | Nước ngoài | Tổng |\n|---|---:|---:|---:|\n| Doanh thu thuần | 31.554.587 | 31.294.207 | 62.848.794 |"
+  },
+  {
+   "type": "table",
+   "title": "35. Thuyết minh về các bên liên quan",
+   "position": "nửa trái, phía dưới",
+   "content": "Các bên liên quan chính và mối quan hệ như sau:\n\n| Bên liên quan (*) | Mối quan hệ |\n|---|---|\n| Công ty Cổ phần Synnex FPT | Công ty liên kết |\n| Công ty Cổ phần Bản lẻ Kỹ thuật số FPT | Công ty liên kết |\n| Công ty Cổ phần Quản lý Quỹ đầu tư FPT | Công ty liên kết |\n| Hội đồng Quản trị, Ban Kiểm soát, Tổng Giám đốc và người quản lý chủ chốt khác | Nhân sự quản lý chủ chốt |\n\n(*) Số liệu của bên liên quan được trình bày trong thuyết minh này bao gồm số liệu của các công ty này và các công ty con được sở hữu trực tiếp và gián tiếp bởi công ty đó (nếu có)."
+  },
+  {
+   "type": "table",
+   "title": "(a) Giao dịch với các bên liên quan",
+   "position": "nửa phải, phía trên đến phía dưới",
+   "content": "Các giao dịch chủ yếu với các bên liên quan phát sinh trong năm tài chính gồm:\nĐơn vị: VND\n\n| Nội dung | 2025 | 2024 |\n|---|---:|---:|\n| **i) Bán hàng và cung cấp dịch vụ** | | |\n| Công ty Cổ phần Bản lẻ Kỹ thuật số FPT | 535.438.239.866 | 396.379.410.434 |\n| Công ty Cổ phần Synnex FPT | 10.341.570.977 | 23.528.897.486 |\n| **Tổng** | **545.779.810.843** | **419.908.307.920** |\n| **ii) Mua hàng hóa và dịch vụ** | | |\n| Công ty Cổ phần Synnex FPT | 815.401.753.496 | 975.447.988.926 |\n| Công ty Cổ phần Bản lẻ Kỹ thuật số FPT | 90.284.283.136 | 70.404.638.688 |\n| **Tổng** | **905.686.036.632** | **1.045.852.627.614** |\n| **iii) Nhận cổ tức bằng tiền (Thuyết minh 5(b))** | | |\n| Công ty Cổ phần Synnex FPT | 171.133.791.000 | 285.222.985.000 |\n| **iv) Vay mới (Thuyết minh 22)** | | |\n| Công ty Cổ phần Synnex FPT | 408.107.000.000 | - |\n| Công ty Cổ phần Bản lẻ Kỹ thuật số FPT | - | 100.000.000.000 |\n| **v) Thanh toán các khoản vay** | | |\n| Công ty Cổ phần Bản lẻ Kỹ thuật số FPT | - | 100.000.000.000 |\n| **vi) Lãi đi vay** | | |\n| Công ty Cổ phần Synnex FPT | 89.819.070 | - |\n| Công ty Cổ phần Bản lẻ Kỹ thuật số FPT | - | 1.010.958.904 |\n| **Tổng** | **89.819.070** | **1.010.958.904** |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 7805
+ },
+ "cost_usd": 0.004687086,
+ "latency_ms": 35816.36837500264
+}

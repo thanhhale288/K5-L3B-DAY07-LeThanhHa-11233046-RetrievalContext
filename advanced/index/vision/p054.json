@@ -1,0 +1,19 @@
+{
+ "page": 54,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "FPT mở rộng danh mục đào tạo theo sát chuỗi công nghệ chiến lược của quốc gia.",
+   "position": "nửa dưới, chính giữa/bên phải trang (dưới khối văn bản)",
+   "content": "Ảnh chụp phòng học/lab hiện đại có cửa kính và tường màu cam. Nhiều sinh viên mặc áo cam đang ngồi làm việc tại các dãy máy tính iMac; trên bàn có sách/vở và tài liệu. Màn hình máy tính hiển thị nội dung đồ họa/trang web. Chú thích dưới ảnh: “FPT mở rộng danh mục đào tạo theo sát chuỗi công nghệ chiến lược của quốc gia.”"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 813
+ },
+ "cost_usd": 0.000491886,
+ "latency_ms": 6359.43366700667
+}

@@ -1,0 +1,31 @@
+{
+ "page": 216,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "(b) Số dư cuối năm tài chính với các bên liên quan",
+   "position": "nửa trái, phía trên đến giữa trang",
+   "content": "Đơn vị: VND\n\n|  | 31/12/2025 | 31/12/2024 |\n|---|---:|---:|\n| **i) Các khoản ủy thác đầu tư** |  |  |\n| Công ty Cổ phần Quản lý Quỹ đầu tư FPT | 39.275.051.776 | 39.275.051.776 |\n| **ii) Phải thu ngắn hạn của khách hàng (Thuyết minh 6)** |  |  |\n| Công ty Cổ phần Bán lẻ Kỹ thuật số FPT | 54.839.728.652 | 45.188.852.981 |\n| Công ty Cổ phần Synnex FPT | 375.577.271 | 1.285.502.494 |\n|  | 55.215.305.923 | 46.474.355.475 |\n| **iii) Phải trả người bán ngắn hạn (Thuyết minh 17)** |  |  |\n| Công ty Cổ phần Synnex FPT | 188.899.996.714 | 323.041.857.148 |\n| Công ty Cổ phần Bán lẻ Kỹ thuật số FPT | 6.654.649.292 | 6.228.628.104 |\n|  | 195.554.646.006 | 329.270.485.252 |\n| **iv) Vay ngắn hạn (Thuyết minh 22)** |  |  |\n| Công ty Cổ phần Synnex FPT | 408.107.000.000 | - |"
+  },
+  {
+   "type": "table",
+   "title": "(a) Cam kết thuê hoạt động",
+   "position": "nửa phải, phía trên",
+   "content": "Đơn vị: VND\n\n|  | 31/12/2025 | 31/12/2024 |\n|---|---:|---:|\n| Dưới 1 năm | 1.003.048.814.934 | 872.479.124.331 |\n| Từ 1 năm đến 5 năm | 1.921.066.175.567 | 1.655.574.881.552 |\n| Trên 5 năm | 770.608.131.792 | 771.175.004.322 |\n|  | 3.694.723.122.293 | 3.299.229.010.205 |"
+  },
+  {
+   "type": "table",
+   "title": "(b) Cam kết vốn",
+   "position": "nửa phải, phía dưới",
+   "content": "Đơn vị: VND\n\n|  | 31/12/2025 | 31/12/2024 |\n|---|---:|---:|\n| Cam kết vốn | 1.788.310.602.983 | 408.935.033.406 |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 7233
+ },
+ "cost_usd": 0.004343886000000001,
+ "latency_ms": 31799.047792010242
+}

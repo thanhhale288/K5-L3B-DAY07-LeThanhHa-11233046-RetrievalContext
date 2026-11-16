@@ -1,0 +1,19 @@
+{
+ "page": 30,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "HÀNH TRÌNH KHẲNG ĐỊNH NĂNG LỰC VÀ VỊ THẾ (Tiếp theo)",
+   "position": "phần nội dung chính bên phải, phía trên; dòng thời gian chạy ngang từ trái sang phải",
+   "content": "Dòng thời gian/infographic gồm 4 mốc năm 2022, 2023, 2024, 2025, nối với nhau bằng trục ngang có các điểm tròn màu cam và mũi tên chỉ sang phải.\n\n2022:\n- Thành lập công ty FPT Semiconductor và ra mắt chip bán dẫn đầu tiên của Việt Nam.\n- Đồng hành cùng Bộ Công an nghiên cứu, triển khai Đề án 06 Phát triển ứng dụng dữ liệu về dân cư, định danh và xác thực điện tử phục vụ chuyển đổi số quốc gia giai đoạn 2022-2025, tầm nhìn 2030; tiên phong phát triển giải pháp chống giả mạo căn cước công dân gắn chip.\n- Được cấp bằng sáng chế tại Mỹ về Mạng nơ-ron tích chập dùng biến vị các phép biến đổi nhằm để xử lý dữ liệu máy điểm 3D.\n- Cán mốc 01 tỷ USD doanh thu dịch vụ CNTT từ thị trường nước ngoài, gia nhập nhóm doanh nghiệp CNTT tỷ USD.\n\n2023:\n- Phát triển 31 mô hình hợp phần đưa Đề án Phát triển ứng dụng dữ liệu về dân cư, định danh và xác thực điện tử phục vụ chuyển đổi số quốc gia giai đoạn 2022-2025, tầm nhìn 2030 đi vào thực tiễn tại các lĩnh vực và tỉnh thành.\n- Vận hành Hệ thống thông tin giải quyết thủ tục hành chính cung cấp dịch vụ công trực tuyến mức độ cao cho TP.Hà Nội với hơn 2,8 triệu hồ sơ được giải quyết.\n- Thành lập FPT Automotive – Công ty chuyên về dịch vụ và sản phẩm phần mềm cho ngành công nghiệp ô tô.\n- Được cấp 02 bằng sáng chế liên quan đến công nghệ AI tại Nhật Bản và Mỹ.\n\n2024:\n- Công bố chiến lược tập trung vào 05 lĩnh vực cốt lõi gồm: AI, Bán dẫn, Công nghệ ô tô số, Chuyển đổi số và Chuyển đổi xanh.\n- Hợp tác toàn diện với NVIDIA xây dựng 02 nhà máy AI tại Việt Nam, Nhật Bản và trở thành đối tác phát triển dịch vụ của NVIDIA.\n- Thực hiện thương vụ M&A đầu tiên tại Nhật Bản thông qua việc mua Next Advanced Communications NAC Co., Ltd. (NAC).\n\n2025:\n- Thành lập Ban Chỉ đạo Công nghệ chiến lược gồm 05 đơn vị: Viện Quantum AI và Cybersecurity, FPT UAV, Công nghệ Đường sắt FPT, FPT Cybersecurity và DC5.\n- Khánh thành Trung tâm Dữ liệu FPT Fornix HCM02 quy mô lớn nhất Việt Nam với 3.600 tủ rack.\n- Khai trương Trung tâm R&D 3.000 m² về công nghệ cao và chip bán dẫn tại Công viên phần mềm số 2 Tp. Đà Nẵng.\n- Ký hợp đồng chuyển đổi số toàn diện cùng AI quy mô 256 triệu USD với tập đoàn năng lượng hàng đầu châu Á.\n- Top 40 Công ty Dịch vụ CNTT châu Á."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4080
+ },
+ "cost_usd": 0.0024520859999999996,
+ "latency_ms": 18297.851124982117
+}

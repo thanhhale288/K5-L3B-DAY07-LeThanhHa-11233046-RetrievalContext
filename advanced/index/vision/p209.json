@@ -1,0 +1,37 @@
+{
+ "page": 209,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "26. Doanh thu thuần về bán hàng và cung cấp dịch vụ",
+   "position": "nửa trái, phía trên",
+   "content": "Đơn vị: VND\n\n| Chỉ tiêu | 2025 | 2024 |\n|---|---:|---:|\n| **Doanh thu** | | |\n| Doanh thu bán hàng hóa | 5.801.884.142.851 | 5.162.729.425.317 |\n| Doanh thu cung cấp dịch vụ | 64.405.804.801.702 | 57.799.922.709.318 |\n| **Cộng** | 70.207.688.944.553 | 62.962.652.134.635 |\n| **Các khoản giảm trừ** | | |\n| Doanh thu bán hàng hóa | (732.143.441) | (12.000.960.744) |\n| Doanh thu cung cấp dịch vụ | (94.131.700.402) | (101.856.822.524) |\n| **Cộng** | (94.863.843.843) | (113.857.783.268) |\n| **Doanh thu thuần về bán hàng và cung cấp dịch vụ** | | |\n| Doanh thu bán hàng hóa | 5.801.151.999.410 | 5.150.728.464.573 |\n| Doanh thu cung cấp dịch vụ | 64.311.673.101.300 | 57.698.065.886.794 |\n| **Cộng** | 70.112.825.100.710 | 62.848.794.351.367 |"
+  },
+  {
+   "type": "table",
+   "title": "27. Giá vốn hàng bán và dịch vụ cung cấp",
+   "position": "nửa trái, phía dưới",
+   "content": "Đơn vị: VND\n\n| Chỉ tiêu | 2025 | 2024 |\n|---|---:|---:|\n| Giá vốn của hàng hóa đã bán | 4.936.911.674.294 | 4.416.467.377.102 |\n| Giá vốn của dịch vụ đã cung cấp | 39.289.180.693.984 | 34.732.056.916.304 |\n| (Hoàn nhập)/dự phòng giảm giá hàng tồn kho | (1.796.779.981) | 1.921.688.045 |\n| **Cộng** | 44.224.295.588.297 | 39.150.445.981.451 |"
+  },
+  {
+   "type": "table",
+   "title": "28. Doanh thu hoạt động tài chính",
+   "position": "nửa phải, phía trên",
+   "content": "Đơn vị: VND\n\n| Chỉ tiêu | 2025 | 2024 |\n|---|---:|---:|\n| Lãi tiền gửi, cho vay | 1.717.721.035.751 | 1.207.207.618.564 |\n| Lãi chênh lệch tỷ giá hối đoái | 952.791.248.844 | 575.306.141.560 |\n| Cổ tức, lợi nhuận được chia | 209.162.913.500 | 103.356.885.500 |\n| Khác | 97.481.158.678 | 49.878.469.681 |\n| **Cộng** | 2.977.156.356.773 | 1.935.749.115.305 |"
+  },
+  {
+   "type": "table",
+   "title": "29. Chi phí tài chính",
+   "position": "nửa phải, phía dưới",
+   "content": "Đơn vị: VND\n\n| Chỉ tiêu | 2025 | 2024 |\n|---|---:|---:|\n| Lãi tiền vay | 809.759.601.156 | 551.639.361.786 |\n| Lỗ chênh lệch tỷ giá | 474.800.589.595 | 506.839.495.688 |\n| Dự phòng giảm giá các khoản đầu tư và tổn thất đầu tư tài chính | 384.631.609.873 | 738.729.747.218 |\n| Khác | 2.856.900.842 | 14.338.777.289 |\n| **Cộng** | 1.672.048.701.466 | 1.811.547.381.981 |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4378
+ },
+ "cost_usd": 0.0026308859999999994,
+ "latency_ms": 17298.33512500045
+}

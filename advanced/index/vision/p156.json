@@ -1,0 +1,25 @@
+{
+ "page": 156,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "Trường Hy Vọng – Hành trình nảy mầm",
+   "position": "nửa trái, phía trên",
+   "content": "Ảnh sự kiện ngoài trời: tòa nhà nhiều tầng ở phía sau, một lá cờ Việt Nam lớn treo trước tòa nhà; phía dưới là sân khấu có phông nền xanh và đông đảo người tham dự, nhiều người mặc áo trắng/đỏ/xanh, một số người giơ tay hoặc cầm điện thoại; trên phông nền sân khấu có chữ 'HOPE'."
+  },
+  {
+   "type": "image",
+   "title": "LỄ KHÁNH THÀNH ĐIỂM TRƯỜNG ĐÔNG TÂU TRƯỜNG MẦM NON LƯƠNG THIỆN",
+   "position": "nửa phải, phía dưới",
+   "content": "Ảnh lễ khánh thành: phông nền/sân khấu ngoài trời có dòng chữ 'LỄ KHÁNH THÀNH ĐIỂM TRƯỜNG ĐÔNG TÂU TRƯỜNG MẦM NON LƯƠNG THIỆN'; phía trước là nhóm người lớn và các em nhỏ mặc trang phục truyền thống nhiều màu, một số người cầm bảng/chứng nhận; bối cảnh có cây xanh và thảm đỏ."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2595
+ },
+ "cost_usd": 0.001561086,
+ "latency_ms": 14484.133416000986
+}

@@ -1,0 +1,182 @@
+[
+ {
+  "query_id": "t01",
+  "group": "table",
+  "pass": true,
+  "reason": "254 cổ đông, 1.241.598.059 cp, 72,88% — khớp bảng p32"
+ },
+ {
+  "query_id": "t02",
+  "group": "table",
+  "pass": true,
+  "reason": "487 cổ đông, 643.733.874 cp, 37,79% — đúng hàng Tổ chức/Nước ngoài p33"
+ },
+ {
+  "query_id": "t03",
+  "group": "table",
+  "pass": true,
+  "reason": "283→636, +353 tỷ USD — khớp bảng p47; phép tính đúng"
+ },
+ {
+  "query_id": "t04",
+  "group": "table",
+  "pass": true,
+  "reason": "13.217→4.383, giảm 66,8% — khớp bảng p146; phép tính đúng"
+ },
+ {
+  "query_id": "t05",
+  "group": "table",
+  "pass": true,
+  "reason": "150.000.000.000 VNĐ, phát hành thêm cổ phần — khớp bảng p33"
+ },
+ {
+  "query_id": "t06",
+  "group": "table",
+  "pass": true,
+  "reason": "809.759.601.156 và 551.639.361.786, +46,8% — khớp mã số 23 p169; p209 xác nhận"
+ },
+ {
+  "query_id": "t07",
+  "group": "image",
+  "pass": true,
+  "reason": "Khối Viễn thông, 7.387.634.630.000 VNĐ, 45,66% — khớp sơ đồ p31"
+ },
+ {
+  "query_id": "t08",
+  "group": "image",
+  "pass": true,
+  "reason": "Synnex FPT 48,00%, FPT Retail 46,54% (kèm vốn điều lệ) — khớp sơ đồ p31"
+ },
+ {
+  "query_id": "t09",
+  "group": "image",
+  "pass": true,
+  "reason": "Mexico, Costa Rica, Colombia — khớp nhãn ghim bản đồ p27"
+ },
+ {
+  "query_id": "t10",
+  "group": "image",
+  "pass": false,
+  "reason": "Thứ tự 3 vòng đúng (Foundation → Crew → Verse) nhưng câu trả lời thêm nhãn sai so với ảnh gốc p63: \"MẠNH HƠN\" (gốc: NHÂN RỘNG HƠN), \"Đội tàu AI toàn cầu\" (gốc: Đối tác AI toàn cầu), \"Customer\", \"Chuyển đổi AI\", \"AI Foundation\", \"Flezi DX\", \"Flezi Q\" không có trên hình; các thành phần của Foundation bị gán cho vòng Crew. Lỗi do chunk vision ar_p63_v1 trích sai; evidence không hỗ trợ toàn bộ câu trả lời."
+ },
+ {
+  "query_id": "t11",
+  "group": "image",
+  "pass": true,
+  "reason": "Bước 02 đúng, phần mô tả thêm khớp p125"
+ },
+ {
+  "query_id": "t12",
+  "group": "chart",
+  "pass": true,
+  "reason": "2024, 14,4% — khớp đường ROA p11"
+ },
+ {
+  "query_id": "t13",
+  "group": "chart",
+  "pass": true,
+  "reason": "Nhật Bản 22,8% — khớp biểu đồ p27, đã loại Việt Nam"
+ },
+ {
+  "query_id": "t14",
+  "group": "chart",
+  "pass": true,
+  "reason": "6.132→5.930, giảm 3,3% — khớp biểu đồ p55, có chú thích phương pháp hợp nhất"
+ },
+ {
+  "query_id": "t15",
+  "group": "chart",
+  "pass": true,
+  "reason": "Khối GD-ĐT-Khác +23,1%, 2.773 tỷ — khớp biểu đồ p60"
+ },
+ {
+  "query_id": "t16",
+  "group": "chart",
+  "pass": true,
+  "reason": "10.425 tỷ, đúng chuỗi Chuyển đổi số (cột xanh) p63"
+ },
+ {
+  "query_id": "t17",
+  "group": "multihop",
+  "pass": false,
+  "reason": "Từ chối dù đủ bằng chứng: agent tìm được 70.113 (p107) và 58.580 cùng chú thích hợp nhất FPT Telecom theo vốn chủ sở hữu (p55) nhưng cho rằng báo cáo không so sánh trực tiếp. Từ chối câu có đáp án = không đạt."
+ },
+ {
+  "query_id": "t18",
+  "group": "multihop",
+  "pass": true,
+  "reason": "Trương Gia Bình 6,89% (p33), Chủ tịch HĐQT (p86, bảng thành viên HĐQT nhiệm kỳ 2022-2027) — evidence thay thế cho p37"
+ },
+ {
+  "query_id": "t19",
+  "group": "multihop",
+  "pass": true,
+  "reason": "35.382 (p62 văn bản) / 19.507 (p60) ≈ 1,81 — phép tính đúng; p62 là evidence văn bản tương đương biểu đồ p63"
+ },
+ {
+  "query_id": "t20",
+  "group": "multihop",
+  "pass": true,
+  "reason": "22,8% (p27) × 70.113 (p10, cùng số với bảng p12) ≈ 15.986 tỷ"
+ },
+ {
+  "query_id": "t21",
+  "group": "text",
+  "pass": true,
+  "reason": "15,4% (p137); thông tin thêm về cam kết dưới 14%/dưới 15% khớp bảng p115"
+ },
+ {
+  "query_id": "t22",
+  "group": "text",
+  "pass": true,
+  "reason": "1.581 Mentor, 10.606 Mentee, 209.138 giờ, 2,1 lần — khớp p138"
+ },
+ {
+  "query_id": "t23",
+  "group": "text",
+  "pass": true,
+  "reason": "7,3 → 139,2 tỷ USD (9,1 năm 2026) — khớp p47"
+ },
+ {
+  "query_id": "t24",
+  "group": "text",
+  "pass": true,
+  "reason": "IndiaAI Mission, 1,25 tỷ USD — khớp p48"
+ },
+ {
+  "query_id": "tu1",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối; nêu đúng Phạm vi 3 chỉ ghi định tính, số Phạm vi 1/2 khớp p146"
+ },
+ {
+  "query_id": "tu2",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối; chỉ nêu doanh thu và LNTT kế hoạch (p55), không bịa LNST"
+ },
+ {
+  "query_id": "tu3",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối; giải thích đúng lý do hợp nhất FPT Telecom (p55)"
+ },
+ {
+  "query_id": "tu4",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối; dữ kiện cổ tức 2025 kèm theo khớp p92/p207"
+ },
+ {
+  "query_id": "tu5",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối, không bịa số"
+ },
+ {
+  "query_id": "tu6",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối; chuỗi 2021-2025 nêu kèm khớp p63, không ngoại suy 2020"
+ }
+]

@@ -1,0 +1,25 @@
+{
+ "page": 82,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "Trách nhiệm của HĐQT",
+   "position": "nửa phải, phía trên",
+   "content": "Bốn ô số liệu: 01 - Cuộc họp/quý; 04 - Cuộc họp trực tiếp; 03 - Cuộc họp xin ý kiến bằng văn bản; 08 - Nghị quyết được ban hành."
+  },
+  {
+   "type": "image",
+   "title": "Trách nhiệm của HĐQT",
+   "position": "nửa phải, phía dưới",
+   "content": "Ảnh sự kiện/hội nghị: trên sân khấu có người đứng phát biểu, các đại biểu ngồi hai bên và khán giả phía dưới. Phông nền có dòng chữ lớn: 'LINH HOẠT - PHÁT TRIỂN BỀN VỮNG'. Các cụm chữ/số đọc được trên phông: 'THUẾ ĐỐI ỨNG 46%', '50.000 KỸ SƯ AI', 'CHUYỂN ĐỔI XANH', '02 NHÀ MÁY AI', '1.700', '1.600 SV', '40.000', 'QUỐC TẾ', 'TỰ ĐỘNG HÓA', 'BÁN DẪN', 'AI'."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3804
+ },
+ "cost_usd": 0.002286486,
+ "latency_ms": 20238.534500007518
+}

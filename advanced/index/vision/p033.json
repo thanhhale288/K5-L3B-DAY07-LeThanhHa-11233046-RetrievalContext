@@ -1,0 +1,31 @@
+{
+ "page": 33,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Cơ cấu cổ đông theo quốc tịch",
+   "position": "nửa trái, phía trên",
+   "content": "| Đối tượng | Số lượng cổ đông | Tỷ lệ/Tổng số cổ đông | Số lượng cổ phiếu sở hữu | Tỷ lệ/Tổng số cổ phiếu đã phát hành |\n|---|---:|---:|---:|---:|\n| Việt Nam | 124.667 | 97,8% | 1.043.777.633 | 61,27% |\n| Cá nhân | 124.385 | 97,6% | 744.568.681 | 43,71% |\n| Tổ chức | 282 | 0,2% | 299.208.952 | 17,56% |\n| Nước ngoài | 2.821 | 2,2% | 659.729.488 | 38,73% |\n| Cá nhân | 2.334 | 1,8% | 15.995.614 | 0,94% |\n| Tổ chức | 487 | 0,4% | 643.733.874 | 37,79% |\n| Tổng số | 127.488 | 100,00% | 1.703.507.121 | 100,00% |"
+  },
+  {
+   "type": "table",
+   "title": "Top 10 cổ đông lớn",
+   "position": "nửa phải, phía trên",
+   "content": "| STT | Đối tượng | Số cổ phần | Tỷ lệ |\n|---:|---|---:|---:|\n| 1 | Ông Trương Gia Bình | 117.347.966 | 6,89% |\n| 2 | Tổng Công ty Đầu tư và Kinh doanh vốn Nhà nước – Công ty TNHH | 96.585.637 | 5,67% |\n| 3 | Công ty TNHH QT | 62.449.511 | 3,67% |\n| 4 | PYN ELITE FUND (NON-UCITS) | 30.044.600 | 1,76% |\n| 5 | Ông Bùi Quang Ngọc | 25.255.715 | 1,48% |\n| 6 | Bà Trương Thị Thanh Thanh | 25.095.835 | 1,47% |\n| 7 | Quỹ ETF DCVFMVN DIAMOND | 22.966.161 | 1,35% |\n| 8 | NTASIAN DISCOVERY MASTER FUND | 22.250.000 | 1,31% |\n| 9 | EMPLOYEES PROVIDENT FUND BOARD | 20.000.000 | 1,17% |\n| 10 | FIRST SENTIER INVESTORS GLOBAL UMBRELLA FUND PLC – FSSA ASIAN EQUITY PLUS FUND | 17.597.379 | 1,03% |"
+  },
+  {
+   "type": "table",
+   "title": "Tình hình thay đổi vốn điều lệ",
+   "position": "nửa trái, phía dưới",
+   "content": "Đơn vị: VNĐ\n\n| Lần | Thời điểm phát hành | Vốn điều lệ sau khi phát hành | Lý do |\n|---:|---|---:|---|\n| 1 | 04/2002 | 20.000.000.000 | Cổ phần hóa. |\n| 2 | 04/2003 | 30.000.000.000 | Tăng vốn điều lệ từ kết quả kinh doanh năm 2002. |\n| 3 | 10/2003 | 150.000.000.000 | Phát hành thêm cổ phần. |\n| 4 | 05/2004 | 189.752.500.000 | Tăng vốn điều lệ từ kết quả kinh doanh năm 2003. |\n| 5 | 01/2005 | 263.252.500.000 | Phát hành thêm cổ phần. |\n| 6 | 08/2005 | 362.084.900.000 | Tăng vốn điều lệ từ kết quả kinh doanh năm 2004. |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3050
+ },
+ "cost_usd": 0.001834086,
+ "latency_ms": 13274.697749991901
+}

@@ -1,0 +1,25 @@
+{
+ "page": 66,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "LĨNH VỰC DỊCH VỤ CNTT CHO THỊ TRƯỜNG TRONG NƯỚC",
+   "position": "phía trên, bên trái/giữa vùng nội dung chính",
+   "content": "Bốn ô số liệu:\n- Top 1: Công ty tư vấn và cung cấp sản phẩm, giải pháp, dịch vụ công nghệ\n- 40: Dự án thúc đẩy chuyển đổi số, xây dựng cơ sở dữ liệu cho các Bộ, ngành\n- 100.000+: Dự án số đã quy mô\n- 24: Tỉnh thành hợp tác chuyển đổi số\nCác ô số liệu không ghi kèm năm/đơn vị trên trang."
+  },
+  {
+   "type": "image",
+   "title": "SẢN PHẨM GIẢI PHÁP Made by FPT được công bố mới trên Cổng Thông tin Nghị quyết 57",
+   "position": "phía dưới, bên trái/giữa vùng nội dung chính",
+   "content": "Ảnh/banner nền tối, có thanh địa chỉ trình duyệt: https://nq57.mst.gov.vn/products. Nội dung trên ảnh:\n- Logo FPT; logo BỘ KHOA HỌC VÀ CÔNG NGHỆ.\n- Dòng chữ: BỘ KHOA HỌC VÀ CÔNG NGHỆ; CỤC TĐT SẢN PHẨM, GIẢI PHÁP KH, CN, ĐMST, CĐS.\n- Số lớn: 14.\n- Chữ: SẢN PHẨM GIẢI PHÁP Made by FPT được công bố mới trên Cổng Thông tin Nghị quyết 57.\n- Chữ: Nâng tổng số 18 SPGP trên Cổng TT NQ57.\n- Dãy logo sản phẩm/giải pháp Made by FPT ở cuối ảnh, trong đó đọc được: akaBot, FPT.eContract, ZERO, akaMES, FPT.eCheck, FPT EHMR, VioEdu, FPT Play, FPT.EagleEye, FPT.eBilling, Chip Made by FPT, FPT CLOUD, FPT.AI."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 5968
+ },
+ "cost_usd": 0.0035848859999999994,
+ "latency_ms": 30291.70470900135
+}

@@ -1,0 +1,25 @@
+{
+ "page": 5,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "FPT đã xác lập mục tiêu chiến lược",
+   "position": "phía trên, bên phải",
+   "content": "FPT đã xác lập mục tiêu chiến lược: đầu tư và làm chủ công nghệ lõi để giữ vị trí trung tâm trên bản đồ công nghệ Việt Nam và xây dựng lợi thế cạnh tranh trong dài hạn."
+  },
+  {
+   "type": "image",
+   "title": "CHỦ TỊCH HĐQT TRƯƠNG GIA BÌNH",
+   "position": "góc dưới bên phải",
+   "content": "CHỦ TỊCH HĐQT\nTRƯƠNG GIA BÌNH\n(chữ ký tay)"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4702
+ },
+ "cost_usd": 0.0028252859999999998,
+ "latency_ms": 25814.76508299238
+}

@@ -1,0 +1,19 @@
+{
+ "page": 8,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "43,9% nhân sự <30 tuổi; 53,2% cán bộ quản lý <40 tuổi",
+   "position": "nửa trái, phía trên",
+   "content": "Infographic gồm hai chỉ số nhân sự: 43,9% nhân sự <30 tuổi; 53,2% cán bộ quản lý <40 tuổi."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2480
+ },
+ "cost_usd": 0.001492086,
+ "latency_ms": 14646.150999993552
+}

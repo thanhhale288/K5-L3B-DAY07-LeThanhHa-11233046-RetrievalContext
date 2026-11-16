@@ -9,3 +9,10 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Advanced challenge: the PDF is re-downloadable (see advanced/source/SOURCE.md); renders and embeddings are regenerated
+advanced/source/*.pdf
+advanced/pages/
+advanced/index/*.npy
+advanced/index/*.ids.json
+advanced/*.log

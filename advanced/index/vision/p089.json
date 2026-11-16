@@ -1,0 +1,19 @@
+{
+ "page": 89,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Danh sách các ủy ban thuộc HĐQT",
+   "position": "nửa phải, phía trên",
+   "content": "| STT | Ủy ban | Họ và tên | Chức danh |\n|---|---|---|---|\n| 1 | Ủy ban Nhân sự và Lương thưởng | Ông Đỗ Cao Bảo | Chủ tịch |\n| 2 | Ủy ban Chính sách phát triển | Ông Trương Gia Bình | Chủ tịch |\n| 3 | Văn phòng Chủ tịch HĐQT | Bà Phạm Ngọc Anh | Chánh Văn phòng |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 997
+ },
+ "cost_usd": 0.0006022859999999999,
+ "latency_ms": 6200.861874996917
+}

@@ -1,0 +1,25 @@
+{
+ "page": 15,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "Khánh thành Trung tâm Dữ liệu quy mô lớn nhất Việt Nam tạo nền tảng cho kỷ nguyên AI",
+   "position": "nửa trái, phía trên",
+   "content": "Ảnh lễ khánh thành: trên màn hình lớn hiển thị dòng chữ 'LỄ KHÁNH THÀNH', 'TRUNG TÂM DỮ LIỆU FPT FORNIX HCM02', 'FPT FORNIX HCM02 DATA CENTER GRAND OPENING CEREMONY' và hình ảnh tòa nhà/trung tâm dữ liệu. Một diễn giả đứng phát biểu trên sân khấu trước khán phòng đông người tham dự. Không có số liệu trên ảnh."
+  },
+  {
+   "type": "image",
+   "title": "Đồng hành Chính phủ, bộ ngành, địa phương chuyển đổi số, hiện thực hoá tinh thần Nghị quyết 57-NQ/TW",
+   "position": "nửa phải, phía trên/giữa trang",
+   "content": "Ảnh sự kiện: sân khấu có màn hình lớn hiển thị 'NỀN TẢNG SỐ THI HÀNH ÁN DÂN SỰ VÀ TRUNG TÂM GIÁM SÁT, ĐIỀU HÀNH THÔNG MINH HỆ THỐNG THI HÀNH ÁN DÂN SỰ'. Trên màn hình có 6 vòng tròn với dòng chữ 'KÍCH HOẠT'. Sáu người đàn ông mặc vest đứng trên sân khấu, cùng đặt tay lên các vòng tròn kích hoạt. Không có số liệu trên ảnh."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3708
+ },
+ "cost_usd": 0.0022288859999999994,
+ "latency_ms": 19019.78562498698
+}

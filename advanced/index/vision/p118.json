@@ -1,0 +1,19 @@
+{
+ "page": 118,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "TẠO MÔI TRƯỜNG LÀM VIỆC ĐẲNG CẤP, HẠNH PHÚC",
+   "position": "chính giữa, phía trên trang",
+   "content": "| Vấn đề trọng yếu | Cam kết | Mục tiêu | Kết quả nổi bật 2025 |\n|---|---|---|---|\n| Nơi làm việc hạnh phúc | Duy trì một nơi làm việc hạnh phúc giúp CBNV dễ dàng hòa nhập, có cơ hội tham gia, đóng góp, phát triển một cách tự do và công bằng; luôn đổi mới, sáng tạo để mang lại hạnh phúc cho CBNV dựa trên các yếu tố: tài chính, thể chất, trí tuệ và tinh thần. | • Đạt và duy trì liên tục qua hằng năm danh hiệu Nơi làm việc xuất sắc nhất Châu Á do Great Place To Work công bố;<br>• Hướng đến xây dựng môi trường làm việc hạnh phúc, dựa trên nhiều khía cạnh: chăm sóc sức khỏe thể chất và tinh thần, điều kiện làm việc hiện đại, thu nhập và phúc lợi tốt, có cơ hội được phát triển, tham gia đóng góp cho cộng đồng. | • Triển khai các chính sách phúc lợi chăm sóc sức khỏe thể chất và tinh thần cho CBNV như: khám sức khỏe cho 100% CBNV; bảo hiểm y tế riêng FPT Care cho 100% CBNV;<br>• Tổ chức chuỗi chương trình Vui khỏe – Gắn kết – Yêu thương;<br>• Đẩy mạnh triển khai và nâng cao hiệu quả chương trình khoán thu nhập: minh bạch, làm nhiều hưởng nhiều và trả sớm; hướng tới nâng cao mặt bằng thu nhập;<br>• Xây dựng và phát triển các chính sách phúc lợi ngoài lương: chính sách An cư lạc nghiệp (hỗ trợ mua nhà, xe);<br>• Khởi công xây dựng Khu công viên công nghệ số góp phần khẳng định vị thế Hà Nội là trung tâm khoa học công nghệ của cả nước, xa hơn là từng bước hiện thực hóa khát vọng về một “Thung lũng Silicon” của Việt Nam. |\n| Tổ chức học tập suốt đời | Duy trì FPT luôn là tổ chức học tập, kiến tạo việc học tập suốt đời của CBNV. | • Sử dụng công nghệ để cá thể hóa việc học của CBNV;<br>• Đẩy mạnh và nâng cao cơ hội học cho CBNV;<br>• Nâng cao hiệu quả đào tạo bằng công nghệ tiên tiến: AI Mentor, Text-to-voice, chatbot... | • Ứng dụng AI Mentoring, AI Knowledge Explore cá thể hóa lộ trình học cho CBNV;<br>• Đầu tư sử dụng các nền tảng toàn cầu đáp ứng nhu cầu học tập chuyên nghiệp, đa dạng của CBNV như: Coursera, Udemy, Udacity;<br>• Ghi nhận trên 7,1 triệu giờ đào tạo, đạt 151 giờ học trung bình/năm/CBNV;<br>• 1,1 triệu giờ học nâng cao kiến thức kỹ năng AI. |\n| Bình đẳng và đa dạng | Duy trì môi trường làm việc bình đẳng, tôn trọng cá nhân, không phân biệt đối xử. | • Duy trì tỷ lệ nữ giới trong quy mô nhân sự trên 35%;<br>• Duy trì và tăng cường sự đa dạng, công bằng và hòa hợp. | • Tỷ lệ nhân sự nữ chiếm 37,7% tổng nhân sự;<br>• Tích cực mở rộng tuyển dụng CBNV người nước ngoài. Tổng số CBNV người nước ngoài là 4.124 người từ 82 quốc tịch, tăng 18,2% so với năm 2024. |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 5955
+ },
+ "cost_usd": 0.0035770859999999997,
+ "latency_ms": 24952.10437499918
+}

@@ -1,0 +1,25 @@
+{
+ "page": 14,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "Thành lập Ban Chỉ đạo Công nghệ chiến lược thúc đẩy triển khai Nghị quyết 57-NQ/TW",
+   "position": "nửa trái, phía trên",
+   "content": "Ảnh sự kiện: một người đàn ông mặc vest xanh, cầm micro phát biểu trước phông nền. Trên phông nền có các dòng chữ nhìn thấy: 'EN MINH AI VIỆT', 'CHỦ CÔNG NGHỆ', 'TƯƠNG LAI VIỆT NAM', 'DUY VIỆT', 'DỮ LIỆU VIỆT', 'AN TOÀN VIỆT', '... PHÁT TRIỂN', 'MỞ NGÀNH THIẾT...', 'ĐỔI MỚI SÁNG TẠO', 'THÚC ĐẨY CHUYỂN ĐỔI SỐ'."
+  },
+  {
+   "type": "image",
+   "title": "Thành lập Liên minh Kinh tế tầm thấp phát triển các ngành công nghệ cao ứng dụng UAV",
+   "position": "nửa phải, phía dưới",
+   "content": "Ảnh nhóm đại biểu đứng trước màn hình lớn tại lễ ký kết. Trên màn hình có các dòng chữ nhìn thấy: 'MEMORANDUM OF UNDERSTANDING', 'BETWEEN THE VIETNAM LOW-ALTITUDE ECONOMY PARTNERSHIP', 'AND VIETNAM AVIATION AND AEROSPACE ASSOCIATION (VASA)'; phía trên có logo 'LAEP JUDA'. Các đại biểu mặc vest đứng thành hàng trước màn hình."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4458
+ },
+ "cost_usd": 0.0026788859999999997,
+ "latency_ms": 23774.15154199116
+}

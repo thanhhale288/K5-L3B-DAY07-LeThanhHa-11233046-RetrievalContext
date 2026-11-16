@@ -1,0 +1,19 @@
+{
+ "page": 46,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "chart",
+   "title": "Chi tiêu CNTT toàn cầu năm 2026",
+   "position": "nửa trái, phía dưới",
+   "content": "Biểu đồ vòng (donut). Đơn vị: Tỷ USD. Nguồn: Gartner. Tổng trung tâm: 6.155. Các lát theo chú giải: Dịch vụ CNTT: 1.867 (30,3%); Phần mềm: 1.434 (23,3%); Dịch vụ viễn thông: 1.365 (22,2%); Trung tâm dữ liệu: 836 (13,6%); Phần cứng: 653 (10,6%)."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1479
+ },
+ "cost_usd": 0.000891486,
+ "latency_ms": 8282.766415999504
+}

@@ -1,0 +1,19 @@
+{
+ "page": 138,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "chart",
+   "title": "Tổng số giờ đào tạo nội bộ giai đoạn 2021-2025",
+   "position": "nửa dưới, bên trái của vùng nội dung chính",
+   "content": "Biểu đồ cột đứng, không có chú giải; đơn vị: Giờ. Trục tung: 0; 2.000.000; 4.000.000; 6.000.000; 8.000.000. Trục hoành: 2021, 2022, 2023, 2024, 2025. Giá trị từng năm: 2021: 3.414.168 giờ; 2022: 3.803.220 giờ; 2023: 5.588.966 giờ; 2024: 6.365.814 giờ; 2025: 7.121.722 giờ."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1367
+ },
+ "cost_usd": 0.0008242859999999999,
+ "latency_ms": 8163.594334007939
+}

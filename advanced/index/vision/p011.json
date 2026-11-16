@@ -1,0 +1,31 @@
+{
+ "page": 11,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "chart",
+   "title": "Cổ tức bằng tiền mặt",
+   "position": "nửa trái, phía trên",
+   "content": "Biểu đồ cột. Giá trị hiển thị: 3.185 Tỷ VNĐ; tăng 16,2% so với cùng kỳ. Trục tung: 0; 500; 1.000; 1.500; 2.000; 2.500; 3.000; 3.500 (Tỷ VNĐ). Trục hoành/năm: 2021, 2022, 2023, 2024, 2025. Giá trị từng năm: 2021: 1.697; 2022: 2.011; 2023: 2.374; 2024: 2.741; 2025: 3.185 (Tỷ VNĐ). Ghi chú: Đơn vị: Tỷ VNĐ."
+  },
+  {
+   "type": "chart",
+   "title": "Đóng góp Ngân sách Nhà nước",
+   "position": "nửa phải, phía trên",
+   "content": "Biểu đồ cột. Giá trị hiển thị: 11.078 Tỷ VNĐ; tăng 9,5% so với cùng kỳ. Trục tung: 0; 2.000; 4.000; 6.000; 8.000; 10.000; 12.000 (Tỷ VNĐ). Trục hoành/năm: 2021, 2022, 2023, 2024, 2025. Giá trị từng năm: 2021: 5.750; 2022: 7.112; 2023: 8.167; 2024: 10.117; 2025: 11.078 (Tỷ VNĐ). Ghi chú: Đơn vị: Tỷ VNĐ."
+  },
+  {
+   "type": "chart",
+   "title": "Tỷ suất sinh lợi trên vốn chủ sở hữu (ROE) / Tỷ suất sinh lợi trên tổng tài sản (ROA)",
+   "position": "nửa trái, phía dưới",
+   "content": "Biểu đồ đường với hai đường ROE và ROA. Giá trị hiển thị: ROE 28,1%; ROA 14,1%. Trục tung: 0; 10; 20; 30 (%). Trục hoành/năm: 2021, 2022, 2023, 2024, 2025. Chú giải: ROE (%); ROA (%). Giá trị ROE theo năm: 2021: 26,7%; 2022: 27,7%; 2023: 27,9%; 2024: 28,5%; 2025: 28,1%. Giá trị ROA theo năm: 2021: 11,4%; 2022: 11,9%; 2023: 13,6%; 2024: 14,4%; 2025: 14,1%."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2792
+ },
+ "cost_usd": 0.001679286,
+ "latency_ms": 12732.339332986157
+}

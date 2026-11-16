@@ -1,0 +1,19 @@
+{
+ "page": 1,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "LÀM CHỦ CÔNG NGHỆ CHIẾN LƯỢC",
+   "position": "toàn trang, trọng tâm ở giữa và bên phải",
+   "content": "Nền đồ họa công nghệ màu xanh với các vòng cung đồng tâm chứa lặp lại các nhãn: AI; UAV; DATA; QUANTUM; CYBER SECURITY; RAILWAY MOBILITY TECHNOLOGY. Ở giữa là hình khối 3D màu cam/vàng, bên dưới là mô hình thành phố số trên bo mạch vi xử lý. Bên phải có dòng chữ: “LÀM CHỦ CÔNG NGHỆ CHIẾN LƯỢC” và “BÁO CÁO THƯỜNG NIÊN 2025”. Không có số liệu, trục, chú giải hay bảng."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3201
+ },
+ "cost_usd": 0.0019246859999999999,
+ "latency_ms": 19753.20483298856
+}

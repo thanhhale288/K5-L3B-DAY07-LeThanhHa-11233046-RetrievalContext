@@ -1,0 +1,25 @@
+{
+ "page": 125,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Vai trò và trách nhiệm của các bên trong quản trị phát triển bền vững",
+   "position": "cột giữa, phía dưới tiêu đề 'Vai trò và trách nhiệm của các bên trong quản trị phát triển bền vững'",
+   "content": "Bộ phận chịu trách nhiệm\n\n| Bộ phận chịu trách nhiệm | Trách nhiệm |\n|---|---|\n| HĐQT | • Phê duyệt, ban hành chiến lược và định hướng phát triển bền vững trong toàn Tập đoàn. |\n| Ban Điều hành | Đảm bảo việc triển khai chiến lược phát triển bền vững thông qua các hoạt động:<br>• Xây dựng mục tiêu phát triển bền vững cụ thể cho Tập đoàn và công ty thành viên;<br>• Chỉ đạo triển khai các chương trình hiện thực hóa chiến lược phát triển bền vững của Tập đoàn;<br>• Giám sát kết quả thực hiện mục tiêu phát triển bền vững của Tập đoàn và công ty thành viên. |\n| Công ty thành viên | • Đảm bảo hiện thực hóa các mục tiêu phát triển bền vững theo định hướng và chiến lược chung của Tập đoàn;<br>• Thực hiện báo cáo định kỳ về tình hình triển khai chiến lược phát triển bền vững của đơn vị. |"
+  },
+  {
+   "type": "diagram",
+   "title": "Quy trình xác định các vấn đề trọng yếu",
+   "position": "cột phải, từ phía trên xuống gần cuối trang",
+   "content": "Quan hệ: Bước 01 → Bước 02 → Bước 03 (quy trình tuần tự).\n\nBước 01 — Xác định các vấn đề chính có ảnh hưởng lớn đến hoạt động kinh doanh của Tập đoàn và lợi ích của các bên quan tâm.\n• Bám sát các diễn biến kinh tế, chính trị, xã hội, môi trường của Việt Nam và thế giới;\n• Nghiên cứu thông tin từ các báo cáo kinh tế-xã hội, báo cáo thị trường, báo cáo ngành do các tổ chức uy tín đưa ra;\n• Phân tích các báo cáo đánh giá, khảo sát khách hàng của Tập đoàn;\n• Phân tích đặc thù kinh doanh của ngành và các lĩnh vực hoạt động của Tập đoàn;\n• Ghi nhận phản hồi từ cổ đông, nhà đầu tư và các bên liên quan khác;\n• Tìm hiểu các hướng dẫn xây dựng báo cáo phát triển bền vững.\n\nBước 02 — Phân tích và xác định các vấn đề trọng yếu được các bên quan tâm.\n• Xác định các vấn đề trọng yếu dựa trên cơ sở tham vấn các bên liên quan và đánh giá mức độ tác động đến chiến lược tăng trưởng dài hạn. Các vấn đề trọng yếu được xác định tập trung vào quản trị minh bạch, an toàn dữ liệu, cam kết chuyển đổi xanh, phát triển nguồn nhân lực chất lượng cao và quản trị chuỗi cung ứng bền vững.\n\nBước 03 — Phân tích các vấn đề trọng yếu trong mối quan hệ với các bên liên quan.\n• Xây dựng ma trận các vấn đề trọng yếu;\n• Lựa chọn các vấn đề trọng yếu.\n\nKết luận: Dựa trên nguyên tắc và quy trình xác định các vấn đề trọng yếu nêu trên, FPT lựa chọn 04 vấn đề trọng yếu gồm: (1) Quản trị hướng đến phát triển bền vững; (2) Xây dựng môi trường làm việc đẳng cấp, hạnh phúc; (3) Hoạt động vì môi trường xanh; (4) Sống hạnh phúc vì sự phát triển cộng đồng."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 6309
+ },
+ "cost_usd": 0.0037894859999999995,
+ "latency_ms": 25802.57545900531
+}

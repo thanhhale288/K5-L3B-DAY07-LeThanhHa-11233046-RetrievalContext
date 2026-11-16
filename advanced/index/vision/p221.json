@@ -1,0 +1,19 @@
+{
+ "page": 221,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "A. Công ty con khác (Tiếp theo) — Phụ lục 1 - Danh sách công ty con và công ty liên doanh, liên kết khác mà công ty sở hữu gián tiếp tại ngày 31 tháng 12 năm 2025 (Tiếp theo)",
+   "position": "phần chính bên phải, từ phía trên đến gần cuối trang",
+   "content": "| STT | Công ty | Hoạt động chính | Nơi thành lập, đăng ký hoạt động | Tại ngày 31/12/2025 - Tỷ lệ sở hữu | Tại ngày 31/12/2025 - Tỷ lệ biểu quyết | Tại ngày 31/12/2024 - Tỷ lệ sở hữu | Tại ngày 31/12/2024 - Tỷ lệ biểu quyết |\n|---|---|---|---|---|---|---|---|\n| 40 | Công ty TNHH Phần mềm FPT Miền Trung | Sản xuất phần mềm | Việt Nam | 100% | 100% | 100% | 100% |\n| 41 | Công ty TNHH Phần mềm FPT Thăng Long | Sản xuất phần mềm | Việt Nam | 100% | 100% | 100% | 100% |\n| 42 | Công ty TNHH Phần mềm sáng tạo FPT | Sản xuất phần mềm | Việt Nam | 100% | 100% | 100% | 100% |\n| 43 | Công ty Cổ phần Công nghệ HOMA | Sản xuất, kinh doanh thiết bị điện tử | Việt Nam | Đã giải thể | Đã giải thể | 75% | 75% |\n| 44 | Công ty TNHH Phần mềm FPT Quy Nhơn | Sản xuất phần mềm | Việt Nam | 100% | 100% | 100% | 100% |\n| 45 | Công ty Phần mềm FPT Tô Châu | Sản xuất phần mềm | Trung Quốc | Đã giải thể | Đã giải thể | 100% | 100% |\n| 46 | Công ty TNHH Akavault | Tư vấn công nghệ | Singapore | 100% | 100% | 100% | 100% |\n| 47 | Công ty Phần mềm FPT Hà Lan | Sản xuất phần mềm | Hà Lan | 100% | 100% | 100% | 100% |\n| 48 | Công ty Base Platform Pte | Sản xuất phần mềm | Singapore | 90% | 90% | 90% | 90% |\n| 49 | Công ty Cổ phần Base Enterprise | Sản xuất phần mềm | Việt Nam | 89,99% | 99,98% | 89,99% | 99,98% |\n| 50 | Công ty TNHH Phần mềm FPT Huế | Sản xuất phần mềm | Việt Nam | 100% | 100% | 100% | 100% |\n| 51 | Công ty TNHH Công nghệ Thông tin FPT | Sản xuất phần mềm | Ả rập xê út | 100% | 100% | 100% | 100% |\n| 52 | Công ty TNHH Phần mềm FPT Quảng Tây | Sản xuất phần mềm | Trung Quốc | Đã giải thể | Đã giải thể | 100% | 100% |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3274
+ },
+ "cost_usd": 0.0019684859999999998,
+ "latency_ms": 13697.096999996575
+}

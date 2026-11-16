@@ -1,0 +1,19 @@
+{
+ "page": 162,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "Phê chuẩn báo cáo tài chính hợp nhất",
+   "position": "nửa phải, phía dưới",
+   "content": "Hình ảnh con dấu tròn màu đỏ của CÔNG TY CỔ PHẦN FPT chồng lên chữ ký màu xanh; bên dưới có tên NGUYỄN THẾ PHƯƠNG, chức danh Phó Tổng Giám đốc, dòng “Chữ ký được ủy quyền”; địa điểm và ngày: Hà Nội, nước CHXHCN Việt Nam, Ngày 18 tháng 3 năm 2026."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1509
+ },
+ "cost_usd": 0.000909486,
+ "latency_ms": 9085.465916985413
+}

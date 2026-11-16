@@ -1,0 +1,25 @@
+{
+ "page": 158,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "Dự án “Bếp Xanh – Sống Lành”, mang sức khỏe đến với mọi nhà",
+   "position": "nửa trái, phía trên",
+   "content": "Ảnh sự kiện ký kết giữa FPT và World Vision. Trên màn hình phía sau có các chữ/logo “FPT”, “World Vision” và dòng “SIGNING CEREMONY” (một phần nội dung trên màn hình không đọc rõ). Hai đại diện đang ký biên bản ghi nhớ tại bàn; xung quanh có các đại biểu đứng chứng kiến. Trên bàn có bảng tên/standee in logo FPT. Chú thích ảnh: “Dự án “Bếp Xanh – Sống Lành”, mang sức khỏe đến với mọi nhà”."
+  },
+  {
+   "type": "image",
+   "title": "Hiến máu nhân đạo",
+   "position": "nửa phải, phía trên",
+   "content": "Ảnh ngày hội hiến máu nhân đạo. Hai nữ nhân viên mặc áo cam FPT; một người đang nằm hiến máu, một người cầm tấm biển hình trái tim có dòng chữ “MỘT GIỌT MÁU CHO ĐI, MỘT CUỘC ĐỜI Ở LẠI”. Phía sau là phông nền đỏ có hình ảnh các tình nguyện viên/hiến máu. Chú thích ảnh: “Hiến máu nhân đạo”."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2387
+ },
+ "cost_usd": 0.0014362860000000002,
+ "latency_ms": 13622.354625025764
+}

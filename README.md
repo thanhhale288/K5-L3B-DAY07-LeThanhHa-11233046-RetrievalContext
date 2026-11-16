@@ -1,5 +1,7 @@
 # Day 7 — Agentic RAG
 
+> **Bài làm của Lê Thanh Hà (2A202603901, L3B):** cách chạy ở [RUN.md](RUN.md), báo cáo ở [report/individual/2A202603901_LeThanhHa.md](report/individual/2A202603901_LeThanhHa.md).
+
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.

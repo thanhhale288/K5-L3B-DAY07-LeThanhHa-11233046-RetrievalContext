@@ -1,0 +1,31 @@
+{
+ "page": 193,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "7. Trả trước cho người bán ngắn hạn",
+   "position": "nửa trái, phía trên",
+   "content": "Đơn vị: VND\n\n| Chỉ tiêu | 31/12/2025 | 31/12/2024 |\n|---|---:|---:|\n| Bên thứ ba | 952.737.932.722 | 610.379.845.664 |"
+  },
+  {
+   "type": "table",
+   "title": "Chi tiết số dư nhà cung cấp bên thứ ba chiếm hơn 10% tổng số trả trước cho người bán ngắn hạn",
+   "position": "nửa trái, phía dưới",
+   "content": "Đơn vị: VND\n\n| Chỉ tiêu | 31/12/2025 | 31/12/2024 |\n|---|---:|---:|\n| Công ty Think One | 157.859.621.956 | - |\n| Công ty Abel Solutions Limited | 135.781.741.797 | 3.908.864.745 |\n| Công ty Cổ phần Tập Đoàn Xây Dựng Hòa Bình | 98.600.000.000 | - |\n| Công ty Moore Law Consultancies LLC | - | 132.989.104.674 |\n| Công ty TNHH The Forest City | 76.720.495.333 | 76.720.495.333 |"
+  },
+  {
+   "type": "table",
+   "title": "8. Phải thu/phải trả theo tiến độ kế hoạch hợp đồng",
+   "position": "nửa phải, phía trên",
+   "content": "Đơn vị: VND\n\n| Chỉ tiêu | 31/12/2025 | 31/12/2024 |\n|---|---:|---:|\n| Hợp đồng đã dang tại cuối năm |  |  |\n| • Phải thu theo tiến độ kế hoạch hợp đồng | 200.405.269.967 | 136.097.256.629 |\n| • Phải trả theo tiến độ kế hoạch hợp đồng | (85.650.109.236) | (92.738.882.375) |\n|  | 114.755.160.731 | 43.358.374.254 |\n| Chi phí hợp đồng cộng lợi nhuận đã ghi nhận | 2.138.346.235.324 | 1.706.910.202.619 |\n| Trừ: Số đã phát hành hóa đơn theo tiến độ | (2.023.591.074.593) | (1.663.551.828.365) |\n|  | 114.755.160.731 | 43.358.374.254 |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4382
+ },
+ "cost_usd": 0.0026332859999999994,
+ "latency_ms": 19489.366583991796
+}

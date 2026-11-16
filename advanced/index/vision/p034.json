@@ -1,0 +1,19 @@
+{
+ "page": 34,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Tình hình thay đổi vốn điều lệ (Tiếp theo)",
+   "position": "phần chính phía trên, chiếm gần toàn bộ trang bên phải",
+   "content": "Đơn vị: VNĐ\n\n| Lần | Thời điểm phát hành | Vốn điều lệ sau khi phát hành | Lý do |\n|---|---:|---:|---|\n| 7 | 06/2006 | 547.292.000.000 | Tăng vốn điều lệ từ kết quả kinh doanh năm 2005. |\n| 8 | 10/2006 | 608.102.300.000 | Tăng vốn điều lệ từ bán cổ phần cho nhà đầu tư chiến lược năm 2006. |\n| 9 | 06/2007 | 912.153.440.000 | Tăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 2:1 từ lợi nhuận năm 2006. |\n| 10 | 08/2007 | 923.525.790.000 | Tăng vốn điều lệ thông qua phát hành cổ phiếu phổ thông cho CBNV có thành tích đóng góp trong năm 2006 và cổ phiếu phổ thông cho CBNV. |\n| 11 | 06/2008 | 941.606.160.000 | Tăng vốn điều lệ thông qua phát hành cổ phiếu phổ thông cho CBNV có thành tích đóng góp trong năm 2007 và cổ phiếu phổ thông cho CBNV. |\n| 12 | 11/2008 | 1.411.620.740.000 | Tăng vốn điều lệ thông qua phát hành thêm cổ phiếu thưởng cho cổ đông hiện hữu từ Quỹ thặng dư vốn theo tỷ lệ 2:1. |\n| 13 | 07/2009 | 1.438.319.670.000 | Tăng vốn điều lệ thông qua phát hành cổ phiếu phổ thông cho CBNV có thành tích đóng góp trong năm 2008 và cổ phiếu phổ thông cho CBNV. |\n| 14 | 05/2010 | 1.916.659.080.000 | Tăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 3:1 từ kết quả kinh doanh năm 2009. |\n| 15 | 06/2010 | 1.934.805.170.000 | Tăng vốn điều lệ thông qua phát hành cổ phiếu phổ thông cho CBNV có thành tích đóng góp trong năm 2009 và cổ phiếu phổ thông cho CBNV. |\n| 16 | 08/2011 | 2.133.110.660.000 | Tăng vốn điều lệ thông qua phát hành cổ phiếu của Công ty Cổ phần FPT để thực hiện hoán đổi cổ phiếu cho các cổ đông hiện hữu của Công ty Cổ phần Hệ thống thông tin FPT, Công ty Cổ phần Phần mềm FPT và Công ty Cổ phần Thương mại FPT nhằm tái cấu trúc Tập đoàn. |\n| 17 | 09/2011 | 2.160.826.760.000 | Tăng vốn điều lệ thông qua phát hành cổ phiếu phổ thông cho CBNV có thành tích đóng góp trong năm 2010. |\n| 18 | 05/2012 | 2.700.859.340.000 | Tăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 4:1 từ kết quả kinh doanh năm 2011. |\n| 19 | 06/2012 | 2.738.488.330.000 | Tăng vốn điều lệ thông qua phát hành cổ phiếu phổ thông cho CBNV có thành tích đóng góp trong năm 2011 và cổ phiếu phổ thông cho CBNV. |\n| 20 | 06/2013 | 2.752.017.550.000 | Tăng vốn điều lệ thông qua phát hành cổ phiếu cho CBNV có thành tích đóng góp trong năm 2012. |\n| 21 | 05/2014 | 3.439.766.000.000 | Tăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 4:1 từ kết quả kinh doanh năm 2013. |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2681
+ },
+ "cost_usd": 0.001612686,
+ "latency_ms": 10472.791707987199
+}

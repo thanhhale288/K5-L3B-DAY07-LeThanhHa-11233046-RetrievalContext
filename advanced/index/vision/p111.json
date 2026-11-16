@@ -1,0 +1,19 @@
+{
+ "page": 111,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "Dấu ấn nổi bật",
+   "position": "phần nội dung chính bên phải menu điều hướng, toàn bộ phía trên",
+   "content": "Dấu ấn nổi bật\n\nMôi trường làm việc đẳng cấp\nTop 10\nNơi làm việc tốt nhất Việt Nam\n54.110\nViệc làm ổn định\n4.124\nNhân sự người nước ngoài (82 quốc tịch)\n36,4%\nCán bộ quản lý nữ\n1,1 triệu\nGiờ học nâng cao kiến thức kỹ năng AI\n\nHoạt động vì môi trường xanh\n02\nHệ thống điện mặt trời mái nhà\nTổng sản lượng\n842.749 kWh\n100%\nCơ sở được giám sát phát thải khí nhà kính định kỳ\n\nTrách nhiệm xã hội\n15 năm\nLiên tiếp triển khai Ngày FPT vì cộng đồng\n26\nĐiểm trường thiệt hại nặng được tái thiết sau lũ\nTrường Hy Vọng nhận giải thưởng Hành động vì cộng đồng ở hạng mục Dự án kịp thời\nTriển khai dự án máy khử rung tim tự động cho cộng đồng đầu tiên tại Việt Nam\n\nQuản trị bền vững\nTop 5\nDoanh nghiệp Việt Nam có chất lượng quản trị công ty tốt nhất ASEAN\nISO 27001:2013\nHệ thống quản lý an toàn thông tin\nISO 14001:2015\nHệ thống quản lý môi trường\nISO 45001:2018\nHệ thống an toàn sức khỏe\nISO 14064:2018\nTiêu chuẩn đo lường và quản lý phát thải khí nhà kính\nISO/IEC 42001:2023\nTiêu chuẩn dành cho hệ thống quản lý trí tuệ nhân tạo (AIMS)"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 6498
+ },
+ "cost_usd": 0.0039028859999999995,
+ "latency_ms": 30780.13812500285
+}

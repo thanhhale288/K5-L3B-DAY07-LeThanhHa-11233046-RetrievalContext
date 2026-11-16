@@ -1,0 +1,25 @@
+{
+  "strategy": "B",
+  "chunks": 198,
+  "pages": 49,
+  "embedding_dims": [
+    1024
+  ],
+  "pgvector_version": "0.8.7",
+  "embedding_model": "BAAI/bge-m3",
+  "benchmark": "../Lab day 6/K5-L3B-DAY06-LeThanhHa-2A202603901-DataIngestion/data/benchmark.json",
+  "overrides": "/Users/hale/Code/AI in action lab/Lab day 7/data/benchmark_day7.json",
+  "overridden_questions": [
+    "q01",
+    "q06"
+  ],
+  "answerable": {
+    "dev": 15,
+    "test": 5
+  },
+  "unanswerable": {
+    "dev": 2,
+    "test": 2
+  },
+  "gold_not_in_single_chunk": []
+}

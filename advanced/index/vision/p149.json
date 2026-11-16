@@ -1,0 +1,25 @@
+{
+ "page": 149,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Bảng tổng hợp so sánh kết quả tiêu thụ nước",
+   "position": "bên trái, phía dưới",
+   "content": "Đơn vị tính: m³\n\n| Danh mục | Năm 2023 | Năm 2024 | Năm 2025 | Chênh lệch - Mục tiêu thụ | Chênh lệch - Tỷ lệ |\n|---|---:|---:|---:|---:|---:|\n| Tiêu thụ nước | 774.152 | 827.940 | 831.885 | 3.945 | 0,48% |"
+  },
+  {
+   "type": "image",
+   "title": "FPT luôn đảm bảo thực hiện các quy định thống nhất trong các tòa nhà.",
+   "position": "bên phải, phía trên",
+   "content": "Ảnh minh họa tòa nhà hiện đại nhiều tầng, trên mặt tiền có dòng chữ \"FPT SCHOOL\". Phía dưới ảnh có dải màu cam ghi chú: \"FPT luôn đảm bảo thực hiện các quy định thống nhất trong các tòa nhà.\""
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2111
+ },
+ "cost_usd": 0.0012706859999999998,
+ "latency_ms": 11819.693708996056
+}

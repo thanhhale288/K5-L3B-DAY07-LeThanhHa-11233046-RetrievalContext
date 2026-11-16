@@ -1,0 +1,19 @@
+{
+ "page": 23,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "THÔNG TIN CHUNG",
+   "position": "nửa phải, phía trên",
+   "content": "| Mục | Giá trị |\n|---|---|\n| Tên công ty | Công ty Cổ phần FPT |\n| Tên tiếng Anh | FPT Corporation |\n| Tên viết tắt | FPT |\n| Mã chứng khoán | FPT |\n| Ngày thành lập | 13/09/1988 |\n| Giấy chứng nhận đăng ký kinh doanh | 0101248141 |\n| Vốn điều lệ | 17.035.071.210.000 VNĐ |\n| Vốn chủ sở hữu | 43.748.040.747.539 VNĐ |\n| Giá trị vốn hóa | 163.195.982.191.800 VNĐ (Tính tại thời điểm 31/12/2025) |\n| Trụ sở chính | Số 10 phố Phạm Văn Bạch, phường Cầu Giấy, TP.Hà Nội, Việt Nam |\n| Điện thoại | (+84) 24 7300 7300 |\n| Fax | (+84) 24 3768 7410 |\n| Website | https://fpt.com |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1857
+ },
+ "cost_usd": 0.001118286,
+ "latency_ms": 10130.864540988114
+}

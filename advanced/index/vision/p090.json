@@ -1,0 +1,19 @@
+{
+ "page": 90,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Chi tiết thù lao của từng thành viên HĐQT năm 2025",
+   "position": "giữa trang, phía trên",
+   "content": "Đơn vị: VNĐ\n\n| Thành viên HĐQT | Chức danh | Thù lao |\n|---|---|---:|\n| Ông Trương Gia Bình | Chủ tịch HĐQT | 0 |\n| Ông Bùi Quang Ngọc | Phó chủ tịch HĐQT | 0 |\n| Ông Đỗ Cao Bảo | Ủy viên HĐQT | 0 |\n| Ông Jean-Charles Belliol | Ủy viên HĐQT | 960.000.000 |\n| Ông Hiroshi Yokotsuka | Ủy viên HĐQT | 2.613.975.000 |\n| Ông Hampapur Rangadore Binod | Ủy viên HĐQT | 2.613.975.000 |\n| Bà Trần Thị Hồng Linh | Ủy viên HĐQT | 360.000.000 |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1152
+ },
+ "cost_usd": 0.0006952859999999999,
+ "latency_ms": 6933.448374998989
+}

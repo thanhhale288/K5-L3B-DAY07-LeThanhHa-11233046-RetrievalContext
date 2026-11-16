@@ -1,0 +1,19 @@
+{
+ "page": 144,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "HOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH",
+   "position": "nửa trái, phía dưới",
+   "content": "Ảnh minh họa: bàn tay nâng một chậu cây non; phía trên có vòng mũi tên trắng hình tròn bao quanh cây, kèm các biểu tượng: tuabin gió, tấm pin/nhà máy năng lượng mặt trời, giọt nước, bóng đèn, ô tô, ngôi nhà và lá cây/tái chế. Không có số liệu hoặc chú thích chữ trên ảnh."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1515
+ },
+ "cost_usd": 0.000913086,
+ "latency_ms": 10983.291000011377
+}

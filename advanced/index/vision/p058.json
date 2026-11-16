@@ -1,0 +1,19 @@
+{
+ "page": 58,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Một số chỉ tiêu hoạt động kinh doanh chính trong năm 2025",
+   "position": "nửa phải, phía trên",
+   "content": "Đơn vị: Tỷ VNĐ\nGhi chú: (*) Riêng Lãi cơ bản trên cổ phiếu đơn vị là: VNĐ\n\n| Chi tiêu | 2024 | 2025 | Tăng/Giảm |\n|---|---:|---:|---:|\n| Tổng tài sản | 72.000 | 88.142 | 22,4% |\n| Doanh thu | 62.849 | 70.113 | 11,6% |\n| Lợi nhuận từ hoạt động kinh doanh | 11.025 | 12.952 | 17,5% |\n| LNTT, lãi vay và khấu hao (EBITDA) | 13.605 | 15.958 | 17,3% |\n| LNTT | 11.070 | 13.044 | 17,8% |\n| LNST | 9.427 | 11.232 | 19,1% |\n| Lãi cơ bản trên cổ phiếu (*) | 4.292 | 5.216 | 21,5% |\n| Cổ tức tiền mặt trả trong năm | 2.741 | 3.185 | 16,2% |\n| Tỷ lệ lợi nhuận trả cổ tức | 34,9% | 34,0% | -90 bps |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1437
+ },
+ "cost_usd": 0.000866286,
+ "latency_ms": 7714.507874974515
+}

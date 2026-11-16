@@ -1,0 +1,19 @@
+{
+ "page": 150,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Kết quả quan trắc môi trường nước thải tại FPT Tower",
+   "position": "nửa trái, phía trên",
+   "content": "| TT | Thông số | Đơn vị | Kết quả 2025 | QCVN 14:2008/BTNMT |\n|---|---|---|---|---|\n| 1 | pH | - | 6,17 | 5–9 |\n| 2 | BOD₅ (20°C) | mg/l | 20,1 | 50 |\n| 3 | Tổng chất rắn lơ lửng (TSS) | mg/l | 46 | 100 |\n| 4 | Tổng chất rắn hòa tan (TDS) | mg/l | 515 | 1.000 |\n| 5 | Sunfua (tính theo H₂S) | mg/l | <0,03* | 4,0 |\n| 6 | Amoni (tính theo N) | mg/l | 3,97 | 10 |\n| 7 | Nitrat (NO₃⁻) | mg/l | 3,84 | 50 |\n| 8 | Dầu mỡ động, thực vật | mg/l | KPH (MDL= 1,4) | 20 |\n| 9 | Tổng chất hoạt động bề mặt | mg/l | <0,03* | 10 |\n| 10 | Phosphat (PO₄³⁻) | mg/l | 8,31 | 10 |\n| 11 | Tổng Coliforms | MPN/100ml | 1.500 | 5.000 |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4054
+ },
+ "cost_usd": 0.002436486,
+ "latency_ms": 19894.469791004667
+}

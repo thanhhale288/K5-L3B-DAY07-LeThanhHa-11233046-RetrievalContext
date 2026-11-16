@@ -1,0 +1,19 @@
+{
+ "page": 122,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Cán bộ nhân viên",
+   "position": "phần nội dung chính bên phải, từ tiêu đề “Cán bộ nhân viên” đến hết bảng",
+   "content": "| Chương trình hành động nổi bật | Kết quả năm 2025 |\n|---|---|\n| Xây dựng môi trường làm việc đẳng cấp, công bằng, bình đẳng không phân biệt giới tính, tuổi tác, trình độ | • Top 10 Nơi làm việc tốt nhất Việt Nam, dẫn đầu trong lĩnh vực Công nghệ thông tin/Phần mềm và Ứng dụng/Thương mại điện tử;<br>• Top 100 Nơi làm việc tốt nhất tại Việt Nam, Mỹ, Nhật Bản, Singapore;<br>• Tỷ lệ CBNV nữ chiếm 37,7% tổng nhân sự, cao hơn so với tỷ lệ chung của ngành CNTT thế giới (25%);<br>• Tiếp tục duy trì sức hút với nhân tài đến từ 82 quốc tịch, khẳng định môi trường làm việc đa văn hóa bền vững. |\n| Xây dựng môi trường minh bạch, thân thiện và hạnh phúc | • Duy trì kênh iNghe – Nền tảng ghi nhận mọi ý kiến và đóng góp thẳng thắn của CBNV khi phát hiện những vấn đề tiêu cực;<br>• Ra mắt ứng dụng đa nhiệm myFPT Next, nơi mọi CBNV có thể kết nối, làm việc và phát triển trong cùng một không gian số thống nhất. |\n| Xây dựng, triển khai chính sách thúc đẩy nghiên cứu, phát triển các giải pháp, sản phẩm công nghệ có tính sáng tạo cao | • Giải thưởng sáng tạo iKhiến được triển khai liên tục trong 09 năm, ghi nhận 13.227 sáng kiến, mang lại giá trị kinh tế hàng nghìn tỷ đồng. Riêng trong năm 2025, chương trình đã thu hút 3.838 sáng kiến đăng ký với giá trị kinh tế mang lại gần 1.000 tỷ đồng cho Tập đoàn. |\n| Xây dựng và thực thi kế hoạch phát triển nhân lực phù hợp với các mục tiêu và chiến lược phát triển | • Xem xét việc bổ nhiệm lãnh đạo cho các đơn vị chiến lược của Tập đoàn nhằm đáp ứng yêu cầu phát triển trong các lĩnh vực công nghệ chiến lược;<br>• Các chương trình đào tạo được triển khai sâu rộng trên toàn Tập đoàn với tổng số hơn 7,1 triệu giờ học, tăng 12% so với cùng kỳ;<br>• 98% CBNV được nâng cao kiến thức cơ bản về AI, tương ứng hơn 1,1 triệu giờ học;<br>• Chú trọng nuôi dưỡng và phát triển nguồn lực ở tất cả các cấp với nhiều chương trình đào tạo chuyên biệt như: Chương trình Su phụ – Đệ tử/Mentorship, chương trình quản trị trải nghiệm học tập kết hợp mô hình học – thi – trải nghiệm, chương trình MiniMBA, chương trình đào tạo cán bộ quản lý cấp trung, cán bộ kế cận. |\n| Thực hiện các chế độ bảo hiểm, các chế độ phúc lợi theo quy định | • Thực hiện đầy đủ các chế độ bảo hiểm và phúc lợi cho CBNV, đảm bảo tuân thủ các quy định pháp luật và nâng cao chất lượng chăm sóc CBNV như: bảo hiểm FPT Care cho CBNV và người thân; chính sách “An cư lạc nghiệp – Gắn kết lâu dài”, chính sách hỗ trợ học phí cho FPT Small.... |\n| Xây dựng và phát triển văn hoá, các giá trị cốt lõi | • Tổ chức nhiều chương trình, hoạt động đặc sắc, khích lệ nhằm tăng cường gắn kết, lan tỏa yêu thương, nâng cao sức khỏe cho CBNV như: Câu lạc bộ nhiếp ảnh, Hội nghệ sĩ FPT, Hội diễn văn nghệ, Hội làng, Câu lạc bộ chạy, Câu lạc bộ bóng đá, Hội thao, Ngày FPT vì Cộng đồng, Ngày Phụ huynh.... |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3900
+ },
+ "cost_usd": 0.002344086,
+ "latency_ms": 16761.623083002632
+}

@@ -1,0 +1,19 @@
+{
+ "page": 181,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Thời gian sử dụng hữu ích ước tính của các loại tài sản như sau:",
+   "position": "nửa phải, phía giữa trang",
+   "content": "| Loại tài sản | Thời gian sử dụng hữu ích ước tính |\n|---|---|\n| Nhà cửa, vật kiến trúc | 5 – 30 năm |\n| Máy móc, thiết bị | 3 – 25 năm |\n| Phương tiện vận tải | 4 – 7 năm |\n| Thiết bị quản lý | 3 – 10 năm |\n| Khác | 3 – 5 năm |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 610
+ },
+ "cost_usd": 0.000370086,
+ "latency_ms": 3965.089208999416
+}

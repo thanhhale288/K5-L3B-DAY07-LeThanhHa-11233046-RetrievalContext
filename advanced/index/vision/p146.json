@@ -1,0 +1,19 @@
+{
+ "page": 146,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Tổng hợp lượng phát thải khí nhà kính của FPT năm 2025",
+   "position": "cột phải, phía trên phần kết quả kiểm kê khí nhà kính",
+   "content": "Đơn vị: tấn CO₂ tương đương\n\n| Phạm vi | Năm 2023 | Năm 2024 | Năm 2025 |\n|---|---:|---:|---:|\n| Phạm vi 1 | 13.217 | 4.826 | 4.383 |\n| Phạm vi 2 | 109.696 | 138.748 | 123.569 |\n| Phạm vi 3 | Chưa triển khai | Triển khai thí điểm tại FPT Software | Triển khai tại FPT Software |\n| Tổng | 122.913 | 143.574 | 127.952 |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 706
+ },
+ "cost_usd": 0.000427686,
+ "latency_ms": 4211.302874988178
+}

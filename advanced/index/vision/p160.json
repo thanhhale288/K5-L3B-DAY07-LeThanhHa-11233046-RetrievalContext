@@ -1,0 +1,19 @@
+{
+ "page": 160,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "BÁO CÁO TÀI CHÍNH HỢP NHẤT CHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025",
+   "position": "phần nội dung chính bên phải, phía trên",
+   "content": "| Nội dung | Trang |\n|---|---|\n| Thông tin về doanh nghiệp | 160 |\n| Báo cáo của Ban Tổng Giám đốc | 161 |\n| Báo cáo kiểm toán độc lập | 162 |\n| Bảng cân đối kế toán hợp nhất (Mẫu số B 01 – DN/HN) | 164 |\n| Báo cáo kết quả hoạt động kinh doanh hợp nhất (Mẫu số B 02 – DN/HN) | 168 |\n| Báo cáo lưu chuyển tiền tệ hợp nhất (Mẫu số B 03 – DN/HN) | 170 |\n| Thuyết minh báo cáo tài chính hợp nhất (Mẫu số B 09 – DN/HN) | 172 |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1005
+ },
+ "cost_usd": 0.0006070860000000001,
+ "latency_ms": 5076.001125009498
+}

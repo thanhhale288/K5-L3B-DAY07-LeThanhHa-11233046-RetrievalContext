@@ -1,0 +1,19 @@
+{
+ "page": 151,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Kết quả quan trắc môi trường tại FPT Tower",
+   "position": "nửa trái, phía dưới",
+   "content": "| Thông số | Kết quả: KX01 | Kết quả: KX02 | Kết quả: KX03 | Quy chuẩn QCVN 05:2013/BTNMT và QCVN 26:2010/BTNMT |\n|---|---:|---:|---:|---:|\n| Tiếng ồn (dBA) | 63,7 | 65,8 | 67,2 | 70 |\n| Nhiệt độ (°C) | 36,9 | 35,5 | 37,2 | - |\n| Độ ẩm (%) | 58,9 | 61,2 | 57,7 | - |\n| Tốc độ gió (m/s) | 0,7 | 0,8 | 0,8 | - |\n| Tổng bụi lơ lửng (µg/m³) | 136 | 121 | 157 | 300 |\n| CO (µg/m³) | <9000 | <9000 | <9000 | 30.000 |\n| SO₂ (µg/m³) | 108 | 101 | 132 | 350 |\n| NO₂ (µg/m³) | 94 | 90 | 118 | 200 |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2191
+ },
+ "cost_usd": 0.001318686,
+ "latency_ms": 11454.185459006112
+}

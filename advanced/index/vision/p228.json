@@ -1,0 +1,19 @@
+{
+ "page": 228,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "NHẬT BẢN",
+   "position": "toàn bộ phần nội dung chính bên phải menu điều hướng, chia thành ba cột",
+   "content": "| Văn phòng/Trung tâm | Địa chỉ | Điện thoại | Email |\n|---|---|---|---|\n| TOKYO HEADQUARTER | 33F, Sumitomo Fudosan Tokyo Mita Garden Tower, 3-5-19 Mita, Minato-ku, Tokyo, 108-0073 Japan | (+81)3-6634-6868 | fjp.contact@fpt.com |\n| TOKYO INTELLIGENT OPERATION CENTER | KDX Hamamatsucho Place 6F, Shibakoen 1-7-6, Minato-ku, Tokyo, 105-0011 Japan | +81-(3)-6634-6868 | fjp.contact@fsoft.com |\n| NAC CO., LTD. | NBF Toranomom Building 3F, Nishishimbashi 1-6-21, Minato-ku, Tokyo, 105-0003 Japan | 03-3501-5501 | fjp.contact@fpt.com |\n| FPT JAPAN TRAINING CENTER | Shibadaimon Building No. 2 7F, Shibadaimon 1-12-16, Minato-ku, Tokyo, 105-0012 Japan | 03-6634-6868 |  |\n| FPT JAPANESE LANGUAGE SCHOOL | Higashinippori 4-3-5, Arakawa-ku, Tokyo, 116-0014 Japan | (+81)3-5615-1012 | info@fjpacademy.com |\n| TOKYO INNOVATION CENTER | Sumitomo Real Estate Landmark Plaza 7F, Shibakoen 1-6-7, Minato-ku, Tokyo, 105-0011 Japan | (+81)3-6634-6890 | fjp.contact@fpt.com |\n| SAPPORO OFFICE | Sapporo Tokeidai Bld 7F, Kita 1 Jou Nishi 2-1, Chuo-ku, Sapporo-shi, Hokkaido, 060-0001 Japan | 011-223-1266 | fjp.contact@fpt.com |\n| FPT GUNMA MOBILITY DX HUB | 3F, SS Ota Building, 1183-1 Iidacho, Ota City, Gunma 373-0851 | 0276-55-8616 | fjp.contact@fpt.com |\n| TOCHIGI INNOVATION HUB | 5F Big B Square, Higashijukugo 2-2-1, Utsunomiya City, Tochigi Prefecture 321-0953 | 028-689-9224 |  |\n| NAGOYA OFFICE | Nagoya Lucent Tower 11F, Ushijima-cho 6-1, Nishi-ku, Nagoya-shi, Aichi, 451-0046 Japan | (+81)52-756-3456 | fjp.contact@fpt.com |\n| OSAKA OFFICE | JRWD Dojima Tower Bld 16F, Dojima 2-4-27, Kita-ku, Osaka-shi, Osaka, 530-0003 Japan | (+81)6-6344-9010 | fjp.contact@fpt.com |\n| FUKUOKA DEVELOPMENT CENTER | Higashihie Business Center 7F, Higashihie 3-1-2, Hakata-ku, Fukuoka-shi, Fukuoka, 812-0007 Japan | (+81)92-260-6388 | fjp.contact@fpt.com |\n| FUKUOKA OFFICE | Daihakata Bld 2F, Hakataekimae 2-20-1, Hakata-ku, Fukuoka-shi, 812-0011 Japan | (+81)92-452-9911 | fjp.contact@fpt.com |\n| HIROSHIMA OFFICE | Sankyo Hiroshima Bld 7F, Komachi 3-25, Naka-ku, Hiroshima, 730-0041 Japan | (+81)82-545-9806 | fjp.contact@fpt.com |\n| OKINAWA - FPT NEARSHORE JAPAN | Naha Chamber of Commerce and Industry Center 6F, Kume 2-2-10, Naha City, Okinawa Prefecture 900-0033 | +81-(98)-861-7311 | fjp.contact@fpt.com |\n| OKINAWA - FPT NEARSHORE JAPAN | COI Naha Bld 2F, Kume 2-3-15, Naha-shi, Okinawa-ken, 900-0033 Japan | +81-(98)-861-7311 | fjp.contact@fpt.com |\n| SHIZUOKA MOBILITY HUB | Hamamatsu Act Tower 11F, Itaya-cho 111-2, Naka-ku, Hamamatsu-shi, Shizuoka 430-7790 | 053-523-8680 |  |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 5763
+ },
+ "cost_usd": 0.0034618859999999995,
+ "latency_ms": 23845.813000021735
+}

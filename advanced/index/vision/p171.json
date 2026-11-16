@@ -1,0 +1,19 @@
+{
+ "page": 171,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "BÁO CÁO LƯU CHUYỂN TIỀN TỆ HỢP NHẤT (Theo phương pháp gián tiếp)",
+   "position": "phần nội dung chính, phía trên đến giữa trang",
+   "content": "Mẫu số B 03 – DN/HN\nĐơn vị: VND\nNăm tài chính kết thúc ngày 31 tháng 12 năm\n\n| Mã số | Thuyết minh | 2025 | 2024 |\n|---|---:|---:|---:|\n| **LƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG KINH DOANH** |  |  |  |\n| 01 | Lợi nhuận kế toán trước thuế | 13.043.632.833.797 | 11.069.666.417.819 |\n|  | Điều chỉnh cho các khoản: |  |  |\n| 02 | Khấu hao tài sản cố định (“TSCĐ”) và phân bổ lợi thế thương mại | 2.914.178.360.732 | 2.535.298.475.665 |\n| 03 | Các khoản dự phòng | 651.406.282.654 | 1.148.951.390.915 |\n| 04 | (Lãi)/lỗ chênh lệch tỷ giá hối đoái do đánh giá lại các khoản mục tiền tệ có gốc ngoại tệ | (27.776.460.391) | 46.311.803.197 |\n| 05 | Lãi từ hoạt động đầu tư | (2.575.840.046.010) | (1.725.022.480.893) |\n| 06 | Chi phí lãi vay | 809.759.601.156 | 551.639.361.786 |\n| 08 | Lợi nhuận từ hoạt động kinh doanh trước những thay đổi vốn lưu động | 14.815.360.571.938 | 13.626.844.968.489 |\n| 09 | Tăng các khoản phải thu | (2.874.821.969.471) | (1.913.663.012.505) |\n| 10 | Tăng hàng tồn kho | (335.071.616.492) | (265.267.561.842) |\n| 11 | Tăng các khoản phải trả | 2.556.427.255.416 | 2.875.571.263.689 |\n| 12 | Tăng chi phí trả trước | (595.604.484.389) | (393.964.502.357) |\n| 14 | Tiền lãi vay đã trả | (812.474.254.533) | (607.154.747.076) |\n| 15 | Thuế TNDN đã nộp | (2.238.070.257.305) | (1.209.921.507.569) |\n| 17 | Tiền chi khác từ hoạt động kinh doanh | (379.701.329.253) | (408.667.711.961) |\n| 20 | Lưu chuyển tiền thuần từ hoạt động kinh doanh | 10.136.043.915.911 | 11.703.777.188.868 |\n| **LƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG ĐẦU TƯ** |  |  |  |\n| 21 | Tiền chi để mua sắm, xây dựng TSCĐ và các tài sản dài hạn khác | (5.097.919.349.856) | (3.275.312.325.702) |\n| 22 | Tiền thu từ thanh lý, nhượng bán TSCĐ và tài sản dài hạn khác | 7.314.216.719 | 14.227.383.215 |\n| 23 | Tiền chi cho vay, mua các công cụ nợ của đơn vị khác | (57.012.522.823.806) | (41.956.569.113.369) |\n| 24 | Tiền thu hồi cho vay, bán lại các công cụ nợ của đơn vị khác | 49.164.792.969.282 | 36.283.758.374.630 |\n\nCác thuyết minh từ trang 172 đến trang 225 là một phần cấu thành báo cáo tài chính hợp nhất."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4191
+ },
+ "cost_usd": 0.0025186859999999996,
+ "latency_ms": 18053.101874975255
+}

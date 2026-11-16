@@ -1,0 +1,19 @@
+{
+ "page": 31,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "diagram",
+   "title": "Sơ đồ tổ chức",
+   "position": "Chiếm phần lớn nửa phải và phần dưới của trang, bắt đầu từ phía trên bên phải dưới tiêu đề trang",
+   "content": "Sơ đồ tổ chức gồm các nút và quan hệ:\n- ĐẠI HỘI ĐỒNG CỔ ĐÔNG\n  + nối xuống HỘI ĐỒNG QUẢN TRỊ\n  + nối sang BAN KIỂM SOÁT\n- HỘI ĐỒNG QUẢN TRỊ\n  + nối xuống TỔNG GIÁM ĐỐC VÀ BAN ĐIỀU HÀNH\n  + nối sang nhóm gồm: ỦY BAN NHÂN SỰ VÀ LƯƠNG THƯỞNG; ỦY BAN CHÍNH SÁCH PHÁT TRIỂN; VĂN PHÒNG CHỦ TỊCH HĐQT; BỘ PHẬN KIỂM TOÁN NỘI BỘ\n- TỔNG GIÁM ĐỐC VÀ BAN ĐIỀU HÀNH\n  + nối đến TẬP ĐOÀN\n  + nối đến CÔNG TY CON\n  + nối đến CÔNG TY LIÊN KẾT\n- TẬP ĐOÀN\n  + nối đến các đơn vị: Ban Công nghệ; Ban Công nghệ thông tin; Văn phòng Chuyển đổi số; Ban Nhân sự; Ban Đảm bảo chất lượng; Ban Tài chính Kế hoạch; Ban Giám sát Tuân thủ; Ban Truyền thông; Ban Mua sắm; Ban Văn hóa Doanh nghiệp; Văn phòng; Bộ phận phát triển các dự án chiến lược; Chi nhánh Tp.HCM\n- CÔNG TY CON\n  + nối đến KHỐI CÔNG NGHỆ; KHỐI VIỄN THÔNG; KHỐI GIÁO DỤC, ĐẦU TƯ VÀ KHÁC\n- KHỐI CÔNG NGHỆ gồm/liên kết đến:\n  + FPT Software — Vốn điều lệ: 7.750.000.000.000 VNĐ; Tỷ lệ sở hữu: 100%\n  + FPT IS — Vốn điều lệ: 1.500.000.000.000 VNĐ; Tỷ lệ sở hữu: 100%\n  + FPT Digital — Vốn điều lệ: 60.000.000.000 VNĐ; Tỷ lệ sở hữu: 100%\n  + FPT Smart Cloud — Vốn điều lệ: 1.000.000.000.000 VNĐ; Tỷ lệ sở hữu: 100%\n- KHỐI VIỄN THÔNG gồm/liên kết đến:\n  + FPT Online — Vốn điều lệ: 184.712.750.000 VNĐ; Tỷ lệ sở hữu: 49,52%\n  + FPT Telecom — Vốn điều lệ: 7.387.634.630.000 VNĐ; Tỷ lệ sở hữu: 45,66%\n- KHỐI GIÁO DỤC, ĐẦU TƯ VÀ KHÁC gồm/liên kết đến:\n  + FPT Investment — Vốn điều lệ: 1.000.000.000.000 VNĐ; Tỷ lệ sở hữu: 100%\n  + FPT Education — Vốn điều lệ: 4.500.000.000.000 VNĐ; Tỷ lệ sở hữu: 100%\n- CÔNG TY LIÊN KẾT gồm/liên kết đến:\n  + Synnex FPT — Vốn điều lệ: 1.188.400.000.000 VNĐ; Tỷ lệ sở hữu: 48,00%\n  + FPT Retail — Vốn điều lệ: 1.703.017.850.000 VNĐ; Tỷ lệ sở hữu: 46,54%"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 8333
+ },
+ "cost_usd": 0.005003886000000001,
+ "latency_ms": 36598.64850001759
+}

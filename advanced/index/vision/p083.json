@@ -1,0 +1,19 @@
+{
+ "page": 83,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Nội dung các phiên họp và Nghị quyết",
+   "position": "toàn bộ phần nội dung chính, phía trên",
+   "content": "| Phiên họp | Thành phần tham dự | Nội dung họp và Nghị quyết | Ghi chú |\n|---|---|---|---|\n| Phiên 01<br>Ngày 05/02/2025 | HĐQT: 06/07 thành viên.<br>Quan sát viên:<br>• BKS: 03/03 thành viên;<br>• Ban Điều hành: 03/03 thành viên.<br>Ban hành Nghị quyết số 01.01-2025/NQ-HĐQT FPT ngày 06/02/2025. | • Thông qua Kết quả kinh doanh năm 2024;<br>• Thông qua Kế hoạch kinh doanh năm 2025 và trình ĐHĐCĐ phê duyệt;<br>• Thông qua Định hướng chiến lược 2025-2027, các chương trình chiến lược, kinh doanh trọng điểm và trình ĐHĐCĐ phê duyệt;<br>• Thông qua ngày chốt danh sách và ngày họp ĐHĐCĐ. | Đã công bố thông tin tại văn bản số 24/FPT-FCC ngày 06/02/2025. |\n| Phiên 02<br>Ngày 20/03/2025 | HĐQT: 07/07 thành viên.<br>Quan sát viên:<br>• BKS: 03/03 thành viên;<br>• Ban Điều hành: 03/03 thành viên.<br>Ban hành 02 Nghị quyết:<br>• Nghị quyết số 01.03-2025/NQ-HĐQT FPT ngày 20/03/2025;<br>• Nghị quyết số 02.03-2025/NQ-HĐQT FPT ngày 20/03/2025. | • Thông qua Chương trình ĐHĐCĐ thường niên 2025 và trình ĐHĐCĐ phê duyệt;<br>• Thông qua Quy chế tổ chức ĐHĐCĐ thường niên 2025;<br>• Thông qua Báo cáo của HĐQT năm 2024, định hướng, kế hoạch kinh doanh năm 2025 và trình ĐHĐCĐ phê duyệt;<br>• Thông qua Ngân sách thu nhập và thù lao của HĐQT năm 2025 và trình ĐHĐCĐ phê duyệt;<br>• Thông qua Báo cáo tài chính 2024 đã kiểm toán và trình ĐHĐCĐ phê duyệt;<br>• Thông qua Phương án phân phối lợi nhuận năm 2024, Phương án phát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu cho cổ đông, Chính sách chi trả cổ tức tiền mặt năm 2025 và trình ĐHĐCĐ phê duyệt;<br>• Thông qua đề xuất ủy quyền cho HĐQT lựa chọn một trong bốn công ty kiểm toán (Big4) thực hiện kiểm toán Báo cáo tài chính năm 2025 và trình ĐHĐCĐ phê duyệt;<br>• Thông qua đề xuất trình ĐHĐCĐ phê duyệt Phương án phát hành cổ phần cho cán bộ Quản lý cấp cao giai đoạn 2026-2030;<br>• Thông qua việc tái bổ nhiệm Tổng giám đốc Nguyễn Văn Khoa nhiệm kỳ ba năm tiếp theo từ 29/03/2025 đến hết ngày 28/03/2028; | Đã công bố thông tin tại văn bản số 60/FPT-FMC và 62/FPT-FMC ngày 21/03/2025. |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 5567
+ },
+ "cost_usd": 0.0033442859999999997,
+ "latency_ms": 21940.232833003392
+}

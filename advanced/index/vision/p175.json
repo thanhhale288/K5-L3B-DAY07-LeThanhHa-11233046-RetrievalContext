@@ -1,0 +1,19 @@
+{
+ "page": 175,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "(ii) Công ty liên kết trực tiếp:",
+   "position": "nửa dưới, giữa trang",
+   "content": "Tại ngày 31/12/2025 và 31/12/2024\n\n| Công ty con | Hoạt động chính | Nơi thành lập, đăng ký hoạt động | Tỷ lệ sở hữu | Tỷ lệ quyền biểu quyết |\n|---|---|---|---|---|\n| Công ty Cổ phần Synnex FPT | Sản xuất các sản phẩm công nghệ và phân phối các linh kiện CNTT và điện thoại di động, chế tạo máy tính. | Số 17, Phố Duy Tân, Phường Cầu Giấy, Hà Nội | 48% | 48% |\n| Công ty Cổ phần Bán lẻ Kỹ thuật số FPT | Bán lẻ máy vi tính, thiết bị ngoại vi, phần mềm và thiết bị viễn thông; đại lý dịch vụ viễn thông. | Số 261 - 263 Khánh Hội, Phường Vĩnh Hội, TP. Hồ Chí Minh | 46,54% | 46,54% |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2165
+ },
+ "cost_usd": 0.001303086,
+ "latency_ms": 10688.542750023771
+}

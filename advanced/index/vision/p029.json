@@ -1,0 +1,19 @@
+{
+ "page": 29,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "HÀNH TRÌNH KHẲNG ĐỊNH NĂNG LỰC VÀ VỊ THẾ (Tiếp theo)",
+   "position": "phần nội dung chính, từ trên xuống giữa trang",
+   "content": "Loại: dòng thời gian/infographic, bố cục 2 hàng mốc thời gian.\nHàng trên, từ trái sang phải:\n2009: Triển khai hệ thống ERP lớn nhất trong ngành CNTT Việt Nam với Petrolimex trị giá 12,6 triệu USD.\n2014: • Mua công ty RWE IT Slovakia – Thương vụ M&A đầu tiên trong lĩnh vực CNTT của Việt Nam tại thị trường nước ngoài.\n• Cung cấp Hệ thống bán vé tàu điện tử cho Tổng công ty Đường sắt Việt Nam. Đây là một trong những hợp đồng lớn đầu tiên của lĩnh vực thuê ngoài dịch vụ CNTT tại Việt Nam.\n2015: Top 300 Doanh nghiệp giá trị nhất châu Á do Nikkei Asian Review đánh giá.\n2016: Quy mô nhân lực của lĩnh vực Dịch vụ CNTT cho thị trường nước ngoài cán mốc 10.000 người, tương đương Top 15 Công ty phần mềm lớn nhất Ấn Độ.\nHàng dưới, từ trái sang phải:\n2021: • Đóng vai trò chủ chốt trong xử lý sự cố hệ thống giao dịch tại HOSE, nâng công suất lên gấp 03 lần so với hệ thống cũ.\n• Thành lập Công ty về lĩnh vực Tư vấn chuyển đổi số – FPT Digital.\n• M&A Base.vn – Nền tảng quản trị doanh nghiệp phổ biến nhất Việt Nam, góp phần thúc đẩy chuyển đổi số doanh nghiệp vừa và nhỏ.\n2020: • Ra mắt nền tảng điện toán đám mây FPT Cloud.\n• Thành lập Công ty FPT Smart Cloud trực thuộc Trung tâm nghiên cứu, phát triển sản phẩm, giải pháp, dịch vụ công nghệ AI, Cloud, Data.\n• Tập đoàn công nghệ đầu tiên ở Đông Nam Á trở thành đối tác chiến lược của Viện nghiên cứu AI hàng đầu thế giới – Mila.\n2018: • Mua 90% cổ phần của Intellinet – Công ty Tư vấn Công nghệ hàng đầu của Mỹ.\n• Ra mắt nền tảng tự động hóa quy trình doanh nghiệp – Akabot.\n2017: • Ra mắt nền tảng FPT.AI – Nền tảng trí tuệ nhân tạo toàn diện.\n• Thắng gói thầu 11,3 triệu USD của Bộ Kế hoạch và Tài chính Myanmar."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4266
+ },
+ "cost_usd": 0.0025636859999999995,
+ "latency_ms": 17879.24079198274
+}

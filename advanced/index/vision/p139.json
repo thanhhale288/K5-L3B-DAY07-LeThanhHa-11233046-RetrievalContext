@@ -1,0 +1,25 @@
+{
+ "page": 139,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "FPT luôn nỗ lực tạo môi trường tốt nhất để người lao động phát huy tài năng.",
+   "position": "nửa trái, phía trên",
+   "content": "Ảnh: ba nhân viên FPT (một nam áo xanh lá, một nữ áo cam, một nam áo be) đang trao đổi và dán giấy ghi chú lên vách kính. Trên vách có các giấy ghi chú; một số nội dung đọc được như “TALK TO EXPERTS”, các nội dung viết tay khác không đọc rõ. Chú thích dưới ảnh: “FPT luôn nỗ lực tạo môi trường tốt nhất để người lao động phát huy tài năng.”"
+  },
+  {
+   "type": "image",
+   "title": "Trong FPT – Cuộc thi lâu đời nhất của Tập đoàn, đóng vai trò quan trọng trong việc phát hiện, vinh danh và quy hoạch nhân sự trẻ.",
+   "position": "nửa phải, phía trên",
+   "content": "Ảnh: sân khấu vinh danh của FPT với phông nền lớn có dòng chữ “TOP 6 TRẠNG FPT” và các tên/thương hiệu đơn vị như FPT Software, FPT Education; có 6 người đứng hàng trên và 6 người đứng hàng dưới. Chú thích dưới ảnh: “Trong FPT – Cuộc thi lâu đời nhất của Tập đoàn, đóng vai trò quan trọng trong việc phát hiện, vinh danh và quy hoạch nhân sự trẻ.”"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 5898
+ },
+ "cost_usd": 0.0035428859999999994,
+ "latency_ms": 28964.057042001514
+}

@@ -1,0 +1,19 @@
+{
+ "page": 174,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "(i) Công ty con trực tiếp",
+   "position": "toàn bộ phần nội dung bên phải, phía dưới tiêu đề mục 1",
+   "content": "Bảng: Công ty con trực tiếp\n\nTại ngày 31/12/2025 và 31/12/2024\n\n| Công ty con | Hoạt động chính | Nơi thành lập, đăng ký hoạt động | Tỷ lệ sở hữu | Tỷ lệ quyền biểu quyết |\n|---|---|---|---|---|\n| Công ty TNHH Phần mềm FPT | Cung cấp các dịch vụ và sản phẩm phần mềm | Tòa nhà FPT Cầu Giấy, Phố Duy Tân, Phường Cầu Giấy, Thành phố Hà Nội, Việt Nam | 100% | 100% |\n| Công ty Cổ phần Viễn thông FPT (*) | Cung cấp các dịch vụ ADSL, cho thuê đường truyền, truyền hình trả tiền và các dịch vụ truy cập khác | Tầng 2, tòa nhà FPT Cầu Giấy, số 17 phố Duy Tân, Phường Cầu Giấy, Thành phố Hà Nội, Việt Nam | 45,66% | (*) |\n| Công ty TNHH FPT IS | Cung cấp giải pháp phần mềm ứng dụng, dịch vụ ERP, dịch vụ công nghệ thông tin, tích hợp hệ thống | Số 10 Phố Phạm Văn Bạch, phường Cầu Giấy, Thành phố Hà Nội, Việt Nam | 100% | 100% |\n| Công ty TNHH Giáo dục FPT | Cung cấp dịch vụ đào tạo và công nghệ | Khu công nghệ cao Hòa Lạc, Km 29, Đại lộ Thăng Long, xã Hòa Lạc, Hà Nội, Việt Nam | 100% | 100% |\n| Công ty Cổ phần Dịch vụ Trực tuyến FPT | Cung cấp các dịch vụ trực tuyến | Lô L 29B-31B-33B, đường Tân Thuận, Phường Tân Thuận, Thành phố Hồ Chí Minh, Việt Nam | 49,52% | 80,15% |\n| Công ty TNHH Đầu tư FPT | Đầu tư tài chính | Số 10 Phố Phạm Văn Bạch, Phường Cầu Giấy, Thành phố Hà Nội, Việt Nam | 100% | 100% |\n| Công ty TNHH FPT Smart Cloud | Công nghệ thông tin | Số 10 Phố Phạm Văn Bạch, Phường Cầu Giấy, Thành phố Hà Nội, Việt Nam | 100% | 100% |\n| Công ty TNHH FPT Digital | Tư vấn chuyển đổi số | Số 10 Phố Phạm Văn Bạch, Phường Cầu Giấy, Thành phố Hà Nội, Việt Nam | 100% | 100% |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3333
+ },
+ "cost_usd": 0.002003886,
+ "latency_ms": 14926.921582984505
+}

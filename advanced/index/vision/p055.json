@@ -1,0 +1,31 @@
+{
+ "page": 55,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "chart",
+   "title": "Doanh thu",
+   "position": "nửa trái, phía trên",
+   "content": "Loại biểu đồ: Biểu đồ cột nhóm.\nTổng Doanh thu năm 2026: 58.580 Tỷ VNĐ; tăng 15,8% so với cùng kỳ.\nTrục tung: 0–60.000, bước 10.000 (nhãn: 0; 10.000; 20.000; 30.000; 40.000; 50.000; 60.000).\nTrục hoành: Khối Công nghệ; Khối Giáo dục, Đầu tư và Khác.\nĐơn vị: Tỷ VNĐ.\nChú giải: Năm 2026 (xanh đậm); Năm 2025 (xanh nhạt).\nKhối Công nghệ: Năm 2026 = 52.650; Năm 2025 = 44.475; tăng 18,4%.\nKhối Giáo dục, Đầu tư và Khác: Năm 2026 = 5.930; Năm 2025 = 6.132; giảm 3,3%.\nGhi chú: (Đối với số liệu năm 2026, Tập đoàn hợp nhất Công ty Cổ phần Viễn thông FPT (FPT Telecom) theo phương pháp vốn chủ sở hữu, số liệu năm 2025 đã được điều chỉnh theo cùng phương pháp nhằm đảm bảo tính nhất quán và khả năng so sánh.)"
+  },
+  {
+   "type": "chart",
+   "title": "Lợi nhuận trước thuế",
+   "position": "nửa phải, phía trên",
+   "content": "Loại biểu đồ: Biểu đồ cột nhóm.\nTổng Lợi nhuận trước thuế năm 2026: 11.629 Tỷ VNĐ; tăng 15,0% so với cùng kỳ.\nTrục tung: 0–8000, bước 1000 (nhãn in: 0; 1000; 2000; 3000; 4000; 5000; 6000; 7000; 8000).\nTrục hoành: Khối Công nghệ; Khối Giáo dục, Đầu tư và Khác.\nĐơn vị: Tỷ VNĐ.\nChú giải: Năm 2026 (xanh đậm); Năm 2025 (xanh nhạt).\nKhối Công nghệ: Năm 2026 = 7.350; Năm 2025 = 5.907; tăng 24,4%.\nKhối Giáo dục, Đầu tư và Khác: Năm 2026 = 4.279; Năm 2025 = 4.206; tăng 1,7%.\nGhi chú: (Đối với số liệu năm 2026, Tập đoàn hợp nhất Công ty Cổ phần Viễn thông FPT (FPT Telecom) theo phương pháp vốn chủ sở hữu, số liệu năm 2025 đã được điều chỉnh theo cùng phương pháp nhằm đảm bảo tính nhất quán và khả năng so sánh.)"
+  },
+  {
+   "type": "table",
+   "title": "Kế hoạch đầu tư dự kiến",
+   "position": "toàn bộ chiều ngang, phía dưới",
+   "content": "Đơn vị: Tỷ VNĐ\n\n| Khối | Ngân sách đầu tư | Chú thích |\n|---|---:|---|\n| Khối Công nghệ | 4.200 | Đầu tư mở rộng các khu tổ hợp văn phòng tại các thành phố lớn như: Hà Nội, Tp.Hồ Chí Minh, Bình Dương. |\n| Khối Giáo dục, Đầu tư và Khác | 3.000 | Đầu tư mở rộng các khuôn viên Đại học tại Hà Nội, Tp.Hồ Chí Minh và Đà Nẵng, đồng thời mở rộng thêm cơ sở đào tạo mới tại các tỉnh, thành trên toàn quốc. |\n| Tổng cộng | 7.200 |  |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 5744
+ },
+ "cost_usd": 0.003450486,
+ "latency_ms": 26882.80558300903
+}

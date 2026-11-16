@@ -1,0 +1,25 @@
+{
+ "page": 170,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "BÁO CÁO KẾT QUẢ HOẠT ĐỘNG KINH DOANH HỢP NHẤT (Tiếp theo)",
+   "position": "phía trên, chiếm phần lớn chiều ngang trang",
+   "content": "Mẫu số: B 02 – DN/HN\nĐơn vị: VNĐ\nNăm tài chính kết thúc ngày 31 tháng 12 năm\n\n| Mã số | Chỉ tiêu | Thuyết minh | 2025 | 2024 |\n|---|---|---:|---:|---:|\n| 60 | Lợi nhuận sau thuế TNDN (60 = 50 – 51 – 52) | | 11.232.339.450.734 | 9.427.422.530.444 |\n| | Phân bổ cho: | | | |\n| 61 | Cổ đông của công ty mẹ | | 9.376.127.629.501 | 7.856.767.812.178 |\n| 62 | Cổ đông không kiểm soát | | 1.856.211.821.233 | 1.570.654.718.266 |\n| 70 | Lãi cơ bản trên cổ phiếu | 25(a) | 5.216 | 4.292 |\n| 71 | Lãi suy giảm trên cổ phiếu | 25(b) | 5.216 | 4.292 |"
+  },
+  {
+   "type": "image",
+   "title": "Chữ ký và con dấu xác nhận",
+   "position": "phía dưới bên phải",
+   "content": "Chữ ký và con dấu xác nhận:\n- HOÀNG NGỌC BÍCH – Người lập\n- HOÀNG HỮU CHIẾN – Kế toán trưởng\n- NGUYỄN THẾ PHƯƠNG – Phó Tổng Giám đốc, Chữ ký được ủy quyền, Ngày 18 tháng 3 năm 2026\n- Dấu tròn đỏ: CÔNG TY CỔ PHẦN FPT, ở giữa có FPT"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3753
+ },
+ "cost_usd": 0.0022558859999999995,
+ "latency_ms": 17207.709000009345
+}

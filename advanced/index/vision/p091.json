@@ -1,0 +1,19 @@
+{
+ "page": 91,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "LỄ CÔNG BỐ TOP 50 CÔNG TY ĐẠI CHÚNG UY TÍN VÀ HIỆU QUẢ NĂM 2025",
+   "position": "nửa phải, chiếm gần toàn bộ chiều cao trang",
+   "content": "Ảnh sự kiện trên sân khấu có phông nền xanh. Trên phông nền hiển thị dòng chữ: “LỄ CÔNG BỐ TOP 50 CÔNG TY ĐẠI CHÚNG UY TÍN VÀ HIỆU QUẢ NĂM 2025”, logo “FPT” và dòng chữ “CÔNG TY CỔ PHẦN FPT”. Trên sân khấu có 3 người đàn ông mặc vest; người ở giữa đang cầm một vật giống bằng khen/giấy chứng nhận và đeo vòng hoa. Phía dưới ảnh có dải chú thích màu cam, chữ trắng: “FPT lần đầu vượt qua các ngành hàng lớn, đứng vị trí số 1 trong danh sách VIX50.”"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1016
+ },
+ "cost_usd": 0.000613686,
+ "latency_ms": 6261.337999982061
+}

@@ -1,0 +1,19 @@
+{
+ "page": 85,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Phiên họp",
+   "position": "phần nội dung bên phải, phía trên",
+   "content": "| Phiên họp | Thành phần tham dự | Nội dung họp và Nghị quyết | Ghi chú |\n|---|---|---|---|\n| Phiên 06<br>Ngày 29/07/2025 | HĐQT: 07/07 thành viên.<br>Quan sát viên:<br>• Ban kiểm soát: 02/03 thành viên;<br>• Ban Điều hành: 03/03 thành viên.<br>Ban hành Nghị quyết số<br>01.07-2025/NQ-HĐQTFPT ngày<br>30/07/2025. | • Tăng vốn điều lệ cho Công ty Cổ phần FPT;<br>• Giao cho Người đại diện theo pháp luật của Công ty tổ chức thực hiện việc cập nhật nội dung đăng ký doanh nghiệp tương ứng và các thủ tục khác theo quy định pháp luật. | Đã công bố thông tin tại văn bản số 228/FPT-FAF ngày 30/07/2025. |\n| Phiên 07<br>Ngày 13/11/2025 | HĐQT: 07/07 thành viên.<br>Quan sát viên:<br>• Ban kiểm soát: 03/03 thành viên;<br>• Ban Điều hành: 03/03 thành viên.<br>Ban hành Nghị quyết số<br>01.11-2025/NQ-HĐQTFPT ngày<br>15/11/2025. | • Thông qua Phương án tạm ứng cổ tức đợt một năm 2025 bằng tiền mặt. | Đã công bố thông tin tại văn bản số 327/FPT-FCC ngày 14/11/2025. |\n\nGhi chú: Thành viên HĐQT có trách nhiệm tham gia các cuộc họp trong năm và có ý kiến rõ ràng về các vấn đề được đưa ra thảo luận, đồng thời đảm bảo tham gia tối thiểu 01 cuộc họp/quý. Trong trường hợp không thể tham dự cuộc họp, thành viên HĐQT phải thông báo bằng văn bản cho Văn phòng Chủ tịch HĐQT."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2720
+ },
+ "cost_usd": 0.001636086,
+ "latency_ms": 12101.62445899914
+}

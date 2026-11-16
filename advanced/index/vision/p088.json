@@ -1,0 +1,25 @@
+{
+ "page": 88,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "Nguyên tắc 02: Thiết lập một HĐQT có năng lực và chuyên nghiệp",
+   "position": "nửa phải, phía trên",
+   "content": "03 Thành viên HĐQT độc lập; 01 Thành viên HĐQT nữ; 05 Thành viên HĐQT có kinh nghiệm chuyên sâu trong lĩnh vực CNTT; 01 Thành viên HĐQT am hiểu sâu sắc lĩnh vực đầu tư và quản trị doanh nghiệp; 01 Thành viên HĐQT có kinh nghiệm chuyên sâu trong lĩnh vực tài chính."
+  },
+  {
+   "type": "image",
+   "title": "ĐẠI HỘI ĐỒNG CỔ ĐÔNG THƯỜNG NIÊN FPT 2025",
+   "position": "nửa phải, phía dưới",
+   "content": "Ảnh sự kiện Đại hội đồng cổ đông thường niên FPT 2025. Trên màn hình có chữ: “ĐẠI HỘI ĐỒNG CỔ ĐÔNG THƯỜNG NIÊN FPT 2025”; “FPT'S 2025 ANNUAL GENERAL MEETING OF SHAREHOLDERS”; “Hà Nội, 15.04.2025”. Có 5 người ngồi sau bàn chủ tọa có micro, phông nền đồ họa và logo FPT phía trên màn hình."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2045
+ },
+ "cost_usd": 0.001231086,
+ "latency_ms": 11277.547417004826
+}

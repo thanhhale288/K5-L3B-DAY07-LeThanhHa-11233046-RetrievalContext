@@ -1,0 +1,19 @@
+{
+ "page": 134,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Rủi ro Môi trường – Thiên tai – Dịch bệnh",
+   "position": "phía trên, chiếm phần lớn chiều ngang trang",
+   "content": "| Tên rủi ro | Nội dung | Biện pháp quản trị |\n|---|---|---|\n| Rủi ro Môi trường – Thiên tai – Dịch bệnh | • Biến đổi khí hậu dẫn đến điều kiện thời tiết bất thường, ảnh hưởng đến cơ sở hạ tầng, sức khỏe CBNV...<br>• Gián đoạn hoạt động kinh doanh do thiên tai.<br>• Sức khỏe CBNV, năng suất lao động bị suy giảm do bệnh dịch. | • Xác định các rủi ro tiềm ẩn từ môi trường, thiên tai và dịch bệnh, đánh giá mức độ tác động đến cơ sở hạ tầng, nguồn nhân lực và chuỗi cung ứng;<br>• Ứng dụng IoT, AI và Big Data để theo dõi và cảnh báo sớm các hiện tượng thời tiết bất thường, thiên tai và dịch bệnh;<br>• Đầu tư phát triển các giải pháp và công cụ hỗ trợ làm việc từ xa an toàn, đảm bảo mọi hoạt động của Tập đoàn được duy trì thông suốt trong mọi tình huống. |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1468
+ },
+ "cost_usd": 0.000884886,
+ "latency_ms": 8025.078167003812
+}

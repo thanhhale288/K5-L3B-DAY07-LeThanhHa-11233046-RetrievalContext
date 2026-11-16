@@ -1,0 +1,19 @@
+{
+ "page": 96,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "",
+   "position": "phần nội dung chính bên phải, chiếm gần toàn bộ trang",
+   "content": "| STT | Tên tổ chức | Mối quan hệ liên quan với công ty | Số giấy ĐKKD, ngày cấp, nơi cấp | Địa chỉ trụ sở chính | Thời điểm giao dịch | Số nghị quyết/ quyết định của ĐHĐCĐ/ HĐQT... thông qua | Nội dung và tổng giá trị giao dịch - Giao dịch | Nội dung và tổng giá trị giao dịch - Tổng giá trị (VND) | Ghi chú |\n|---|---|---|---|---|---|---|---|---|---|\n| 6 | Công ty TNHH Đầu tư FPT | Công ty con trong cùng Tập đoàn | • 0105173948<br>• 03/03/2011<br>• Sở Kế hoạch và Đầu tư TP.Hà Nội | Số 10 phố Phạm Văn Bạch, phường Cầu Giấy, TP.Hà Nội | Năm 2025 | Giao dịch giữa công ty với các doanh nghiệp và người có liên quan thực hiện theo Nghị Quyết số 02.03-2021/NQ-HĐQT/FPT ban hành ngày 12/03/2021 và có hiệu lực đến khi có Nghị quyết khác thay thế. | Chia sẻ chi phí và tiện ích dùng chung<br>Lãi cho vay<br>Lãi đi vay<br>Cho vay<br>Thu hồi khoản cho vay<br>Vay<br>Trả nợ vay | 1.842.629.676<br>405.531.622<br>4.661.483.820<br>37.500.000.000<br>10.900.000.000<br>232.000.000.000<br>264.000.000.000 | Giao dịch thường xuyên<br>Giao dịch theo tháng<br>Giao dịch theo tháng<br>Giao dịch thường xuyên<br>24/12/2025<br>Giao dịch thường xuyên<br>Giao dịch thường xuyên |\n| 7 | Công ty Cổ phần Synnex FPT | Công ty liên kết | • 0103841131<br>• 06/08/2009<br>• Sở Kế hoạch và Đầu tư TP.Hà Nội | Tòa nhà FPT Cầu Giấy, phố Duy Tân, phường Cầu Giấy, TP.Hà Nội | Năm 2025 | Giao dịch giữa công ty với các doanh nghiệp và người có liên quan thực hiện theo Nghị Quyết số 02.03-2021/NQ-HĐQT/FPT ban hành ngày 12/03/2021 và có hiệu lực đến khi có Nghị quyết khác thay thế. | Cung cấp dịch vụ, chia sẻ chi phí và tiện ích dùng chung<br>Mua hàng hóa, dịch vụ | 1.376.194.343<br>1.387.680.263 | Giao dịch thường xuyên<br>Giao dịch thường xuyên |\n| 8 | Công ty Cổ phần Bán lẻ Kỹ thuật số FPT | Công ty liên kết | • 0311609355<br>• 08/03/2012<br>• Sở Kế hoạch và Đầu tư TP.Hồ Chí Minh | Số 261-263 Khánh Hội, phường Vĩnh Hội, TP.Hồ Chí Minh | Năm 2025 | Giao dịch giữa công ty với các doanh nghiệp và người có liên quan thực hiện theo Nghị Quyết số 02.03-2021/NQ-HĐQT/FPT ban hành ngày 12/03/2021 và có hiệu lực đến khi có Nghị quyết khác thay thế. | Cung cấp dịch vụ, chia sẻ chi phí và tiện ích dùng chung<br>Mua hàng hóa, dịch vụ | 26.991.394.716<br>2.520.072.788 | Giao dịch thường xuyên<br>Giao dịch thường xuyên |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 7535
+ },
+ "cost_usd": 0.004525086,
+ "latency_ms": 32442.52150002285
+}

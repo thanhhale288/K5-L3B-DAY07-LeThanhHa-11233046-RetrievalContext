@@ -1,0 +1,19 @@
+{
+ "page": 103,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "FPT tập trung đầu tư, làm chủ và từng bước thương mại hóa các công nghệ chiến lược mới.",
+   "position": "nửa phải, phía dưới",
+   "content": "Ảnh sự kiện/triển lãm: một người mặc áo cam đang thuyết trình trước màn hình lớn, xung quanh có nhiều người tham dự; phía trước có khu trưng bày. Trên màn hình hiển thị các dòng chữ: “AI- DRIVEN SECURITY”, “EMPOWERING A SAFE CYBERSPACE”, “400% Faster incident re...”, “through Automation”, “1,500+ Projects per y...”, cùng một số nhãn/icon số liệu bị cắt một phần. Chú thích dưới ảnh: “FPT tập trung đầu tư, làm chủ và từng bước thương mại hóa các công nghệ chiến lược mới.”"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1043
+ },
+ "cost_usd": 0.000629886,
+ "latency_ms": 7520.048458012752
+}

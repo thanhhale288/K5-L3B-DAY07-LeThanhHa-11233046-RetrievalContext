@@ -1,0 +1,19 @@
+{
+ "page": 161,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "THÔNG TIN VỀ DOANH NGHIỆP",
+   "position": "toàn bộ vùng nội dung chính bên phải trang, từ tiêu đề đến hết bảng",
+   "content": "| Mục | Nội dung chi tiết | Chức vụ/Ghi chú |\n|---|---|---|\n| Giấy Chứng nhận Đăng ký Doanh nghiệp | Số 0101248141 ngày 13 tháng 5 năm 2002<br><br>Giấy Chứng nhận Đăng ký doanh nghiệp do Sở Kế hoạch và Đầu tư Thành phố Hà Nội cấp lần đầu vào ngày 13 tháng 5 năm 2002.<br>Giấy Chứng nhận Đăng ký doanh nghiệp thay đổi gần nhất (lần thứ 60) được cấp ngày 21 tháng 8 năm 2025. | |\n| Hội đồng Quản trị | Ông Trương Gia Bình | Chủ tịch |\n| | Ông Bùi Quang Ngọc | Phó chủ tịch |\n| | Ông Đỗ Cao Bảo | Ủy viên |\n| | Ông Jean Charles Belliol | Ủy viên |\n| | Ông Hiroshi Yokotsuka | Ủy viên |\n| | Ông Hampapur Rangadore Binod | Ủy viên |\n| | Bà Trần Thị Hồng Lĩnh | Ủy viên |\n| Ban Tổng Giám đốc | Ông Nguyễn Văn Khoa | Tổng Giám đốc |\n| | Ông Nguyễn Thế Phương | Phó Tổng Giám đốc |\n| | Ông Phạm Minh Tuấn | Phó Tổng Giám đốc |\n| Ban Kiểm soát | Ông Nguyễn Việt Thắng | Trưởng ban |\n| | Ông Nguyễn Khải Hoàn | Thành viên |\n| | Bà Dương Thùy Dương | Thành viên |\n| Người đại diện theo pháp luật | Ông Trương Gia Bình | Chủ tịch Hội đồng Quản trị |\n| | Ông Nguyễn Văn Khoa | Tổng Giám đốc |\n| Trụ sở chính | Số 10, Phố Phạm Văn Bạch, Phường Cầu Giấy, Thành phố Hà Nội, Việt Nam | |\n| Công ty kiểm toán | Công ty TNHH PwC (Việt Nam) | |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3622
+ },
+ "cost_usd": 0.0021772859999999996,
+ "latency_ms": 16082.826833007857
+}

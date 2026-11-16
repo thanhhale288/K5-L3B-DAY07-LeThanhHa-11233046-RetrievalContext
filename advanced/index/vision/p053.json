@@ -1,0 +1,19 @@
+{
+ "page": 53,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "Thông qua trợ lý AI tại Trung tâm Giám sát, Điều hành thông minh Hệ thống Thi hành án dân sự (IOC THADS), lãnh đạo có thể theo dõi tiến độ xử lý ngay trên một màn hình điều hành tập trung.",
+   "position": "nửa phải, phía dưới",
+   "content": "Ảnh chụp một người đang làm việc tại bàn với laptop và màn hình máy tính hiển thị giao diện bảng điều khiển/biểu đồ, bản đồ. Phía dưới ảnh có chú thích màu cam: “Thông qua trợ lý AI tại Trung tâm Giám sát, Điều hành thông minh Hệ thống Thi hành án dân sự (IOC THADS), lãnh đạo có thể theo dõi tiến độ xử lý ngay trên một màn hình điều hành tập trung.”"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 749
+ },
+ "cost_usd": 0.000453486,
+ "latency_ms": 5445.1166249928065
+}

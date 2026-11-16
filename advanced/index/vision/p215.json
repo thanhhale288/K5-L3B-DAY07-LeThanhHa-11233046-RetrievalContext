@@ -1,0 +1,19 @@
+{
+ "page": 215,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "(iii) Thù lao Hội đồng Quản trị, Ban Kiểm soát và tiền lương của Tổng Giám đốc và người quản lý chủ chốt khác",
+   "position": "toàn bộ phần nội dung chính, từ phía trên đến gần cuối trang",
+   "content": "Đơn vị: VNĐ\n\n| STT | Họ và tên | Chức danh | 2025 | 2024 |\n|---|---|---|---:|---:|\n|  | **Thù lao thành viên Hội đồng Quản trị** |  |  |  |\n| 1 | Ông Trương Gia Bình | Chủ tịch | - | - |\n| 2 | Ông Bùi Quang Ngọc | Phó Chủ tịch | - | - |\n| 3 | Ông Đỗ Cao Bảo | Ủy viên | - | - |\n| 4 | Ông Jean Charles Belliol | Ủy viên | 960.000.000 | 960.000.000 |\n| 5 | Bà Trần Thị Hồng Lĩnh | Ủy viên | 360.000.000 | 360.000.000 |\n| 6 | Ông Hiroshi Yokotsuka | Ủy viên | 2.613.975.000 | 2.532.650.000 |\n| 7 | Ông Hampapur Rangadore Binod | Ủy viên | 2.613.975.000 | 2.532.650.000 |\n|  |  |  | 6.547.950.000 | 6.385.300.000 |\n|  | **Thù lao thành viên Ban Kiểm soát** |  |  |  |\n| 1 | Ông Nguyễn Việt Thắng | Trưởng ban | 716.800.000 | 716.800.000 |\n| 2 | Ông Nguyễn Khải Hoàn | Thành viên | 369.600.000 | 369.600.000 |\n| 3 | Bà Dương Thùy Dương | Thành viên | 369.600.000 | 369.600.000 |\n|  |  |  | 1.456.000.000 | 1.456.000.000 |\n|  | **Tiền lương của Tổng Giám đốc và người quản lý chủ chốt khác** |  |  |  |\n| 1 | Ông Nguyễn Văn Khoa | Tổng Giám đốc | 4.420.000.000 | 4.420.000.000 |\n| 2 | Ông Nguyễn Thế Phương | Phó Tổng Giám đốc | 3.510.000.000 | 3.510.000.000 |\n| 3 | Ông Phạm Minh Tuấn | Phó Tổng Giám đốc (từ ngày 13/3/2024) | 2.990.000.000 | 2.444.065.934 |\n| 4 | Ông Hoàng Việt Anh | Phó Tổng Giám đốc (đến ngày 13/3/2024) | - | 640.879.121 |\n| 5 | Ông Hoàng Hữu Chiến | Kế toán trưởng | 2.080.000.000 | 2.080.000.000 |\n| 6 | Bà Mai Thị Lan Anh | Phụ trách Công bố thông tin | 1.105.000.000 | 965.000.000 |\n|  |  |  | 14.105.000.000 | 14.059.945.055 |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4345
+ },
+ "cost_usd": 0.002611086,
+ "latency_ms": 18102.562832995318
+}

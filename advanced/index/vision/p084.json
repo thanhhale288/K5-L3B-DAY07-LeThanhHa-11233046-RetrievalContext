@@ -1,0 +1,19 @@
+{
+ "page": 84,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Phiên họp",
+   "position": "phần nội dung chính bên phải, từ phía trên xuống gần cuối trang",
+   "content": "| Phiên họp | Thành phần tham dự | Nội dung họp và Nghị quyết | Ghi chú |\n|---|---|---|---|\n| | | • Thông qua Phương án phát hành cổ phiếu theo chương trình lựa chọn cho CBNV có thành tích đóng góp trong năm 2024;<br>• Thông qua Danh sách CBNV được tham gia chương trình lựa chọn cho CBNV có thành tích đóng góp trong năm 2024;<br>• Thông qua Phương án phát hành cổ phiếu theo chương trình lựa chọn cho cán bộ lãnh đạo cấp cao trong năm 2025;<br>• Thông qua Danh sách CBNV được tham gia chương trình lựa chọn cho cán bộ lãnh đạo cấp cao trong năm 2025. | |\n| Phiên 03<br>Từ ngày 16/05<br>đến 19/05/2025 | Xin ý kiến bằng văn bản.<br><br>Ban hành Nghị quyết số 01.05-2025/NQ-HĐQT FPT ngày 20/05/2025. | • Tăng vốn điều lệ cho Công ty Cổ phần FPT;<br>• Giao cho Người đại diện theo pháp luật của Công ty tổ chức thực hiện việc cập nhật nội dung đăng ký doanh nghiệp và cập nhật Điều lệ Công ty tương ứng. | Đã công bố thông tin tại văn bản số 125/FPT-FCC ngày 20/05/2025. |\n| Phiên 04<br>Từ ngày 23/05<br>đến 28/05/2025 | Xin ý kiến bằng văn bản.<br><br>Ban hành Nghị quyết số 02.05-2025/NQ-HĐQT FPT ngày 29/05/2025. | • Thông qua việc triển khai thực hiện phương án phát hành cổ phiếu để tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu theo Mục 2 Điều 4 Nghị quyết ĐHĐCĐ thường niên 2025;<br>• Giao cho Chủ tịch HĐQT triển khai phương án phát hành cổ phiếu để tăng vốn từ nguồn vốn chủ sở hữu nêu trên;<br>• Thông qua Phương án chi trả cổ tức còn lại năm 2024 bằng tiền mặt. | Đã công bố thông tin tại văn bản số 142/FPT-FCC ngày 29/05/2025 |\n| Phiên 05<br>Từ ngày 16/06<br>đến 17/06/2025 | Xin ý kiến bằng văn bản.<br><br>Ban hành Nghị quyết số 01.06-2025/NQ-HĐQT FPT ngày 17/06/2025. | • Lựa chọn Công ty TNHH PwC Việt Nam làm đơn vị kiểm toán Báo cáo tài chính năm 2025 cho Công ty Cổ phần FPT. | Đã công bố thông tin tại văn bản số 168/FPT-FCC ngày 17/06/2025 |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4865
+ },
+ "cost_usd": 0.0029230859999999997,
+ "latency_ms": 22541.49083298398
+}

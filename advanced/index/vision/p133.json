@@ -1,0 +1,25 @@
+{
+ "page": 133,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Rủi ro tài chính",
+   "position": "khu vực nội dung chính, phía trên",
+   "content": "| Tên rủi ro | Nội dung | Biện pháp quản trị |\n|---|---|---|\n| Rủi ro tỷ giá | Biến động tỷ giá tại các thị trường trọng điểm. | • Theo dõi sát biến động của các nhân tố chính tác động lên tỷ giá, đa dạng các nguồn thu ngoại tệ;<br>• Áp dụng các chính sách phòng ngừa tỷ giá, đặc biệt với Yên Nhật;<br>• Áp dụng các hợp đồng hoán đổi tiền tệ để phòng ngừa rủi ro tỷ giá với các khoản vay bằng ngoại tệ;<br>• Áp dụng các chính sách bán hàng linh hoạt dựa trên biến động tỷ giá. |\n| Rủi ro kinh doanh thông thường | Nợ xấu mất kiểm soát, hàng tồn tăng cao. | • Chuẩn hóa quy trình kinh doanh và hợp đồng, kiểm soát chặt chẽ công nợ, tồn kho nhằm hạn chế rủi ro phát sinh;<br>• Ứng dụng công nghệ và AI trong dự báo nhu cầu, quản lý thanh toán, tối ưu mua sắm và phát hiện giao dịch bất thường;<br>• Tự động hóa và chăm sóc khách hàng chủ động, nâng cao hiệu quả quản trị và giảm thiểu rủi ro vận hành. |"
+  },
+  {
+   "type": "table",
+   "title": "Rủi ro luật định",
+   "position": "khu vực nội dung chính, phía dưới",
+   "content": "| Tên rủi ro | Nội dung | Biện pháp quản trị |\n|---|---|---|\n| Rủi ro liên quan đến các chính sách | • Tuân thủ pháp luật, đặc biệt là pháp luật về lao động, nhập cư tại các quốc gia mà FPT hoạt động.<br>• Khác biệt về văn hóa, thông lệ lao động của lực lượng lao động đa quốc gia và đối tác. | • Theo dõi sát sao các chính sách, định hướng, nghị quyết, quyết định của Chính phủ và các bộ ngành, tổ chức liên quan, chủ động nghiên cứu, đề xuất các cơ quan hữu quan nhằm hướng tới việc nâng cao vai trò của CNTT trong việc thúc đẩy tăng trưởng kinh tế;<br>• Nghiên cứu, cập nhật và tuân thủ luật định cũng như môi trường văn hóa, kinh doanh của các thị trường nước ngoài liên quan;<br>• Đào tạo CBNV về văn hóa, pháp luật của nước sở tại. |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 5775
+ },
+ "cost_usd": 0.0034690859999999997,
+ "latency_ms": 24117.282166989753
+}

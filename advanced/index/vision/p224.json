@@ -1,0 +1,19 @@
+{
+ "page": 224,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "A. Công ty con khác (Tiếp theo)",
+   "position": "giữa/phía dưới trang, chiếm phần lớn chiều rộng nội dung bên phải",
+   "content": "Phụ lục 1- Danh sách công ty con và công ty liên doanh, liên kết khác mà công ty sở hữu gián tiếp tại ngày 31 tháng 12 năm 2025 (Tiếp theo)\n\n| STT | Công ty | Hoạt động chính | Nơi thành lập, đăng ký hoạt động | Tại ngày 31/12/2025 - Tỷ lệ sở hữu | Tại ngày 31/12/2025 - Tỷ lệ biểu quyết | Tại ngày 31/12/2024 - Tỷ lệ sở hữu | Tại ngày 31/12/2024 - Tỷ lệ biểu quyết |\n|---|---|---|---|---|---|---|---|\n| 80 | Trường Tiểu học, THCS và THPT FPT Bắc Ninh | Giáo dục, đào tạo | Việt Nam | 100% | 100% | 100% | 100% |\n| 81 | Trường THCS và THPT FPT Hải Phòng | Giáo dục, đào tạo | Việt Nam | 100% | 100% | 100% | 100% |\n| 82 | Trường Tiểu học, THCS và THPT FPT Bắc Giang | Giáo dục, đào tạo | Việt Nam | 100% | 100% | 100% | 100% |\n| 83 | Trường Tiểu học, THCS và THPT FPT Hà Nam | Giáo dục, đào tạo | Việt Nam | 100% | 100% | 100% | 100% |\n| 84 | Trường Tiểu học, THCS và THPT FPT Hậu Giang | Giáo dục, đào tạo | Việt Nam | 100% | 100% | Chưa thành lập | Chưa thành lập |\n| 85 | Trường Tiểu học, THCS và THPT FPT Sóc Trăng | Giáo dục, đào tạo | Việt Nam | 100% | 100% | Chưa thành lập | Chưa thành lập |\n| 86 | Trường Tiểu học, THCS và THPT FPT Huế | Giáo dục, đào tạo | Việt Nam | 100% | 100% | Chưa thành lập | Chưa thành lập |\n| 87 | Trường Tiểu học, THCS và THPT FPT Long Vân | Giáo dục, đào tạo | Việt Nam | 100% | 100% | Chưa thành lập | Chưa thành lập |\n| 88 | Công ty TNHH FPT Polytechnic Thanh Hóa | Giáo dục, đào tạo | Việt Nam | 100% | 100% | 100% | 100% |\n| 89 | Trường Cao Đẳng FPT Polytechnic Thanh Hóa | Giáo dục, đào tạo | Việt Nam | 100% | 100% | 100% | 100% |\n| 90 | Trường THPT Tây Hà Nội | Giáo dục, đào tạo | Việt Nam | 100% | 100% | 100% | 100% |\n| 91 | Công ty TNHH Giáo dục FPT Nghệ An | Giáo dục, đào tạo | Việt Nam | 100% | 100% | 100% | 100% |\n| 92 | Trường Tiểu học, THCS và THPT FPT Thanh Hóa | Giáo dục, đào tạo | Việt Nam | 100% | 100% | 100% | 100% |\n| 93 | Công ty Cổ phần Quốc tế Telehouse Vietnam | Dịch vụ trung tâm dữ liệu | Việt Nam | 51% | 51% | 51% | 51% |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3522
+ },
+ "cost_usd": 0.0021172859999999995,
+ "latency_ms": 14497.616041015135
+}

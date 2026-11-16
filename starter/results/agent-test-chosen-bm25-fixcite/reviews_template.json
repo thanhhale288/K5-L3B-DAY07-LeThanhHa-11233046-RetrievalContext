@@ -1,0 +1,110 @@
+[
+  {
+    "query_id": "q16",
+    "answerable": true,
+    "status": "answered",
+    "question": "FPT đứng ở vị trí nào trong xếp hạng doanh nghiệp Việt Nam có chất lượng quản trị công ty tốt nhất ASEAN?",
+    "answer": "FPT nằm trong Top 5 Doanh nghiệp Việt Nam có chất lượng quản trị công ty tốt nhất ASEAN [fpt_esg_report_2025_p13_b_2][fpt_esg_report_2025_p9_b_0][fpt_esg_report_2025_p4_b_0]. Ngoài ra, FPT cũng thuộc Top 8 Doanh nghiệp quản trị công ty tốt nhất nhóm vốn hóa lớn [fpt_esg_report_2025_p13_b_2][fpt_esg_report_2025_p9_b_0].",
+    "citations": [
+      "fpt_esg_report_2025_p13_b_2",
+      "fpt_esg_report_2025_p9_b_0",
+      "fpt_esg_report_2025_p4_b_0"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null,
+      null,
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "q17",
+    "answerable": true,
+    "status": "answered",
+    "question": "Các hoạt động trồng rừng của FPT tại Sóc Trăng (cũ), Tp.Huế và Thanh Hóa đã trồng bao nhiêu cây?",
+    "answer": "FPT đã triển khai các hoạt động trồng rừng tại Sóc Trăng (cũ), Tp.Huế và Thanh Hóa với tổng cộng 4.500 cây được trồng tại các khu vực rừng ngập mặn và khu bảo tồn thiên nhiên [fpt_esg_report_2025_p41_b_0].",
+    "citations": [
+      "fpt_esg_report_2025_p41_b_0"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "q18",
+    "answerable": true,
+    "status": "answered",
+    "question": "FPT hợp tác với tổ chức nào để triển khai dự án “Bếp Xanh – Sống Lành”, và dự án được thực hiện tại đâu?",
+    "answer": "FPT hợp tác với Tổ chức World Vision, ký kết Biên bản ghi nhớ hợp tác triển khai Dự án \"Bếp Xanh – Sống Lành\" tại xã Sín Chải, tỉnh Điện Biên [fpt_esg_report_2025_p51_b_0].",
+    "citations": [
+      "fpt_esg_report_2025_p51_b_0"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "q19",
+    "answerable": true,
+    "status": "answered",
+    "question": "FPT có quy tắc nào về việc ký hợp đồng với nhà cung cấp liên quan đến sức khỏe, an toàn lao động và môi trường?",
+    "answer": "FPT cam kết không hợp tác với các nhà cung cấp có hoạt động ảnh hưởng đến sức khỏe, an toàn lao động và môi trường; đồng thời Tập đoàn thiết lập và tuân thủ nghiêm ngặt các hướng dẫn nội bộ về mua sắm xanh, và ban hành quy trình đánh giá nhà cung cấp trọng yếu để đảm bảo nhà cung cấp không chỉ đáp ứng yêu cầu về chất lượng, chi phí mà còn tuân thủ tiêu chuẩn về đạo đức [fpt_esg_report_2025_p21_b_2].",
+    "citations": [
+      "fpt_esg_report_2025_p21_b_2"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "q20",
+    "answerable": true,
+    "status": "answered",
+    "question": "Năm 2025, FPT ghi nhận tổng số giờ đào tạo và số giờ học trung bình trên mỗi CBNV/năm là bao nhiêu?",
+    "answer": "Năm 2025, FPT ghi nhận trên 7,1 triệu giờ đào tạo, đạt 151 giờ học trung bình/năm/CBNV [fpt_esg_report_2025_p11_b_2].",
+    "citations": [
+      "fpt_esg_report_2025_p11_b_2"
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null
+    ],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "u03",
+    "answerable": false,
+    "status": "abstain",
+    "question": "Năm 2025 FPT ghi nhận bao nhiêu vụ tai nạn lao động?",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "u04",
+    "answerable": false,
+    "status": "abstain",
+    "question": "Năm 2025 FPT tái chế hoặc tái sử dụng bao nhiêu phần trăm tổng lượng nước tiêu thụ?",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": null,
+    "note": ""
+  }
+]

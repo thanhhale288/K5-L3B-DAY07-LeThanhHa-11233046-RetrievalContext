@@ -1,0 +1,12 @@
+{
+ "page": 4,
+ "model": "deepseek-flash",
+ "regions": [],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 475
+ },
+ "cost_usd": 0.00028908600000000003,
+ "latency_ms": 4688.893915998051
+}

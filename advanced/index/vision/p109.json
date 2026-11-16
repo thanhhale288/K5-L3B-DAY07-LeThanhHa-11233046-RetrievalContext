@@ -1,0 +1,19 @@
+{
+ "page": 109,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "BÁO CÁO ESG",
+   "position": "giữa trang, bên trái",
+   "content": "Danh sách nội dung Báo cáo ESG:\n01 Thông điệp và Định hướng ESG\n02 Quản trị hướng đến phát triển bền vững\n03 Môi trường làm việc đẳng cấp hạnh phúc\n04 Hoạt động vì môi trường xanh\n05 Song hành vì sự phát triển cộng đồng"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1346
+ },
+ "cost_usd": 0.000811686,
+ "latency_ms": 8708.347375009907
+}

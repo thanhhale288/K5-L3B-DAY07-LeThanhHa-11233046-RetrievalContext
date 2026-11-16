@@ -1,0 +1,19 @@
+{
+ "page": 86,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Danh sách Thành viên HĐQT nhiệm kỳ 2022-2027 và số cuộc họp tham dự trong năm 2025",
+   "position": "nửa phải, từ phía trên xuống gần cuối trang",
+   "content": "| Thành viên HĐQT | Chức vụ tại FPT và các công ty khác | Kinh nghiệm chuyên môn | Tỷ lệ sở hữu | Ngày bắt đầu là thành viên HĐQT | Số buổi họp HĐQT tham dự | Tỷ lệ tham dự họp |\n|---|---|---|---|---|---|---|\n| Ông Trương Gia Bình | Chủ tịch HĐQT FPT<br>Thành viên HĐQT FPT Telecom<br>Chủ tịch HĐTV FPT Education<br>Thành viên Hội đồng Trường Đại học FPT | CNTT | 6,89% | 07/04/2022<br>Tái bầu cử | 07/07 | 100% |\n| Ông Bùi Quang Ngọc | Phó chủ tịch HĐQT FPT<br>Chủ sở hữu Công ty TNHH BĐS BQ<br>Thành viên Hội đồng Trường Đại học FPT | CNTT | 1,48% | 07/04/2022<br>Tái bầu cử | 06/07 | 86% |\n| Ông Đỗ Cao Bảo | Ủy viên HĐQT FPT<br>Cổ đông lớn Công ty CP Đầu tư và Thương mại BDM<br>Ủy viên HĐQT Công ty Cổ phần Đô thị FPT Đà Nẵng<br>Thành viên góp vốn Công ty TNHH BDMD Aumoria Đà Nẵng | CNTT | 0,93% | 07/04/2022<br>Tái bầu cử | 07/07 | 100% |\n| Ông Jean-Charles Belliol | Ủy viên HĐQT độc lập | Tài chính | 0,00% | 07/04/2022<br>Tái bầu cử | 07/07 | 100% |\n| Ông Hiroshi Yokotsuka | Ủy viên HĐQT độc lập | CNTT | 0,00% | 07/04/2022 | 07/07 | 100% |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3940
+ },
+ "cost_usd": 0.0023680859999999997,
+ "latency_ms": 17680.799583002226
+}

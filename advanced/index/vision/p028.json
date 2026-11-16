@@ -1,0 +1,19 @@
+{
+ "page": 28,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "HÀNH TRÌNH KHẲNG ĐỊNH NĂNG LỰC VÀ VỊ THẾ",
+   "position": "phần chính giữa trang, chiếm phần lớn diện tích bên phải, từ phía trên xuống gần cuối trang",
+   "content": "Dòng thời gian/infographic các mốc phát triển của FPT; các mốc được đánh dấu bằng chấm tròn trên đường trục ngang, cuối trục phía dưới bên phải có mũi tên.\nĐoạn dẫn: Trong nhiều năm qua, FPT kiên định với con đường trở thành tổ chức kiểu mới, hùng mạnh dựa trên sáng tạo trong khoa học kỹ thuật và công nghệ góp phần hưng thịnh quốc gia. Thông qua đầu tư bài bản cho R&D, xây dựng nguồn nhân lực chất lượng cao và tham gia sâu vào các dự án trọng điểm trong nước và quốc tế, FPT đã tích lũy được kinh nghiệm, tri thức và năng lực công nghệ vững chắc, tạo nền tảng cho tăng trưởng dài hạn.\nHàng trên (trái sang phải):\n- 1988: Hình thành tổ chức kiểu mới, sáng tạo trong khoa học kỹ thuật và công nghệ.\n- 1996: Công ty tin học số một Việt Nam với năng lực phát triển hệ thống CNTT cho các lĩnh vực trọng yếu như: tài chính – ngân hàng, thuế, hải quan, hàng không, chính phủ điện tử.\n- 1997: Một trong bốn nhà cung cấp dịch vụ Internet đầu tiên được cấp phép, tạo bước phát triển đột phá cho thị trường này tại Việt Nam.\n- 1998: Triển khai thành công Hệ thống Quản lý đối tượng nộp thuế VAT cho 61 cục Thuế của Việt Nam với 61 máy chủ và hơn 500 máy trạm.\nHàng dưới (trái sang phải):\n- 2008: Tổng thầu Dự án Quản lý Thuế thu nhập cá nhân quy mô lớn nhất khu vực Đông Nam Á tại thời điểm này.\n- 2006: Nhà thầu chính tại thị trường nước ngoài với hợp đồng phần mềm trị giá 6,5 triệu USD cho Petronas (Malaysia).\n- 2005: • Công ty CNTT Việt Nam đầu tiên thành lập pháp nhân tại Nhật Bản. • Được cấp phép đầu tư tại khu Công nghệ cao Hòa Lạc (Tp.Hà Nội) và khu Công nghệ cao (Tp.Hồ Chí Minh) khởi đầu cho việc xây dựng hệ thống các tổ hợp giáo dục và công viên phần mềm trên toàn quốc.\n- 2002: Nhận giấy phép cung cấp dịch vụ kết nối Internet (IXP) phá thế độc quyền của thị trường này."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 5139
+ },
+ "cost_usd": 0.003087486,
+ "latency_ms": 23240.762208995875
+}

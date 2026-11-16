@@ -1,0 +1,84 @@
+[
+  {
+    "query_id": "q16",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "abstention_correct": null,
+    "context_grade": 2,
+    "note": "Đúng Top 5; ý Top 8 thêm vào cũng có trong p13/p9. Cả 3 chunk đều chứa Top 5."
+  },
+  {
+    "query_id": "q17",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "context_grade": 2,
+    "note": "Đúng 4.500 cây, đúng 3 địa phương."
+  },
+  {
+    "query_id": "q18",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "context_grade": 2,
+    "note": "Đúng World Vision và xã Sín Chải, Điện Biên."
+  },
+  {
+    "query_id": "q19",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "context_grade": 2,
+    "note": "Không trích trang gold p8, nhưng p21_b_2 có câu tương đương: \"cam kết không hợp tác với các nhà cung cấp có hoạt động ảnh hưởng đến sức khỏe, an toàn lao động và môi trường\". Phần thêm (mua sắm xanh, đánh giá nhà cung cấp) cũng có trong chunk. Chấm tự động = False vì evidence là nguồn thay thế; nhãn test giữ nguyên."
+  },
+  {
+    "query_id": "q20",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "context_grade": 2,
+    "note": "Đúng 7,1 triệu giờ và 151 giờ/CBNV."
+  },
+  {
+    "query_id": "u03",
+    "answerable": false,
+    "status": "abstain",
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "context_grade": null,
+    "note": "Search 3 lần rồi từ chối, không bịa số."
+  },
+  {
+    "query_id": "u04",
+    "answerable": false,
+    "status": "abstain",
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "context_grade": null,
+    "note": "Search 2 lần rồi từ chối, không bịa tỷ lệ."
+  }
+]

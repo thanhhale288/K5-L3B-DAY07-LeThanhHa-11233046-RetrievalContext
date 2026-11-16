@@ -1,0 +1,25 @@
+{
+ "page": 81,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "FPT đứng trong Top 8 Doanh nghiệp nhóm vốn hóa lớn có chất lượng quản trị công ty tốt nhất tại Việt Nam.",
+   "position": "nửa trái, phía dưới",
+   "content": "Ảnh sự kiện trao giải. Trên phông nền có chữ: 'LỄ TRAO GIẢI', 'CUỘC BÌNH CHỌN DOANH NGHIỆP NIÊM YẾT 2025', 'TOP 8 DOANH NGHIỆP QUẢN TRỊ CÔNG TY TỐT NHẤT', 'NHÓM VỐN HÓA LỚN'. Hai người đứng trên sân khấu, một người cầm bằng/chứng nhận. Chú thích dưới ảnh: 'FPT đứng trong Top 8 Doanh nghiệp nhóm vốn hóa lớn có chất lượng quản trị công ty tốt nhất tại Việt Nam.'"
+  },
+  {
+   "type": "image",
+   "title": "FPT liên tiếp được các định chế tài chính đánh giá cao.",
+   "position": "nửa phải, phía dưới",
+   "content": "Ảnh sự kiện trao giải. Trên phông nền có chữ: 'NON-FINANCIAL LARGE CAP CÓ HOẠT ĐỘNG IR', 'ĐƯỢC ĐỊNH GIÁ CAO NHẤT', 'Non-Financial Large Cap Financial Institutions' Best Assessment'. Ba người đứng trên sân khấu, một người cầm bằng/chứng nhận. Chú thích dưới ảnh: 'FPT liên tiếp được các định chế tài chính đánh giá cao.'"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2698
+ },
+ "cost_usd": 0.001622886,
+ "latency_ms": 13736.08633299591
+}

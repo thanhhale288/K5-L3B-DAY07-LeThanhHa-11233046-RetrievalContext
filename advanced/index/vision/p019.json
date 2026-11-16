@@ -1,0 +1,31 @@
+{
+ "page": 19,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "Chiêu mộ Navisoft giải bài toán đặc thù của lĩnh vực chứng khoán, tài chính-ngân hàng",
+   "position": "phía trên, cột nội dung thứ nhất (bên trái)",
+   "content": "Ảnh sự kiện ký kết/hợp tác: nhóm nam giới mặc vest đứng trên sân khấu; hai người ở giữa cầm bìa hồ sơ màu đỏ; phía sau là phông nền có chữ, trong đó nhìn thấy cụm “KÝ KẾT…” (một phần chữ bị che/khuất, không đọc rõ toàn bộ)."
+  },
+  {
+   "type": "image",
+   "title": "Khánh thành Tổ hợp giáo dục tại Huế triển khai mô hình tổ hợp giáo dục đa bậc học",
+   "position": "phía trên, cột nội dung thứ hai (giữa)",
+   "content": "Ảnh lễ khánh thành: nhiều người mặc áo màu cam đứng tập trung trên sân khấu có phông nền lớn; phía trước có thảm màu xanh; trên phông nền có chữ nhưng không đọc rõ toàn bộ."
+  },
+  {
+   "type": "image",
+   "title": "Triển khai Dự án máy khử rung tim tự động nâng cao hiệu quả cấp cứu tại cộng đồng",
+   "position": "phía trên, cột nội dung thứ ba (bên phải)",
+   "content": "Ảnh lễ công bố/trao chứng nhận: hai người đàn ông đứng cạnh nhau, một người cầm khung chứng nhận/biển ghi nhận. Trên màn hình phía sau có dòng chữ: “LỄ CÔNG BỐ TẬP ĐOÀN FPT TÀI TRỢ DỰ ÁN MÁY KHỬ RUNG TIM TỰ ĐỘNG (AED) HỖ TRỢ CỘNG ĐỒNG”. Góc dưới bên phải ảnh có logo “AED”."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 6342
+ },
+ "cost_usd": 0.0038092859999999994,
+ "latency_ms": 33035.30004201457
+}

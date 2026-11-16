@@ -1,0 +1,31 @@
+{
+ "page": 210,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "30. Chi phí bán hàng",
+   "position": "nửa trái, phía trên",
+   "content": "Đơn vị: VNĐ\n\n| Chỉ tiêu | 2025 | 2024 |\n|---|---:|---:|\n| Chi phí nhân viên | 5.172.975.838.113 | 4.076.793.428.900 |\n| Khác (*) | 2.389.684.802.341 | 2.039.168.542.883 |\n| | 7.562.660.640.454 | 6.115.961.971.783 |\n\n(*) Khoản mục này chủ yếu bao gồm chi phí quảng cáo, khuyến mại, phí hoa hồng, thuê đất và văn phòng và các khoản chi phí bán hàng khác. Không có khoản mục chi phí nào chiếm hơn 10% trên tổng chi phí bán hàng."
+  },
+  {
+   "type": "table",
+   "title": "31. Chi phí quản lý doanh nghiệp",
+   "position": "nửa trái, phía dưới",
+   "content": "Đơn vị: VNĐ\n\n| Chỉ tiêu | 2025 | 2024 |\n|---|---:|---:|\n| Chi phí nhân viên | 4.707.387.477.210 | 4.251.955.881.293 |\n| Khác (*) | 2.629.937.920.594 | 2.822.082.733.481 |\n| | 7.337.325.397.804 | 7.074.038.614.774 |\n\n(*) Khoản mục này chủ yếu bao gồm chi phí khấu hao TSCĐ, dịch vụ thuê ngoài, công cụ dụng cụ, dự phòng khoản phải thu khó đòi và các khoản chi phí quản lý doanh nghiệp khác. Không có khoản mục chi phí nào chiếm hơn 10% trên tổng chi phí quản lý doanh nghiệp."
+  },
+  {
+   "type": "table",
+   "title": "32. Thuế thu nhập doanh nghiệp (“TNDN”)",
+   "position": "nửa phải, toàn bộ cột phải",
+   "content": "Đơn vị: VNĐ\n\n| Chỉ tiêu | 2025 | 2024 |\n|---|---:|---:|\n| (a) Chi phí thuế TNDN hiện hành | | |\n| • Chi phí thuế TNDN tính trên thu nhập chịu thuế năm hiện hành | 1.951.805.682.650 | 1.914.485.537.410 |\n| • Điều chỉnh chi phí thuế TNDN của các năm trước vào chi phí thuế thu nhập hiện hành năm nay | (34.807.490.208) | 8.442.077.248 |\n| Tổng chi phí thuế TNDN hiện hành (*) | 1.916.998.192.442 | 1.922.927.614.658 |\n| (b) Thuế thu nhập TNDN hoãn lại | | |\n| • Thu nhập thuế TNDN hoãn lại phát sinh từ các khoản chênh lệch tạm thời được khấu trừ | (241.646.085.537) | (209.467.184.394) |\n| • Chi phí thuế TNDN hoãn lại phát sinh từ các khoản chênh lệch tạm thời phải chịu thuế | 135.941.276.158 | (71.216.542.889) |\n| Tổng thu nhập thuế TNDN hoãn lại (*) | (105.704.809.379) | (280.683.727.283) |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 5747
+ },
+ "cost_usd": 0.0034522859999999997,
+ "latency_ms": 25174.43604199798
+}

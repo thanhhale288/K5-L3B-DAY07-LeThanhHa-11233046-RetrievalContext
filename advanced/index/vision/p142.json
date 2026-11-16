@@ -1,0 +1,19 @@
+{
+ "page": 142,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "Văn hóa doanh nghiệp đặc sắc được nuôi dưỡng và mài dũa liên tục trong 38 năm qua.",
+   "position": "nửa phải, chiếm phần lớn chiều cao trang",
+   "content": "Ảnh sự kiện ngoài trời tại sân vận động/không gian rộng: đông đảo người mặc đồng phục màu xanh lá đứng thành vòng quanh và giữ tấm vải lớn màu vàng/xanh tạo hình ngôi sao; phía sau có sân khấu, khán đài, cầu/đường dẫn màu đỏ và các tòa nhà. Dưới ảnh có dải chú thích màu cam: “Văn hóa doanh nghiệp đặc sắc được nuôi dưỡng và mài dũa liên tục trong 38 năm qua.”"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1803
+ },
+ "cost_usd": 0.0010858859999999999,
+ "latency_ms": 11259.048375010025
+}

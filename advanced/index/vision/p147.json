@@ -1,0 +1,25 @@
+{
+ "page": 147,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Bảng tổng hợp so sánh kết quả tiêu thụ điện",
+   "position": "nửa trái, phía dưới",
+   "content": "Đơn vị: kWh\n\n| Danh mục | Năm 2024 | Năm 2025 | Chênh lệch |\n|---|---:|---:|---:|\n| Tiêu thụ điện | 205.053.314 | 187.453.013 | -8,58% |\n| Điện từ năng lượng tái tạo | 0 | 842.749 | - |\n| Tỷ lệ điện từ năng lượng tái tạo so với điện tiêu thụ | 0% | 0,45% | - |"
+  },
+  {
+   "type": "image",
+   "title": "Hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng).",
+   "position": "nửa phải, phía trên",
+   "content": "Ảnh toàn cảnh khu nhà hình tròn/vành khuyên; trên các mái và bãi đỗ xe có nhiều tấm pin mặt trời; xung quanh có đường giao thông và cây xanh. Dải chú thích màu cam ghi: “Hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng).”"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1763
+ },
+ "cost_usd": 0.001061886,
+ "latency_ms": 10831.673999986378
+}

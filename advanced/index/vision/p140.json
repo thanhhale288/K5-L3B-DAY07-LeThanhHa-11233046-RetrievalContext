@@ -1,0 +1,25 @@
+{
+ "page": 140,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "Akabot",
+   "position": "nửa phải, phía trên",
+   "content": "Ảnh không gian trưng bày FPT; trên màn hình/tường có các nhãn IDP, RPA, IBPS, Hyper Automation, Process Mining. Chú thích dưới ảnh: Akabot, nền tảng tự động hóa thông minh, tích hợp Agentic AI, OCR, IDP,... để tăng cường năng lực của robot phần mềm RPA, giúp tự động các quy trình nghiệp vụ và tiết kiệm tới 80% thời gian xử lý và chi phí vận hành. Giải pháp đã được triển khai cho hơn 4.500 khách hàng trên 21 quốc gia."
+  },
+  {
+   "type": "image",
+   "title": "Kyta Platform",
+   "position": "nửa phải, phía dưới",
+   "content": "Ảnh sân khấu có người thuyết trình và khán giả; màn hình lớn hiển thị các dòng chữ HỆ THẦN KINH, Tích hợp kết nối không giới hạn, DỮ LIỆU THỜI GIAN THỰC, TRÁI TIM LOW-CODE; góc phải có đồng hồ 06:32 và logo Kyta. Chú thích dưới ảnh: Kyta Platform, nền tảng tiên phong số hóa Lowcode, Nocode, tích hợp AI và công cụ tự động hóa để nâng cao hiệu quả vận hành. Kyta Platform được hơn 4.500 doanh nghiệp sử dụng và được triển khai trên nền tảng Quản lý Thi hành án Dân sự (THADS) với phạm vi toàn quốc, phối hợp cùng Bộ Tư pháp trong nhiệm vụ số hóa toàn diện ngành Thi hành án dân sự."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 5098
+ },
+ "cost_usd": 0.0030628859999999995,
+ "latency_ms": 24172.7789590077
+}

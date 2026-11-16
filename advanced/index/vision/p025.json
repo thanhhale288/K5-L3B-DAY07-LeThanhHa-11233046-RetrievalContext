@@ -1,0 +1,25 @@
+{
+ "page": 25,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "Nhóm dịch vụ",
+   "position": "phía dưới, bên trái",
+   "content": "Ảnh chụp một kỹ thuật viên mặc áo cam có logo FPT đang thao tác tại tủ rack máy chủ trong phòng data center; xung quanh là các dãy tủ rack và thiết bị máy chủ. Không có chú thích hoặc số liệu kèm theo."
+  },
+  {
+   "type": "image",
+   "title": "Nhóm sản phẩm, giải pháp",
+   "position": "phía dưới, bên phải",
+   "content": "Ảnh chụp bàn tay đang cầm một bo mạch điện tử màu xanh có in logo FPT; trên bo mạch có các linh kiện điện tử. Không có chú thích hoặc số liệu kèm theo."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1349
+ },
+ "cost_usd": 0.000813486,
+ "latency_ms": 8743.381584004965
+}

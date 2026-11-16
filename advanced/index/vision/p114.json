@@ -1,0 +1,19 @@
+{
+ "page": 114,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "Lộ trình Net Zero 2040",
+   "position": "chính giữa, phía dưới (toàn chiều ngang trang)",
+   "content": "Infographic dạng 5 cột đánh số 01-05, xếp từ trái sang phải; không thấy mũi tên kết nối, thứ tự thể hiện bằng số thứ tự.\nBanner: Tập đoàn triển khai xây dựng lộ trình giảm phát thải khí nhà kính dựa trên việc tự tính toán và xác nhận đường cơ sở phát thải, đặt mục tiêu đến năm 2030 giảm 15,8% tổng lượng phát thải khí nhà kính và hướng tới mục tiêu Net Zero vào năm 2040.\n01. Xác định lĩnh vực trọng tâm giảm phát thải\n- Tiêu thụ điện trong Phạm vi 2.\n02. Xác định mục tiêu giảm phát thải cho từng lĩnh vực\n- Chuyển đổi sang sử dụng năng lượng sạch, song song với triển khai các giải pháp nâng cao hiệu quả năng lượng tại các cơ sở vận hành, bao gồm: Tòa nhà văn phòng; Trung tâm dữ liệu.\n03. Thiết lập các giải pháp giảm phát thải khả thi và hiệu quả\n- Tối ưu hệ thống điện và ứng dụng các giải pháp quản lý năng lượng thông minh;\n- Đẩy mạnh sử dụng điện từ nguồn năng lượng tái tạo như năng lượng mặt trời;\n- Cân nhắc mua chứng chỉ năng lượng tái tạo (REC).\n04. Xác định các giải pháp ưu tiên\n- Tòa nhà văn phòng: Lắp đặt đèn LED, hệ thống cảm biến thông minh; tích hợp cảm biến nhiệt độ và độ ẩm để điều khiển hệ thống điều hòa tự động;\n- Trung tâm dữ liệu: Tối ưu hệ thống làm mát thông qua các giải pháp Liquid Cooling, AI-driven Thermal Management. Sử dụng môi chất lạnh có chỉ số GWP thấp; áp dụng cơ chế vận hành tiết kiệm năng lượng cho hệ thống máy chủ, áp dụng tiêu chuẩn xanh cho hạ tầng.\n05. Kiểm soát và đánh giá định kỳ\n- Theo dõi các chỉ tiêu chuẩn và hạn mức phát thải của Việt Nam để triển khai kiểm kê khí nhà kính;\n- Báo cáo, đo lường và xác nhận lượng khí nhà kính/khí thải định kỳ;\n- Giám sát và theo dõi chặt chẽ các hoạt động để đảm bảo hiệu quả trong việc giảm phát thải."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4763
+ },
+ "cost_usd": 0.0028618859999999997,
+ "latency_ms": 22902.60933400714
+}

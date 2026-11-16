@@ -1,0 +1,25 @@
+{
+ "page": 124,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Cộng đồng",
+   "position": "nửa phải, phía trên",
+   "content": "| Chương trình hành động nổi bật | Kết quả năm 2025 |\n|---|---|\n| **Chung tay cùng cộng đồng vượt qua thách thức vì một cuộc sống tốt đẹp hơn** | - Trường Hy Vọng nhận giải thưởng Hành động vì cộng đồng ở hạng mục Dự án khối;<br>- 15 năm liên tiếp triển khai Ngày FPT vì cộng đồng;<br>- 26 điểm trường thiệt hại nặng được tái thiết kịp thời sau lũ;<br>- Triển khai dự án máy khử khuẩn tự động cho cộng đồng đầu tiên tại Việt Nam;<br>- Tiếp tục đồng hành cùng chương trình “Nâng bước em đến trường” (Quỹ Hy Vọng khởi xướng) xây dựng cầu bê tông kiên cố tại khu vực Đồng bằng sông Cửu Long. Năm 2025, FPT đã đóng góp 08 tỷ đồng cho Chương trình. |\n| **Triển khai các chương trình trao học bổng, hỗ trợ tài năng trẻ** | - Cấp 38 học bổng với tổng số tiền tương ứng 912 triệu đồng hỗ trợ các thành viên Trung tâm bồi dưỡng tài năng trẻ FPT (FYT), đồng thời hỗ trợ chi phí, cơ sở vật chất, kết nối chuyên gia trong một số lĩnh vực giúp các thành viên theo đuổi khát vọng, mở rộng kết nối, phát triển các kỹ năng mềm thiết yếu cho tương lai;<br>- Tiếp tục triển khai học bổng thường niên Nguyễn Văn Đạo với 8.875 học bổng cho các sinh viên có hoàn cảnh khó khăn đạt thành tích học tập xuất sắc hoặc có tài năng nổi trội tại nhiều tỉnh thành trên toàn quốc. |"
+  },
+  {
+   "type": "table",
+   "title": "Báo chí và các cơ quan truyền thông",
+   "position": "nửa phải, phía dưới",
+   "content": "| Chương trình hành động nổi bật | Kết quả năm 2025 |\n|---|---|\n| **Thường xuyên, chủ động cung cấp thông tin cho báo chí, thông qua: bản tin FPT, thông cáo báo chí, họp báo, bài viết...** | - Cung cấp kịp thời, đầy đủ những thông tin có giá trị, hữu ích cho cộng đồng với các chủ đề đa dạng, từ xu hướng thị trường CNTT, định hướng chiến lược đến kế hoạch kinh doanh và hoạt động của Tập đoàn, qua đó truyền tải/cập nhật thông tin cho các đối tượng liên quan. |\n| **Tích cực tham gia sáng kiến, diễn đàn truyền thông về ESG** | - Tham gia Diễn đàn ESG Việt Nam do Báo Đầu Tư khởi xướng và tổ chức. Tại sự kiện, FPT chia sẻ kinh nghiệm triển khai lộ trình phát triển bền vững, cam kết Net Zero, đồng thời giới thiệu việc ứng dụng công nghệ số, dữ liệu và AI trong quản trị và thực hành ESG. |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3601
+ },
+ "cost_usd": 0.002164686,
+ "latency_ms": 19041.44941701088
+}

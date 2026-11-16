@@ -1,0 +1,34 @@
+[
+  {
+    "id": "u01",
+    "split": "dev",
+    "question": "Tổng doanh thu hợp nhất năm 2025 của FPT là bao nhiêu tỷ đồng?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Báo cáo PTBV không công bố doanh thu. Gần chủ đề: p14 có tổng cổ tức (3.184.837.243.000 VNĐ) và EPS 5.216 đồng, dễ gây nhầm. Kiểm tra: tìm 'doanh thu', 'doanh số', 'tổng thu', 'lợi nhuận' trên text cả 52 trang PDF (pypdf, NFC, casefold) → 0 kết quả."
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "question": "Mức lương bình quân hàng tháng của CBNV FPT năm 2025 là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "p34 mô tả cơ cấu lương (theo chức danh, theo hiệu quả, tháng lương thứ 13, khoán thu nhập) nhưng không có con số lương/thu nhập bình quân. Kiểm tra: tìm 'bình quân', 'thu nhập trung bình', '/tháng', 'triệu đồng/tháng', 'triệu đồng/người' trên cả 52 trang → 0 kết quả; đọc toàn bộ ngữ cảnh 'lương' (p11, p34, p47)."
+  },
+  {
+    "id": "u03",
+    "split": "test",
+    "question": "Năm 2025 FPT ghi nhận bao nhiêu vụ tai nạn lao động?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chỉ có chính sách liên quan: bảo hiểm tai nạn FPT Care (p34), ISO 45001 (p20), quan trắc môi trường lao động (p44); không có số vụ tai nạn. Kiểm tra: 'tai nạn' chỉ xuất hiện ở p34 (bảo hiểm); đọc các ngữ cảnh 'an toàn lao động' (p8, p20, p21, p44)."
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "question": "Năm 2025 FPT tái chế hoặc tái sử dụng bao nhiêu phần trăm tổng lượng nước tiêu thụ?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "p42 có tổng lượng nước tiêu thụ (831.885 m3 năm 2025, +0,48%) và mô tả dùng nước mưa, xử lý/tái chế nước thải, nhưng không có tỷ lệ nước tái chế/tái sử dụng. Kiểm tra: tìm 'nước tái', 'tỷ lệ tái', 'tái chế nước', 'tái sử dụng' trên cả 52 trang; các kết quả (p38, p42, p43) không nêu tỷ lệ nước."
+  }
+]

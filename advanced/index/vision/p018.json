@@ -1,0 +1,25 @@
+{
+ "page": 18,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "Nâng tầm trải nghiệm cho người hâm mộ toàn cầu của Câu lạc bộ Chelsea",
+   "position": "nửa trái, phía dưới",
+   "content": "Ảnh sự kiện: nhóm người mặc trang phục công sở, một số người cầm áo đấu Chelsea màu xanh; phía sau có phông nền và bục có logo Chelsea cùng dòng chữ “CHELSEA FOOTBALL CLUB”. Trên áo đấu nhìn thấy logo Chelsea."
+  },
+  {
+   "type": "image",
+   "title": "Ký hợp đồng chuyển đổi số toàn diện ứng dụng AI quy mô 256 triệu USD",
+   "position": "nửa phải, phía dưới",
+   "content": "Ảnh minh họa: bốn nhân viên mặc áo cam đang làm việc quanh một laptop màu bạc có logo Apple; bối cảnh văn phòng. Không có số liệu hoặc chú thích bằng chữ trong ảnh."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2551
+ },
+ "cost_usd": 0.001534686,
+ "latency_ms": 15454.16891700006
+}

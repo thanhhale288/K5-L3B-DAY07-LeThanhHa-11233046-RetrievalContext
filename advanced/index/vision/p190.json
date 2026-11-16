@@ -1,0 +1,25 @@
+{
+ "page": 190,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "5. Đầu tư tài chính – (a) Đầu tư nắm giữ đến ngày đáo hạn",
+   "position": "phần nội dung chính bên phải, phía trên",
+   "content": "Đơn vị: VND\n\n| Khoản mục | 31/12/2025 - Giá gốc | 31/12/2025 - Giá trị ghi sổ | 31/12/2024 - Giá gốc | 31/12/2024 - Giá trị ghi sổ |\n| --- | ---: | ---: | ---: | ---: |\n| (i) Ngắn hạn |  |  |  |  |\n| Tiền gửi ngân hàng có kỳ hạn – ngắn hạn (*) | 29.630.986.737.440 | 29.630.986.737.440 | 21.785.213.686.808 | 21.785.213.686.808 |\n| Khác | 33.275.051.776 | - | 33.275.051.776 | - |\n|  | 29.664.261.789.216 | 29.630.986.737.440 | 21.818.488.738.584 | 21.785.213.686.808 |\n| (ii) Dài hạn |  |  |  |  |\n| Tiền gửi ngân hàng có kỳ hạn – dài hạn (*) | - | - | 200.000.000 | 200.000.000 |\n\nGhi chú: (*) Bao gồm các khoản tiền gửi ngân hàng có kỳ hạn gốc hơn 3 tháng và kỳ hạn còn lại không quá 12 tháng (cho các khoản tiền gửi ngân hàng ngắn hạn) và có kỳ hạn còn lại trên 12 tháng (cho các khoản tiền gửi ngân hàng dài hạn). Lãi suất được quy định cụ thể cho từng khoản tiền gửi."
+  },
+  {
+   "type": "table",
+   "title": "Chi tiết số dư các khoản tiền gửi có kỳ hạn ngắn hạn theo nguyên tệ như sau:",
+   "position": "phần nội dung chính bên phải, phía dưới",
+   "content": "Đơn vị: VND\n\n| Loại nguyên tệ | 31/12/2025 - Nguyên tệ | 31/12/2025 - Tương đương | 31/12/2024 - Nguyên tệ | 31/12/2024 - Tương đương |\n| --- | ---: | ---: | ---: | ---: |\n| Đồng Việt Nam (“VND”) | 28.465.140.287.440 | 28.465.140.287.440 | 21.588.470.987.398 | 21.588.470.987.398 |\n| Đô la Mỹ (“USD”) | - | - | 7.700.000 | 196.742.699.410 |\n| Yên Nhật Bản (“JPY”) | 6.000.000.000 | 1.007.580.000.000 | - | - |\n| Euro (“EUR”) | 5.000.000 | 158.266.450.000 | - | - |\n|  |  | 29.630.986.737.440 |  | 21.785.213.686.808 |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 7233
+ },
+ "cost_usd": 0.004343886000000001,
+ "latency_ms": 32178.60087499139
+}

@@ -1,0 +1,19 @@
+{
+ "page": 87,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Thành viên HĐQT",
+   "position": "phía trên, giữa trang",
+   "content": "| Thành viên HĐQT | Chức vụ tại FPT và các công ty khác | Kinh nghiệm chuyên môn | Tỷ lệ sở hữu | Ngày bắt đầu là thành viên HĐQT | Số buổi họp HĐQT tham dự | Tỷ lệ tham dự họp |\n|---|---|---|---|---|---|---|\n| Ông Hampapur Rangadore Binod | Ủy viên HĐQT độc lập FPT\\nCố vấn trưởng FPT Software (Không còn đương nhiệm từ tháng 04/2025)\\nGiám đốc FPT Ấn Độ (Không còn đương nhiệm từ tháng 04/2025) | CNTT | 0,00% | 07/04/2022 | 07/07 | 100% |\n| Bà Trần Thị Hồng Lĩnh | Ủy viên HĐQT FPT\\nPhó trưởng Ban Đầu tư 4, Tổng công ty Đầu tư và kinh doanh vốn Nhà nước\\nThành viên HĐQT FPT Telecom (Không còn đương nhiệm từ 24/12/2025) | Đầu tư và quản trị doanh nghiệp | 0,00% | 07/04/2022 | 07/07 | 100% |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1341
+ },
+ "cost_usd": 0.0008086860000000001,
+ "latency_ms": 7713.146624999354
+}

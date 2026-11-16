@@ -1,0 +1,16 @@
+{
+  "split": "dev",
+  "config": "full-hybrid",
+  "cases": 18,
+  "errors": 0,
+  "answered": 15,
+  "abstained_on_unanswerable": "3/3",
+  "answered_with_gold_page_cited": "15/15",
+  "tokens_total": {
+    "prompt_tokens": 331911,
+    "completion_tokens": 6711
+  },
+  "cost_usd_total": 0.005022,
+  "latency_s_median": 3.1138620835117763,
+  "note": "Auto counts only. Pass/fail is labelled by hand in labels.json."
+}

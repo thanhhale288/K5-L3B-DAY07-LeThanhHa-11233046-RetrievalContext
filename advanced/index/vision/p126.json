@@ -1,0 +1,19 @@
+{
+ "page": 126,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "FPT nhận được chứng chỉ ISO/IEC 42001:2023 - tiêu chuẩn toàn cầu đầu tiên về Hệ thống quản lý Trí tuệ nhân tạo.",
+   "position": "nửa dưới, trung tâm, chiếm gần toàn bộ chiều rộng trang",
+   "content": "Ảnh nhóm nhiều người đứng phía sau một bàn, hai người ở giữa cầm hai khung chứng chỉ; phía sau có màn hình. Chú thích in trên ảnh: “FPT nhận được chứng chỉ ISO/IEC 42001:2023 - tiêu chuẩn toàn cầu đầu tiên về Hệ thống quản lý Trí tuệ nhân tạo.”"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 703
+ },
+ "cost_usd": 0.00042588600000000005,
+ "latency_ms": 5212.163375021191
+}

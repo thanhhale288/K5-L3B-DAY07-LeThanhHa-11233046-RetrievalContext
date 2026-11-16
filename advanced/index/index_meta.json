@@ -1,0 +1,50 @@
+{
+ "source_pdf": "advanced/source/fpt_annual_report_2025.pdf",
+ "pages": 232,
+ "chunks": 965,
+ "by_kind": {
+  "text": 664,
+  "table": 3,
+  "visual": 298
+ },
+ "visual_types": {
+  "infographic": 48,
+  "image": 73,
+  "chart": 23,
+  "table": 150,
+  "diagram": 4
+ },
+ "pages_with_text_chunks": 230,
+ "pages_without_text_chunks": [
+  1,
+  159
+ ],
+ "vision_model": "deepseek-flash",
+ "vision_errors": [],
+ "vision_cost_usd": 0.429466,
+ "vision_tokens": {
+  "prompt_tokens": 315984,
+  "completion_tokens": 714196
+ },
+ "boilerplate_lines_removed": [
+  "01",
+  "02",
+  "03",
+  "04",
+  "05",
+  "06",
+  "07",
+  "08",
+  "BÁO CÀO TÀI CHÍNH HỢP NHẤT",
+  "BÁO CÁO ESG",
+  "BÁO CÁO THƯỜNG NIÊN 2025",
+  "CHIẾN LƯỢC PHÁT TRIỂN",
+  "CÔNG NGHỆ CHIẾN LƯỢC",
+  "DẤU ẤN 2025",
+  "LÀM CHỦ",
+  "PHÂN TÍCH HOẠT ĐỘNG KINH DOANH",
+  "QUẢN TRỊ CÔNG TY",
+  "THÔNG ĐIỆP BAN LÃNH ĐẠO",
+  "TỔNG QUAN VỀ FPT"
+ ]
+}

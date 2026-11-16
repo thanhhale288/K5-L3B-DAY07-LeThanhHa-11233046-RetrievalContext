@@ -1,0 +1,19 @@
+{
+ "page": 80,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "diagram",
+   "title": "MÔ HÌNH QUẢN TRỊ VÀ VAI TRÒ CỦA CÁC BÊN",
+   "position": "nửa phải trang, chiếm phần lớn chiều dọc từ phía trên xuống phía dưới",
+   "content": "Loại sơ đồ: sơ đồ tổ chức/quản trị dạng cây.\nCác nút và nội dung:\n- ĐẠI HỘI ĐỒNG CỔ ĐÔNG: Đại hội đồng Cổ đông: Cơ quan có thẩm quyền cao nhất thực hiện các chức năng cùng các quyền và nghĩa vụ theo quy định tại Điều lệ Công ty và pháp luật có liên quan.\n- BAN KIỂM SOÁT: Thực hiện giám sát HĐQT, TGĐ trong việc quản lý, điều hành Tập đoàn và chịu trách nhiệm trước ĐHĐCĐ trong việc thực hiện các nhiệm vụ được giao.\n- HỘI ĐỒNG QUẢN TRỊ: Cơ quan quản trị cao nhất có quyền nhân danh Tập đoàn để quyết định, thực hiện các quyền và nghĩa vụ của Tập đoàn không thuộc thẩm quyền của ĐHĐCĐ theo quy định của Điều lệ Công ty và pháp luật có liên quan.\n- CHỦ TỊCH HỘI ĐỒNG QUẢN TRỊ: Người đại diện theo pháp luật của Tập đoàn chịu trách nhiệm điều hành hoạt động công tác của HĐQT, xem xét và quyết định các công tác quản trị của Tập đoàn theo các quy định của pháp luật có liên quan và Điều lệ công ty, quy chế nội bộ.\n- TỔNG GIÁM ĐỐC VÀ BAN ĐIỀU HÀNH: TGĐ là người đại diện theo pháp luật của Tập đoàn. Với sự trợ giúp của Ban Điều hành, TGĐ chịu trách nhiệm điều hành hoạt động kinh doanh hàng ngày của Tập đoàn trên cơ sở tuân thủ quyết định, nghị quyết của ĐHĐCĐ, HĐQT và Chủ tịch HĐQT.\n- UỶ BAN NHÂN SỰ VÀ LƯƠNG THƯỞNG: Tiểu ban thuộc HĐQT có chức năng chỉ đạo xây dựng khung chính sách và quy trình nhân sự cho Tập đoàn và công ty thành viên; hỗ trợ HĐQT trong việc lựa chọn, đề xuất, bổ nhiệm, bãi nhiệm, đãi ngộ và đánh giá hiệu quả hoạt động của các thành viên HĐQT, BĐH, người đại diện và các chức danh quản lý cao cấp khác của Tập đoàn và công ty thành viên.\n- UỶ BAN CHIẾN LƯỢC PHÁT TRIỂN: Tiểu ban thuộc HĐQT chịu trách nhiệm đề xuất định hướng phát triển lên HĐQT; xây dựng chiến lược, đề trình HĐQT, chỉ đạo và giám sát các vấn đề liên quan đến chiến lược phát triển của Tập đoàn và công ty thành viên.\n- VĂN PHÒNG CHỦ TỊCH HĐQT: Đóng vai trò là Thư ký Tập đoàn và là cơ quan hỗ trợ trực thuộc HĐQT; trợ giúp HĐQT, Chủ tịch HĐQT trong việc thực hiện các chức năng và nhiệm vụ của HĐQT, Chủ tịch HĐQT.\n- KIỂM TOÁN NỘI BỘ: Được thành lập và chịu sự quản lý trực tiếp của HĐQT và đóng vai trò kiểm tra và đánh giá tính đầy đủ và hiệu quả của quản trị, quản lý rủi ro và kiểm soát nội bộ cũng như chất lượng hiệu suất trong việc thực thi trách nhiệm được giao và đưa ra các kiến nghị để đạt được mục tiêu và mục đích của doanh nghiệp.\nQuan hệ/đường nối:\n- ĐHĐCĐ nối xuống HĐQT; từ trục nối này có nhánh sang BAN KIỂM SOÁT.\n- HỘI ĐỒNG QUẢN TRỊ nối với 4 đơn vị: UỶ BAN NHÂN SỰ VÀ LƯƠNG THƯỞNG, UỶ BAN CHIẾN LƯỢC PHÁT TRIỂN, VĂN PHÒNG CHỦ TỊCH HĐQT, KIỂM TOÁN NỘI BỘ.\n- HỘI ĐỒNG QUẢN TRỊ nối xuống CHỦ TỊCH HỘI ĐỒNG QUẢN TRỊ.\n- CHỦ TỊCH HỘI ĐỒNG QUẢN TRỊ nối xuống TỔNG GIÁM ĐỐC VÀ BAN ĐIỀU HÀNH."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 9113
+ },
+ "cost_usd": 0.0054718860000000005,
+ "latency_ms": 40274.80533299968
+}

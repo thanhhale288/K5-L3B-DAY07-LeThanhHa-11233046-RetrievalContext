@@ -1,0 +1,19 @@
+{
+ "page": 98,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Giao dịch giữa công ty với các đối tượng khác",
+   "position": "phần nội dung chính bên phải, phía trên",
+   "content": "**Giao dịch giữa công ty với các đối tượng khác**\n\nGiao dịch giữa công ty với công ty mà thành viên HĐQT, thành viên BKS, Tổng giám đốc đã và đang là thành viên sáng lập hoặc thành viên HĐQT, Giám đốc (Tổng giám đốc) điều hành trong thời gian ba năm trở lại đây (Tính tại thời điểm lập Báo cáo).\n\n| STT | Tên tổ chức | Số giấy NSH, ngày cấp, nơi cấp | Người có liên quan | Vị trí của người có liên quan tại công ty | Địa chỉ trụ sở chính | Thời điểm giao dịch | Ghi chú |\n|---|---|---|---|---|---|---|---|\n| 1 | Công ty Cổ phần Viễn thông FPT (Công ty con trong cùng Tập đoàn) | • 0101778163<br>• 28/07/2005<br>• Sở Kế hoạch và Đầu tư Tp.Hà Nội | Ông Trương Gia Bình, Chủ tịch HĐQT FPT<br>Ông Nguyễn Văn Khoa, Tổng giám đốc FPT<br>Bà Trần Thị Hồng Linh, thành viên HĐQT FPT (Miễn nhiệm từ ngày 24/12/2025) | Thành viên HĐQT FPT Telecom<br>Thành viên HĐQT FPT Telecom<br>Thành viên HĐQT FPT Telecom | Số 10 phố Phạm Văn Bạch, phường Cầu Giấy, TP.Hà Nội | Từ năm 2014 – năm 2025 | • FPT cho thuê văn phòng, phí quản lý và dịch vụ tiện ích;<br>• FPT mua dịch vụ Internet và Data Center. |\n| 2 | Công ty TNHH Giáo dục FPT (Công ty con trong cùng Tập đoàn) | • 0104900076<br>• 07/09/2010<br>• Sở Kế hoạch và Đầu tư Tp.Hà Nội | Ông Trương Gia Bình, Chủ tịch HĐQT FPT | • Chủ tịch Hội đồng thành viên FPT Education | Khu công nghệ cao Hòa Lạc, Km 29, Đại lộ Thăng Long, phường Thạch Thất, TP.Hà Nội | Từ năm 2014 – năm 2025 | • FPT cung cấp dịch vụ, chia sẻ chi phí và tiện ích dùng chung;<br>• FPT mua dịch vụ đào tạo;<br>• Vay và trả nợ vay. |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 4975
+ },
+ "cost_usd": 0.0029890859999999997,
+ "latency_ms": 22609.52295799507
+}

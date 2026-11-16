@@ -1,0 +1,31 @@
+{
+ "page": 69,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "infographic",
+   "title": "LĨNH VỰC DỊCH VỤ VIỄN THÔNG – Top 3",
+   "position": "phía trên, bên trái trung tâm",
+   "content": "Khối infographic có số 'Top 3' cỡ lớn kèm biểu tượng Wi-Fi. Nội dung: 'Nhà cung cấp dịch vụ Internet băng thông rộng; trung tâm dữ liệu và dịch vụ tên miền; dịch vụ trực tuyến và cho thuê; dịch vụ truyền hình trả tiền'."
+  },
+  {
+   "type": "infographic",
+   "title": "34 Tỉnh, thành phố trên toàn quốc có hạ tầng viễn thông và mạng lưới cung cấp dịch vụ",
+   "position": "giữa trang, bên trái, dưới khối Top 3",
+   "content": "Hình bản đồ Việt Nam màu xanh nhạt đi kèm số '34' cỡ lớn. Nội dung: '34 Tỉnh, thành phố trên toàn quốc có hạ tầng viễn thông và mạng lưới cung cấp dịch vụ'."
+  },
+  {
+   "type": "infographic",
+   "title": "04 Trung tâm dữ liệu đạt chuẩn Uptime Tier III quốc tế; 6.800 Gbps Dung lượng hạ tầng kết nối quốc tế",
+   "position": "phía dưới, bên trái trung tâm, gồm hai ô số liệu cạnh nhau",
+   "content": "Hai ô số liệu: (1) '04' – 'Trung tâm dữ liệu đạt chuẩn Uptime Tier III quốc tế'; (2) '6.800 Gbps' – 'Dung lượng hạ tầng kết nối quốc tế'."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2788
+ },
+ "cost_usd": 0.001676886,
+ "latency_ms": 13961.679000000004
+}

@@ -1,0 +1,19 @@
+{
+ "page": 51,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "diagram",
+   "title": "Nền tảng phục vụ phát triển AI có chủ quyền của FPT",
+   "position": "nửa phải, phía trên",
+   "content": "Sơ đồ nền tảng AI dạng các lớp/khối: phía dưới bên trái ghi “Data In”; phía trên bên trái ghi “Intelligence Out”; bên phải có các nhãn “AI Platform” và “AI Infrastructure”; phía trên bên phải ghi “AI Agent x Human Economy”. Trung tâm là mạng lưới/khối nền tảng AI với các nút và đường nối/mũi tên thể hiện luồng dữ liệu đi vào từ “Data In”, qua hạ tầng/nền tảng AI, lên các lớp ứng dụng/agent và đầu ra “Intelligence Out”. Không có số liệu/đơn vị/năm trên sơ đồ."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3371
+ },
+ "cost_usd": 0.0020266859999999998,
+ "latency_ms": 19702.241249993676
+}

@@ -1,0 +1,31 @@
+{
+ "page": 192,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "5. Đầu tư tài chính (Tiếp theo) - (b) Đầu tư góp vốn vào đơn vị khác (Tiếp theo): Biến động đầu tư vào công ty liên doanh, liên kết trong năm tài chính như sau:",
+   "position": "nửa trái, phía trên/giữa trang",
+   "content": "Đơn vị: VND\n\n| Chỉ tiêu | 2025 | 2024 |\n|---|---:|---:|\n| Số dư đầu năm | 2.281.222.436.752 | 2.107.616.686.383 |\n| Tăng đầu tư vào công ty liên doanh, liên kết trong năm | 128.673.384.128 | 64.679.696.896 |\n| Phần lãi của Tập đoàn trong kết quả kinh doanh của các công ty liên doanh, liên kết | 658.024.835.314 | 392.531.256.272 |\n| Cổ tức đã nhận (Thuyết minh 35(a)) | (171.133.791.000) | (285.222.985.000) |\n| Biến động phần sở hữu của Tập đoàn trong vốn chủ sở hữu của công ty liên doanh, liên kết | 684.341.652.231 | 1.617.782.201 |\n| Số dư cuối năm | 3.581.128.517.425 | 2.281.222.436.752 |"
+  },
+  {
+   "type": "table",
+   "title": "6. Phải thu ngắn hạn của khách hàng",
+   "position": "nửa phải, phía trên trang",
+   "content": "Đơn vị: VND\n\n| Chỉ tiêu | 31/12/2025 | 31/12/2024 |\n|---|---:|---:|\n| Bên thứ ba | 12.679.385.290.627 | 10.490.544.757.905 |\n| Bên liên quan (Thuyết minh 35(b)) | 55.215.305.923 | 46.474.355.475 |\n|  | 12.734.600.596.550 | 10.537.019.113.380 |"
+  },
+  {
+   "type": "table",
+   "title": "Chi tiết số dư các khách hàng bên thứ ba chiếm từ 2% tổng số dư phải thu ngắn hạn của khách hàng:",
+   "position": "nửa phải, phía dưới trang",
+   "content": "Đơn vị: VND\n\n| Khách hàng | 31/12/2025 | 31/12/2024 |\n|---|---:|---:|\n| Công ty Shanghai Kumi E-commerce | 323.689.064.642 | - |\n| Công ty COX-AM | 284.823.379.943 | 167.310.710.574 |\n| Ngân hàng TMCP Ngoại Thương Việt Nam | 206.789.402.105 | 248.422.274.960 |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2478
+ },
+ "cost_usd": 0.0014908859999999999,
+ "latency_ms": 10844.145499984734
+}

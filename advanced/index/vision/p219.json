@@ -1,0 +1,19 @@
+{
+ "page": 219,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "A. Công ty con khác (Tiếp theo)",
+   "position": "toàn bộ phần nội dung chính, bên dưới tiêu đề mục A",
+   "content": "Đơn vị: %\n\n| STT | Công ty | Hoạt động chính | Nơi thành lập, đăng ký hoạt động | Tại ngày 31/12/2025 - Tỷ lệ sở hữu | Tại ngày 31/12/2025 - Tỷ lệ biểu quyết | Tại ngày 31/12/2024 - Tỷ lệ sở hữu | Tại ngày 31/12/2024 - Tỷ lệ biểu quyết |\n|---|---|---|---|---:|---:|---:|---:|\n| 14 | Công ty TNHH Tư vấn Intellinet | Tư vấn công nghệ | Hoa Kỳ | 99,09% | 99,09% | 98,18% | 98,18% |\n| 15 | Công ty TNHH Tư vấn Intertec | Sản xuất phần mềm | Hoa Kỳ | 73% | 73% | 70% | 70% |\n| 16 | Công ty TNHH Intertec International | Sản xuất phần mềm | Anh | 73% | 73% | 70% | 70% |\n| 17 | Công ty TNHH Tư vấn Micra International | Sản xuất phần mềm | Costa Rica | 73% | 73% | 70% | 70% |\n| 18 | Công ty TNHH Intertec International S,A,S | Sản xuất phần mềm | Columbia | 73% | 73% | 70% | 70% |\n| 19 | Công ty TNHH Intertec International S.de R.L de C.V | Sản xuất phần mềm | Mexico | 73% | 73% | 70% | 70% |\n| 20 | Công ty Cardinal Peak LLC | Sản xuất phần mềm | Hoa Kỳ | 100% | 100% | 100% | 100% |\n| 21 | Công ty TNHH FPT India | Sản xuất phần mềm | Ấn Độ | 100% | 100% | 100% | 100% |\n| 22 | Công ty TNHH FPT Đức | Sản xuất phần mềm | Đức | 100% | 100% | 100% | 100% |\n| 23 | Công ty TNHH FPT Anh | Sản xuất phần mềm | Anh | 100% | 100% | 100% | 100% |\n| 24 | Công ty TNHH Phần mềm FPT Malaysia | Sản xuất phần mềm | Malaysia | 100% | 100% | 100% | 100% |\n| 25 | Công ty TNHH Giải pháp Phần mềm FPT Châu Á Thái Bình Dương | Sản xuất phần mềm | Singapore | 100% | 100% | 100% | 100% |\n| 26 | Công ty TNHH Phần mềm FPT Australasia | Sản xuất phần mềm | Úc | 100% | 100% | 100% | 100% |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2246
+ },
+ "cost_usd": 0.001351686,
+ "latency_ms": 8986.521124985302
+}

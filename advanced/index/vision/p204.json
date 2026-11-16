@@ -1,0 +1,31 @@
+{
+ "page": 204,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "22. Vay và nợ thuê tài chính (Tiếp theo)",
+   "position": "nửa trái, phía trên",
+   "content": "Đơn vị: VND\n\n| Ngoại tệ | 31/12/2025 - Tổng số dư ngoại tệ | 31/12/2025 - Số dư ngoại tệ đã được phòng ngừa rủi ro | 31/12/2024 - Tổng số dư ngoại tệ | 31/12/2024 - Số dư ngoại tệ đã được phòng ngừa rủi ro |\n|---|---:|---:|---:|---:|\n| USD | 6.750.000,00 | 6.750.000,00 | 32.900.000,00 | 25.000.000,00 |"
+  },
+  {
+   "type": "table",
+   "title": "22. Vay và nợ thuê tài chính (Tiếp theo)",
+   "position": "nửa trái, phía dưới",
+   "content": "Đơn vị: VND\n\n| Ngoại tệ | 2025 | 2024 |\n|---|---:|---:|\n| USD | 429.501.462,00 | 433.771.845,17 |\n| JPY | 90.199.097.690,00 | 73.230.679.857,00 |"
+  },
+  {
+   "type": "table",
+   "title": "23. Vốn góp của chủ sở hữu – (a) Số lượng cổ phiếu",
+   "position": "nửa phải, phía trên",
+   "content": "Đơn vị: VND\n\n| Chỉ tiêu | 31/12/2025 - Cổ phiếu phổ thông | 31/12/2024 - Cổ phiếu phổ thông |\n|---|---:|---:|\n| Số lượng cổ phiếu đăng ký | 1.703.507.121 | 1.471.069.183 |\n| Số lượng cổ phiếu đã phát hành | 1.703.507.121 | 1.471.069.183 |\n| Cổ phiếu phổ thông | 1.703.507.121 | 1.471.069.183 |\n| * Trong đó: cổ phiếu bị hạn chế quyền chuyển nhượng quyền sở hữu | 31.584.406 | 25.943.108 |\n| Số lượng cổ phiếu đang lưu hành | 1.703.507.121 | 1.471.069.183 |\n| Cổ phiếu phổ thông | 1.703.507.121 | 1.471.069.183 |\n| * Trong đó: cổ phiếu bị hạn chế quyền chuyển nhượng quyền sở hữu | 31.584.406 | 25.943.108 |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 5299
+ },
+ "cost_usd": 0.0031834859999999997,
+ "latency_ms": 22523.00654098508
+}

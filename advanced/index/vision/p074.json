@@ -1,0 +1,19 @@
+{
+ "page": 74,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "FPT cất nóc dự án trường Phổ thông liên cấp FPT Vinh (Nghệ An) với diện tích hơn 27.000 m², dự kiến đào tạo khoảng 2.800 học sinh từ bậc Tiểu học đến THPT.",
+   "position": "nửa phải, phía dưới",
+   "content": "Ảnh chụp lễ khởi công/cất nóc tại sân khấu ngoài trời. Trên phông nền có chữ: “LỄ KHỞI CÔNG”, “TRƯỜNG TIỂU HỌC, TRUNG HỌC CƠ SỞ & TRUNG HỌC PHỔ THÔNG FPT VINH”, “NGÀY 10 THÁNG 8 NĂM 2025”. Hình ảnh có các đại biểu đứng trên sân khấu, hai con lân, pháo hoa giấy và khu vực tổ chức lễ. Chú thích dưới ảnh: “FPT cất nóc dự án trường Phổ thông liên cấp FPT Vinh (Nghệ An) với diện tích hơn 27.000 m², dự kiến đào tạo khoảng 2.800 học sinh từ bậc Tiểu học đến THPT.”"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 1450
+ },
+ "cost_usd": 0.000874086,
+ "latency_ms": 8420.867457985878
+}

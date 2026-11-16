@@ -1,0 +1,25 @@
+{
+ "page": 36,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Tình hình thay đổi vốn điều lệ (Tiếp theo)",
+   "position": "Phía trên, vùng nội dung chính bên phải",
+   "content": "Đơn vị: VND\n\n| Lần | Thời điểm phát hành | Vốn điều lệ sau khi phát hành | Lý do |\n|---:|---|---:|---|\n| 38 | 05/2023 | 11.043.316.220.000 | Tăng vốn điều lệ thông qua phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng là CBNV có thành tích đóng góp trong năm 2022; phát hành cổ phiếu mới theo chương trình phát hành cổ phiếu cho đối tượng là cán bộ lãnh đạo cấp cao năm 2023. |\n| 39 | 07/2023 | 12.699.688.750.000 | Tăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 15% từ kết quả kinh doanh năm 2022. |\n| 40 | 06/2024 | 14.604.480.660.000 | Tăng vốn điều lệ sau phát hành cổ phiếu để tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu theo tỷ lệ 15%. |\n| 41 | 10/2024 | 14.710.691.830.000 | Tăng vốn điều lệ thông qua phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng là CBNV có thành tích đóng góp trong năm 2023 và phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng là cán bộ lãnh đạo cấp cao năm 2024. |\n| 42 | 05/2025 | 14.813.301.220.000 | Tăng vốn điều lệ thông qua phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng là CBNV có thành tích đóng góp trong năm 2024 và phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng là cán bộ lãnh đạo cấp cao năm 2025. |\n| 43 | 07/2025 | 17.035.071.210.000 | Tăng vốn điều lệ sau đợt phát hành cổ phiếu để tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông |"
+  },
+  {
+   "type": "table",
+   "title": "Thống kê giao dịch và giá cổ phiếu năm 2025",
+   "position": "Phía dưới, vùng nội dung chính bên phải",
+   "content": "Tính từ ngày 01/01/2025-31/12/2025\n\n| Giá cao nhất | Giá thấp nhất | Khối lượng giao dịch/Ngày | Khối lượng giao dịch nhiều nhất | Khối lượng giao dịch ít nhất |\n|---|---|---|---|---|\n| 131.708 VND/Cổ phiếu | 86.104 VND/Cổ phiếu | 7.594.874 Cổ phiếu | 23.514.300 Cổ phiếu | 1.005.400 Cổ phiếu |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3795
+ },
+ "cost_usd": 0.002281086,
+ "latency_ms": 15513.57670800644
+}

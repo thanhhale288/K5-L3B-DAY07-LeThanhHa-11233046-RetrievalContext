@@ -1,0 +1,19 @@
+{
+ "page": 50,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "image",
+   "title": "LỄ KHỞI CÔNG, KHÁNH THÀNH CÁC CÔNG TRÌNH, DỰ ÁN CHÀO MỪNG ĐẠI HỘI ĐẠI BIỂU TOÀN QUỐC LẦN THỨ XIV CỦA ĐẢNG",
+   "position": "nửa phải, phía dưới",
+   "content": "Ảnh sự kiện: các đại biểu đứng trên sân khấu, phía sau là backdrop màu xanh tím có các dòng chữ: “ỦY BAN NHÂN DÂN TỈNH GIA LAI”; “LỄ KHỞI CÔNG, KHÁNH THÀNH CÁC CÔNG TRÌNH, DỰ ÁN CHÀO MỪNG ĐẠI HỘI ĐẠI BIỂU TOÀN QUỐC LẦN THỨ XIV CỦA ĐẢNG”; “KHỞI CÔNG ĐỘNG THỔ DỰ ÁN TRUNG TÂM NGHIÊN CỨU TRÍ TUỆ NHÂN TẠO”; có logo FPT và dòng “LIÊN DANH FPT QUY NHƠN”. Trên sân khấu có hiệu ứng pháo giấy."
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 2109
+ },
+ "cost_usd": 0.0012694859999999998,
+ "latency_ms": 10833.764167007757
+}

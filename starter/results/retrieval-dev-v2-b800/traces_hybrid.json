@@ -1,0 +1,1487 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "FPT đặt mục tiêu Net Zero vào năm nào?",
+    "filter": null,
+    "method": "hybrid(dense+bm25)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p7_b_1",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 7,
+        "metadata": {
+          "pillar": "Environment"
+        },
+        "score": 0.03252247488101534,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.7075312559325264
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 13.346429385547317
+          }
+        },
+        "rank": 1,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": true,
+        "text_preview": "• Lộ trình Net Zero 2040\nLà tập đoàn công nghệ toàn cầu với quy mô và phạm vi hoạt động ngày càng mở rộng,\nFPT nhận thức rõ vai trò và trách nhiệm của mình khôn"
+      },
+      {
+        "id": "fpt_esg_report_2025_p3_b_1",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 3,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.0315136476426799,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.6255236640884687
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 10.327791739318654
+          }
+        },
+        "rank": 2,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "định cam kết quản trị bền vững bằng việc sở hữu các\nchứng nhận quốc tế về công bằng số, đạo đức AI và\nkiểm kê khí nhà kính.\nCác nguyên tắc ESG của tổ chức về mu"
+      },
+      {
+        "id": "fpt_esg_report_2025_p39_b_3",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 39,
+        "metadata": {
+          "pillar": "Environment"
+        },
+        "score": 0.03149801587301587,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.6095467442544266
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 11.195719010854214
+          }
+        },
+        "rank": 3,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "ng không ngừng mở rộng.\nNguồn phát thải khí nhà kính chủ yếu của Tập đoàn phát sinh từ Phạm vi 2, chiếm\nkhoảng 96% tổng lượng phát thải của toàn Tập đoàn. Trong"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": false,
+    "latency_ms": 57.09950000164099,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 7,
+        "evidence": "đặt mục tiêu đến năm 2030 giảm 15,8% tổng lượng phát thải khí nhà kính và hướng tới mục tiêu Net Zero vào năm 2040."
+      },
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 7,
+        "evidence": "thúc đẩy các hành động cụ thể trong lộ trình giảm phát thải khí nhà kính, hướng tới mục tiêu Net Zero vào năm 2040"
+      }
+    ]
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "Năm 2025 là lần thứ bao nhiêu FPT thực hiện Báo cáo ESG?",
+    "filter": null,
+    "method": "hybrid(dense+bm25)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p5_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 5,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.03278688524590164,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.7668591737747247
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 11.166277602377868
+          }
+        },
+        "rank": 1,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": true,
+        "text_preview": "2025 là năm thứ 05, FPT thực hiện Báo cáo Môi trường – Trách nhiệm xã hội – Quản\ntrị (Báo cáo ESG). Thông qua Báo cáo này, FPT có cơ hội đánh giá toàn diện về c"
+      },
+      {
+        "id": "fpt_esg_report_2025_p3_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 3,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.03149801587301587,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.6795885753876832
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 6.924922226637475
+          }
+        },
+        "rank": 2,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "THÔNG ĐIỆP VÀ ĐỊNH HƯỚNG ESG\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\nThông điệp Phó tổng giám đốc\nESG tăng cường tiềm năng của người FPT chúng tôi.\nKính thưa Quý Cổ đông và"
+      },
+      {
+        "id": "fpt_esg_report_2025_p39_b_2",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 39,
+        "metadata": {
+          "pillar": "Environment"
+        },
+        "score": 0.0304147465437788,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.680634238644333
+          },
+          "bm25": {
+            "rank": 10,
+            "score": 5.926935234316194
+          }
+        },
+        "rank": 3,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "• Phạm vi và phương pháp thu thập dữ liệu\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm vi"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": false,
+    "latency_ms": 44.68104202533141,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 5,
+        "evidence": "2025 là năm thứ 05, FPT thực hiện Báo cáo Môi trường – Trách nhiệm xã hội – Quản trị (Báo cáo ESG)."
+      }
+    ]
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Kỳ báo cáo ESG năm 2025 của FPT bao phủ khoảng thời gian nào?",
+    "filter": null,
+    "method": "hybrid(dense+bm25)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p3_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 3,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.032018442622950824,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.6547971963882446
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 10.440849778840722
+          }
+        },
+        "rank": 1,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "THÔNG ĐIỆP VÀ ĐỊNH HƯỚNG ESG\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\nThông điệp Phó tổng giám đốc\nESG tăng cường tiềm năng của người FPT chúng tôi.\nKính thưa Quý Cổ đông và"
+      },
+      {
+        "id": "fpt_esg_report_2025_p5_b_1",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 5,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.030834914611005692,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.6726010842681589
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 8.58168494136914
+          }
+        },
+        "rank": 2,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": true,
+        "text_preview": "• Bà: Mai Thị Lan Anh, Người ủy quyền công bố thông tin, Công ty Cổ phần FPT\n\n• Địa chỉ: Số 10 phố Phạm Văn Bạch, phường Cầu Giấy, Tp.Hà Nội\n\n• Điện thoại: +84 "
+      },
+      {
+        "id": "fpt_esg_report_2025_p5_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 5,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.03047794966520434,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.7311302263218312
+          },
+          "bm25": {
+            "rank": 11,
+            "score": 7.765232311749901
+          }
+        },
+        "rank": 3,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "2025 là năm thứ 05, FPT thực hiện Báo cáo Môi trường – Trách nhiệm xã hội – Quản\ntrị (Báo cáo ESG). Thông qua Báo cáo này, FPT có cơ hội đánh giá toàn diện về c"
+      }
+    ],
+    "context_ids": [
+      "fpt_esg_report_2025_p5_b_1"
+    ],
+    "context_chars": 753,
+    "hit1": false,
+    "hit3": true,
+    "first_hit_rank": 2,
+    "context_hit": true,
+    "latency_ms": 43.52608398767188,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 5,
+        "evidence": "Thời gian báo cáo: 01/01/2025-31/12/2025."
+      }
+    ]
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "Đến năm 2030, FPT muốn cắt giảm tổng phát thải khí nhà kính bao nhiêu phần trăm so với lộ trình đã công bố?",
+    "filter": null,
+    "method": "hybrid(dense+bm25)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p7_b_1",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 7,
+        "metadata": {
+          "pillar": "Environment"
+        },
+        "score": 0.03278688524590164,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.7551702260971123
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 21.380797153677904
+          }
+        },
+        "rank": 1,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "• Lộ trình Net Zero 2040\nLà tập đoàn công nghệ toàn cầu với quy mô và phạm vi hoạt động ngày càng mở rộng,\nFPT nhận thức rõ vai trò và trách nhiệm của mình khôn"
+      },
+      {
+        "id": "fpt_esg_report_2025_p39_b_2",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 39,
+        "metadata": {
+          "pillar": "Environment"
+        },
+        "score": 0.03200204813108039,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.695016182063081
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 19.662122324236847
+          }
+        },
+        "rank": 2,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "• Phạm vi và phương pháp thu thập dữ liệu\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển bền vững\nMôi trường làm vi"
+      },
+      {
+        "id": "fpt_esg_report_2025_p39_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 39,
+        "metadata": {
+          "pillar": "Environment"
+        },
+        "score": 0.030309988518943745,
+        "components": {
+          "dense": {
+            "rank": 7,
+            "score": 0.6564534920835223
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 18.56311910534598
+          }
+        },
+        "rank": 3,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "FPT thực hiện kiểm kê và quản lý dấu chân carbon theo các chuẩn mực quốc tế\nđược công nhận, bao gồm Nghị định thư Khí nhà kính (GHG Protocol) của\nViện Tài nguyê"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": false,
+    "first_hit_rank": null,
+    "context_hit": false,
+    "latency_ms": 62.62391697964631,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 7,
+        "evidence": "đặt mục tiêu đến năm 2030 giảm 15,8% tổng lượng phát thải khí nhà kính và hướng tới mục tiêu Net Zero vào năm 2040."
+      }
+    ]
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Tính đến hết năm 2025, FPT có bao nhiêu nhân sự và bao nhiêu nhân sự người nước ngoài đến từ bao nhiêu quốc tịch?",
+    "filter": null,
+    "method": "hybrid(dense+bm25)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p30_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 30,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.03278688524590164,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.7179922629599529
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 28.42738741045222
+          }
+        },
+        "rank": 1,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": true,
+        "text_preview": "• Sự đa dạng về văn hóa, màu da, sắc tộc, độ tuổi, trình độ\nLà tập đoàn toàn cầu, FPT phát huy hiệu quả nguồn nhân lực đa dạng, tạo nền tảng\nvững chắc cho tăng "
+      },
+      {
+        "id": "fpt_esg_report_2025_p30_b_4",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 30,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.0315136476426799,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.6683181721974616
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 15.612577875565975
+          }
+        },
+        "rank": 2,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "àn cầu của ngành CNTT (25% – ILO); nữ giới chiếm 36,4%\nđội ngũ quản lý, bao gồm cả các vị trí lãnh đạo cấp cao tại các công ty thành viên.\nChính sách thu nhập t"
+      },
+      {
+        "id": "fpt_esg_report_2025_p3_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 3,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.028958333333333336,
+        "components": {
+          "dense": {
+            "rank": 15,
+            "score": 0.5786128389008556
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 18.144376496742478
+          }
+        },
+        "rank": 3,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "THÔNG ĐIỆP VÀ ĐỊNH HƯỚNG ESG\nBÁO CÁO PHÁT TRIỂN BỀN VỮNG\nThông điệp Phó tổng giám đốc\nESG tăng cường tiềm năng của người FPT chúng tôi.\nKính thưa Quý Cổ đông và"
+      }
+    ],
+    "context_ids": [
+      "fpt_esg_report_2025_p30_b_4"
+    ],
+    "context_chars": 628,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": false,
+    "latency_ms": 57.107542001176625,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 30,
+        "evidence": "Tính đến hết năm 2025, FPT có 54.110 nhân sự làm việc tại hơn 30 quốc gia, trong đó, có 4.124 nhân sự người nước ngoài với 82 quốc tịch"
+      }
+    ]
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "Đến ngày 31/12/2025, tỷ lệ lao động nữ tại FPT là bao nhiêu?",
+    "filter": null,
+    "method": "hybrid(dense+bm25)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p30_b_3",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 30,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.03252247488101534,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.7087050676345875
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 23.380497697973073
+          }
+        },
+        "rank": 1,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": true,
+        "text_preview": "• Tôn trọng, đổi mới và đảm bảo hài hòa về cân bằng giới tính\nVới quan điểm con người là tài sản cốt lõi và trung tâm của chiến lược phát triển,\nngay từ khi thà"
+      },
+      {
+        "id": "fpt_esg_report_2025_p30_b_4",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 30,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.030886196246139225,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.7723556567986639
+          },
+          "bm25": {
+            "rank": 9,
+            "score": 9.44496313821627
+          }
+        },
+        "rank": 2,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "àn cầu của ngành CNTT (25% – ILO); nữ giới chiếm 36,4%\nđội ngũ quản lý, bao gồm cả các vị trí lãnh đạo cấp cao tại các công ty thành viên.\nChính sách thu nhập t"
+      },
+      {
+        "id": "fpt_esg_report_2025_p5_b_1",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 5,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.029877369007803793,
+        "components": {
+          "dense": {
+            "rank": 9,
+            "score": 0.6024174690246625
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 11.762973190090058
+          }
+        },
+        "rank": 3,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "• Bà: Mai Thị Lan Anh, Người ủy quyền công bố thông tin, Công ty Cổ phần FPT\n\n• Địa chỉ: Số 10 phố Phạm Văn Bạch, phường Cầu Giấy, Tp.Hà Nội\n\n• Điện thoại: +84 "
+      }
+    ],
+    "context_ids": [
+      "fpt_esg_report_2025_p30_b_4"
+    ],
+    "context_chars": 628,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": false,
+    "latency_ms": 49.22074999194592,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 30,
+        "evidence": "đến ngày 31/12/2025, tỷ lệ lao động nữ tại FPT đạt 37,7%"
+      }
+    ]
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Hệ thống học trực tuyến MOOCs của FPT ghi nhận quy mô giờ học và tỷ lệ hoàn thành như thế nào trong năm 2025?",
+    "filter": null,
+    "method": "hybrid(dense+bm25)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p31_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 31,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.03278688524590164,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.7389612197876029
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 32.41487285681037
+          }
+        },
+        "rank": 1,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": true,
+        "text_preview": "Tại FPT, phát triển nguồn nhân lực được xác định là trụ cột chiến lược nhằm duy trì\nnăng lực cạnh tranh và vị thế công ty công nghệ đẳng cấp toàn cầu. Năm 2025,"
+      },
+      {
+        "id": "fpt_esg_report_2025_p11_b_2",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 11,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.031009615384615385,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.5903907906543266
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 20.1897252643855
+          }
+        },
+        "rank": 2,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "• Khởi công xây dựng Khu công viên công nghệ số góp phần\nkhẳng định vị thế Hà Nội là trung tâm khoa học công nghệ\ncủa cả nước, xa hơn là từng bước hiện thực hóa"
+      },
+      {
+        "id": "fpt_esg_report_2025_p45_b_2",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 45,
+        "metadata": {
+          "pillar": "Environment"
+        },
+        "score": 0.030621785881252923,
+        "components": {
+          "dense": {
+            "rank": 9,
+            "score": 0.573732665332238
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 22.90975064982769
+          }
+        },
+        "rank": 3,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "• Văn phòng không giấy tờ\n2022 2023 2024 2025\n7,1%\n92,9%\n17,6%\n82,4%\n78,9% 95,42%\n21,1% 4,58%\nTỷ lệ văn bản phát\nhành điện tử\nTỷ lệ văn bản cứng\nTỷ lệ các cuộc "
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": false,
+    "latency_ms": 53.13337501138449,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 31,
+        "evidence": "hệ thống MOOCs với hơn 3 triệu giờ học, tỷ lệ hoàn thành đạt 99,7%"
+      }
+    ]
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Trong quản trị chuỗi cung ứng, tỷ lệ nhà cung cấp trọng yếu tham gia đánh giá CSR năm 2025 là bao nhiêu và so với năm 2024 thế nào?",
+    "filter": {
+      "pillar": "Governance"
+    },
+    "method": "hybrid(dense+bm25)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p21_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 21,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.03278688524590164,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.7624584719588248
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 44.166960943333834
+          }
+        },
+        "rank": 1,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": true,
+        "text_preview": "Năm 2025, Tập đoàn thúc đẩy thực hành mua sắm\nbền vững trong toàn bộ chuỗi cung ứng, với các kết\nquả nổi bật như sau:\n\n• 42% nhà cung cấp trọng yếu tham gia đán"
+      },
+      {
+        "id": "fpt_esg_report_2025_p16_b_3",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 16,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.031754032258064516,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.6648872298136723
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 22.496167020133132
+          }
+        },
+        "rank": 2,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "• Triển khai đánh giá CSR 42% nhà cung cấp trọng yếu\ncủa Tập đoàn.\nBÁO CÁO\nPHÁT TRIỂN BỀN VỮNG\n2025\nThông điệp và định hướng ESG\nQuản trị hướng đến phát triển b"
+      },
+      {
+        "id": "fpt_esg_report_2025_p21_b_1",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 21,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.031754032258064516,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.5748396933460966
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 25.11640919336511
+          }
+        },
+        "rank": 3,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "• 18% nhà cung cấp trọng yếu đã ký kết hợp đồng\nnguyên tắc có tích hợp các điều khoản liên quan\nđến môi trường, lao động và nhân quyền.\nHoạt động đánh giá ESG đ"
+      }
+    ],
+    "context_ids": [
+      "fpt_esg_report_2025_p21_b_0",
+      "fpt_esg_report_2025_p16_b_3"
+    ],
+    "context_chars": 794,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true,
+    "latency_ms": 44.7339579986874,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 21,
+        "evidence": "42% nhà cung cấp trọng yếu tham gia đánh giá CSR trên Cổng Hệ thống mua sắm FPT, tăng mạnh so với tỷ lệ 18% của năm 2024"
+      }
+    ]
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Đối với phát triển bền vững, FPT xác định bao nhiêu nhóm rủi ro chính và gồm những nhóm nào?",
+    "filter": null,
+    "method": "hybrid(dense+bm25)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p24_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 24,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.03278688524590164,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.6851607528041557
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 29.79018351499765
+          }
+        },
+        "rank": 1,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": true,
+        "text_preview": "Căn cứ đặc thù từng lĩnh vực kinh doanh, khung quản lý rủi ro của Tập đoàn được\nTổng giám đốc chỉ đạo xây dựng, phê duyệt và cải tiến định kỳ hàng năm. Trong đó"
+      },
+      {
+        "id": "fpt_esg_report_2025_p25_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 25,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.0304147465437788,
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.5701099806827432
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 18.73543497294431
+          }
+        },
+        "rank": 2,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "• Rủi ro hoạt động\nNội dung Biện pháp quản trịTên rủi ro\nRủi ro về\ncông bố thông tin\n\n• Cập nhật đầy đủ các quy định liên quan đến công bố thông tin đối với côn"
+      },
+      {
+        "id": "fpt_esg_report_2025_p13_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 13,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.030117753623188408,
+        "components": {
+          "dense": {
+            "rank": 9,
+            "score": 0.5729265889744206
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 17.48362669282594
+          }
+        },
+        "rank": 3,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "FPT xác định các bên liên quan là những bên có ảnh hưởng hoặc bị ảnh hưởng ở một mức độ nhất định từ hoạt động kinh doanh của Tập đoàn. Do đó, thông tin, ý kiến"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": false,
+    "latency_ms": 43.786709022242576,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 24,
+        "evidence": "đối với phát triển bền vững, Tập đoàn xác định có 05 nhóm rủi ro chính bao gồm: Rủi ro chiến lược, Rủi ro hoạt động, Rủi ro tài chính và Rủi ro luật định, Rủi ro môi trường – thiên tai – dịch bệnh."
+      }
+    ]
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "FPT đã triển khai bao nhiêu hệ thống điện mặt trời mái nhà và tổng sản lượng đạt bao nhiêu?",
+    "filter": {
+      "pillar": "Environment"
+    },
+    "method": "hybrid(dense+bm25)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p40_b_2",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 40,
+        "metadata": {
+          "pillar": "Environment"
+        },
+        "score": 0.032266458495966696,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.7177184988428069
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 22.129943036181487
+          }
+        },
+        "rank": 1,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "đầu tư và từng bước xây dựng các hệ thống năng lượng sạch đã đóng\nvai trò quan trọng, không chỉ giúp giảm nhu cầu sử dụng điện từ nguồn truyền\nthống mà còn tạo "
+      },
+      {
+        "id": "fpt_esg_report_2025_p40_b_3",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 40,
+        "metadata": {
+          "pillar": "Environment"
+        },
+        "score": 0.032018442622950824,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.5955020671484432
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 24.449483273006205
+          }
+        },
+        "rank": 2,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "• Biện pháp giảm phát thải khí nhà kính\nĐơn vị: kWh\nĐiện mặt trời mái nhà\nChênh lệch\n-8,58%\n-\n-\nNăm 2025\n187.453.013\n842.749\n0,45%\nNăm 2024\n205.053.314\n0\n0%\nDan"
+      },
+      {
+        "id": "fpt_esg_report_2025_p40_b_1",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 40,
+        "metadata": {
+          "pillar": "Environment"
+        },
+        "score": 0.031754032258064516,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.6197551488876343
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 21.377565389713773
+          }
+        },
+        "rank": 3,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "• Các lĩnh vực trọng tâm trong triển khai các biện pháp tiết kiệm năng lượng bao gồm:\ntối ưu hệ thống chiếu sáng, hệ thống điều hòa không khí (HVAC), tự động hó"
+      }
+    ],
+    "context_ids": [
+      "fpt_esg_report_2025_p40_b_2"
+    ],
+    "context_chars": 780,
+    "hit1": false,
+    "hit3": false,
+    "first_hit_rank": null,
+    "context_hit": false,
+    "latency_ms": 51.27395800082013,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 12,
+        "evidence": "Triển khai 02 hệ thống điện mặt trời mái nhà với tổng sản lượng 842.749 kWh"
+      }
+    ]
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Năm 2025, chỉ số tiêu thụ nước của FPT thay đổi như thế nào so với năm 2024?",
+    "filter": null,
+    "method": "hybrid(dense+bm25)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p42_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 42,
+        "metadata": {
+          "pillar": "Environment"
+        },
+        "score": 0.03278688524590164,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.760608434677124
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 21.251051848358205
+          }
+        },
+        "rank": 1,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": true,
+        "text_preview": "Bảng tổng hợp so sánh kết quả tiêu thụ nước\nNăm 2025, chỉ số tiêu thụ nước của FPT chỉ tăng 0,48% so với năm 2024. Mức tăng\nnày được đánh giá là tích cực trong "
+      },
+      {
+        "id": "fpt_esg_report_2025_p40_b_1",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 40,
+        "metadata": {
+          "pillar": "Environment"
+        },
+        "score": 0.03128054740957967,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.5693360567092896
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 15.233570525764561
+          }
+        },
+        "rank": 2,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "• Các lĩnh vực trọng tâm trong triển khai các biện pháp tiết kiệm năng lượng bao gồm:\ntối ưu hệ thống chiếu sáng, hệ thống điều hòa không khí (HVAC), tự động hó"
+      },
+      {
+        "id": "fpt_esg_report_2025_p42_b_3",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 42,
+        "metadata": {
+          "pillar": "Environment"
+        },
+        "score": 0.03128054740957967,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.6285300254821777
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 13.041197006482989
+          }
+        },
+        "rank": 3,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "máy phun xoay chiều tự động được áp dụng trên tất cả khu vực cây\nxanh trong các tòa nhà để giảm thiểu việc sử dụng nước và đảm bảo sự phát triển\ncủa hệ thống câ"
+      }
+    ],
+    "context_ids": [
+      "fpt_esg_report_2025_p42_b_0"
+    ],
+    "context_chars": 707,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true,
+    "latency_ms": 59.33641697629355,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 42,
+        "evidence": "Năm 2025, chỉ số tiêu thụ nước của FPT chỉ tăng 0,48% so với năm 2024."
+      }
+    ]
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Trung tâm bồi dưỡng tài năng trẻ FPT (FYT) hiện có bao nhiêu thành viên và năm 2025 đã cấp bao nhiêu suất học bổng?",
+    "filter": null,
+    "method": "hybrid(dense+bm25)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p48_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 48,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.03278688524590164,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8190250044770544
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 42.257124889692136
+          }
+        },
+        "rank": 1,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": true,
+        "text_preview": "Tạo cơ hội học tập, phát triển tài năng trẻ cho đất nước\n26 năm qua, thông qua Trung tâm bồi dưỡng tài năng trẻ FPT (FYT), Tập đoàn đã\nbền bỉ tạo điều kiện cho "
+      },
+      {
+        "id": "fpt_esg_report_2025_p17_b_1",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 17,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.03200204813108039,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.7173564479371738
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 34.93975547624891
+          }
+        },
+        "rank": 2,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "• Cấp 38 học bổng với tổng số tiền tương ứng 912 triệu đồng hỗ trợ các thành viên Trung tâm bồi dưỡng tài năng trẻ FPT\n(FYT), đồng thời hỗ trợ chi phí, cơ sở vậ"
+      },
+      {
+        "id": "fpt_esg_report_2025_p48_b_1",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 48,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.03200204813108039,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.7103567892100353
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 35.621625589270025
+          }
+        },
+        "rank": 3,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "• Trung tâm bồi dưỡng tài năng trẻ FPT\nVới mong muốn giúp thế hệ trẻ có cơ hội học tập, tiếp cận công nghệ mới, phát triển\ntài năng, FPT triển khai thường niên "
+      }
+    ],
+    "context_ids": [
+      "fpt_esg_report_2025_p48_b_1"
+    ],
+    "context_chars": 493,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": false,
+    "latency_ms": 67.19045800855383,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 48,
+        "evidence": "FYT hiện có 646 thành viên, trong đó, có rất nhiều thành viên đã trưởng thành và trở thành những nhà sáng lập, nhà quản lý, nhà khoa học và chuyên gia có tầm ảnh hưởng trong và ngoài nước. Trong năm 2025, FYT đã cấp 38 suất học bổng"
+      }
+    ]
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "Chiến dịch “Cùng đồng bào vượt lũ” thu được bao nhiêu tiền hỗ trợ và tái thiết bao nhiêu điểm trường?",
+    "filter": null,
+    "method": "hybrid(dense+bm25)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p50_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 50,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.03278688524590164,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.7332018613815308
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 44.74938249759601
+          }
+        },
+        "rank": 1,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": true,
+        "text_preview": "Chiến dịch “Cùng đồng bào vượt lũ” do FPT phát động\nđã thu hút được sự sẻ chia từ hàng nghìn CBNV trong\nvà ngoài nước với số tiền hỗ trợ hơn 05 tỷ đồng, giúp\ntá"
+      },
+      {
+        "id": "fpt_esg_report_2025_p50_b_1",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 50,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.03225806451612903,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.6640923223440467
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 39.13105947042927
+          }
+        },
+        "rank": 2,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": true,
+        "text_preview": "• Chương trình Nâng bước em đến trường\nVới ý nghĩa tạo những hiệu ứng tích cực cho xã hội,\nFPT không chỉ chú trọng vào những hoạt động cứu trợ\ntrong tình huống "
+      },
+      {
+        "id": "fpt_esg_report_2025_p17_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 17,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.03149801587301587,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.5245999410510037
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 23.424428445905438
+          }
+        },
+        "rank": 3,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "• Cộng đồng\nKết quả năm 2025Chương trình hành động nổi bật\nChung tay cùng cộng đồng vượt qua\nthách thức vì một cuộc sống tốt đẹp hơn\n\n• Trường Hy Vọng nhận giải"
+      }
+    ],
+    "context_ids": [
+      "fpt_esg_report_2025_p50_b_1"
+    ],
+    "context_chars": 689,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true,
+    "latency_ms": 71.49270799709484,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 50,
+        "evidence": "số tiền hỗ trợ hơn 05 tỷ đồng, giúp tái thiết 26 điểm trường tại Nghệ An, Thanh Hóa, Lào Cai (cũ), Tuyên Quang (cũ)"
+      }
+    ]
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "Về độ tuổi lao động, FPT có cam kết loại trừ nhóm đối tượng nào?",
+    "filter": {
+      "pillar": "Social"
+    },
+    "method": "hybrid(dense+bm25)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p30_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 30,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.032266458495966696,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.6176324346503738
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 16.660088517527335
+          }
+        },
+        "rank": 1,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": true,
+        "text_preview": "• Sự đa dạng về văn hóa, màu da, sắc tộc, độ tuổi, trình độ\nLà tập đoàn toàn cầu, FPT phát huy hiệu quả nguồn nhân lực đa dạng, tạo nền tảng\nvững chắc cho tăng "
+      },
+      {
+        "id": "fpt_esg_report_2025_p34_b_4",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 34,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.031544957774465976,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.638824818029241
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 10.624862856483812
+          }
+        },
+        "rank": 2,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "• Các chính sách phúc lợi khác\nVới triết lý đem lại cho mỗi thành viên một cuộc sống đầy đủ về vật chất, phong phú về tinh thần và tạo điều kiện phát triển tài "
+      },
+      {
+        "id": "fpt_esg_report_2025_p30_b_1",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 30,
+        "metadata": {
+          "pillar": "Social"
+        },
+        "score": 0.0315136476426799,
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.6075174446393593
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 13.74142691372912
+          }
+        },
+        "rank": 3,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "alaysia, Mexico, Philippines, tăng 18% so với cùng kỳ.\nTrong bối cảnh thị trường lao động có nhiều biến động, FPT vẫn duy trì sự ổn định\nvề nhân sự với tỷ lệ ng"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": false,
+    "latency_ms": 67.43020899011753,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 30,
+        "evidence": "cam kết không sử dụng lao động dưới 18 tuổi."
+      }
+    ]
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "FPT nhận được chứng chỉ ISO/IEC nào liên quan đến hệ thống quản lý trí tuệ nhân tạo?",
+    "filter": null,
+    "method": "hybrid(dense+bm25)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "fpt_esg_report_2025_p19_b_1",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 19,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.03278688524590164,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.7187044024467468
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 26.368355956117686
+          }
+        },
+        "rank": 1,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": true,
+        "text_preview": "lập và báo cáo mục tiêu duy trì ở mức cao, từ 95% đến 97% qua\ncác kỳ đánh giá.\nBên cạnh đó, hoạt động của Tập đoàn và từng lĩnh vực kinh doanh cốt lõi áp dụng v"
+      },
+      {
+        "id": "fpt_esg_report_2025_p20_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 20,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.030621785881252923,
+        "components": {
+          "dense": {
+            "rank": 9,
+            "score": 0.5754085093249708
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 22.825702650709275
+          }
+        },
+        "rank": 2,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "Chứng chỉ/Chứng nhậnKhốiKinh doanhSTT\nTập đoàn1 • ISO 9001:2015: Tiêu chuẩn Hệ thống quản lý chất lượng; • OKRs: Bộ tiêu chuẩn đánh giá chất lượng theo mục tiêu"
+      },
+      {
+        "id": "fpt_esg_report_2025_p4_b_0",
+        "source_id": "fpt_esg_report_2025",
+        "source": "data/fpt_esg_report_2025.pdf",
+        "page": 4,
+        "metadata": {
+          "pillar": "Governance"
+        },
+        "score": 0.029571646010002173,
+        "components": {
+          "dense": {
+            "rank": 13,
+            "score": 0.5660514494150023
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 22.09433469703867
+          }
+        },
+        "rank": 3,
+        "strategy": "hybrid(dense+bm25)",
+        "hit": false,
+        "text_preview": "Môi trường làm việc\nđẳng cấp\nNơi làm việc\ntốt nhất Việt Nam\nTop 10\nViệc làm ổn định\n54.110\nNhân sự người\nnước ngoài\n(82 quốc tịch)\n4.124\nDấu ấn nổi bật\nCán bộ q"
+      }
+    ],
+    "context_ids": [
+      "fpt_esg_report_2025_p19_b_1"
+    ],
+    "context_chars": 722,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true,
+    "latency_ms": 70.4815830104053,
+    "gold": [
+      {
+        "source_id": "fpt_esg_report_2025",
+        "page": 19,
+        "evidence": "FPT nhận được chứng chỉ ISO/IEC 42001:2023 - tiêu chuẩn toàn cầu đầu tiên về Hệ thống quản lý Trí tuệ nhân tạo."
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+{
+ "page": 106,
+ "model": "deepseek-flash",
+ "regions": [
+  {
+   "type": "table",
+   "title": "Phiên họp, Số thành viên tham dự, Nội dung họp",
+   "position": "phía trên, toàn chiều rộng trang",
+   "content": "| Phiên họp | Số thành viên tham dự | Nội dung họp |\n|---|---|---|\n| **Phiên 04**<br>24/07/2025 | 03/03 | - Xem xét và thảo luận về số liệu tài chính quý II năm 2025 và báo cáo dự kiến 6 tháng cuối năm 2025 do Ban Điều hành gửi phục vụ nội dung cuộc họp HĐQT ngày 29/07/2025;<br>- Xem xét Báo cáo Kết quả kinh doanh 06 tháng đầu năm 2025 của Tập đoàn;<br><br>- Xem xét phương án tạm ứng cổ tức 2025 đợt 01 bằng tiền mặt theo Nghị quyết ĐHĐCĐ thường niên 2025 đã thông qua;<br>- Xem xét đánh giá một số tác động của thị trường tài chính, bối cảnh kinh tế thế giới và trong khu vực làm ảnh hưởng tới hoạt động công ty năm 2025. |\n| **Phiên 05**<br>11/11/2025 | 03/03 | - Xem xét số liệu tài chính quý III năm 2025 do Ban Điều hành gửi phục vụ nội dung họp HĐQT ngày 13/11/2025;<br>- Xem xét Báo cáo Kết quả kinh doanh 09 tháng đầu năm 2025, đánh giá mức độ hoàn thành kế hoạch cả năm 2025 của Tập đoàn và công ty thành viên;<br><br>- Kiểm tra báo cáo kết quả chia cổ tức đợt 01 năm 2025 (bằng tiền mặt 10%);<br>- Lên kế hoạch kiểm soát định kỳ công nợ quá hạn và hàng tồn kho quá hạn trong năm. |"
+  }
+ ],
+ "error": null,
+ "usage": {
+  "prompt_tokens": 1362,
+  "completion_tokens": 3783
+ },
+ "cost_usd": 0.0022738859999999997,
+ "latency_ms": 16947.43566698162
+}
