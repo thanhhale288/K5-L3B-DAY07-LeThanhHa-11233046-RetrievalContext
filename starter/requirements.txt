@@ -1,0 +1,7 @@
+# Day 7 — retrieval + agent wiring (compatible with Day 6 stack)
+psycopg[binary]==3.3.8
+python-dotenv>=1,<2
+pypdf>=5,<7
+sentence-transformers>=3,<7
+# Optional: OpenAI-compatible tool-calling controller (OpenRouter / OpenAI)
+openai>=1,<2
