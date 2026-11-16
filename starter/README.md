@@ -6,8 +6,17 @@
 | `baseline.py` | TF-IDF lexical baseline, chạy offline |
 | `convert_day6.py` | Chuyển một số trường JSON từ Day 6 |
 | `agent_metrics.py` | Tổng hợp nhãn đánh giá do bạn tự chấm |
+| `embeddings.py` | Embedder `BAAI/bge-m3` (cùng Day 6) |
+| `day6_store.py` | Client đọc `rag_chunks` pgvector Day 6 |
+| `dense.py` | Dense retrieval + eval trên index Day 6 |
+| `hybrid.py` | Hybrid RRF (dense + TF-IDF) |
+| `export_day6.py` | Xuất chunk từ DB + chuyển benchmark Day 6 |
+| `controller.py` / `run_agent_cli.py` | Controller heuristic hoặc LLM + CLI agent |
+| `.env.example` / `requirements.txt` | Cấu hình và dependencies |
 
-Starter **chưa phải solution hoàn chỉnh**. Bạn phải nối model và vector store thật, triển khai ít nhất 3 phương pháp retrieval do bạn chọn, gồm dense trên vector store Day 6. Mock chỉ dùng để test code.
+Xem thêm [SETUP.md](../SETUP.md) để nối Day 6, secrets và lệnh chạy.
+
+Starter đã có scaffold nối vector store + embedding Day 6 và **3 phương pháp**: dense, TF-IDF, hybrid RRF. Agent LLM thật cần API key; không có key thì dùng heuristic để smoke-test. Mock trong `tests/` chỉ kiểm tra code.
 
 ## 1. Kết nối agent
 

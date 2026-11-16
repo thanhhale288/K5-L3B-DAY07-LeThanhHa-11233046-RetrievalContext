@@ -47,8 +47,18 @@ def validate(chunks, questions):
                 raise ValueError(f"question {q['id']}: gold không nằm trọn trong chunk đúng nguồn/trang")
 
 
+def _norm_ws(text):
+    """Match Day 6 evidence checks: collapse whitespace before substring test."""
+    return re.sub(r'\s+', ' ', text or '').strip()
+
+
 def hit(chunk, gold):
-    return any(chunk['source_id'] == g['source_id'] and chunk['page'] == g['page'] and g['evidence'] in chunk['text'] for g in gold)
+    return any(
+        chunk['source_id'] == g['source_id']
+        and chunk['page'] == g['page']
+        and _norm_ws(g['evidence']) in _norm_ws(chunk['text'])
+        for g in gold
+    )
 
 
 class TfidfIndex:
